@@ -5,5 +5,4 @@ public class EventCardSO : CardSO
 {
     public float health;
     public float attack;
-    public Rarity rarity;
 }

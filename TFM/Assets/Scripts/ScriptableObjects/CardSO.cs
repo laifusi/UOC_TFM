@@ -6,6 +6,7 @@ public class CardSO : ScriptableObject
     public CardType type;
     public string cardName;
     public Effect[] effects;
+    public Rarity rarity;
 }
 
 public enum CardType
