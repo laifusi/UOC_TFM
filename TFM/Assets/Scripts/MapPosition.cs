@@ -12,10 +12,13 @@ public class MapPosition : MonoBehaviour
 
     [SerializeField] private bool isConnected;
     [SerializeField] private bool isCurrent;
+    [SerializeField] private bool inMapState;
     private SpriteRenderer positionSprite;
 
     public bool IsConnected { get => isConnected; set => isConnected = value; }
     public bool IsCurrent { get => isCurrent; set => isCurrent = value; }
+    public bool IsShop => isShop;
+    public bool InMapState { get => inMapState; set => inMapState = value; }
 
     public static Action<MapPosition> OnPositionSelected;
 
@@ -24,7 +27,6 @@ public class MapPosition : MonoBehaviour
         positionSprite = GetComponent<SpriteRenderer>();
     }
 
-    [ContextMenu("Update Positions")]
     public void UpdatePositionColor()
     {
         if(isCurrent)
@@ -43,7 +45,7 @@ public class MapPosition : MonoBehaviour
 
     private void OnMouseUp()
     {
-        if(isConnected)
+        if(inMapState && isConnected)
         {
             OnPositionSelected?.Invoke(this);
         }
@@ -56,5 +58,15 @@ public class MapPosition : MonoBehaviour
         {
             connectedPos.IsConnected = true;
         }
+    }
+
+    public CardSO[] GetEvent()
+    {
+        return eventDeck.Draw();
+    }
+
+    public CardSO[] GetShop()
+    {
+        return shopDeck.Draw();
     }
 }
