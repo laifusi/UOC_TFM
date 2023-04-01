@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TestChar
   m_EditorClassIdentifier: 
   type: 0
-  cardName: Hola
+  cardName: Character 1
   effects: []
   rarity: 0
   baseHealth: 10

@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject abilitiesCanvas;
     [SerializeField] GameObject shopCanvas;
     [SerializeField] EventCard eventCard;
+    [SerializeField] EquipmentCard[] equipmentCards;
 
     private GameState currentState;
     private MapPosition currentPosition;
@@ -73,9 +74,11 @@ public class GameManager : MonoBehaviour
 
     private void GetRandomShopCards()
     {
-        CardSO[] shopCards = currentPosition.GetShop();
-        foreach(CardSO card in shopCards)
-            Debug.Log("Shop: " + card.cardName);
+        EquipmentCardSO[] shopCards = currentPosition.GetShop();
+        for(int i = 0; i < shopCards.Length; i++)
+        {
+            equipmentCards[i].PaintCard(shopCards[i]);
+        }
     }
 
     private void EndCurrentState()
