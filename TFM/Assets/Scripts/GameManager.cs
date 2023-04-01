@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         MapPosition.OnPositionSelected += SelectPosition;
-        SelectPosition(initialPosition);
+        UpdatePositions(initialPosition);
         ChangeToState(GameState.Map);
     }
 
@@ -99,7 +99,14 @@ public class GameManager : MonoBehaviour
 
     private void SelectPosition(MapPosition newMapPosition)
     {
-        foreach(MapPosition pos in mapPositions)
+        UpdatePositions(newMapPosition);
+
+        ChangeToState(GameState.Event);
+    }
+
+    private void UpdatePositions(MapPosition newMapPosition)
+    {
+        foreach (MapPosition pos in mapPositions)
         {
             pos.IsConnected = false;
             pos.IsCurrent = false;
@@ -107,14 +114,12 @@ public class GameManager : MonoBehaviour
 
         newMapPosition.ChangeToCurrent();
 
-        foreach(MapPosition pos in mapPositions)
+        foreach (MapPosition pos in mapPositions)
         {
             pos.UpdatePositionColor();
         }
 
         currentPosition = newMapPosition;
-
-        ChangeToState(GameState.Event);
     }
 
     public void ChangeStateWithButton()
