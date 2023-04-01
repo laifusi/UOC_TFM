@@ -4,11 +4,11 @@ using UnityEngine;
 public class MapPosition : MonoBehaviour
 {
     [SerializeField] private MapPosition[] connectedPositions;
-    [SerializeField] private Deck eventDeck;
+    [SerializeField] private Deck<EventCardSO> eventDeck;
 
     [Header("Shop")]
     [SerializeField] private bool isShop;
-    [SerializeField] private Deck shopDeck;
+    [SerializeField] private Deck<EquipmentCardSO> shopDeck;
 
     [SerializeField] private bool isConnected;
     [SerializeField] private bool isCurrent;
@@ -60,12 +60,12 @@ public class MapPosition : MonoBehaviour
         }
     }
 
-    public CardSO[] GetEvent()
+    public EventCardSO[] GetEvent()
     {
         return eventDeck.Draw();
     }
 
-    public CardSO[] GetShop()
+    public EquipmentCardSO[] GetShop()
     {
         return shopDeck.Draw();
     }

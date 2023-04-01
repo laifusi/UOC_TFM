@@ -2,21 +2,21 @@ using System;
 using System.Collections.Generic;
 
 [Serializable]
-public class Deck
+public class Deck<T> where T : CardSO
 {
-    public CardSO[] possibleCards;
+    public T[] possibleCards;
     public int cardsToDraw;
 
-    private List<CardSO> commonCards = new List<CardSO>();
-    private List<CardSO> uncommonCards = new List<CardSO>();
-    private List<CardSO> rareCards = new List<CardSO>();
+    private List<T> commonCards = new List<T>();
+    private List<T> uncommonCards = new List<T>();
+    private List<T> rareCards = new List<T>();
 
-    public CardSO[] Draw()
+    public T[] Draw()
     {
-        CardSO[] cardsDrawn = new CardSO[cardsToDraw];
+        T[] cardsDrawn = new T[cardsToDraw];
 
         //We extract the cards from each rarity pool
-        foreach (CardSO card in possibleCards)
+        foreach (T card in possibleCards)
         {
             switch(card.rarity)
             {
@@ -38,8 +38,8 @@ public class Deck
             // Rare = 20%
             // Uncommon = 30%
             // Common = 50%
-            List<CardSO> selectedPoolCards;
-            float rarityValue = UnityEngine.Random.Range(0, 1);
+            List<T> selectedPoolCards;
+            float rarityValue = UnityEngine.Random.Range(0f, 1f);
             if (rarityValue < 0.2f)
             {
                 selectedPoolCards = rareCards;

@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject eventCanvas;
     [SerializeField] GameObject abilitiesCanvas;
     [SerializeField] GameObject shopCanvas;
+    [SerializeField] EventCard eventCard;
 
     private GameState currentState;
     private MapPosition currentPosition;
@@ -66,8 +67,8 @@ public class GameManager : MonoBehaviour
 
     private void GetRandomEvent()
     {
-        CardSO cardEvent = currentPosition.GetEvent()[0];
-        Debug.Log("Event: " + cardEvent.cardName);
+        EventCardSO cardEvent = currentPosition.GetEvent()[0];
+        eventCard.PaintCard(cardEvent);
     }
 
     private void GetRandomShopCards()
