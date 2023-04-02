@@ -35,7 +35,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 250.1648, y: 398.2524}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7041904984278437117
 MonoBehaviour:
@@ -50,6 +50,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseCard: {fileID: 11400000, guid: c5fc968f54058194f922a8b315b5171e, type: 2}
+  cardImage: {fileID: 0}
   healthText: {fileID: 7041904985183601429}
   attackText: {fileID: 7041904986230263350}
   shieldText: {fileID: 7041904984734533903}
