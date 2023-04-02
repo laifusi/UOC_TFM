@@ -23,6 +23,7 @@ public class CharacterCard : Card<CharacterCardSO>
     public override void PaintCard(CharacterCardSO cardToPaint)
     {
         card = cardToPaint;
+        cardToPaint.ResetCard();
         currentHealth = cardToPaint.baseHealth;
         currentShield = cardToPaint.baseShield;
         currentAttack = cardToPaint.baseAttack;
@@ -30,5 +31,21 @@ public class CharacterCard : Card<CharacterCardSO>
         healthText.text = currentHealth.ToString();
         shieldText.text = currentShield.ToString();
         attackText.text = currentAttack.ToString();
+    }
+
+    [ContextMenu("Test effect -5 health")]
+    public void TestApplyEffect()
+    {
+        Effect eff = new Effect
+        {
+            affectedStat = StatType.Health,
+            affectionAmount = -5
+        };
+        ApplyEffect(eff);
+    }
+
+    public void ApplyEffect(Effect effect)
+    {
+        card.ApplyEffect(effect);
     }
 }
