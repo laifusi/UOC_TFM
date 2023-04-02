@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 1
   cardName: Event 3
-  effects: []
+  effects:
+  - affectedStat: 0
+    affectionAmount: -2
+    effectText: 
   rarity: 2
   health: 15
   attack: 20

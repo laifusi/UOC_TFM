@@ -11,11 +11,8 @@ public class CharacterCard : Card<CharacterCardSO>
     [SerializeField] TMP_Text nameText;
 
     private List<EquipmentCardSO> equipmentCards = new List<EquipmentCardSO>();
-    private float currentHealth;
-    private float currentAttack;
-    private float currentShield;
 
-    private void Start()
+    private void Awake()
     {
         PaintCard(baseCard);
     }
@@ -23,14 +20,16 @@ public class CharacterCard : Card<CharacterCardSO>
     public override void PaintCard(CharacterCardSO cardToPaint)
     {
         card = cardToPaint;
-        cardToPaint.ResetCard();
-        currentHealth = cardToPaint.baseHealth;
-        currentShield = cardToPaint.baseShield;
-        currentAttack = cardToPaint.baseAttack;
-        nameText.text = cardToPaint.cardName;
-        healthText.text = currentHealth.ToString();
-        shieldText.text = currentShield.ToString();
-        attackText.text = currentAttack.ToString();
+        card.ResetCard();
+        UpdateUI();
+    }
+
+    private void UpdateUI()
+    {
+        nameText.text = card.GetName();
+        healthText.text = card.GetHealth().ToString();
+        shieldText.text = card.GetShield().ToString();
+        attackText.text = card.GetAttack().ToString();
     }
 
     [ContextMenu("Test effect -5 health")]
@@ -47,5 +46,16 @@ public class CharacterCard : Card<CharacterCardSO>
     public void ApplyEffect(Effect effect)
     {
         card.ApplyEffect(effect);
+        UpdateUI();
+    }
+
+    public Effect[] GetEffects()
+    {
+        return card.GetEffects();
+    }
+
+    private void OnEnable()
+    {
+        UpdateUI();
     }
 }

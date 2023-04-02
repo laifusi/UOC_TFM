@@ -3,10 +3,10 @@
 [CreateAssetMenu(fileName = "New Character Card", menuName = "Cards/Character", order = 1)]
 public class CharacterCardSO : CardSO
 {
-    public float baseHealth;
-    public float baseAttack;
-    public float baseShield;
-    public int baseCoins;
+    [SerializeField] float baseHealth;
+    [SerializeField] float baseAttack;
+    [SerializeField] float baseShield;
+    [SerializeField] int baseCoins;
 
     private float currentHealth;
     private float currentAttack;
@@ -19,6 +19,21 @@ public class CharacterCardSO : CardSO
         currentShield = baseShield;
         currentAttack = baseAttack;
         currentCoins = baseCoins;
+    }
+
+    public float GetHealth()
+    {
+        return currentHealth;
+    }
+
+    public float GetShield()
+    {
+        return currentShield;
+    }
+
+    public float GetAttack()
+    {
+        return currentAttack;
     }
 
     public void ApplyEffect(Effect effect)

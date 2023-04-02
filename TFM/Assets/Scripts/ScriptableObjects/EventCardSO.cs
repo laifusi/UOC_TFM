@@ -3,6 +3,16 @@
 [CreateAssetMenu(fileName = "New Event Card", menuName = "Cards/Event", order = 2)]
 public class EventCardSO : CardSO
 {
-    public float health;
-    public float attack;
+    [SerializeField] float health;
+    [SerializeField] float attack;
+
+    public float GetHealth()
+    {
+        return health;
+    }
+
+    public float GetAttack()
+    {
+        return attack;
+    }
 }

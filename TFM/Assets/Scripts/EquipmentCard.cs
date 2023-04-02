@@ -11,7 +11,7 @@ public class EquipmentCard : Card<EquipmentCardSO>
     public override void PaintCard(EquipmentCardSO cardToPaint)
     {
         card = cardToPaint;
-        nameText.text = cardToPaint.cardName;
-        costText.text = cardToPaint.cost.ToString();
+        nameText.text = card.GetName();
+        costText.text = card.GetCost().ToString();
     }
 }

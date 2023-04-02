@@ -16,12 +16,27 @@ public class GameManager : MonoBehaviour
 
     private GameState currentState;
     private MapPosition currentPosition;
+    private Effect[] selectedAbility;
 
     private void Start()
     {
+        ResetAllCanvases();
         MapPosition.OnPositionSelected += SelectPosition;
         UpdatePositions(initialPosition);
         ChangeToState(GameState.Map);
+    }
+
+    // Temporary fix to cards resetting on each phase on the first turn
+    private void ResetAllCanvases()
+    {
+        mapCanvas.SetActive(true);
+        eventCanvas.SetActive(true);
+        abilitiesCanvas.SetActive(true);
+        shopCanvas.SetActive(true);
+        mapCanvas.SetActive(false);
+        eventCanvas.SetActive(false);
+        abilitiesCanvas.SetActive(false);
+        shopCanvas.SetActive(false);
     }
 
     private void ChangeToState(GameState state)
@@ -128,12 +143,14 @@ public class GameManager : MonoBehaviour
 
     public void ChangeStateWithButton()
     {
-        switch(currentState)
+        switch (currentState)
         {
             case GameState.Event:
-                ChangeToState(GameState.Abilities);
+                CharacterCard selectedCharacter = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponent<CharacterCard>();
+                StartCoroutine(ApplyEffectsAndChangeState(selectedCharacter));
                 break;
             case GameState.Abilities:
+                selectedAbility = null;
                 if (currentPosition.IsShop)
                     ChangeToState(GameState.Shop);
                 else
@@ -142,6 +159,37 @@ public class GameManager : MonoBehaviour
             case GameState.Shop:
                 ChangeToState(GameState.Map);
                 break;
+        }
+    }
+
+    private IEnumerator ApplyEffectsAndChangeState(CharacterCard selectedCharacter)
+    {
+        Effect[] effectsToApply = eventCard.GetEffects();
+        foreach (Effect effect in effectsToApply)
+        {
+            selectedCharacter.ApplyEffect(effect);
+        }
+
+        yield return new WaitForSeconds(1);
+
+        ChangeToState(GameState.Abilities);
+    }
+
+    public void SelectAbility()
+    {
+        CharacterCard selectedCharacter = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponentInParent<CharacterCard>();
+        selectedAbility = selectedCharacter.GetEffects();
+    }
+
+    public void ApplySelectedAbility()
+    {
+        if(selectedAbility != null && selectedAbility.Length > 0)
+        {
+            CharacterCard selectedCharacter = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponent<CharacterCard>();
+            foreach(Effect effect in selectedAbility)
+            {
+                selectedCharacter.ApplyEffect(effect);
+            }
         }
     }
 

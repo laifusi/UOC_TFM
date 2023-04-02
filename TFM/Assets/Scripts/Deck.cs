@@ -18,7 +18,7 @@ public class Deck<T> where T : CardSO
         //We extract the cards from each rarity pool
         foreach (T card in possibleCards)
         {
-            switch(card.rarity)
+            switch(card.GetRarity())
             {
                 case Rarity.Common:
                     commonCards.Add(card);

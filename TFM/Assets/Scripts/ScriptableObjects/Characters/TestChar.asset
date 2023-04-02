@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   cardName: Character 1
-  effects: []
+  effects:
+  - affectedStat: 0
+    affectionAmount: 5
+    effectText: 
   rarity: 0
   baseHealth: 10
   baseAttack: 25

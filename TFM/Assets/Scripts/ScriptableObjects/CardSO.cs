@@ -3,10 +3,25 @@ using UnityEngine;
 
 public class CardSO : ScriptableObject
 {
-    public CardType type;
-    public string cardName;
-    public Effect[] effects;
-    public Rarity rarity;
+    [SerializeField] CardType type;
+    [SerializeField] string cardName;
+    [SerializeField] Effect[] effects;
+    [SerializeField] Rarity rarity;
+
+    public string GetName()
+    {
+        return cardName;
+    }
+
+    public Effect[] GetEffects()
+    {
+        return effects;
+    }
+
+    public Rarity GetRarity()
+    {
+        return rarity;
+    }
 }
 
 public enum CardType
