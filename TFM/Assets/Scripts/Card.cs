@@ -9,4 +9,9 @@ public abstract class Card <T> : MonoBehaviour
     protected T card;
 
     public abstract void PaintCard(T cardToPaint);
+
+    public T GetCardSO()
+    {
+        return card;
+    }
 }

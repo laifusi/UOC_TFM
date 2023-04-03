@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Character Card", menuName = "Cards/Character", order = 1)]
 public class CharacterCardSO : CardSO
@@ -12,6 +13,7 @@ public class CharacterCardSO : CardSO
     private float currentAttack;
     private float currentShield;
     private int currentCoins;
+    private List<EquipmentCardSO> equipmentCards = new List<EquipmentCardSO>();
 
     public void ResetCard()
     {
@@ -19,6 +21,7 @@ public class CharacterCardSO : CardSO
         currentShield = baseShield;
         currentAttack = baseAttack;
         currentCoins = baseCoins;
+        equipmentCards.Clear();
     }
 
     public float GetHealth()
@@ -34,6 +37,11 @@ public class CharacterCardSO : CardSO
     public float GetAttack()
     {
         return currentAttack;
+    }
+
+    public List<EquipmentCardSO> GetEquipment()
+    {
+        return equipmentCards;
     }
 
     public void ApplyEffect(Effect effect)
@@ -53,5 +61,10 @@ public class CharacterCardSO : CardSO
                 currentCoins += (int)effect.affectionAmount;
                 break;
         }
+    }
+
+    public void AddEquipment(EquipmentCardSO equipment)
+    {
+        equipmentCards.Add(equipment);
     }
 }

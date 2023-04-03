@@ -9,8 +9,8 @@ public class CharacterCard : Card<CharacterCardSO>
     [SerializeField] TMP_Text attackText;
     [SerializeField] TMP_Text shieldText;
     [SerializeField] TMP_Text nameText;
-
-    private List<EquipmentCardSO> equipmentCards = new List<EquipmentCardSO>();
+    [SerializeField] Transform equipmentHolder;
+    [SerializeField] EquipmentCard equipmentCardPrefab;
 
     private void Awake()
     {
@@ -30,6 +30,25 @@ public class CharacterCard : Card<CharacterCardSO>
         healthText.text = card.GetHealth().ToString();
         shieldText.text = card.GetShield().ToString();
         attackText.text = card.GetAttack().ToString();
+
+        //* Temporary fix to update equipment cards on character cards
+        foreach(Transform child in equipmentHolder)
+        {
+            Destroy(child);
+        }
+
+        List<EquipmentCardSO> equipmentCards = card.GetEquipment();
+        foreach (EquipmentCardSO equipment in equipmentCards)
+        {
+            EquipCard(equipment);
+        }
+        //*//
+    }
+
+    private void EquipCard(EquipmentCardSO equipment)
+    {
+        EquipmentCard equipCard = Instantiate(equipmentCardPrefab, equipmentHolder);
+        equipCard.PaintCard(equipment);
     }
 
     [ContextMenu("Test effect -5 health")]
@@ -52,6 +71,12 @@ public class CharacterCard : Card<CharacterCardSO>
     public Effect[] GetEffects()
     {
         return card.GetEffects();
+    }
+
+    public void AddEquipmentCard(EquipmentCardSO equipment)
+    {
+        card.AddEquipment(equipment);
+        EquipCard(equipment);
     }
 
     private void OnEnable()

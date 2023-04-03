@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     private GameState currentState;
     private MapPosition currentPosition;
     private Effect[] selectedAbility;
+    private EquipmentCardSO selectedEquipment;
 
     private void Start()
     {
@@ -191,6 +192,18 @@ public class GameManager : MonoBehaviour
                 selectedCharacter.ApplyEffect(effect);
             }
         }
+    }
+
+    public void SelectEquipment()
+    {
+        EquipmentCard equipment = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponentInParent<EquipmentCard>();
+        selectedEquipment = equipment.GetCardSO();
+    }
+
+    public void AssignEquipment()
+    {
+        CharacterCard selectedCharacter = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponent<CharacterCard>();
+        selectedCharacter.AddEquipmentCard(selectedEquipment);
     }
 
     private void OnDestroy()
