@@ -22,6 +22,7 @@ public class CharacterCard : Card<CharacterCardSO>
         card = cardToPaint;
         card.ResetCard();
         UpdateUI();
+        UpdateEquipmentUI();
     }
 
     private void UpdateUI()
@@ -30,11 +31,14 @@ public class CharacterCard : Card<CharacterCardSO>
         healthText.text = card.GetHealth().ToString();
         shieldText.text = card.GetShield().ToString();
         attackText.text = card.GetAttack().ToString();
+    }
 
-        //* Temporary fix to update equipment cards on character cards
-        foreach(Transform child in equipmentHolder)
+    // Temporary fix to update equipment cards on character cards
+    private void UpdateEquipmentUI()
+    {
+        foreach (Transform child in equipmentHolder)
         {
-            Destroy(child);
+            Destroy(child.gameObject);
         }
 
         List<EquipmentCardSO> equipmentCards = card.GetEquipment();
@@ -42,7 +46,6 @@ public class CharacterCard : Card<CharacterCardSO>
         {
             EquipCard(equipment);
         }
-        //*//
     }
 
     private void EquipCard(EquipmentCardSO equipment)
@@ -82,5 +85,6 @@ public class CharacterCard : Card<CharacterCardSO>
     private void OnEnable()
     {
         UpdateUI();
+        UpdateEquipmentUI();
     }
 }

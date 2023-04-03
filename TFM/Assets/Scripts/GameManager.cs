@@ -69,6 +69,28 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private void EndCurrentState()
+    {
+        switch (currentState)
+        {
+            case GameState.Map:
+                ActivateMap(false);
+                ActivateCanvas(false, mapCanvas);
+                break;
+            case GameState.Event:
+                ActivateCanvas(false, eventCanvas);
+                break;
+            case GameState.Abilities:
+                selectedAbility = null;
+                ActivateCanvas(false, abilitiesCanvas);
+                break;
+            case GameState.Shop:
+                selectedEquipment = null;
+                ActivateCanvas(false, shopCanvas);
+                break;
+        }
+    }
+
     private void ActivateCanvas(bool activate, GameObject canvas)
     {
         canvas.SetActive(activate);
@@ -94,26 +116,6 @@ public class GameManager : MonoBehaviour
         for(int i = 0; i < shopCards.Length; i++)
         {
             equipmentCards[i].PaintCard(shopCards[i]);
-        }
-    }
-
-    private void EndCurrentState()
-    {
-        switch (currentState)
-        {
-            case GameState.Map:
-                ActivateMap(false);
-                ActivateCanvas(false, mapCanvas);
-                break;
-            case GameState.Event:
-                ActivateCanvas(false, eventCanvas);
-                break;
-            case GameState.Abilities:
-                ActivateCanvas(false, abilitiesCanvas);
-                break;
-            case GameState.Shop:
-                ActivateCanvas(false, shopCanvas);
-                break;
         }
     }
 
@@ -151,7 +153,6 @@ public class GameManager : MonoBehaviour
                 StartCoroutine(ApplyEffectsAndChangeState(selectedCharacter));
                 break;
             case GameState.Abilities:
-                selectedAbility = null;
                 if (currentPosition.IsShop)
                     ChangeToState(GameState.Shop);
                 else
@@ -178,12 +179,18 @@ public class GameManager : MonoBehaviour
 
     public void SelectAbility()
     {
+        if (currentState != GameState.Abilities)
+            return;
+
         CharacterCard selectedCharacter = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponentInParent<CharacterCard>();
         selectedAbility = selectedCharacter.GetEffects();
     }
 
     public void ApplySelectedAbility()
     {
+        if (currentState != GameState.Abilities)
+            return;
+
         if(selectedAbility != null && selectedAbility.Length > 0)
         {
             CharacterCard selectedCharacter = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponent<CharacterCard>();
@@ -196,12 +203,18 @@ public class GameManager : MonoBehaviour
 
     public void SelectEquipment()
     {
+        if (currentState != GameState.Shop)
+            return;
+
         EquipmentCard equipment = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponentInParent<EquipmentCard>();
         selectedEquipment = equipment.GetCardSO();
     }
 
     public void AssignEquipment()
     {
+        if (currentState != GameState.Shop || selectedEquipment == null)
+            return;
+
         CharacterCard selectedCharacter = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponent<CharacterCard>();
         selectedCharacter.AddEquipmentCard(selectedEquipment);
     }
