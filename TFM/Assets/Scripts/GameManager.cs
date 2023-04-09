@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject eventCanvas;
     [SerializeField] GameObject abilitiesCanvas;
     [SerializeField] GameObject shopCanvas;
+    [SerializeField] GameObject pauseCanvas;
     [SerializeField] EventCard eventCard;
     [SerializeField] EquipmentCard[] equipmentCards;
 
@@ -18,6 +19,7 @@ public class GameManager : MonoBehaviour
     private MapPosition currentPosition;
     private Effect[] selectedAbility;
     private EquipmentCardSO selectedEquipment;
+    private bool isPaused;
 
     private void Start()
     {
@@ -25,6 +27,20 @@ public class GameManager : MonoBehaviour
         MapPosition.OnPositionSelected += SelectPosition;
         UpdatePositions(initialPosition);
         ChangeToState(GameState.Map);
+    }
+
+    private void Update()
+    {
+        if(Input.GetKeyUp(KeyCode.Escape))
+        {
+            Pause(!isPaused);
+        }
+    }
+
+    public void Pause(bool pause)
+    {
+        isPaused = !isPaused;
+        pauseCanvas.SetActive(isPaused);
     }
 
     // Temporary fix to cards resetting on each phase on the first turn
