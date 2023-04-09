@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     {
         ResetAllCanvases();
         MapPosition.OnPositionSelected += SelectPosition;
+        AbilityButton.OnAbilitySelected += SelectAbility;
         UpdatePositions(initialPosition);
         ChangeToState(GameState.Map);
     }
@@ -193,13 +194,13 @@ public class GameManager : MonoBehaviour
         ChangeToState(GameState.Abilities);
     }
 
-    public void SelectAbility()
+    public void SelectAbility(CharacterCard character)
     {
         if (currentState != GameState.Abilities)
             return;
 
-        CharacterCard selectedCharacter = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponentInParent<CharacterCard>();
-        selectedAbility = selectedCharacter.GetEffects();
+        //CharacterCard selectedCharacter = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponentInParent<CharacterCard>();
+        selectedAbility = character.GetEffects();
     }
 
     public void ApplySelectedAbility()
