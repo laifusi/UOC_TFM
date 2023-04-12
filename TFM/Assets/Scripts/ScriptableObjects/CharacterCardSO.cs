@@ -39,6 +39,11 @@ public class CharacterCardSO : CardSO
         return currentAttack;
     }
 
+    public int GetCoins()
+    {
+        return currentCoins;
+    }
+
     public List<EquipmentCardSO> GetEquipment()
     {
         return equipmentCards;

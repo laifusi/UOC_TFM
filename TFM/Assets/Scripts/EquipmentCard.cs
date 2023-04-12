@@ -14,4 +14,9 @@ public class EquipmentCard : Card<EquipmentCardSO>
         nameText.text = card.GetName();
         costText.text = card.GetCost().ToString();
     }
+
+    public int GetCost()
+    {
+        return card.GetCost();
+    }
 }

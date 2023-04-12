@@ -78,8 +78,17 @@ public class CharacterCard : Card<CharacterCardSO>
 
     public void AddEquipmentCard(EquipmentCardSO equipment)
     {
-        card.AddEquipment(equipment);
-        EquipCard(equipment);
+        bool isBought = CoinManager.BuyCard(equipment);
+        if (isBought)
+        {
+            card.AddEquipment(equipment);
+            EquipCard(equipment);
+        }
+    }
+
+    public int GetCoins()
+    {
+        return card.GetCoins();
     }
 
     private void OnEnable()
