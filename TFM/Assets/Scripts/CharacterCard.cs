@@ -83,6 +83,12 @@ public class CharacterCard : Card<CharacterCardSO>
         {
             card.AddEquipment(equipment);
             EquipCard(equipment);
+
+            Effect[] effects = equipment.GetEffects();
+            foreach (Effect effect in effects)
+            {
+                ApplyEffect(effect);
+            }
         }
     }
 

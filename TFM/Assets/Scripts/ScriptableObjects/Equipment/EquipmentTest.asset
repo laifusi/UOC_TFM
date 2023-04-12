@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   cardName: Equipment 1
-  effects: []
+  effects:
+  - affectedStat: 0
+    affectionAmount: 20
+    effectText: 
   rarity: 0
   cost: 10
