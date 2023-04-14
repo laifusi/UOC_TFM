@@ -17,7 +17,7 @@ MonoBehaviour:
   effects:
   - affectedStat: 0
     affectionAmount: -2
-    effectText: 
+    effectText: Redueix 2 punts la vida d'un personatge
   rarity: 0
   health: 10
   attack: 5

@@ -17,6 +17,6 @@ MonoBehaviour:
   effects:
   - affectedStat: 0
     affectionAmount: 5
-    effectText: 
+    effectText: Augmenta en 5 punts la vida d'un personatge
   rarity: 0
   cost: 20

@@ -8,6 +8,7 @@ public class EventCard : Card<EventCardSO>
     [SerializeField] TMP_Text healthText;
     [SerializeField] TMP_Text attackText;
     [SerializeField] TMP_Text nameText;
+    [SerializeField] TMP_Text effectText;
 
     public override void PaintCard(EventCardSO cardToPaint)
     {
@@ -20,6 +21,7 @@ public class EventCard : Card<EventCardSO>
         nameText.text = card.GetName();
         healthText.text = card.GetHealth().ToString();
         attackText.text = card.GetAttack().ToString();
+        effectText.text = card.GetEffects()[0].effectText;
     }
 
     public Effect[] GetEffects()

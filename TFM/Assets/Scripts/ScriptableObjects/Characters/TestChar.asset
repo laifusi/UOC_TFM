@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: TestChar
   m_EditorClassIdentifier: 
   type: 0
-  cardName: Character 1
+  cardName: Personatge 1
   effects:
   - affectedStat: 0
     affectionAmount: 5
-    effectText: 
+    effectText: Dona 5 punts de vida a un personatge
   rarity: 0
   baseHealth: 10
   baseAttack: 25

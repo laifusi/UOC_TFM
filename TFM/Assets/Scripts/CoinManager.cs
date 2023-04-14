@@ -26,15 +26,12 @@ public class CoinManager : MonoBehaviour
         {
             totalCoins += character.GetCoins();
         }
-        Debug.Log(totalCoins);
         OnCoinsChange?.Invoke();
     }
 
     private void UpdateCoinsText()
     {
-        Debug.Log(coinsText);
         coinsText.SetText(totalCoins.ToString());
-        Debug.Log(coinsText);
     }
 
     public static bool BuyCard(EquipmentCardSO card)
