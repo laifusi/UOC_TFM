@@ -28,4 +28,9 @@ public class EventCard : Card<EventCardSO>
     {
         return card.GetEffects();
     }
+
+    public Effect[] GetEventOutcomeEffects(CharacterCard chosenCharacter)
+    {
+        return card.GetEventOutcomeEffects(chosenCharacter);
+    }
 }

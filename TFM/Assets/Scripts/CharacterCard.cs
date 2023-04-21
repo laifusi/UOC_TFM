@@ -97,6 +97,16 @@ public class CharacterCard : Card<CharacterCardSO>
         return card.GetCoins();
     }
 
+    public int GetStat(StatType statType)
+    {
+        return card.GetStat(statType);
+    }
+
+    public void GetAttacked(float attack)
+    {
+        card.GetAttacked(attack);
+    }
+
     private void OnEnable()
     {
         UpdateUI();

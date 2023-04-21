@@ -23,3 +23,9 @@ MonoBehaviour:
   baseAttack: 25
   baseShield: 5
   baseCoins: 100
+  baseAgility: 0
+  baseDexterity: 7
+  baseIntelligence: 0
+  baseConstitution: 0
+  baseWisdom: 0
+  baseSocialSkills: 0

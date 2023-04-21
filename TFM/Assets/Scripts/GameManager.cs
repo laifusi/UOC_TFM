@@ -183,9 +183,11 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator ApplyEffectsAndChangeState(CharacterCard selectedCharacter)
     {
-        Effect[] effectsToApply = eventCard.GetEffects();
+        //Effect[] effectsToApply = eventCard.GetEffects();
+        Effect[] effectsToApply = eventCard.GetEventOutcomeEffects(selectedCharacter);
         foreach (Effect effect in effectsToApply)
         {
+            Debug.Log("Efecte: " + effect.affectedStat + " " + effect.affectionAmount);
             selectedCharacter.ApplyEffect(effect);
         }
 

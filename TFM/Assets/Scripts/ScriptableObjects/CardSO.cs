@@ -31,7 +31,7 @@ public enum CardType
 
 public enum StatType
 {
-    Health, Attack, Shield, Coins
+    Health, Attack, Shield, Coins, Intelligence, SocialSkills, Wisdom, Constitution, Dexterity, Agility
 }
 
 [Serializable]
