@@ -773,6 +773,8 @@ MonoBehaviour:
   eventDeck:
     possibleCards:
     - {fileID: 11400000, guid: 5d94ba34db45c7a49b668abf41005ea2, type: 2}
+    - {fileID: 11400000, guid: 4026b5facbf53a64287ec0895ba587ab, type: 2}
+    - {fileID: 11400000, guid: 8fb6ddb6373198747988e0220146e268, type: 2}
     cardsToDraw: 1
   isShop: 0
   shopDeck:

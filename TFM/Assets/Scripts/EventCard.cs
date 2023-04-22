@@ -21,7 +21,7 @@ public class EventCard : Card<EventCardSO>
         nameText.text = card.GetName();
         healthText.text = card.GetHealth().ToString();
         attackText.text = card.GetAttack().ToString();
-        effectText.text = card.GetEffects()[0].effectText;
+        effectText.text = card.GetEventOutcomesText();
     }
 
     public Effect[] GetEffects()

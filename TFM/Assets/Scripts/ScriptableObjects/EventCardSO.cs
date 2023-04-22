@@ -38,6 +38,17 @@ public class EventCardSO : CardSO
 
         return null;
     }
+
+    public string GetEventOutcomesText()
+    {
+        string completeText = "";
+        foreach(EventOutcome outcome in possibleEventOutcomes)
+        {
+            completeText += outcome.outcomeText;
+            completeText += "\n";
+        }
+        return completeText;
+    }
 }
 
 [Serializable]
@@ -46,4 +57,5 @@ public struct EventOutcome
     public Effect[] effects;
     public StatType detonatorStat;
     public int detonationValue;
+    public string outcomeText;
 }

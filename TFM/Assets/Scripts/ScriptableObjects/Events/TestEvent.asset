@@ -14,10 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 1
   cardName: Event 1
-  effects:
-  - affectedStat: 0
-    affectionAmount: -2
-    effectText: Redueix 2 punts la vida d'un personatge
+  effects: []
   rarity: 0
   health: 10
   attack: 5
+  possibleEventOutcomes:
+  - effects:
+    - affectedStat: 0
+      affectionAmount: -5
+      effectText: Perd 5 punts de vida
+    detonatorStat: 0
+    detonationValue: 0
+    outcomeText: El personatge perd 5 punts de vida

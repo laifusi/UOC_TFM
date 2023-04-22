@@ -25,15 +25,18 @@ MonoBehaviour:
       effectText: El personatge perd 2 punts d'atac
     detonatorStat: 4
     detonationValue: 10
+    outcomeText: Text del primer outcome
   - effects:
     - affectedStat: 2
       affectionAmount: -5
       effectText: El personatge perd 5 punts de escut
     detonatorStat: 8
     detonationValue: 5
+    outcomeText: Text del segon outcome
   - effects:
     - affectedStat: 2
       affectionAmount: 0
       effectText: 
     detonatorStat: 1
     detonationValue: 5
+    outcomeText: Text del tercer outcome
