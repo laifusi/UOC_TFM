@@ -9,23 +9,28 @@ public class AbilityButton : MonoBehaviour
 {
     Button abilityButton;
     TMP_Text abilityText;
-    CharacterCard character;
+    //CharacterCard character;
+    Ability ability;
 
-    public static Action<CharacterCard> OnAbilitySelected;
+    public static Action<Ability> OnAbilitySelected;
 
     private void Start()
     {
-        character = GetComponentInParent<CharacterCard>();
+        //character = GetComponentInParent<CharacterCard>();
         abilityButton = GetComponent<Button>();
         abilityText = GetComponent<TMP_Text>();
         abilityButton.onClick.AddListener(SelectAbility);
+    }
 
-        abilityText.SetText(character.GetEffects()[0].effectText);
+    public void AssignAbility(Ability abilityToAssign)
+    {
+        ability = abilityToAssign;
+        abilityText.SetText(ability.GetEffects()[0].effectText);
     }
 
     private void SelectAbility()
     {
-        OnAbilitySelected?.Invoke(character);
+        OnAbilitySelected?.Invoke(ability);
     }
 
     private void OnDestroy()

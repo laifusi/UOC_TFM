@@ -16,6 +16,8 @@ public class CharacterCardSO : CardSO
     [SerializeField] int baseWisdom;
     [SerializeField] int baseSocialSkills;
 
+    [SerializeField] Ability[] availableAbilities;
+
     private float currentHealth;
     private float currentAttack;
     private float currentShield;
@@ -27,7 +29,10 @@ public class CharacterCardSO : CardSO
     private int currentConstitution;
     private int currentWisdom;
     private int currentSocialSkills;
+    private int currentAbilityLevel;
     private List<EquipmentCardSO> equipmentCards = new List<EquipmentCardSO>();
+    private List<Ability> activeAbilities;
+    private List<Ability> inactiveAbilities;
 
     public void ResetCard()
     {
@@ -41,7 +46,21 @@ public class CharacterCardSO : CardSO
         currentIntelligence = baseIntelligence;
         currentSocialSkills = baseSocialSkills;
         currentWisdom = baseWisdom;
+        currentAbilityLevel = 0;
         equipmentCards.Clear();
+        activeAbilities.Clear();
+        inactiveAbilities.Clear();
+        foreach(Ability ability in availableAbilities)
+        {
+            if(ability.abilityLevel == 0)
+            {
+                activeAbilities.Add(ability);
+            }
+            else
+            {
+                inactiveAbilities.Add(ability);
+            }
+        }
     }
 
     public float GetHealth()
@@ -154,5 +173,37 @@ public class CharacterCardSO : CardSO
         {
             currentShield -= attack;
         }
+    }
+
+    public List<Ability> GetLearnableAbilities()
+    {
+        List<Ability> learnableAbilities = new List<Ability>();
+        foreach(Ability ability in inactiveAbilities)
+        {
+            if(currentAbilityLevel >= ability.abilityLevel)
+            {
+                learnableAbilities.Add(ability);
+            }
+        }
+        return learnableAbilities;
+    }
+
+    public void LearnAbility(Ability abilityToLearn)
+    {
+        inactiveAbilities.Remove(abilityToLearn);
+        activeAbilities.Add(abilityToLearn);
+    }
+}
+
+public struct Ability
+{
+    public Effect[] effects;
+    public string abilityText;
+    public int abilityCost;
+    public int abilityLevel;
+
+    public Effect[] GetEffects()
+    {
+        return effects;
     }
 }

@@ -196,13 +196,13 @@ public class GameManager : MonoBehaviour
         ChangeToState(GameState.Abilities);
     }
 
-    public void SelectAbility(CharacterCard character)
+    public void SelectAbility(Ability ability)
     {
         if (currentState != GameState.Abilities)
             return;
 
         //CharacterCard selectedCharacter = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponentInParent<CharacterCard>();
-        selectedAbility = character.GetEffects();
+        selectedAbility = ability.GetEffects();
     }
 
     public void ApplySelectedAbility()
