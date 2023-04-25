@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject eventCanvas;
     [SerializeField] GameObject abilitiesCanvas;
     [SerializeField] GameObject shopCanvas;
+    [SerializeField] GameObject learningCanvas;
     [SerializeField] GameObject newCharacterCanvas;
     [SerializeField] GameObject pauseCanvas;
     [SerializeField] EventCard eventCard;
@@ -18,6 +19,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] Transform[] characterCardsLayouts;
     [SerializeField] CharacterCard characterCardPrefab;
     [SerializeField] CharacterCard newCharacterCard;
+    [SerializeField] AbilityButton abilityPrefab;
 
     private GameState currentState;
     private MapPosition currentPosition;
@@ -25,6 +27,7 @@ public class GameManager : MonoBehaviour
     private EquipmentCardSO selectedEquipment;
     private bool isPaused;
     private List<CharacterCardSO> characters = new List<CharacterCardSO>();
+    private bool learningActivated;
 
     private void Start()
     {
@@ -89,6 +92,10 @@ public class GameManager : MonoBehaviour
                 ActivateCanvas(true, shopCanvas);
                 GetRandomShopCards();
                 break;
+            case GameState.Learning:
+                ActivateCanvas(true, learningCanvas);
+                //Learning Start Actions
+                break;
             case GameState.NewCharacter:
                 ActivateCanvas(true, newCharacterCanvas);
                 GetNewCharacter();
@@ -114,6 +121,9 @@ public class GameManager : MonoBehaviour
             case GameState.Shop:
                 selectedEquipment = null;
                 ActivateCanvas(false, shopCanvas);
+                break;
+            case GameState.Learning:
+                ActivateCanvas(false, learningCanvas);
                 break;
             case GameState.NewCharacter:
                 ActivateCanvas(false, newCharacterCanvas);
@@ -185,12 +195,22 @@ public class GameManager : MonoBehaviour
             case GameState.Abilities:
                 if (currentPosition.IsShop)
                     ChangeToState(GameState.Shop);
+                else if (learningActivated)
+                    ChangeToState(GameState.Learning);
                 else if (currentPosition.HasCharacter())
                     ChangeToState(GameState.NewCharacter);
                 else
                     ChangeToState(GameState.Map);
                 break;
             case GameState.Shop:
+                if (learningActivated)
+                    ChangeToState(GameState.Learning);
+                else if (currentPosition.HasCharacter())
+                    ChangeToState(GameState.NewCharacter);
+                else
+                    ChangeToState(GameState.Map);
+                break;
+            case GameState.Learning:
                 if (currentPosition.HasCharacter())
                     ChangeToState(GameState.NewCharacter);
                 else
@@ -279,6 +299,12 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void AddAbility(Transform abilitiesTransform, Ability abilityToAssign)
+    {
+        AbilityButton newAbility = Instantiate(abilityPrefab, abilitiesTransform);
+        newAbility.AssignAbility(abilityToAssign);
+    }
+
     private void OnDestroy()
     {
         MapPosition.OnPositionSelected -= SelectPosition;
@@ -287,5 +313,5 @@ public class GameManager : MonoBehaviour
 
 enum GameState
 {
-    Map, Event, Abilities, Shop, NewCharacter
+    Map, Event, Abilities, Shop, NewCharacter, Learning
 }
