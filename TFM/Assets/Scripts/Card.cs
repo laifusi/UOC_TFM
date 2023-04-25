@@ -8,6 +8,12 @@ public abstract class Card <T> : MonoBehaviour
 
     protected T card;
 
+    public void AssignCard(T cardToAssign)
+    {
+        card = cardToAssign;
+        PaintCard(card);
+    }
+
     public abstract void PaintCard(T cardToPaint);
 
     public T GetCardSO()

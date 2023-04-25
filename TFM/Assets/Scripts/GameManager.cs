@@ -11,15 +11,20 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject eventCanvas;
     [SerializeField] GameObject abilitiesCanvas;
     [SerializeField] GameObject shopCanvas;
+    [SerializeField] GameObject newCharacterCanvas;
     [SerializeField] GameObject pauseCanvas;
     [SerializeField] EventCard eventCard;
     [SerializeField] EquipmentCard[] equipmentCards;
+    [SerializeField] Transform[] characterCardsLayouts;
+    [SerializeField] CharacterCard characterCardPrefab;
+    [SerializeField] CharacterCard newCharacterCard;
 
     private GameState currentState;
     private MapPosition currentPosition;
     private Effect[] selectedAbility;
     private EquipmentCardSO selectedEquipment;
     private bool isPaused;
+    private List<CharacterCardSO> characters = new List<CharacterCardSO>();
 
     private void Start()
     {
@@ -55,6 +60,7 @@ public class GameManager : MonoBehaviour
         eventCanvas.SetActive(false);
         abilitiesCanvas.SetActive(false);
         shopCanvas.SetActive(false);
+        newCharacterCanvas.SetActive(false);
     }
 
     private void ChangeToState(GameState state)
@@ -83,6 +89,10 @@ public class GameManager : MonoBehaviour
                 ActivateCanvas(true, shopCanvas);
                 GetRandomShopCards();
                 break;
+            case GameState.NewCharacter:
+                ActivateCanvas(true, newCharacterCanvas);
+                GetNewCharacter();
+                break;
         }
     }
 
@@ -104,6 +114,9 @@ public class GameManager : MonoBehaviour
             case GameState.Shop:
                 selectedEquipment = null;
                 ActivateCanvas(false, shopCanvas);
+                break;
+            case GameState.NewCharacter:
+                ActivateCanvas(false, newCharacterCanvas);
                 break;
         }
     }
@@ -172,10 +185,18 @@ public class GameManager : MonoBehaviour
             case GameState.Abilities:
                 if (currentPosition.IsShop)
                     ChangeToState(GameState.Shop);
+                else if (currentPosition.HasCharacter())
+                    ChangeToState(GameState.NewCharacter);
                 else
                     ChangeToState(GameState.Map);
                 break;
             case GameState.Shop:
+                if (currentPosition.HasCharacter())
+                    ChangeToState(GameState.NewCharacter);
+                else
+                    ChangeToState(GameState.Map);
+                break;
+            case GameState.NewCharacter:
                 ChangeToState(GameState.Map);
                 break;
         }
@@ -238,6 +259,26 @@ public class GameManager : MonoBehaviour
         selectedCharacter.AddEquipmentCard(selectedEquipment);
     }
 
+    private void GetNewCharacter()
+    {
+        if (currentState != GameState.NewCharacter)
+            return;
+
+        newCharacterCard.AssignCard(currentPosition.GetCharacter());
+
+        AddCharacter(currentPosition.GetCharacter());
+    }
+
+    public void AddCharacter(CharacterCardSO newCharacter)
+    {
+        characters.Add(newCharacter);
+        foreach(Transform layout in characterCardsLayouts)
+        {
+            CharacterCard newCard = Instantiate(characterCardPrefab, layout);
+            newCard.AssignCard(newCharacter);
+        }
+    }
+
     private void OnDestroy()
     {
         MapPosition.OnPositionSelected -= SelectPosition;
@@ -246,5 +287,5 @@ public class GameManager : MonoBehaviour
 
 enum GameState
 {
-    Map, Event, Abilities, Shop
+    Map, Event, Abilities, Shop, NewCharacter
 }

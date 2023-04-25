@@ -29,3 +29,11 @@ MonoBehaviour:
   baseConstitution: 0
   baseWisdom: 0
   baseSocialSkills: 0
+  availableAbilities:
+  - effects:
+    - affectedStat: 0
+      affectionAmount: 5
+      effectText: Dona 5 punts de vida
+    abilityText: Dona 5 punts de vida a un personatge
+    abilityCost: 0
+    abilityLevel: 0

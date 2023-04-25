@@ -13,6 +13,8 @@ public class MapPosition : MonoBehaviour
     [SerializeField] private bool isConnected;
     [SerializeField] private bool isCurrent;
     [SerializeField] private bool inMapState;
+    [SerializeField] private CharacterCardSO foundCharacter;
+
     private SpriteRenderer positionSprite;
 
     public bool IsConnected { get => isConnected; set => isConnected = value; }
@@ -68,5 +70,15 @@ public class MapPosition : MonoBehaviour
     public EquipmentCardSO[] GetShop()
     {
         return shopDeck.Draw();
+    }
+
+    public bool HasCharacter()
+    {
+        return foundCharacter != null;
+    }
+
+    public CharacterCardSO GetCharacter()
+    {
+        return foundCharacter;
     }
 }

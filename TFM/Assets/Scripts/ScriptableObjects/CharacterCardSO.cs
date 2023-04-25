@@ -31,8 +31,8 @@ public class CharacterCardSO : CardSO
     private int currentSocialSkills;
     private int currentAbilityLevel;
     private List<EquipmentCardSO> equipmentCards = new List<EquipmentCardSO>();
-    private List<Ability> activeAbilities;
-    private List<Ability> inactiveAbilities;
+    private List<Ability> activeAbilities = new List<Ability>();
+    private List<Ability> inactiveAbilities = new List<Ability>();
 
     public void ResetCard()
     {
@@ -195,6 +195,7 @@ public class CharacterCardSO : CardSO
     }
 }
 
+[System.Serializable]
 public struct Ability
 {
     public Effect[] effects;
