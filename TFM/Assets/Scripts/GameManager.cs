@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject pauseCanvas;
     [SerializeField] EventCard eventCard;
     [SerializeField] EquipmentCard[] equipmentCards;
-    [SerializeField] Transform[] characterCardsLayouts;
+    [SerializeField] CharacterLayoutController[] characterCardsLayouts;
     [SerializeField] CharacterCard characterCardPrefab;
     [SerializeField] CharacterCard newCharacterCard;
     [SerializeField] AbilityButton abilityPrefab;
@@ -292,9 +292,11 @@ public class GameManager : MonoBehaviour
     public void AddCharacter(CharacterCardSO newCharacter)
     {
         characters.Add(newCharacter);
-        foreach(Transform layout in characterCardsLayouts)
+        foreach(CharacterLayoutController layout in characterCardsLayouts)
         {
-            CharacterCard newCard = Instantiate(characterCardPrefab, layout);
+            CharacterCard newCard = Instantiate(characterCardPrefab, layout.transform);
+            if(layout.NeedsRearranging)
+                layout.RearrangeLayout(newCard.transform);
             newCard.AssignCard(newCharacter);
         }
     }
