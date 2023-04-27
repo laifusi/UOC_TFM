@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] CharacterCard characterCardPrefab;
     [SerializeField] CharacterCard newCharacterCard;
     [SerializeField] AbilityButton abilityPrefab;
+    [SerializeField] CharacterCardSO startingCharacter;
+    [SerializeField] CoinManager coinsManager;
 
     private GameState currentState;
     private MapPosition currentPosition;
@@ -36,6 +38,7 @@ public class GameManager : MonoBehaviour
         AbilityButton.OnAbilitySelected += SelectAbility;
         UpdatePositions(initialPosition);
         ChangeToState(GameState.Map);
+        AddCharacter(startingCharacter);
     }
 
     private void Update()
@@ -242,7 +245,6 @@ public class GameManager : MonoBehaviour
         if (currentState != GameState.Abilities)
             return;
 
-        //CharacterCard selectedCharacter = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponentInParent<CharacterCard>();
         selectedAbility = ability.GetEffects();
     }
 
@@ -292,13 +294,17 @@ public class GameManager : MonoBehaviour
     public void AddCharacter(CharacterCardSO newCharacter)
     {
         characters.Add(newCharacter);
+
         foreach(CharacterLayoutController layout in characterCardsLayouts)
         {
             CharacterCard newCard = Instantiate(characterCardPrefab, layout.transform);
             if(layout.NeedsRearranging)
                 layout.RearrangeLayout(newCard.transform);
             newCard.AssignCard(newCharacter);
+            newCard.ActivateButtons(layout.State, this);
         }
+
+        coinsManager.AddCharacter(newCharacter);
     }
 
     public void AddAbility(Transform abilitiesTransform, Ability abilityToAssign)
@@ -313,7 +319,7 @@ public class GameManager : MonoBehaviour
     }
 }
 
-enum GameState
+public enum GameState
 {
     Map, Event, Abilities, Shop, NewCharacter, Learning
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CharacterCard : Card<CharacterCardSO>
 {
@@ -11,11 +12,12 @@ public class CharacterCard : Card<CharacterCardSO>
     [SerializeField] TMP_Text nameText;
     [SerializeField] Transform equipmentHolder;
     [SerializeField] EquipmentCard equipmentCardPrefab;
+    [SerializeField] Button button;
 
-    private void Awake()
+    /*private void Awake()
     {
         PaintCard(baseCard);
-    }
+    }*/
 
     public override void PaintCard(CharacterCardSO cardToPaint)
     {
@@ -107,9 +109,36 @@ public class CharacterCard : Card<CharacterCardSO>
         card.GetAttacked(attack);
     }
 
+    public void ActivateButtons(GameState state, GameManager manager)
+    {
+        switch(state)
+        {
+            case GameState.Event:
+                button.enabled = true;
+                button.onClick.AddListener(manager.ChangeStateWithButton);
+                break;
+            case GameState.Abilities:
+                button.enabled = true;
+                button.onClick.AddListener(manager.ApplySelectedAbility);
+                break;
+            case GameState.Shop:
+                button.enabled = true;
+                button.onClick.AddListener(manager.AssignEquipment);
+                break;
+        }
+    }
+
     private void OnEnable()
     {
-        UpdateUI();
-        UpdateEquipmentUI();
+        if(card != null)
+        {
+            UpdateUI();
+            UpdateEquipmentUI();
+        }
+    }
+
+    private void OnDestroy()
+    {
+        button.onClick.RemoveAllListeners();
     }
 }

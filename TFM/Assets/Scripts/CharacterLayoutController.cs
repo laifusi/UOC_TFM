@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class CharacterLayoutController : MonoBehaviour
 {
+    [SerializeField] GameState state;
     [SerializeField] bool needsRearranging;
     [SerializeField] GridLayoutData twoCharLayout;
     [SerializeField] GridLayoutData threeCharLayout;
@@ -16,8 +17,9 @@ public class CharacterLayoutController : MonoBehaviour
     private RectTransform rectTransform;
 
     public bool NeedsRearranging => needsRearranging;
+    public GameState State => state;
 
-    private void Start()
+    private void Awake()
     {
         layout = GetComponent<GridLayoutGroup>();
         rectTransform = GetComponent<RectTransform>();

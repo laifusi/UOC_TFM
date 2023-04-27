@@ -6,9 +6,9 @@ using UnityEngine;
 
 public class CoinManager : MonoBehaviour
 {
-    [SerializeField] CharacterCard[] activeCharacters;
     [SerializeField] TMP_Text coinsText;
 
+    private List<CharacterCardSO> activeCharacters = new List<CharacterCardSO>();
     private static int totalCoins;
 
     private static Action OnCoinsChange;
@@ -19,10 +19,15 @@ public class CoinManager : MonoBehaviour
         UpdateTotalCoins();
     }
 
+    public void AddCharacter(CharacterCardSO card)
+    {
+        activeCharacters.Add(card);
+    }
+
     private void UpdateTotalCoins()
     {
         totalCoins = 0;
-        foreach (CharacterCard character in activeCharacters)
+        foreach (CharacterCardSO character in activeCharacters)
         {
             totalCoins += character.GetCoins();
         }
