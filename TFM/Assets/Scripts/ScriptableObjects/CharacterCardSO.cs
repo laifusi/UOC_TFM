@@ -193,6 +193,11 @@ public class CharacterCardSO : CardSO
         inactiveAbilities.Remove(abilityToLearn);
         activeAbilities.Add(abilityToLearn);
     }
+
+    public List<Ability> GetActiveAbilities()
+    {
+        return activeAbilities;
+    }
 }
 
 [System.Serializable]

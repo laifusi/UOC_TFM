@@ -13,6 +13,7 @@ public class CharacterCard : Card<CharacterCardSO>
     [SerializeField] Transform equipmentHolder;
     [SerializeField] EquipmentCard equipmentCardPrefab;
     [SerializeField] Button button;
+    [SerializeField] Transform abilitiesHolder;
 
     /*private void Awake()
     {
@@ -126,6 +127,16 @@ public class CharacterCard : Card<CharacterCardSO>
                 button.onClick.AddListener(manager.AssignEquipment);
                 break;
         }
+    }
+
+    public List<Ability> GetActiveAbilities()
+    {
+        return card.GetActiveAbilities();
+    }
+
+    public Transform GetAbilitiesParent()
+    {
+        return abilitiesHolder;
     }
 
     private void OnEnable()

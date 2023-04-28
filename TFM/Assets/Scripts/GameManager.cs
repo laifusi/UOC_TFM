@@ -302,6 +302,10 @@ public class GameManager : MonoBehaviour
                 layout.RearrangeLayout(newCard.transform);
             newCard.AssignCard(newCharacter);
             newCard.ActivateButtons(layout.State, this);
+            foreach(Ability ability in newCard.GetActiveAbilities())
+            {
+                AddAbility(newCard.GetAbilitiesParent(), ability);
+            }
         }
 
         coinsManager.AddCharacter(newCharacter);
