@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject shopCanvas;
     [SerializeField] GameObject learningCanvas;
     [SerializeField] GameObject newCharacterCanvas;
+    [SerializeField] GameObject storyPointCanvas;
     [SerializeField] GameObject pauseCanvas;
     [SerializeField] EventCard eventCard;
     [SerializeField] EquipmentCard[] equipmentCards;
@@ -30,6 +31,9 @@ public class GameManager : MonoBehaviour
     private bool isPaused;
     private List<CharacterCardSO> characters = new List<CharacterCardSO>();
     private bool learningActivated;
+    private StoryPoint currentStoryPoint;
+
+    public static Action<string, bool> OnNewStoryLine;
 
     private void Start()
     {
@@ -62,11 +66,15 @@ public class GameManager : MonoBehaviour
         eventCanvas.SetActive(true);
         abilitiesCanvas.SetActive(true);
         shopCanvas.SetActive(true);
+        newCharacterCanvas.SetActive(true);
+        storyPointCanvas.SetActive(true);
+
         mapCanvas.SetActive(false);
         eventCanvas.SetActive(false);
         abilitiesCanvas.SetActive(false);
         shopCanvas.SetActive(false);
         newCharacterCanvas.SetActive(false);
+        storyPointCanvas.SetActive(false);
     }
 
     private void ChangeToState(GameState state)
@@ -103,6 +111,10 @@ public class GameManager : MonoBehaviour
                 ActivateCanvas(true, newCharacterCanvas);
                 GetNewCharacter();
                 break;
+            case GameState.StoryPoint:
+                ActivateCanvas(true, storyPointCanvas);
+                GetNextStoryLine();
+                break;
         }
     }
 
@@ -130,6 +142,9 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.NewCharacter:
                 ActivateCanvas(false, newCharacterCanvas);
+                break;
+            case GameState.StoryPoint:
+                ActivateCanvas(false, storyPointCanvas);
                 break;
         }
     }
@@ -166,7 +181,10 @@ public class GameManager : MonoBehaviour
     {
         UpdatePositions(newMapPosition);
 
-        ChangeToState(GameState.Event);
+        if (InPreEventStoryPoint())
+            ChangeToState(GameState.StoryPoint);
+        else
+            ChangeToState(GameState.Event);
     }
 
     private void UpdatePositions(MapPosition newMapPosition)
@@ -185,6 +203,7 @@ public class GameManager : MonoBehaviour
         }
 
         currentPosition = newMapPosition;
+        currentStoryPoint = currentPosition.GetStoryPoint();
     }
 
     public void ChangeStateWithButton()
@@ -200,6 +219,8 @@ public class GameManager : MonoBehaviour
                     ChangeToState(GameState.Shop);
                 else if (learningActivated)
                     ChangeToState(GameState.Learning);
+                else if (InPostEventStoryPoint())
+                    ChangeToState(GameState.StoryPoint);
                 else if (currentPosition.HasCharacter())
                     ChangeToState(GameState.NewCharacter);
                 else
@@ -208,13 +229,17 @@ public class GameManager : MonoBehaviour
             case GameState.Shop:
                 if (learningActivated)
                     ChangeToState(GameState.Learning);
+                else if (InPostEventStoryPoint())
+                    ChangeToState(GameState.StoryPoint);
                 else if (currentPosition.HasCharacter())
                     ChangeToState(GameState.NewCharacter);
                 else
                     ChangeToState(GameState.Map);
                 break;
             case GameState.Learning:
-                if (currentPosition.HasCharacter())
+                if (InPostEventStoryPoint())
+                    ChangeToState(GameState.StoryPoint);
+                else if (currentPosition.HasCharacter())
                     ChangeToState(GameState.NewCharacter);
                 else
                     ChangeToState(GameState.Map);
@@ -222,12 +247,22 @@ public class GameManager : MonoBehaviour
             case GameState.NewCharacter:
                 ChangeToState(GameState.Map);
                 break;
+            case GameState.StoryPoint:
+                if (InPreEventStoryPoint())
+                    ChangeToState(GameState.Event);
+                else if (InPostEventStoryPoint())
+                {
+                    if (currentPosition.HasCharacter())
+                        ChangeToState(GameState.NewCharacter);
+                    else
+                        ChangeToState(GameState.Map);
+                }
+                break;
         }
     }
 
     private IEnumerator ApplyEffectsAndChangeState(CharacterCard selectedCharacter)
     {
-        //Effect[] effectsToApply = eventCard.GetEffects();
         Effect[] effectsToApply = eventCard.GetEventOutcomeEffects(selectedCharacter);
         foreach (Effect effect in effectsToApply)
         {
@@ -317,6 +352,23 @@ public class GameManager : MonoBehaviour
         newAbility.AssignAbility(abilityToAssign);
     }
 
+    public bool InPreEventStoryPoint()
+    {
+        return currentStoryPoint != null && currentStoryPoint.IsPreEvent;
+    }
+
+    public bool InPostEventStoryPoint()
+    {
+        return currentStoryPoint != null && !currentStoryPoint.IsPreEvent;
+    }
+
+    public void GetNextStoryLine()
+    {
+        string nextLine = currentStoryPoint.GetNextLine();
+        bool isLastLine = currentStoryPoint.IsLastLine();
+        OnNewStoryLine?.Invoke(nextLine, isLastLine);
+    }
+
     private void OnDestroy()
     {
         MapPosition.OnPositionSelected -= SelectPosition;
@@ -325,5 +377,5 @@ public class GameManager : MonoBehaviour
 
 public enum GameState
 {
-    Map, Event, Abilities, Shop, NewCharacter, Learning
+    Map, Event, Abilities, Shop, NewCharacter, Learning, StoryPoint
 }

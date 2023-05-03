@@ -16,6 +16,7 @@ public class MapPosition : MonoBehaviour
     [SerializeField] private CharacterCardSO foundCharacter;
 
     private SpriteRenderer positionSprite;
+    private StoryPoint storyPoint;
 
     public bool IsConnected { get => isConnected; set => isConnected = value; }
     public bool IsCurrent { get => isCurrent; set => isCurrent = value; }
@@ -27,6 +28,7 @@ public class MapPosition : MonoBehaviour
     private void Awake()
     {
         positionSprite = GetComponent<SpriteRenderer>();
+        storyPoint = GetComponent<StoryPoint>();
     }
 
     public void UpdatePositionColor()
@@ -60,6 +62,11 @@ public class MapPosition : MonoBehaviour
         {
             connectedPos.IsConnected = true;
         }
+    }
+
+    public StoryPoint GetStoryPoint()
+    {
+        return storyPoint;
     }
 
     public EventCardSO[] GetEvent()
