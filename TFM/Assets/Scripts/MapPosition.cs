@@ -17,6 +17,7 @@ public class MapPosition : MonoBehaviour
 
     private SpriteRenderer positionSprite;
     private StoryPoint storyPoint;
+    private bool characterAdded;
 
     public bool IsConnected { get => isConnected; set => isConnected = value; }
     public bool IsCurrent { get => isCurrent; set => isCurrent = value; }
@@ -81,11 +82,12 @@ public class MapPosition : MonoBehaviour
 
     public bool HasCharacter()
     {
-        return foundCharacter != null;
+        return foundCharacter != null && !characterAdded;
     }
 
     public CharacterCardSO GetCharacter()
     {
+        characterAdded = true;
         return foundCharacter;
     }
 }

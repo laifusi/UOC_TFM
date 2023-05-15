@@ -257,6 +257,7 @@ public class GameManager : MonoBehaviour
                     else
                         ChangeToState(GameState.Map);
                 }
+                currentStoryPoint.MarkPlayed();
                 break;
         }
     }
@@ -354,12 +355,12 @@ public class GameManager : MonoBehaviour
 
     public bool InPreEventStoryPoint()
     {
-        return currentStoryPoint != null && currentStoryPoint.IsPreEvent;
+        return currentStoryPoint != null && currentStoryPoint.IsPreEvent && currentStoryPoint.ShouldPlay;
     }
 
     public bool InPostEventStoryPoint()
     {
-        return currentStoryPoint != null && !currentStoryPoint.IsPreEvent;
+        return currentStoryPoint != null && !currentStoryPoint.IsPreEvent && currentStoryPoint.ShouldPlay;
     }
 
     public void GetNextStoryLine()

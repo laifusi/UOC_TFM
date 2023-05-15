@@ -4,30 +4,33 @@ using UnityEngine;
 
 public class StoryPoint : MonoBehaviour
 {
-    [SerializeField] string[] textLines;
-    [SerializeField] bool isPreEventStoryPoint;
+    [SerializeField] StoryPointSO storyPoint;
 
-    private int currentLine;
+    public bool IsPreEvent => storyPoint.IsPreEvent;
+    public bool ShouldPlay => storyPoint.ShouldPlay();
 
-    public bool IsPreEvent => isPreEventStoryPoint;
+    private void Awake()
+    {
+        storyPoint.ResetStory();
+    }
 
     public string GetNextLine()
     {
-        currentLine++;
-        if (IsDone())
-            return null;
-
-        string lineToShow = textLines[currentLine - 1];
-        return lineToShow;
+        return storyPoint.GetNextLine();
+    }
+    
+    public void MarkPlayed()
+    {
+        storyPoint.MarkPlayed();
     }
 
     public bool IsLastLine()
     {
-        return currentLine == textLines.Length;
+        return storyPoint.IsLastLine();
     }
 
     public bool IsDone()
     {
-        return currentLine >= textLines.Length + 1;
+        return storyPoint.IsDone();
     }
 }

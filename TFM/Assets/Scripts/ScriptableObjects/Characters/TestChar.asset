@@ -37,3 +37,10 @@ MonoBehaviour:
     abilityText: Dona 5 punts de vida a un personatge
     abilityCost: 0
     abilityLevel: 0
+  - effects:
+    - affectedStat: 0
+      affectionAmount: 10
+      effectText: Dona 10 punts de vida
+    abilityText: Dona 10 punts de vida a un personatge
+    abilityCost: 0
+    abilityLevel: 0
