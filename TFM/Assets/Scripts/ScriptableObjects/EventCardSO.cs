@@ -22,14 +22,19 @@ public class EventCardSO : CardSO
     {
         foreach(EventOutcome outcome in possibleEventOutcomes)
         {
-            if(outcome.detonatorStat == StatType.Attack || outcome.detonatorStat == StatType.Health)
+            if (outcome.detonatorStat == StatType.Attack || outcome.detonatorStat == StatType.Health)
             {
                 Debug.Log("Detonator: " + outcome.detonatorStat);
                 // If partial attack or full attack, we reduce character's life and send additional outcome effects;
                 character.GetAttacked(attack);
                 return outcome.effects;
             }
-            else if(character.GetStat(outcome.detonatorStat) >= outcome.detonationValue)
+            else if (outcome.detonatorStat == StatType.Power && outcome.powerDetonator == character.GetPower())
+            {
+                Debug.Log("Detonator: " + outcome.powerDetonator);
+                return outcome.effects;
+            }
+            else if (character.GetStat(outcome.detonatorStat) >= outcome.detonationValue)
             {
                 Debug.Log("Detonator: " + outcome.detonatorStat);
                 return outcome.effects;
@@ -57,5 +62,6 @@ public struct EventOutcome
     public Effect[] effects;
     public StatType detonatorStat;
     public int detonationValue;
+    public Power powerDetonator;
     public string outcomeText;
 }

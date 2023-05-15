@@ -12,9 +12,9 @@ public class CharacterCardSO : CardSO
     [SerializeField] int baseAgility;
     [SerializeField] int baseDexterity;
     [SerializeField] int baseIntelligence;
-    [SerializeField] int baseConstitution;
-    [SerializeField] int baseWisdom;
     [SerializeField] int baseSocialSkills;
+
+    [SerializeField] Power power;
 
     [SerializeField] Ability[] availableAbilities;
 
@@ -26,8 +26,6 @@ public class CharacterCardSO : CardSO
     private int currentAgility;
     private int currentDexterity;
     private int currentIntelligence;
-    private int currentConstitution;
-    private int currentWisdom;
     private int currentSocialSkills;
     private int currentAbilityLevel;
     private List<EquipmentCardSO> equipmentCards = new List<EquipmentCardSO>();
@@ -41,11 +39,9 @@ public class CharacterCardSO : CardSO
         currentAttack = baseAttack;
         currentCoins = baseCoins;
         currentAgility = baseAgility;
-        currentConstitution = baseConstitution;
         currentDexterity = baseDexterity;
         currentIntelligence = baseIntelligence;
         currentSocialSkills = baseSocialSkills;
-        currentWisdom = baseWisdom;
         currentAbilityLevel = 0;
         equipmentCards.Clear();
         activeAbilities.Clear();
@@ -83,6 +79,11 @@ public class CharacterCardSO : CardSO
         return currentCoins;
     }
 
+    public Power GetPower()
+    {
+        return power;
+    }
+
     public List<EquipmentCardSO> GetEquipment()
     {
         return equipmentCards;
@@ -107,9 +108,6 @@ public class CharacterCardSO : CardSO
             case StatType.Agility:
                 currentAgility += (int)effect.affectionAmount;
                 break;
-            case StatType.Constitution:
-                currentConstitution += (int)effect.affectionAmount;
-                break;
             case StatType.Dexterity:
                 currentDexterity += (int)effect.affectionAmount;
                 break;
@@ -118,9 +116,6 @@ public class CharacterCardSO : CardSO
                 break;
             case StatType.SocialSkills:
                 currentSocialSkills += (int)effect.affectionAmount;
-                break;
-            case StatType.Wisdom:
-                currentWisdom += (int)effect.affectionAmount;
                 break;
         }
     }
@@ -139,9 +134,6 @@ public class CharacterCardSO : CardSO
             case StatType.Agility:
                 valueToReturn = currentAgility;
                 break;
-            case StatType.Constitution:
-                valueToReturn = currentConstitution;
-                break;
             case StatType.Dexterity:
                 valueToReturn = currentDexterity;
                 break;
@@ -150,9 +142,6 @@ public class CharacterCardSO : CardSO
                 break;
             case StatType.SocialSkills:
                 valueToReturn = currentSocialSkills;
-                break;
-            case StatType.Wisdom:
-                valueToReturn = currentWisdom;
                 break;
         }
 
@@ -212,4 +201,9 @@ public struct Ability
     {
         return effects;
     }
+}
+
+public enum Power
+{
+    None, Fire, Water, Plants, Earth, Electricity, Mind, Wind
 }

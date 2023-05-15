@@ -100,6 +100,11 @@ public class CharacterCard : Card<CharacterCardSO>
         return card.GetCoins();
     }
 
+    public Power GetPower()
+    {
+        return card.GetPower();
+    }
+
     public int GetStat(StatType statType)
     {
         return card.GetStat(statType);

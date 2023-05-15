@@ -26,9 +26,8 @@ MonoBehaviour:
   baseAgility: 0
   baseDexterity: 7
   baseIntelligence: 0
-  baseConstitution: 0
-  baseWisdom: 0
   baseSocialSkills: 0
+  power: 1
   availableAbilities:
   - effects:
     - affectedStat: 0

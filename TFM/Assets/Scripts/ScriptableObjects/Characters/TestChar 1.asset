@@ -25,10 +25,9 @@ MonoBehaviour:
   baseCoins: 100
   baseAgility: 0
   baseDexterity: 0
-  baseIntelligence: 11
-  baseConstitution: 0
-  baseWisdom: 0
+  baseIntelligence: 5
   baseSocialSkills: 0
+  power: 1
   availableAbilities:
   - effects:
     - affectedStat: 0
