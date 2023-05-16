@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78dbafc638738734789b90a5faed33a0, type: 3}
+  m_Name: Endora
+  m_EditorClassIdentifier: 
+  type: 0
+  cardName:
+    m_TableReference:
+      m_TableCollectionName: GUID:824c0fbd28c187649982a0e2854555ef
+    m_TableEntryReference:
+      m_KeyId: 1315599462400
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  effects: []
+  rarity: 0
+  baseHealth: 15
+  baseAttack: 15
+  baseShield: 10
+  baseCoins: 350
+  baseAgility: 25
+  baseDexterity: 5
+  baseIntelligence: 5
+  baseSocialSkills: 5
+  power: 7
+  availableAbilities: []
+  references:
+    version: 2
+    RefIds: []
