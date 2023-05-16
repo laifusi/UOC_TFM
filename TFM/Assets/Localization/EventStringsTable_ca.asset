@@ -1,0 +1,701 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: EventStringsTable_ca
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ca
+  m_SharedData: {fileID: 11400000, guid: 8e9e64f282f5e04428183dd5e5d34173, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 48479252480
+    m_Localized: Barrera de poder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 890078932992
+    m_Localized: Utilitzant el poder del personatge, es creua la barrera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1225438703616
+    m_Localized: Caixa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1376727248896
+    m_Localized: Utilitzant la destresa, s'aconsegueixen les 100 monedes de la caixa
+      i s'augmenta l'habilitat en 2 punts.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1536303738880
+    m_Localized: "Utilitzant la intel\xB7lig\xE8ncia, s'aconsegueixen les 100 monedes
+      de la caixa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1598819840000
+    m_Localized: "Utilitzant la for\xE7a bruta, s'aconsegueixen 50 monedes de la
+      caixa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651131199488
+    m_Localized: Caixa complexa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1788716953600
+    m_Localized: Utilitzant la destresa, s'aconsegueixen les 200 monedes de la caixa
+      i s'augmenta l'habilitat en 5 punts.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1860728958976
+    m_Localized: "Utilitzant la intel\xB7lig\xE8ncia, s'aconsegueixen les 200 monedes
+      de la caixa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1914625765376
+    m_Localized: "Utilitzant la for\xE7a bruta, s'aconsegueixen 100 monedes de la
+      caixa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2008305545216
+    m_Localized: "Caixa electr\xF2nica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2069752098816
+    m_Localized: Utilitzant la destresa, s'aconsegueixen les 100 monedes de la caixa
+      i s'augmenta l'habilitat en 2 punts.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2186311806976
+    m_Localized: "Utilitzant la intel\xB7lig\xE8ncia, s'aconsegueixen les 100 monedes
+      de la caixa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2222982606848
+    m_Localized: Utilitzant el control de l'electricitat, s'aconsegueixen 75 monedes
+      de la caixa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2290800308224
+    m_Localized: "Utilitzant la for\xE7a bruta, s'aconsegueixen 50 monedes de la
+      caixa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2516822962176
+    m_Localized: "Caixa electr\xF2nica complexa"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2604676853760
+    m_Localized: Utilitzant la destresa, s'aconsegueixen les 200 monedes de la caixa
+      i s'augmenta l'habilitat en 5 punts.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2653456609280
+    m_Localized: "Utilitzant la intel\xB7lig\xE8ncia, s'aconsegueixen les 200 monedes
+      de la caixa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2695546449920
+    m_Localized: Utilitzant el control de l'electricitat, s'aconsegueixen 150 monedes
+      de la caixa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2739355955200
+    m_Localized: "Utilitzant la for\xE7a bruta, s'aconsegueixen 100 monedes de la
+      caixa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2808813629440
+    m_Localized: Ajuda!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2925180399616
+    m_Localized: "Utilitzant la destresa, s'aconsegueix l'objectiu i el vilat\xE0
+      ofereix 50 monedes com a recompensa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3045217185792
+    m_Localized: Ajuda!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3116402913280
+    m_Localized: "Utilitzant la destresa, s'aconsegueix l'objectiu i el vilat\xE0
+      ofereix 100 monedes com a recompensa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3165446909952
+    m_Localized: Lladre principiant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3218198671360
+    m_Localized: "Utilitzant el control mental, s'aconsegueixen 75 monedes per\xF2
+      es perden 8 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3265262956544
+    m_Localized: "Utilitzant la intel\xB7lig\xE8ncia, s'aconsegueixen 50 monedes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3311811342336
+    m_Localized: Utilitzant les habilitats socials, s'aconsegueixen 25 monedes i
+      s'augmenten les habilitats socials en 2 punts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3365112557568
+    m_Localized: "Si s'utilitza la for\xE7a sense acabar amb la vida del lladre,
+      es perden 25 monedes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3407005265920
+    m_Localized: "Si s'utilitza la for\xE7a i s'acaba amb la vida del lladre, es
+      guanyen 75 monedes per\xF2 es perden 20 punts d'habilitats socials."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3483555508224
+    m_Localized: Lladre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3514203287552
+    m_Localized: "Utilitzant el control mental, s'aconsegueixen 150 monedes per\xF2
+      es perden 5 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3560344825856
+    m_Localized: "Utilitzant la intel\xB7lig\xE8ncia, s'aconsegueixen 100 monedes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3594683592704
+    m_Localized: Utilitzant les habilitats socials, s'aconsegueixen 50 monedes i
+      s'augmenten les habilitats socials en 5 punts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3651508023296
+    m_Localized: "Si s'utilitza la for\xE7a sense acabar amb la vida del lladre,
+      es perden 50 monedes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3690607325184
+    m_Localized: "Si s'utilitza la for\xE7a i s'acaba amb la vida del lladre, es
+      guanyen 150 monedes per\xF2 es perden 10 punts d'habilitats socials."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3735230525440
+    m_Localized: Lladre expert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3767807684608
+    m_Localized: "Utilitzant el control mental, s'aconsegueixen 300 monedes per\xF2
+      es perden 2 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3830076321792
+    m_Localized: "Utilitzant la intel\xB7lig\xE8ncia, s'aconsegueixen 150 monedes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3866898116608
+    m_Localized: Utilitzant les habilitats socials, s'aconsegueixen 100 monedes i
+      s'augmenten les habilitats socials en 10 punts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3903770243072
+    m_Localized: "Si s'utilitza la for\xE7a sense acabar amb la vida del lladre,
+      es perden 100 monedes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3942794047488
+    m_Localized: "Si s'utilitza la for\xE7a i s'acaba amb la vida del lladre, es
+      guanyen 300 monedes per\xF2 es perden 5 punts d'habilitats socials."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5873620922368
+    m_Localized: Esquerda menuda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6251913588736
+    m_Localized: "Utilitzant el control de la terra, es pot creuar l'esquerda i es
+      guanyen 3 punts d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7656665690112
+    m_Localized: "Utilitzant el control de les plantes, es pot creuar l'esquerda
+      i es guanyen 3 punts d'intel\xB7lig\xE8ncia\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7895669714944
+    m_Localized: "Utilitzant l'agilitat, es creua l'esquerda i s'augmenta l'agilitat
+      en 3 punts, per\xF2 es perden 10 monedes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8212079620096
+    m_Localized: "Si l'agilitat no \xE9s suficient, es perden 8 punts d'agilitat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8602019868672
+    m_Localized: Esquerda mitjana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8697079574528
+    m_Localized: "Utilitzant el control de la terra, es pot creuar l'esquerda i es
+      guanyen 5 punts d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8817003114496
+    m_Localized: "Utilitzant el control de les plantes, es pot creuar l'esquerda
+      i es guanyen 5 punts d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8932698796032
+    m_Localized: "Utilitzant l'agilitat, es creua l'esquerda i s'augmenta l'agilitat
+      en 5 punts, per\xF2 es perden 20 monedes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9204070264832
+    m_Localized: "Si l'agilitat no \xE9s suficient, es perden 5 punts d'agilitat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9988417695744
+    m_Localized: Esquerda gran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10021833715712
+    m_Localized: "Utilitzant el control de la terra, es pot creuar l'esquerda i es
+      guanyen 8 punts d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10141061001216
+    m_Localized: "Utilitzant el control de la terra, es pot creuar l'esquerda i es
+      guanyen 8 punts d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10185071833088
+    m_Localized: "Utilitzant l'agilitat, es creua l'esquerda i s'augmenta l'agilitat
+      en 8 punts, per\xF2 es perden 30 monedes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10258044334080
+    m_Localized: "Si l'agilitat no \xE9s suficient, es perden 3 punts d'agilitat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10564387909632
+    m_Localized: Dimoni menut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10756520587264
+    m_Localized: "Utilitzant el control del foc, es guanya al dimoni per\xF2 es perden
+      2 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10935080497152
+    m_Localized: "Utilitzant el control mental, es guanya al dimoni per\xF2 es perden
+      2 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11020535246848
+    m_Localized: "Utilitzant el control del vent, es guanya al dimoni per\xF2 es
+      perden 2 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11081159716864
+    m_Localized: "Si s'utilitza la for\xE7a sense acabar amb la vida del dimoni,
+      es perden 2 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11293995479040
+    m_Localized: "Si s'utilitza la for\xE7a i s'acaba amb la vida del dimoni, es
+      perden 8 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11505187074048
+    m_Localized: Dimoni gran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11539563589632
+    m_Localized: "Utilitzant el control del foc, es guanya al dimoni per\xF2 es perden
+      4 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11597612756992
+    m_Localized: "Utilitzant el control mental, es guanya al dimoni per\xF2 es perden
+      4 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11643624271872
+    m_Localized: "Utilitzant el control del vent, es guanya al dimoni per\xF2 es
+      perden 4 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11716110233600
+    m_Localized: "Si s'utilitza la for\xE7a sense acabar amb la vida del dimoni,
+      es perden 4 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11794896039936
+    m_Localized: "Si s'utilitza la for\xE7a i s'acaba amb la vida del dimoni, es
+      perden 6 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270146607689728
+    m_Localized: Monstre de roca menut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270204623302656
+    m_Localized: "Utilitzant el control de la terra, es guanyen 5 punts d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270356842983424
+    m_Localized: "Utilitzant l'agilitat, es guanyen 5 punts d'agilitat per\xF2 es
+      perden 50 monedes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270839309578240
+    m_Localized: "Amb l'\xFAs de la for\xE7a, es perden els punts d'escut i/o vida
+      corresponents a l'atac de l'enemic"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271688320593920
+    m_Localized: Monstre de roca
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271749658095616
+    m_Localized: "Utilitzant el control de la terra, es guanyen 10 punts d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271809573728256
+    m_Localized: "Utilitzant l'agilitat, es guanyen 10 punts d'agilitat per\xF2 es
+      perden 100 monedes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271865496383488
+    m_Localized: Monstre de roca gran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271925277798400
+    m_Localized: "Utilitzant el control de la terra, es guanyen 15 punts d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271986808238080
+    m_Localized: "Utilitzant l'agilitat, es guanyen 15 punts d'agilitat per\xF2 es
+      perden 200 monedes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273739658211328
+    m_Localized: "Vilat\xE0 en p\xE0nic suau"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273876560293888
+    m_Localized: Utilitzant les habilitats socials, es guanyen 5 punts d'habilitats
+      socials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273973566156800
+    m_Localized: Utilitzant el control mental, es perden 15 punts d'habilitats socials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274061160001536
+    m_Localized: "Si s'utilitza la for\xE7a sense acabar amb la vida del vilat\xE0,
+      es perden 15 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274445962227712
+    m_Localized: "Si s'utilitza la for\xE7a i s'acaba amb la vida del vilat\xE0,
+      es perden 30 punts d'habilitats socials."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275283313078272
+    m_Localized: "Vilat\xE0 en p\xE0nic"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275377148047360
+    m_Localized: Utilitzant les habilitats socials, es guanyen 10 punts d'habilitats
+      socials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275453383716864
+    m_Localized: Utilitzant el control mental, es perden 10 punts d'habilitats socials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275554915233792
+    m_Localized: "Si s'utilitza la for\xE7a sense acabar amb la vida del vilat\xE0,
+      es perden 10 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275622154121216
+    m_Localized: "Si s'utilitza la for\xE7a i s'acaba amb la vida del vilat\xE0,
+      es perden 20 punts d'habilitats socials."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275703221628928
+    m_Localized: "Hum\xE0 en p\xE0nic extrem"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275751682617344
+    m_Localized: Utilitzant les habilitats socials, es guanyen 15 punts d'habilitats
+      socials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275844464816128
+    m_Localized: Utilitzant el control mental, es perden 5 punts d'habilitats socials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275906171416576
+    m_Localized: "Si s'utilitza la for\xE7a sense acabar amb la vida del vilat\xE0,
+      es perden 5 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275956133965824
+    m_Localized: "Si s'utilitza la for\xE7a i s'acaba amb la vida del vilat\xE0,
+      es perden 10 punts d'habilitats socials."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278762442108928
+    m_Localized: Policia principiant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278817609789440
+    m_Localized: Utilitzant les habilitats socials, es milloren en 5 punts les habilitats
+      socials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278954058887168
+    m_Localized: Utilitzant el control mental, es perden 15 punts d'habilitats socials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279081548951552
+    m_Localized: "Si s'utilitza la for\xE7a sense acabar amb la vida del policia,
+      es perden 5 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279171105730560
+    m_Localized: "Si s'utilitza la for\xE7a i s'acaba amb la vida del vilat\xE0,
+      es perden 20 punts d'habilitats socials."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279223467421696
+    m_Localized: Policia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279293201920000
+    m_Localized: Utilitzant les habilitats socials, es milloren en 10 punts les habilitats
+      socials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279336453582848
+    m_Localized: Utilitzant el control mental, es perden 10 punts d'habilitats socials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279436944912384
+    m_Localized: "Si s'utilitza la for\xE7a sense acabar amb la vida del policia,
+      es perden 5 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279537964724224
+    m_Localized: "Si s'utilitza la for\xE7a i s'acaba amb la vida del vilat\xE0,
+      es perden 15 punts d'habilitats socials."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279606986190848
+    m_Localized: Policia expert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279648006483968
+    m_Localized: Utilitzant les habilitats socials, es milloren en 15 punts les habilitats
+      socials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279694374514688
+    m_Localized: Utilitzant el control mental, es perden 5 punts d'habilitats socials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279755221282816
+    m_Localized: "Si s'utilitza la for\xE7a sense acabar amb la vida del policia,
+      es perden 5 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279820136525824
+    m_Localized: "Si s'utilitza la for\xE7a i s'acaba amb la vida del vilat\xE0,
+      es perden 10 punts d'habilitats socials."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281707028066304
+    m_Localized: Policia robot simple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281759985348608
+    m_Localized: "Utilitzant el control de l'electricitat, es guanyen 5 punts d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282013178703872
+    m_Localized: "Utilitzant la intel\xB7lig\xE8ncia, es guanyen 5 punts d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282081025765376
+    m_Localized: Policia robot complex
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282162290405376
+    m_Localized: "Utilitzant el control de l'electricitat, es guanyen 10 punts d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282224202526720
+    m_Localized: "Utilitzant la intel\xB7lig\xE8ncia, es guanyen 10 punts d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283083422478336
+    m_Localized: Incendi menut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283129463353344
+    m_Localized: "Utilitzant el control del foc, es controla l'incendi i es guanyen
+      5 punts d'intel\xB7lig\xE8ncia, per\xF2 es perden 2 punts de vida"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283339304382464
+    m_Localized: "Utilitzant el control de l'aigua, es controla l'incendi i es guanyen
+      5 punts d'intel\xB7lig\xE8ncia, per\xF2 es perden 2 punts de vida"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283461127942144
+    m_Localized: Incendi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283597279244288
+    m_Localized: "Utilitzant el control del foc, es controla l'incendi i es guanyen
+      10 punts d'intel\xB7lig\xE8ncia, per\xF2 es perden 5 punts de vida"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283706809298944
+    m_Localized: Incendi gran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283749469564928
+    m_Localized: "Utilitzant el control del foc, es controla l'incendi i es guanyen
+      20 punts d'intel\xB7lig\xE8ncia, per\xF2 es perden 10 punts de vida"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283678413860864
+    m_Localized: "Utilitzant el control de l'aigua, es controla l'incendi i es guanyen
+      10 punts d'intel\xB7lig\xE8ncia, per\xF2 es perden 5 punts de vida"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283827114520576
+    m_Localized: "Utilitzant el control de l'aigua, es controla l'incendi i es guanyen
+      20 punts d'intel\xB7lig\xE8ncia, per\xF2 es perden 10 punts de vida"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284728504004608
+    m_Localized: Enderrocs menuts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285134525214720
+    m_Localized: "Utilitzant el control de la terra, es mouen les roques i s'aconsegueixen
+      3 punts d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285483738771456
+    m_Localized: "Utilitzant el control del vent, es mouen les roques i s'aconsegueixen
+      3 punts d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285661203968000
+    m_Localized: "Utilitzant l'agilitat, s'aconsegueixen 3 punts d'agilitat per\xF2
+      es perden 10 monedes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285909469016064
+    m_Localized: "Si l'agilitat no \xE9s suficient, es perden 8 punts d'agilitat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286090344181760
+    m_Localized: Enderrocs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286132178169856
+    m_Localized: "Utilitzant el control de la terra, es mouen les roques i s'aconsegueixen
+      5 punts d'intel\xB7lig\xE8ncia i 5 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286206903889920
+    m_Localized: "Utilitzant el control del vent, es mouen les roques i s'aconsegueixen
+      5 punts d'intel\xB7lig\xE8ncia  i 5 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286280442621952
+    m_Localized: "Utilitzant l'agilitat, s'aconsegueixen 5 punts d'agilitat per\xF2
+      es perden 20 monedes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286382460678144
+    m_Localized: "Si l'agilitat no \xE9s suficient, es perden 5 punts d'agilitat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286523070525440
+    m_Localized: Enderrocs grans
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286566280245248
+    m_Localized: "Utilitzant el control de la terra, es mouen les roques i s'aconsegueixen
+      8 punts d'intel\xB7lig\xE8ncia i 15 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286873840168960
+    m_Localized: "Utilitzant el control del vent, es mouen les roques i s'aconsegueixen
+      8 punts d'intel\xB7lig\xE8ncia  i 15 punts d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286953049600000
+    m_Localized: "Utilitzant l'agilitat, s'aconsegueixen 8 punts d'agilitat per\xF2
+      es perden 30 monedes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287057739427840
+    m_Localized: "Si l'agilitat no \xE9s suficient, es perden 3 punts d'agilitat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288685599141888
+    m_Localized: Fuita d'aigua menuda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288756445130752
+    m_Localized: "Utilitzant el control de l'aigua, es controla la fuita i es guanyen
+      3 punts d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289002021629952
+    m_Localized: "Utilitzant el control de les plantes, es bloqueja la fuita i es
+      guanyen 3 punts d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289172482338816
+    m_Localized: Utilitzant la destresa, s'arregla la fuita i es guanyen 5 punts
+      de destresa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289810389839872
+    m_Localized: Fuita d'aigua gran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289907773190144
+    m_Localized: "Utilitzant el control de l'aigua, es controla la fuita i es guanyen
+      8 punts d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289964543094784
+    m_Localized: "Utilitzant el control de les plantes, es bloqueja la fuita i es
+      guanyen 8 punts d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290015629717504
+    m_Localized: Utilitzant la destresa, s'arregla la fuita i es guanyen 10 punts
+      de destresa
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

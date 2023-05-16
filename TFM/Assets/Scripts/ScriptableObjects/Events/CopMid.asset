@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 895055c4ef8c9f043b0a14979eac5162, type: 3}
+  m_Name: CopMid
+  m_EditorClassIdentifier: 
+  type: 1
+  cardName:
+    m_TableReference:
+      m_TableCollectionName: GUID:8e9e64f282f5e04428183dd5e5d34173
+    m_TableEntryReference:
+      m_KeyId: 279223467421696
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  effects: []
+  rarity: 1
+  health: 15
+  attack: 20
+  possibleEventOutcomes:
+  - detonatorStat: 5
+    detonationValue: 10
+    powerDetonator: 0
+    outcomeText:
+      m_TableReference:
+        m_TableCollectionName: GUID:8e9e64f282f5e04428183dd5e5d34173
+      m_TableEntryReference:
+        m_KeyId: 279293201920000
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    effects:
+    - affectedStat: 5
+      affectionAmount: 10
+      effectText: 
+  - detonatorStat: 8
+    detonationValue: 0
+    powerDetonator: 6
+    outcomeText:
+      m_TableReference:
+        m_TableCollectionName: GUID:8e9e64f282f5e04428183dd5e5d34173
+      m_TableEntryReference:
+        m_KeyId: 279336453582848
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    effects:
+    - affectedStat: 5
+      affectionAmount: -10
+      effectText: 
+  - detonatorStat: 0
+    detonationValue: 0
+    powerDetonator: 0
+    outcomeText:
+      m_TableReference:
+        m_TableCollectionName: GUID:8e9e64f282f5e04428183dd5e5d34173
+      m_TableEntryReference:
+        m_KeyId: 279436944912384
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    effects:
+    - affectedStat: 5
+      affectionAmount: -5
+      effectText: 
+  - detonatorStat: 1
+    detonationValue: 0
+    powerDetonator: 0
+    outcomeText:
+      m_TableReference:
+        m_TableCollectionName: GUID:8e9e64f282f5e04428183dd5e5d34173
+      m_TableEntryReference:
+        m_KeyId: 279537964724224
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    effects:
+    - affectedStat: 5
+      affectionAmount: -15
+      effectText: 
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,616 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: EventStringsTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: EventStringsTable
+  m_TableCollectionNameGuidString: 8e9e64f282f5e04428183dd5e5d34173
+  m_Entries:
+  - m_Id: 48479252480
+    m_Key: powerBarrier_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 890078932992
+    m_Key: powerBarrier_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1225438703616
+    m_Key: boxEasy_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1376727248896
+    m_Key: boxEasy_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1536303738880
+    m_Key: boxEasy_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1598819840000
+    m_Key: boxEasy_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651131199488
+    m_Key: boxHard_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1788716953600
+    m_Key: boxHard_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1860728958976
+    m_Key: boxHard_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1914625765376
+    m_Key: boxHard_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2008305545216
+    m_Key: electricBoxEasy_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2069752098816
+    m_Key: electricBoxEasy_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2186311806976
+    m_Key: electricBoxEasy_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2222982606848
+    m_Key: electricBoxEasy_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2290800308224
+    m_Key: electricBoxEasy_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2516822962176
+    m_Key: electricBoxHard_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2604676853760
+    m_Key: electricBoxHard_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2653456609280
+    m_Key: electricBoxHard_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2695546449920
+    m_Key: electricBoxHard_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2739355955200
+    m_Key: electricBoxHard_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2808813629440
+    m_Key: humanHelpEasyDex_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2925180399616
+    m_Key: humanHelpEasyDex_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3045217185792
+    m_Key: humanHelpHardDex_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3116402913280
+    m_Key: humanHelpHardDex_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3165446909952
+    m_Key: thiefEasy_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3218198671360
+    m_Key: thiefEasy_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3265262956544
+    m_Key: thiefEasy_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3311811342336
+    m_Key: thiefEasy_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3365112557568
+    m_Key: thiefEasy_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3407005265920
+    m_Key: thiefEasy_Outcome5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3483555508224
+    m_Key: thiefMid_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3514203287552
+    m_Key: thiefMid_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3560344825856
+    m_Key: thiefMid_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3594683592704
+    m_Key: thiefMid_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3651508023296
+    m_Key: thiefMid_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3690607325184
+    m_Key: thiefMid_Outcome5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3735230525440
+    m_Key: thiefHard_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3767807684608
+    m_Key: thiefHard_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3830076321792
+    m_Key: thiefHard_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3866898116608
+    m_Key: thiefHard_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3903770243072
+    m_Key: thiefHard_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3942794047488
+    m_Key: thiefHard_Outcome5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5873620922368
+    m_Key: crackEasy_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6251913588736
+    m_Key: crackEasy_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7656665690112
+    m_Key: crackEasy_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7895669714944
+    m_Key: crackEasy_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8212079620096
+    m_Key: crackEasy_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8602019868672
+    m_Key: crackMid_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8697079574528
+    m_Key: crackMid_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8817003114496
+    m_Key: crackMid_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8932698796032
+    m_Key: crackMid_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9204070264832
+    m_Key: crackMid_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9988417695744
+    m_Key: crackHard_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10021833715712
+    m_Key: crackHard_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10141061001216
+    m_Key: crackHard_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10185071833088
+    m_Key: crackHard_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10258044334080
+    m_Key: crackHard_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10564387909632
+    m_Key: demonEasy_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10756520587264
+    m_Key: demonEasy_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10935080497152
+    m_Key: demonEasy_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11020535246848
+    m_Key: demonEasy_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11081159716864
+    m_Key: demonEasy_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11293995479040
+    m_Key: demonEasy_Outcome5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11505187074048
+    m_Key: demonHard_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11539563589632
+    m_Key: demonHard_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11597612756992
+    m_Key: demonHard_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11643624271872
+    m_Key: demonHard_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11716110233600
+    m_Key: demonHard_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11794896039936
+    m_Key: demonHard_Outcome5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270146607689728
+    m_Key: rockMonsterEasy_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270204623302656
+    m_Key: rockMonsterEasy_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270356842983424
+    m_Key: rockMonsterEasy_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270839309578240
+    m_Key: genericAttackOutcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271688320593920
+    m_Key: rockMonsterMid_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271749658095616
+    m_Key: rockMonsterMid_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271809573728256
+    m_Key: rockMonsterMid_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271865496383488
+    m_Key: rockMonsterHard_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271925277798400
+    m_Key: rockMonsterHard_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271986808238080
+    m_Key: rockMonsterHard_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273739658211328
+    m_Key: humanPanicEasy_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273876560293888
+    m_Key: humanPanicEasy_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273973566156800
+    m_Key: humanPanicEasy_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274061160001536
+    m_Key: humanPanicEasy_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274445962227712
+    m_Key: humanPanicEasy_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275283313078272
+    m_Key: humanPanicMid_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275377148047360
+    m_Key: humanPanicMid_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275453383716864
+    m_Key: humanPanicMid_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275554915233792
+    m_Key: humanPanicMid_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275622154121216
+    m_Key: humanPanicMid_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275703221628928
+    m_Key: humanPanicHard_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275751682617344
+    m_Key: humanPanicHard_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275844464816128
+    m_Key: humanPanicHard_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275906171416576
+    m_Key: humanPanicHard_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275956133965824
+    m_Key: humanPanicHard_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278762442108928
+    m_Key: copEasy_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278817609789440
+    m_Key: copEasy_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278954058887168
+    m_Key: copEasy_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279081548951552
+    m_Key: copEasy_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279171105730560
+    m_Key: copEasy_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279223467421696
+    m_Key: copMid_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279293201920000
+    m_Key: copMid_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279336453582848
+    m_Key: copMid_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279436944912384
+    m_Key: copMid_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279537964724224
+    m_Key: copMid_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279606986190848
+    m_Key: copHard_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279648006483968
+    m_Key: copHard_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279694374514688
+    m_Key: copHard_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279755221282816
+    m_Key: copHard_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279820136525824
+    m_Key: copHard_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281707028066304
+    m_Key: robotCopEasy_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281759985348608
+    m_Key: robotCopEasy_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282013178703872
+    m_Key: robotCopEasy_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282081025765376
+    m_Key: robotCopHard_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282162290405376
+    m_Key: robotCopHard_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282224202526720
+    m_Key: robotCopHard_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283083422478336
+    m_Key: fireEasy_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283129463353344
+    m_Key: fireEasy_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283339304382464
+    m_Key: fireEasy_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283461127942144
+    m_Key: fireMid_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283597279244288
+    m_Key: fireMid_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283678413860864
+    m_Key: fireMid_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283706809298944
+    m_Key: fireHard_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283749469564928
+    m_Key: fireHard_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283827114520576
+    m_Key: fireHard_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284728504004608
+    m_Key: debrisEasy_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285134525214720
+    m_Key: debrisEasy_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285483738771456
+    m_Key: debrisEasy_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285661203968000
+    m_Key: debrisEasy_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285909469016064
+    m_Key: debrisEasy_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286090344181760
+    m_Key: debrisMid_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286132178169856
+    m_Key: debrisMid_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286206903889920
+    m_Key: debrisMid_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286280442621952
+    m_Key: debrisMid_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286382460678144
+    m_Key: debrisMid_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286523070525440
+    m_Key: debrisHard_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286566280245248
+    m_Key: debrisHard_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286873840168960
+    m_Key: debrisHard_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286953049600000
+    m_Key: debrisHard_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287057739427840
+    m_Key: debrisHard_Outcome4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288685599141888
+    m_Key: leakEasy_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288756445130752
+    m_Key: leakEasy_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289002021629952
+    m_Key: leakEasy_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289172482338816
+    m_Key: leakEasy_Outcome3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289810389839872
+    m_Key: leakHard_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289907773190144
+    m_Key: leakHard_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289964543094784
+    m_Key: leakHard_Outcome2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290015629717504
+    m_Key: leakHard_Outcome3
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7598979195661975912
+  references:
+    version: 2
+    RefIds:
+    - rid: 7598979195661975912
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1684169132554

@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.Localization;
 
 [CreateAssetMenu(fileName = "New Event Card", menuName = "Cards/Event", order = 2)]
 public class EventCardSO : CardSO
@@ -22,7 +23,7 @@ public class EventCardSO : CardSO
     {
         foreach(EventOutcome outcome in possibleEventOutcomes)
         {
-            if (outcome.detonatorStat == StatType.Attack || outcome.detonatorStat == StatType.Health)
+            if (outcome.detonatorStat == StatType.Attack || outcome.detonatorStat == StatType.Health) // StatType.Health == Partial Attack, StatType.Attack == Full Attack
             {
                 Debug.Log("Detonator: " + outcome.detonatorStat);
                 // If partial attack or full attack, we reduce character's life and send additional outcome effects;
@@ -49,7 +50,7 @@ public class EventCardSO : CardSO
         string completeText = "";
         foreach(EventOutcome outcome in possibleEventOutcomes)
         {
-            completeText += outcome.outcomeText;
+            completeText += outcome.outcomeText.GetLocalizedString();
             completeText += "\n";
         }
         return completeText;
@@ -59,9 +60,10 @@ public class EventCardSO : CardSO
 [Serializable]
 public struct EventOutcome
 {
-    public Effect[] effects;
     public StatType detonatorStat;
     public int detonationValue;
     public Power powerDetonator;
-    public string outcomeText;
+    public LocalizedString outcomeText;
+
+    public Effect[] effects;
 }

@@ -1,16 +1,17 @@
 using System;
 using UnityEngine;
+using UnityEngine.Localization;
 
 public class CardSO : ScriptableObject
 {
     [SerializeField] CardType type;
-    [SerializeField] string cardName;
+    [SerializeField] LocalizedString cardName;
     [SerializeField] Effect[] effects;
     [SerializeField] Rarity rarity;
 
     public string GetName()
     {
-        return cardName;
+        return cardName.GetLocalizedString();
     }
 
     public Effect[] GetEffects()
