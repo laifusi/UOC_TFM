@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization;
 
 [CreateAssetMenu(fileName = "new Story Points", menuName = "StoryPoints", order = 2)]
 public class StoryPointSO : ScriptableObject
 {
-    [SerializeField] string[] textLines;
+    [SerializeField] LocalizedString[] textLines;
     [SerializeField] bool isPreEventStoryPoint;
     [SerializeField] StoryPointSO controllingSP;
     [SerializeField] bool controllerMustHavePlayed;
@@ -34,7 +35,7 @@ public class StoryPointSO : ScriptableObject
         {
             return null;
         }
-        string lineToShow = textLines[currentLine - 1];
+        string lineToShow = textLines[currentLine - 1].GetLocalizedString();
         return lineToShow;
     }
 

@@ -53,8 +53,15 @@ public class Deck<T> where T : CardSO
                 selectedPoolCards = commonCards;
             }
 
-            // We get a random card from the randomly selected pool
-            cardsDrawn[i] = selectedPoolCards[UnityEngine.Random.Range(0, selectedPoolCards.Count)];
+            // We get a random card from the randomly selected pool (if that pool is empty, we redraw)
+            if (selectedPoolCards.Count < 1)
+            {
+                cardsDrawn = Draw();
+            }
+            else
+            {
+                cardsDrawn[i] = selectedPoolCards[UnityEngine.Random.Range(0, selectedPoolCards.Count)];
+            }
         }
 
         return cardsDrawn;
