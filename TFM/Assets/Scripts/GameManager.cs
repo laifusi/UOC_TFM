@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] CharacterCardSO startingCharacter;
     [SerializeField] CoinManager coinsManager;
     [SerializeField] CameraControl cameraControl;
+    [SerializeField] OutcomeTextUI outcomeTextUI;
 
     private GameState currentState;
     private MapPosition currentPosition;
@@ -35,6 +36,17 @@ public class GameManager : MonoBehaviour
     private StoryPoint currentStoryPoint;
 
     public static Action<string, bool> OnNewStoryLine;
+
+    public GameState CurrentState => currentState;
+    public static GameManager Instance;
+
+    private void Awake()
+    {
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
+    }
 
     private void Start()
     {
@@ -129,6 +141,7 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.Event:
                 ActivateCanvas(false, eventCanvas);
+                outcomeTextUI.UpdateOutcomeUI("", transform, false);
                 break;
             case GameState.Abilities:
                 selectedAbility = null;
@@ -262,6 +275,13 @@ public class GameManager : MonoBehaviour
                 currentStoryPoint.MarkPlayed();
                 break;
         }
+    }
+
+    public void ActivateOutcomeInfo(CharacterCard character, bool activate)
+    {
+        string outcomeText = activate ? eventCard.GetPossibleOutcomeInfo(character) : "";
+
+        outcomeTextUI.UpdateOutcomeUI(outcomeText, character.transform, activate);
     }
 
     private IEnumerator ApplyEffectsAndChangeState(CharacterCard selectedCharacter)

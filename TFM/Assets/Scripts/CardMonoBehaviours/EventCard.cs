@@ -21,7 +21,7 @@ public class EventCard : Card<EventCardSO>
         nameText.text = card.GetName();
         healthText.text = card.GetHealth().ToString();
         attackText.text = card.GetAttack().ToString();
-        effectText.text = card.GetEventOutcomesText();
+        //effectText.text = card.GetEventOutcomesText();
     }
 
     public Effect[] GetEffects()
@@ -32,5 +32,10 @@ public class EventCard : Card<EventCardSO>
     public Effect[] GetEventOutcomeEffects(CharacterCard chosenCharacter)
     {
         return card.GetEventOutcomeEffects(chosenCharacter);
+    }
+
+    public string GetPossibleOutcomeInfo(CharacterCard character)
+    {
+        return card.GetPossibleOutcomeInfo(character);
     }
 }

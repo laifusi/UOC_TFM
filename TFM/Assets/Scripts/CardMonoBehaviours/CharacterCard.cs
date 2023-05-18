@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class CharacterCard : Card<CharacterCardSO>
+public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField] TMP_Text healthText;
     [SerializeField] TMP_Text attackText;
@@ -15,10 +16,7 @@ public class CharacterCard : Card<CharacterCardSO>
     [SerializeField] Button button;
     [SerializeField] Transform abilitiesHolder;
 
-    /*private void Awake()
-    {
-        PaintCard(baseCard);
-    }*/
+    private bool activeOutcomeText;
 
     public override void PaintCard(CharacterCardSO cardToPaint)
     {
@@ -55,17 +53,6 @@ public class CharacterCard : Card<CharacterCardSO>
     {
         EquipmentCard equipCard = Instantiate(equipmentCardPrefab, equipmentHolder);
         equipCard.PaintCard(equipment);
-    }
-
-    [ContextMenu("Test effect -5 health")]
-    public void TestApplyEffect()
-    {
-        Effect eff = new Effect
-        {
-            affectedStat = StatType.Health,
-            affectionAmount = -5
-        };
-        ApplyEffect(eff);
     }
 
     public void ApplyEffect(Effect effect)
@@ -161,5 +148,17 @@ public class CharacterCard : Card<CharacterCardSO>
     private void OnDestroy()
     {
         button.onClick.RemoveAllListeners();
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        if (GameManager.Instance.CurrentState == GameState.Event)
+            GameManager.Instance.ActivateOutcomeInfo(this, true);
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        if (GameManager.Instance.CurrentState == GameState.Event)
+            GameManager.Instance.ActivateOutcomeInfo(this, false);
     }
 }

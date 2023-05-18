@@ -55,6 +55,34 @@ public class EventCardSO : CardSO
         return null;
     }
 
+    public string GetPossibleOutcomeInfo(CharacterCard character)
+    {
+        foreach (EventOutcome outcome in possibleEventOutcomes)
+        {
+            if (character.IsFullAttack(health) && outcome.detonatorStat == StatType.Attack) // StatType.Attack == Full Attack
+            {
+                return outcome.outcomeText.GetLocalizedString();
+            }
+            else if (!character.IsFullAttack(health) && outcome.detonatorStat == StatType.Health) // StatType.Health == Partial Attack
+            {
+                return outcome.outcomeText.GetLocalizedString();
+            }
+            else if (outcome.detonatorStat == StatType.Power && outcome.powerDetonator == character.GetPower())
+            {
+                return outcome.outcomeText.GetLocalizedString();
+            }
+            else if (outcome.detonatorStat != StatType.Power && outcome.detonatorStat != StatType.Health && outcome.detonatorStat != StatType.Attack)
+            {
+                if (character.GetStat(outcome.detonatorStat) >= outcome.detonationValue)
+                {
+                    return outcome.outcomeText.GetLocalizedString();
+                }
+            }
+        }
+
+        return "";
+    }
+
     public string GetEventOutcomesText()
     {
         string completeText = "";
