@@ -21,6 +21,7 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     private void Start()
     {
         card.OnCharacterFrozen += FreezeCharacter;
+        GameManager.OnAbilitiesBlocked += BlockAbilityButtons;
     }
 
     public override void PaintCard(CharacterCardSO cardToPaint)
@@ -141,10 +142,15 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
                 button.interactable = !isFrozen;
                 break;
             case GameState.Abilities:
-                foreach(Transform child in abilitiesHolder)
-                    child.GetComponent<Button>().interactable = !isFrozen;
+                BlockAbilityButtons(isFrozen);
                 break;
         }
+    }
+
+    private void BlockAbilityButtons(bool isBlocked)
+    {
+        foreach (Transform child in abilitiesHolder)
+            child.GetComponent<Button>().interactable = !isBlocked;
     }
 
     public List<Ability> GetActiveAbilities()
@@ -171,6 +177,7 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
         button.onClick.RemoveAllListeners();
         if(card != null)
             card.OnCharacterFrozen -= FreezeCharacter;
+        GameManager.OnAbilitiesBlocked -= BlockAbilityButtons;
     }
 
     public void OnPointerEnter(PointerEventData eventData)

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -25,7 +26,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] CoinManager coinsManager;
     [SerializeField] CameraControl cameraControl;
     [SerializeField] OutcomeTextUI outcomeTextUI;
-    [SerializeField] int maxAbilitiesPerTurn;
+    [SerializeField] TMP_Text abilitiesLeftText;
+    //[SerializeField] int maxAbilitiesPerTurn;
 
     private GameState currentState;
     private MapPosition currentPosition;
@@ -37,7 +39,10 @@ public class GameManager : MonoBehaviour
     private StoryPoint currentStoryPoint;
     private int abilitiesUsedThisTurn;
 
+    private int maxAbilitiesPerTurn => characters.Count;
+
     public static Action<string, bool> OnNewStoryLine;
+    public static Action<bool> OnAbilitiesBlocked;
 
     public GameState CurrentState => currentState;
     public static GameManager Instance;
@@ -113,6 +118,7 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.Abilities:
                 ActivateCanvas(true, abilitiesCanvas);
+                abilitiesLeftText.SetText((maxAbilitiesPerTurn - abilitiesUsedThisTurn).ToString());
                 break;
             case GameState.Shop:
                 ActivateCanvas(true, shopCanvas);
@@ -149,6 +155,7 @@ public class GameManager : MonoBehaviour
                 selectedAbility = null;
                 abilitiesUsedThisTurn = 0;
                 ActivateCanvas(false, abilitiesCanvas);
+                OnAbilitiesBlocked?.Invoke(false);
                 break;
             case GameState.Shop:
                 selectedEquipment = null;
@@ -328,6 +335,9 @@ public class GameManager : MonoBehaviour
                 selectedCharacter.ApplyEffect(effect);
             }
             abilitiesUsedThisTurn++;
+            abilitiesLeftText.SetText((maxAbilitiesPerTurn - abilitiesUsedThisTurn).ToString());
+            if (maxAbilitiesPerTurn - abilitiesUsedThisTurn <= 0)
+                OnAbilitiesBlocked?.Invoke(true);
             selectedAbility = null;
         }
     }

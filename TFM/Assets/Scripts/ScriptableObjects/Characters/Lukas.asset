@@ -36,9 +36,9 @@ MonoBehaviour:
   availableAbilities:
   - effects:
     - affectedStat: 0
-      affectionAmount: 5
+      affectionAmount: 2
       effectText: 
-    abilityText: Dona 5 punts de vida a un personatge
+    abilityText: Dona 2 punts de vida a un personatge
     abilityCost: 0
     abilityLevel: 0
   references:
