@@ -9156,6 +9156,7 @@ GameObject:
   - component: {fileID: 944408368}
   - component: {fileID: 944408367}
   - component: {fileID: 944408366}
+  - component: {fileID: 944408370}
   m_Layer: 5
   m_Name: SceneTransitionCanvas
   m_TagString: Untagged
@@ -9265,6 +9266,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 10
   m_TargetDisplay: 0
+--- !u!225 &944408370
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944408364}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &950395150
 GameObject:
   m_ObjectHideFlags: 0

@@ -33,7 +33,14 @@ MonoBehaviour:
   baseIntelligence: 3
   baseSocialSkills: 2
   power: 1
-  availableAbilities: []
+  availableAbilities:
+  - effects:
+    - affectedStat: 0
+      affectionAmount: 5
+      effectText: 
+    abilityText: Dona 5 punts de vida a un personatge
+    abilityCost: 0
+    abilityLevel: 0
   references:
     version: 2
     RefIds: []

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Character Card", menuName = "Cards/Character", order = 1)]
@@ -31,6 +32,9 @@ public class CharacterCardSO : CardSO
     private List<EquipmentCardSO> equipmentCards = new List<EquipmentCardSO>();
     private List<Ability> activeAbilities = new List<Ability>();
     private List<Ability> inactiveAbilities = new List<Ability>();
+    private bool isFrozen;
+
+    public Action<bool> OnCharacterFrozen;
 
     public void ResetCard()
     {
@@ -95,6 +99,11 @@ public class CharacterCardSO : CardSO
         {
             case StatType.Health:
                 currentHealth += effect.affectionAmount;
+                if(isFrozen && currentHealth > 0)
+                {
+                    isFrozen = false;
+                    OnCharacterFrozen?.Invoke(false);
+                }
                 break;
             case StatType.Shield:
                 currentShield += effect.affectionAmount;
@@ -161,7 +170,11 @@ public class CharacterCardSO : CardSO
             currentShield = 0;
             currentHealth -= remainingAttack;
 
-            // What happens if currentHealth <= 0 ?!
+            if(currentHealth <= 0)
+            {
+                isFrozen = true;
+                OnCharacterFrozen?.Invoke(true);
+            }
         }
         else
         {

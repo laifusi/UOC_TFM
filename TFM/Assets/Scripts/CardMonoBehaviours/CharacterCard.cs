@@ -16,7 +16,12 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     [SerializeField] Button button;
     [SerializeField] Transform abilitiesHolder;
 
-    private bool activeOutcomeText;
+    private GameState cardsAssignedState;
+
+    private void Start()
+    {
+        card.OnCharacterFrozen += FreezeCharacter;
+    }
 
     public override void PaintCard(CharacterCardSO cardToPaint)
     {
@@ -109,6 +114,8 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
 
     public void ActivateButtons(GameState state, GameManager manager)
     {
+        cardsAssignedState = state;
+
         switch(state)
         {
             case GameState.Event:
@@ -122,6 +129,20 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
             case GameState.Shop:
                 button.enabled = true;
                 button.onClick.AddListener(manager.AssignEquipment);
+                break;
+        }
+    }
+
+    public void FreezeCharacter(bool isFrozen)
+    {
+        switch (cardsAssignedState)
+        {
+            case GameState.Event:
+                button.interactable = !isFrozen;
+                break;
+            case GameState.Abilities:
+                foreach(Transform child in abilitiesHolder)
+                    child.GetComponent<Button>().interactable = !isFrozen;
                 break;
         }
     }
@@ -148,11 +169,12 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     private void OnDestroy()
     {
         button.onClick.RemoveAllListeners();
+        card.OnCharacterFrozen -= FreezeCharacter;
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (GameManager.Instance.CurrentState == GameState.Event)
+        if (GameManager.Instance.CurrentState == GameState.Event && card.GetHealth() > 0)
             GameManager.Instance.ActivateOutcomeInfo(this, true);
     }
 
