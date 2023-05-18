@@ -169,7 +169,8 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     private void OnDestroy()
     {
         button.onClick.RemoveAllListeners();
-        card.OnCharacterFrozen -= FreezeCharacter;
+        if(card != null)
+            card.OnCharacterFrozen -= FreezeCharacter;
     }
 
     public void OnPointerEnter(PointerEventData eventData)

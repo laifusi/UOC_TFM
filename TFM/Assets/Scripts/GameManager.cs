@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] CoinManager coinsManager;
     [SerializeField] CameraControl cameraControl;
     [SerializeField] OutcomeTextUI outcomeTextUI;
+    [SerializeField] int maxAbilitiesPerTurn;
 
     private GameState currentState;
     private MapPosition currentPosition;
@@ -34,6 +35,7 @@ public class GameManager : MonoBehaviour
     private List<CharacterCardSO> characters = new List<CharacterCardSO>();
     private bool learningActivated;
     private StoryPoint currentStoryPoint;
+    private int abilitiesUsedThisTurn;
 
     public static Action<string, bool> OnNewStoryLine;
 
@@ -145,6 +147,7 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.Abilities:
                 selectedAbility = null;
+                abilitiesUsedThisTurn = 0;
                 ActivateCanvas(false, abilitiesCanvas);
                 break;
             case GameState.Shop:
@@ -306,7 +309,7 @@ public class GameManager : MonoBehaviour
     #region GameState: Abilities
     public void SelectAbility(Ability ability)
     {
-        if (currentState != GameState.Abilities)
+        if (currentState != GameState.Abilities || abilitiesUsedThisTurn >= maxAbilitiesPerTurn)
             return;
 
         selectedAbility = ability.GetEffects();
@@ -324,6 +327,8 @@ public class GameManager : MonoBehaviour
             {
                 selectedCharacter.ApplyEffect(effect);
             }
+            abilitiesUsedThisTurn++;
+            selectedAbility = null;
         }
     }
     #endregion
@@ -345,6 +350,7 @@ public class GameManager : MonoBehaviour
 
         CharacterCard selectedCharacter = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponent<CharacterCard>();
         selectedCharacter.AddEquipmentCard(selectedEquipment);
+        selectedEquipment = null;
     }
     #endregion
 

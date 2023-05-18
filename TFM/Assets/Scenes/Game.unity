@@ -18462,6 +18462,7 @@ MonoBehaviour:
   coinsManager: {fileID: 1518163454}
   cameraControl: {fileID: 1863611281}
   outcomeTextUI: {fileID: 557969832}
+  maxAbilitiesPerTurn: 2
 --- !u!4 &1876644760
 Transform:
   m_ObjectHideFlags: 0
