@@ -94,6 +94,22 @@ MonoBehaviour:
     - affectedStat: 7
       affectionAmount: -8
       effectText: 
+  - detonatorStat: 1
+    detonationValue: 0
+    powerDetonator: 0
+    outcomeText:
+      m_TableReference:
+        m_TableCollectionName: GUID:8e9e64f282f5e04428183dd5e5d34173
+      m_TableEntryReference:
+        m_KeyId: 8212079620096
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    effects:
+    - affectedStat: 7
+      affectionAmount: -8
+      effectText: 
   references:
     version: 2
     RefIds: []

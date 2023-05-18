@@ -696,6 +696,11 @@ MonoBehaviour:
       de destresa
     m_Metadata:
       m_Items: []
+  - m_Id: 996493902655488
+    m_Localized: "La destresa no \xE9s suficient per resoldre el problema. No hi
+      ha cap recompensa."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
