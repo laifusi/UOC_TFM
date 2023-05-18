@@ -16,6 +16,7 @@ public class CoinManager : MonoBehaviour
     private void Start()
     {
         OnCoinsChange += UpdateCoinsText;
+        CharacterCardSO.OnCoinsChange += UpdateTotalCoins;
     }
 
     public void AddCharacter(CharacterCardSO card)

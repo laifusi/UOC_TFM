@@ -291,7 +291,7 @@ public class GameManager : MonoBehaviour
     private IEnumerator ApplyEffectsAndChangeState(CharacterCard selectedCharacter)
     {
         Effect[] effectsToApply = eventCard.GetEventOutcomeEffects(selectedCharacter);
-        if(effectsToApply != null && effectsToApply.Length > 1)
+        if(effectsToApply != null && effectsToApply.Length > 0)
         {
             foreach (Effect effect in effectsToApply)
             {

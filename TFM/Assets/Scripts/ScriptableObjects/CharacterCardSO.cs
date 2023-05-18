@@ -35,6 +35,7 @@ public class CharacterCardSO : CardSO
     private bool isFrozen;
 
     public Action<bool> OnCharacterFrozen;
+    public static Action OnCoinsChange;
 
     public void ResetCard()
     {
@@ -113,6 +114,9 @@ public class CharacterCardSO : CardSO
                 break;
             case StatType.Coins:
                 currentCoins += (int)effect.affectionAmount;
+                if (currentCoins < 0)
+                    currentCoins = 0;
+                OnCoinsChange?.Invoke();
                 break;
             case StatType.Agility:
                 currentAgility += (int)effect.affectionAmount;
