@@ -9,7 +9,7 @@ public class StoryPointUIControl : MonoBehaviour
     [SerializeField] GameObject regularLineButton;
     [SerializeField] GameObject lastLineButton;
 
-    private void Start()
+    private void OnEnable()
     {
         GameManager.OnNewStoryLine += UpdateUI;
     }
@@ -21,7 +21,7 @@ public class StoryPointUIControl : MonoBehaviour
         lastLineButton.SetActive(lastLine);
     }
 
-    private void OnDestroy()
+    private void OnDisable()
     {
         GameManager.OnNewStoryLine -= UpdateUI;
     }
