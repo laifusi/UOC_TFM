@@ -236,8 +236,8 @@ public class GameManager : MonoBehaviour
                     ChangeToState(GameState.Learning);
                 else if (InPostEventStoryPoint())
                     ChangeToState(GameState.StoryPoint);
-                else if (currentPosition.HasCharacter())
-                    ChangeToState(GameState.NewCharacter);
+                /*else if (currentPosition.HasCharacter())
+                    ChangeToState(GameState.NewCharacter);*/
                 else
                     ChangeToState(GameState.Map);
                 break;
@@ -246,16 +246,16 @@ public class GameManager : MonoBehaviour
                     ChangeToState(GameState.Learning);
                 else if (InPostEventStoryPoint())
                     ChangeToState(GameState.StoryPoint);
-                else if (currentPosition.HasCharacter())
-                    ChangeToState(GameState.NewCharacter);
+                /*else if (currentPosition.HasCharacter())
+                    ChangeToState(GameState.NewCharacter);*/
                 else
                     ChangeToState(GameState.Map);
                 break;
             case GameState.Learning:
                 if (InPostEventStoryPoint())
                     ChangeToState(GameState.StoryPoint);
-                else if (currentPosition.HasCharacter())
-                    ChangeToState(GameState.NewCharacter);
+                /*else if (currentPosition.HasCharacter())
+                    ChangeToState(GameState.NewCharacter);*/
                 else
                     ChangeToState(GameState.Map);
                 break;
@@ -277,6 +277,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    #region Game State: Event
     public void ActivateOutcomeInfo(CharacterCard character, bool activate)
     {
         string outcomeText = activate ? eventCard.GetPossibleOutcomeInfo(character) : "";
@@ -296,11 +297,13 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.2f);
 
         ChangeToState(GameState.Abilities);
     }
+    #endregion
 
+    #region GameState: Abilities
     public void SelectAbility(Ability ability)
     {
         if (currentState != GameState.Abilities)
@@ -323,7 +326,9 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+    #endregion
 
+    #region GameState: Shop
     public void SelectEquipment()
     {
         if (currentState != GameState.Shop)
@@ -341,7 +346,40 @@ public class GameManager : MonoBehaviour
         CharacterCard selectedCharacter = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponent<CharacterCard>();
         selectedCharacter.AddEquipmentCard(selectedEquipment);
     }
+    #endregion
 
+    #region GameState: Learning
+    public void AddAbility(Transform abilitiesTransform, Ability abilityToAssign)
+    {
+        AbilityButton newAbility = Instantiate(abilityPrefab, abilitiesTransform);
+        newAbility.AssignAbility(abilityToAssign);
+    }
+    #endregion
+
+    #region StoryPoint
+    public bool InPreEventStoryPoint()
+    {
+        return currentStoryPoint != null && currentStoryPoint.IsPreEvent && currentStoryPoint.ShouldPlay && IsNotRestrictedByCharacters();
+    }
+
+    public bool InPostEventStoryPoint()
+    {
+        return currentStoryPoint != null && !currentStoryPoint.IsPreEvent && currentStoryPoint.ShouldPlay && IsNotRestrictedByCharacters();
+    }
+
+    private bool IsNotRestrictedByCharacters()
+    {
+        return (currentPosition.HasCharacter() && characters.Count < 4) || !currentPosition.HasCharacter();
+    }
+
+    public void GetNextStoryLine()
+    {
+        string nextLine = currentStoryPoint.GetNextLine();
+        bool isLastLine = currentStoryPoint.IsLastLine();
+        OnNewStoryLine?.Invoke(nextLine, isLastLine);
+    }
+
+    #region GameState: New Character
     private void GetNewCharacter()
     {
         if (currentState != GameState.NewCharacter)
@@ -356,14 +394,14 @@ public class GameManager : MonoBehaviour
     {
         characters.Add(newCharacter);
 
-        foreach(CharacterLayoutController layout in characterCardsLayouts)
+        foreach (CharacterLayoutController layout in characterCardsLayouts)
         {
             CharacterCard newCard = Instantiate(characterCardPrefab, layout.transform);
-            if(layout.NeedsRearranging)
+            if (layout.NeedsRearranging)
                 layout.RearrangeLayout(newCard.transform);
             newCard.AssignCard(newCharacter);
             newCard.ActivateButtons(layout.State, this);
-            foreach(Ability ability in newCard.GetActiveAbilities())
+            foreach (Ability ability in newCard.GetActiveAbilities())
             {
                 AddAbility(newCard.GetAbilitiesParent(), ability);
             }
@@ -371,29 +409,9 @@ public class GameManager : MonoBehaviour
 
         coinsManager.AddCharacter(newCharacter);
     }
+    #endregion
 
-    public void AddAbility(Transform abilitiesTransform, Ability abilityToAssign)
-    {
-        AbilityButton newAbility = Instantiate(abilityPrefab, abilitiesTransform);
-        newAbility.AssignAbility(abilityToAssign);
-    }
-
-    public bool InPreEventStoryPoint()
-    {
-        return currentStoryPoint != null && currentStoryPoint.IsPreEvent && currentStoryPoint.ShouldPlay;
-    }
-
-    public bool InPostEventStoryPoint()
-    {
-        return currentStoryPoint != null && !currentStoryPoint.IsPreEvent && currentStoryPoint.ShouldPlay;
-    }
-
-    public void GetNextStoryLine()
-    {
-        string nextLine = currentStoryPoint.GetNextLine();
-        bool isLastLine = currentStoryPoint.IsLastLine();
-        OnNewStoryLine?.Invoke(nextLine, isLastLine);
-    }
+    #endregion
 
     private void OnDestroy()
     {

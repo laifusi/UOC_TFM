@@ -30,6 +30,10 @@ MonoBehaviour:
     m_Localized: Els ho he de contar a Pat i Kayla.
     m_Metadata:
       m_Items: []
+  - m_Id: 604808689397760
+    m_Localized: Testing
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
