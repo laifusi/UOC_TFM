@@ -54,8 +54,8 @@ public class GameManager : MonoBehaviour
         MapPosition.OnPositionSelected += SelectPosition;
         AbilityButton.OnAbilitySelected += SelectAbility;
         UpdatePositions(initialPosition);
-        ChangeToState(GameState.Map);
         AddCharacter(startingCharacter);
+        ChangeToState(GameState.StoryPoint);
     }
 
     private void Update()
