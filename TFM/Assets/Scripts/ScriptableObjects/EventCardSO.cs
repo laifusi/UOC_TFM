@@ -23,10 +23,17 @@ public class EventCardSO : CardSO
     {
         foreach(EventOutcome outcome in possibleEventOutcomes)
         {
-            if (outcome.detonatorStat == StatType.Attack || outcome.detonatorStat == StatType.Health) // StatType.Health == Partial Attack, StatType.Attack == Full Attack
+            if (character.IsFullAttack(health) && outcome.detonatorStat == StatType.Attack) // StatType.Attack == Full Attack
             {
                 Debug.Log("Detonator: " + outcome.detonatorStat);
-                // If partial attack or full attack, we reduce character's life and send additional outcome effects;
+                // We reduce character's life and send additional outcome effects;
+                character.GetAttacked(attack);
+                return outcome.effects;
+            }
+            else if(!character.IsFullAttack(health) && outcome.detonatorStat == StatType.Health) // StatType.Health == Partial Attack
+            {
+                Debug.Log("Detonator: " + outcome.detonatorStat);
+                // We reduce character's life and send additional outcome effects;
                 character.GetAttacked(attack);
                 return outcome.effects;
             }
@@ -35,10 +42,13 @@ public class EventCardSO : CardSO
                 Debug.Log("Detonator: " + outcome.powerDetonator);
                 return outcome.effects;
             }
-            else if (character.GetStat(outcome.detonatorStat) >= outcome.detonationValue)
+            else if(outcome.detonatorStat != StatType.Power && outcome.detonatorStat != StatType.Health && outcome.detonatorStat != StatType.Attack)
             {
-                Debug.Log("Detonator: " + outcome.detonatorStat);
-                return outcome.effects;
+                if (character.GetStat(outcome.detonatorStat) >= outcome.detonationValue)
+                {
+                    Debug.Log("Detonator: " + outcome.detonatorStat);
+                    return outcome.effects;
+                }
             }
         }
 

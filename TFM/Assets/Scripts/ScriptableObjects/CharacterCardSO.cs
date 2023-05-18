@@ -148,6 +148,11 @@ public class CharacterCardSO : CardSO
         return valueToReturn;
     }
 
+    public bool IsFullAttack(float enemyLife)
+    {
+        return currentAttack >= enemyLife;
+    }
+
     public void GetAttacked(float attack)
     {
         if(currentShield < attack)

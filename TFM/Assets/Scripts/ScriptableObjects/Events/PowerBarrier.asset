@@ -40,6 +40,32 @@ MonoBehaviour:
       m_WaitForCompletion: 0
       m_LocalVariables: []
     effects: []
+  - detonatorStat: 1
+    detonationValue: 0
+    powerDetonator: 0
+    outcomeText:
+      m_TableReference:
+        m_TableCollectionName: GUID:8e9e64f282f5e04428183dd5e5d34173
+      m_TableEntryReference:
+        m_KeyId: 270839309578240
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    effects: []
+  - detonatorStat: 0
+    detonationValue: 0
+    powerDetonator: 0
+    outcomeText:
+      m_TableReference:
+        m_TableCollectionName: GUID:8e9e64f282f5e04428183dd5e5d34173
+      m_TableEntryReference:
+        m_KeyId: 270839309578240
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    effects: []
   references:
     version: 2
     RefIds: []

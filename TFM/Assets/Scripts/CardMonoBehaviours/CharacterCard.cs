@@ -110,6 +110,11 @@ public class CharacterCard : Card<CharacterCardSO>
         return card.GetStat(statType);
     }
 
+    public bool IsFullAttack(float enemyLife)
+    {
+        return card.IsFullAttack(enemyLife);
+    }
+
     public void GetAttacked(float attack)
     {
         card.GetAttacked(attack);
