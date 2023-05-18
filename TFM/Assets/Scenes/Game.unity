@@ -17759,6 +17759,7 @@ GameObject:
   - component: {fileID: 1863611280}
   - component: {fileID: 1863611279}
   - component: {fileID: 1863611278}
+  - component: {fileID: 1863611281}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -17801,7 +17802,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -17832,6 +17833,18 @@ Transform:
   m_Father: {fileID: 2144266540}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1863611281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863611277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1be9e5e85286aac419203c230c06c7a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1867162033 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
@@ -17995,6 +18008,7 @@ MonoBehaviour:
   abilityPrefab: {fileID: 7788873322252136977, guid: 7e4a49cee6755944faad5417ea942567, type: 3}
   startingCharacter: {fileID: 11400000, guid: ea03945b4e97ff44282d305aa49e872e, type: 2}
   coinsManager: {fileID: 1518163454}
+  cameraControl: {fileID: 1863611281}
 --- !u!4 &1876644760
 Transform:
   m_ObjectHideFlags: 0
@@ -18287,7 +18301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.04008
+      value: 0.03939
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalPosition.y

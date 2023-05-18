@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] AbilityButton abilityPrefab;
     [SerializeField] CharacterCardSO startingCharacter;
     [SerializeField] CoinManager coinsManager;
+    [SerializeField] CameraControl cameraControl;
 
     private GameState currentState;
     private MapPosition currentPosition;
@@ -180,6 +181,7 @@ public class GameManager : MonoBehaviour
     private void SelectPosition(MapPosition newMapPosition)
     {
         UpdatePositions(newMapPosition);
+        cameraControl.MoveCamera(newMapPosition.transform);
 
         if (InPreEventStoryPoint())
             ChangeToState(GameState.StoryPoint);
