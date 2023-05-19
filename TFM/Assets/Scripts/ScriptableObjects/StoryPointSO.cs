@@ -11,6 +11,7 @@ public class StoryPointSO : ScriptableObject
     [SerializeField] StoryPointSO controllingSP;
     [SerializeField] bool controllerMustHavePlayed;
     [SerializeField] bool isAbilitiesBook;
+    [SerializeField] bool isLastSP;
     
     private bool hasPlayed;
     private int currentLine;
@@ -18,6 +19,7 @@ public class StoryPointSO : ScriptableObject
     public bool HasPlayed => hasPlayed;
     public bool IsPreEvent => isPreEventStoryPoint;
     public bool IsAbilitiesBook => isAbilitiesBook;
+    public bool IsLastSP => isLastSP;
 
     public void ResetStory()
     {

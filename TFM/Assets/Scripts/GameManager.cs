@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject storyPointCanvas;
     [SerializeField] GameObject pauseCanvas;
     [SerializeField] GameObject gameOverCanvas;
+    [SerializeField] GameObject winCanvas;
     [SerializeField] EventCard eventCard;
     [SerializeField] EquipmentCard[] equipmentCards;
     [SerializeField] CharacterLayoutController[] characterCardsLayouts;
@@ -152,6 +153,9 @@ public class GameManager : MonoBehaviour
             case GameState.GameOver:
                 ActivateCanvas(true, gameOverCanvas);
                 break;
+            case GameState.EndGame:
+                ActivateCanvas(true, winCanvas);
+                break;
         }
     }
 
@@ -232,7 +236,9 @@ public class GameManager : MonoBehaviour
                 ChangeToState(GameState.Map);
                 break;
             case GameState.StoryPoint:
-                if (InPreEventStoryPoint())
+                if (currentStoryPoint.IsLastSP)
+                    ChangeToState(GameState.EndGame);
+                else if (InPreEventStoryPoint())
                     ChangeToState(GameState.Event);
                 else if (InPostEventStoryPoint())
                 {
@@ -489,5 +495,5 @@ public class GameManager : MonoBehaviour
 
 public enum GameState
 {
-    Map, Event, Abilities, Shop, NewCharacter, Learning, StoryPoint, GameOver
+    Map, Event, Abilities, Shop, NewCharacter, Learning, StoryPoint, GameOver, EndGame
 }
