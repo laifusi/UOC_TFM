@@ -65,6 +65,7 @@ public class CharacterCardSO : CardSO
                 inactiveAbilities.Add(ability);
             }
         }
+        isFrozen = false;
     }
 
     public float GetHealth()

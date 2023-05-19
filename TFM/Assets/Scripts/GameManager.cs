@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject newCharacterCanvas;
     [SerializeField] GameObject storyPointCanvas;
     [SerializeField] GameObject pauseCanvas;
+    [SerializeField] GameObject gameOverCanvas;
     [SerializeField] EventCard eventCard;
     [SerializeField] EquipmentCard[] equipmentCards;
     [SerializeField] CharacterLayoutController[] characterCardsLayouts;
@@ -29,6 +30,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] TMP_Text abilitiesLeftText;
     [SerializeField] Transform learnableAbilitiesHolder;
     [SerializeField] LearnableAbilityUI learnableAbilityPrefab;
+    [SerializeField] GameObject noAbilitiesAvailableText;
     //[SerializeField] int maxAbilitiesPerTurn;
 
     private GameState currentState;
@@ -114,9 +116,14 @@ public class GameManager : MonoBehaviour
         switch(currentState)
         {
             case GameState.Map:
-                OnStartNewTurn?.Invoke();
-                ActivateMap(true);
-                ActivateCanvas(true, mapCanvas);
+                if (CheckGameOver())
+                    ChangeToState(GameState.GameOver);
+                else
+                {
+                    OnStartNewTurn?.Invoke();
+                    ActivateMap(true);
+                    ActivateCanvas(true, mapCanvas);
+                }
                 break;
             case GameState.Event:
                 ActivateCanvas(true, eventCanvas);
@@ -141,6 +148,9 @@ public class GameManager : MonoBehaviour
             case GameState.StoryPoint:
                 ActivateCanvas(true, storyPointCanvas);
                 GetNextStoryLine();
+                break;
+            case GameState.GameOver:
+                ActivateCanvas(true, gameOverCanvas);
                 break;
         }
     }
@@ -186,26 +196,72 @@ public class GameManager : MonoBehaviour
         canvas.SetActive(activate);
     }
 
-    private void ActivateMap(bool activate)
+    public void ChangeStateWithButton()
     {
-        foreach(MapPosition pos in mapPositions)
+        switch (currentState)
         {
-            pos.InMapState = activate;
+            case GameState.Event:
+                CharacterCard selectedCharacter = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponent<CharacterCard>();
+                StartCoroutine(ApplyEffectsAndChangeState(selectedCharacter));
+                break;
+            case GameState.Abilities:
+                if (currentPosition.IsShop)
+                    ChangeToState(GameState.Shop);
+                else if (learningActivated)
+                    ChangeToState(GameState.Learning);
+                else if (InPostEventStoryPoint())
+                    ChangeToState(GameState.StoryPoint);
+                else
+                    ChangeToState(GameState.Map);
+                break;
+            case GameState.Shop:
+                if (learningActivated)
+                    ChangeToState(GameState.Learning);
+                else if (InPostEventStoryPoint())
+                    ChangeToState(GameState.StoryPoint);
+                else
+                    ChangeToState(GameState.Map);
+                break;
+            case GameState.Learning:
+                if (InPostEventStoryPoint())
+                    ChangeToState(GameState.StoryPoint);
+                else
+                    ChangeToState(GameState.Map);
+                break;
+            case GameState.NewCharacter:
+                ChangeToState(GameState.Map);
+                break;
+            case GameState.StoryPoint:
+                if (InPreEventStoryPoint())
+                    ChangeToState(GameState.Event);
+                else if (InPostEventStoryPoint())
+                {
+                    if (currentPosition.HasCharacter())
+                        ChangeToState(GameState.NewCharacter);
+                    else
+                        ChangeToState(GameState.Map);
+                }
+                currentStoryPoint.MarkPlayed();
+                break;
         }
     }
 
-    private void GetRandomEvent()
+    private bool CheckGameOver()
     {
-        EventCardSO cardEvent = currentPosition.GetEvent()[0];
-        eventCard.PaintCard(cardEvent);
+        foreach(CharacterCardSO character in characters)
+        {
+            if (!character.IsFrozen)
+                return false;
+        }
+        return true;
     }
 
-    private void GetRandomShopCards()
+    #region Game State: Map
+    private void ActivateMap(bool activate)
     {
-        EquipmentCardSO[] shopCards = currentPosition.GetShop();
-        for(int i = 0; i < shopCards.Length; i++)
+        foreach (MapPosition pos in mapPositions)
         {
-            equipmentCards[i].PaintCard(shopCards[i]);
+            pos.InMapState = activate;
         }
     }
 
@@ -238,64 +294,15 @@ public class GameManager : MonoBehaviour
         currentPosition = newMapPosition;
         currentStoryPoint = currentPosition.GetStoryPoint();
     }
-
-    public void ChangeStateWithButton()
-    {
-        switch (currentState)
-        {
-            case GameState.Event:
-                CharacterCard selectedCharacter = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponent<CharacterCard>();
-                StartCoroutine(ApplyEffectsAndChangeState(selectedCharacter));
-                break;
-            case GameState.Abilities:
-                if (currentPosition.IsShop)
-                    ChangeToState(GameState.Shop);
-                else if (learningActivated)
-                    ChangeToState(GameState.Learning);
-                else if (InPostEventStoryPoint())
-                    ChangeToState(GameState.StoryPoint);
-                /*else if (currentPosition.HasCharacter())
-                    ChangeToState(GameState.NewCharacter);*/
-                else
-                    ChangeToState(GameState.Map);
-                break;
-            case GameState.Shop:
-                if (learningActivated)
-                    ChangeToState(GameState.Learning);
-                else if (InPostEventStoryPoint())
-                    ChangeToState(GameState.StoryPoint);
-                /*else if (currentPosition.HasCharacter())
-                    ChangeToState(GameState.NewCharacter);*/
-                else
-                    ChangeToState(GameState.Map);
-                break;
-            case GameState.Learning:
-                if (InPostEventStoryPoint())
-                    ChangeToState(GameState.StoryPoint);
-                /*else if (currentPosition.HasCharacter())
-                    ChangeToState(GameState.NewCharacter);*/
-                else
-                    ChangeToState(GameState.Map);
-                break;
-            case GameState.NewCharacter:
-                ChangeToState(GameState.Map);
-                break;
-            case GameState.StoryPoint:
-                if (InPreEventStoryPoint())
-                    ChangeToState(GameState.Event);
-                else if (InPostEventStoryPoint())
-                {
-                    if (currentPosition.HasCharacter())
-                        ChangeToState(GameState.NewCharacter);
-                    else
-                        ChangeToState(GameState.Map);
-                }
-                currentStoryPoint.MarkPlayed();
-                break;
-        }
-    }
+    #endregion
 
     #region Game State: Event
+    private void GetRandomEvent()
+    {
+        EventCardSO cardEvent = currentPosition.GetEvent()[0];
+        eventCard.PaintCard(cardEvent);
+    }
+
     public void ActivateOutcomeInfo(CharacterCard character, bool activate)
     {
         string outcomeText = activate ? eventCard.GetPossibleOutcomeInfo(character) : "";
@@ -353,6 +360,15 @@ public class GameManager : MonoBehaviour
     #endregion
 
     #region GameState: Shop
+    private void GetRandomShopCards()
+    {
+        EquipmentCardSO[] shopCards = currentPosition.GetShop();
+        for (int i = 0; i < shopCards.Length; i++)
+        {
+            equipmentCards[i].PaintCard(shopCards[i]);
+        }
+    }
+
     public void SelectEquipment()
     {
         if (currentState != GameState.Shop)
@@ -386,6 +402,7 @@ public class GameManager : MonoBehaviour
         {
             Destroy(child.gameObject);
         }
+        noAbilitiesAvailableText.SetActive(false);
     }
 
     public void ShowLearnableAbilities(CharacterCard character)
@@ -396,6 +413,8 @@ public class GameManager : MonoBehaviour
             LearnableAbilityUI abilityUI = Instantiate(learnableAbilityPrefab, learnableAbilitiesHolder);
             abilityUI.AssignAbility(learnableAbility, character);
         }
+
+        noAbilitiesAvailableText.SetActive(learnableAbilities.Count == 0);
     }
 
     public void AddAbility(Transform abilitiesTransform, Ability abilityToAssign)
@@ -470,5 +489,5 @@ public class GameManager : MonoBehaviour
 
 public enum GameState
 {
-    Map, Event, Abilities, Shop, NewCharacter, Learning, StoryPoint
+    Map, Event, Abilities, Shop, NewCharacter, Learning, StoryPoint, GameOver
 }
