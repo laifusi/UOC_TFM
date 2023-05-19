@@ -27,6 +27,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] CameraControl cameraControl;
     [SerializeField] OutcomeTextUI outcomeTextUI;
     [SerializeField] TMP_Text abilitiesLeftText;
+    [SerializeField] Transform learnableAbilitiesHolder;
+    [SerializeField] LearnableAbilityUI learnableAbilityPrefab;
     //[SerializeField] int maxAbilitiesPerTurn;
 
     private GameState currentState;
@@ -43,6 +45,7 @@ public class GameManager : MonoBehaviour
 
     public static Action<string, bool> OnNewStoryLine;
     public static Action<bool> OnAbilitiesBlocked;
+    public static Action OnStartNewTurn;
 
     public GameState CurrentState => currentState;
     public static GameManager Instance;
@@ -88,6 +91,7 @@ public class GameManager : MonoBehaviour
         shopCanvas.SetActive(true);
         newCharacterCanvas.SetActive(true);
         storyPointCanvas.SetActive(true);
+        learningCanvas.SetActive(true);
 
         mapCanvas.SetActive(false);
         eventCanvas.SetActive(false);
@@ -95,6 +99,7 @@ public class GameManager : MonoBehaviour
         shopCanvas.SetActive(false);
         newCharacterCanvas.SetActive(false);
         storyPointCanvas.SetActive(false);
+        learningCanvas.SetActive(false);
     }
 
     private void ChangeToState(GameState state)
@@ -109,6 +114,7 @@ public class GameManager : MonoBehaviour
         switch(currentState)
         {
             case GameState.Map:
+                OnStartNewTurn?.Invoke();
                 ActivateMap(true);
                 ActivateCanvas(true, mapCanvas);
                 break;
@@ -126,7 +132,7 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.Learning:
                 ActivateCanvas(true, learningCanvas);
-                //Learning Start Actions
+                ResetLearningCanvas();
                 break;
             case GameState.NewCharacter:
                 ActivateCanvas(true, newCharacterCanvas);
@@ -169,6 +175,8 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.StoryPoint:
                 ActivateCanvas(false, storyPointCanvas);
+                if (currentStoryPoint.IsBook)
+                    ActivateLearning();
                 break;
         }
     }
@@ -297,6 +305,7 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator ApplyEffectsAndChangeState(CharacterCard selectedCharacter)
     {
+        selectedCharacter.IncreaseUses();
         Effect[] effectsToApply = eventCard.GetEventOutcomeEffects(selectedCharacter);
         if(effectsToApply != null && effectsToApply.Length > 0)
         {
@@ -365,6 +374,30 @@ public class GameManager : MonoBehaviour
     #endregion
 
     #region GameState: Learning
+    [ContextMenu("ActivateLearning")]
+    public void ActivateLearning()
+    {
+        learningActivated = true;
+    }
+
+    private void ResetLearningCanvas()
+    {
+        foreach(Transform child in learnableAbilitiesHolder)
+        {
+            Destroy(child.gameObject);
+        }
+    }
+
+    public void ShowLearnableAbilities(CharacterCard character)
+    {
+        List<Ability> learnableAbilities = character.GetLearnableAbilities();
+        foreach(Ability learnableAbility in learnableAbilities)
+        {
+            LearnableAbilityUI abilityUI = Instantiate(learnableAbilityPrefab, learnableAbilitiesHolder);
+            abilityUI.AssignAbility(learnableAbility, character);
+        }
+    }
+
     public void AddAbility(Transform abilitiesTransform, Ability abilityToAssign)
     {
         AbilityButton newAbility = Instantiate(abilityPrefab, abilitiesTransform);

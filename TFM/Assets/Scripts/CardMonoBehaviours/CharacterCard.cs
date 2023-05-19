@@ -15,13 +15,23 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     [SerializeField] EquipmentCard equipmentCardPrefab;
     [SerializeField] Button button;
     [SerializeField] Transform abilitiesHolder;
+    [SerializeField] int usesBeforeLevelIncrease = 3;
 
     private GameState cardsAssignedState;
+    private int usesSinceLastLevelIncrease;
+    private int turnsLearning;
+    private int turnsToLearn;
+    private bool isLearning;
 
     private void Start()
     {
         card.OnCharacterFrozen += FreezeCharacter;
+        card.OnAbilityLearnt += UpdateAbilities;
         GameManager.OnAbilitiesBlocked += BlockAbilityButtons;
+        GameManager.OnStartNewTurn += UpdateLearningState;
+
+        //TBD
+        usesBeforeLevelIncrease = 1;
     }
 
     public override void PaintCard(CharacterCardSO cardToPaint)
@@ -131,6 +141,10 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
                 button.enabled = true;
                 button.onClick.AddListener(manager.AssignEquipment);
                 break;
+            case GameState.Learning:
+                button.enabled = true;
+                button.onClick.AddListener(() => { manager.ShowLearnableAbilities(this); });
+                break;
         }
     }
 
@@ -143,6 +157,9 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
                 break;
             case GameState.Abilities:
                 BlockAbilityButtons(isFrozen);
+                break;
+            case GameState.Learning:
+                button.interactable = !isFrozen;
                 break;
         }
     }
@@ -158,9 +175,48 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
         return card.GetActiveAbilities();
     }
 
+    public List<Ability> GetLearnableAbilities()
+    {
+        return card.GetLearnableAbilities();
+    }
+
     public Transform GetAbilitiesParent()
     {
         return abilitiesHolder;
+    }
+
+    public void LearnAbility(Ability ability)
+    {
+        card.LearnAbility(ability);
+        card.FreezeCharacter(true);
+        turnsToLearn = ability.abilityCost;
+        turnsLearning = 0;
+        isLearning = true;
+    }
+
+    public void UpdateLearningState()
+    {
+        if (isLearning && turnsLearning >= turnsToLearn)
+        {
+            card.FreezeCharacter(false);
+            isLearning = false;
+        }
+        turnsLearning++;
+    }
+
+    public void IncreaseUses()
+    {
+        usesSinceLastLevelIncrease++;
+        if(usesSinceLastLevelIncrease >= usesBeforeLevelIncrease)
+        {
+            usesSinceLastLevelIncrease = 0;
+            card.IncreaseAbilityLevel();
+        }
+    }
+
+    private void UpdateAbilities(Ability newAbility)
+    {
+        GameManager.Instance.AddAbility(abilitiesHolder, newAbility);
     }
 
     private void OnEnable()
@@ -176,13 +232,18 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     {
         button.onClick.RemoveAllListeners();
         if(card != null)
+        {
             card.OnCharacterFrozen -= FreezeCharacter;
+            card.OnAbilityLearnt -= UpdateAbilities;
+        }
+
         GameManager.OnAbilitiesBlocked -= BlockAbilityButtons;
+        GameManager.OnStartNewTurn -= UpdateLearningState;
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (GameManager.Instance.CurrentState == GameState.Event && card.GetHealth() > 0)
+        if (GameManager.Instance.CurrentState == GameState.Event && !card.IsFrozen)
             GameManager.Instance.ActivateOutcomeInfo(this, true);
     }
 

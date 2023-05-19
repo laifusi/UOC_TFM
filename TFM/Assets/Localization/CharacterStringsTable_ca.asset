@@ -16,7 +16,8 @@ MonoBehaviour:
     m_Code: ca
   m_SharedData: {fileID: 11400000, guid: 824c0fbd28c187649982a0e2854555ef, type: 2}
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 7598979195661975930
   m_TableData:
   - m_Id: 34751295488
     m_Localized: Lukas
@@ -46,6 +47,15 @@ MonoBehaviour:
     m_Localized: Endora
     m_Metadata:
       m_Items: []
+  - m_Id: 966014117785600
+    m_Localized: 'Cost: {0} torns'
+    m_Metadata:
+      m_Items:
+      - rid: 7598979195661975930
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 7598979195661975930
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00b056b0956e0300

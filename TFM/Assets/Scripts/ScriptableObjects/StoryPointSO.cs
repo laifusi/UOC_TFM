@@ -10,12 +10,14 @@ public class StoryPointSO : ScriptableObject
     [SerializeField] bool isPreEventStoryPoint;
     [SerializeField] StoryPointSO controllingSP;
     [SerializeField] bool controllerMustHavePlayed;
+    [SerializeField] bool isAbilitiesBook;
     
     private bool hasPlayed;
     private int currentLine;
 
     public bool HasPlayed => hasPlayed;
     public bool IsPreEvent => isPreEventStoryPoint;
+    public bool IsAbilitiesBook => isAbilitiesBook;
 
     public void ResetStory()
     {

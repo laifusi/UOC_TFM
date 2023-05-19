@@ -41,6 +41,20 @@ MonoBehaviour:
     abilityText: Dona 2 punts de vida a un personatge
     abilityCost: 0
     abilityLevel: 0
+  - effects:
+    - affectedStat: 0
+      affectionAmount: 2
+      effectText: 
+    abilityText: Dona 2 punts de vida a un personatge
+    abilityCost: 2
+    abilityLevel: 1
+  - effects:
+    - affectedStat: 0
+      affectionAmount: 2
+      effectText: 
+    abilityText: Dona 2 punts de vida a un personatge
+    abilityCost: 1
+    abilityLevel: 1
   references:
     version: 2
     RefIds: []

@@ -16,6 +16,7 @@ MonoBehaviour:
   isPreEventStoryPoint: 0
   controllingSP: {fileID: 0}
   controllerMustHavePlayed: 0
+  isAbilitiesBook: 1
   references:
     version: 2
     RefIds: []

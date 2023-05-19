@@ -36,6 +36,9 @@ public class CharacterCardSO : CardSO
 
     public Action<bool> OnCharacterFrozen;
     public static Action OnCoinsChange;
+    public Action<Ability> OnAbilityLearnt;
+
+    public bool IsFrozen => isFrozen;
 
     public void ResetCard()
     {
@@ -102,8 +105,7 @@ public class CharacterCardSO : CardSO
                 currentHealth += effect.affectionAmount;
                 if(isFrozen && currentHealth > 0)
                 {
-                    isFrozen = false;
-                    OnCharacterFrozen?.Invoke(false);
+                    FreezeCharacter(false);
                 }
                 break;
             case StatType.Shield:
@@ -176,14 +178,18 @@ public class CharacterCardSO : CardSO
 
             if(currentHealth <= 0)
             {
-                isFrozen = true;
-                OnCharacterFrozen?.Invoke(true);
+                FreezeCharacter(true);
             }
         }
         else
         {
             currentShield -= attack;
         }
+    }
+
+    public void IncreaseAbilityLevel()
+    {
+        currentAbilityLevel++;
     }
 
     public List<Ability> GetLearnableAbilities()
@@ -203,11 +209,18 @@ public class CharacterCardSO : CardSO
     {
         inactiveAbilities.Remove(abilityToLearn);
         activeAbilities.Add(abilityToLearn);
+        OnAbilityLearnt?.Invoke(abilityToLearn);
     }
 
     public List<Ability> GetActiveAbilities()
     {
         return activeAbilities;
+    }
+
+    public void FreezeCharacter(bool freeze)
+    {
+        isFrozen = freeze;
+        OnCharacterFrozen?.Invoke(freeze);
     }
 }
 

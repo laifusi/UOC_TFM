@@ -8,6 +8,7 @@ public class StoryPoint : MonoBehaviour
 
     public bool IsPreEvent => storyPoint.IsPreEvent;
     public bool ShouldPlay => storyPoint.ShouldPlay();
+    public bool IsBook => storyPoint.IsAbilitiesBook;
 
     private void Awake()
     {

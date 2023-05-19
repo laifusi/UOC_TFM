@@ -43,6 +43,10 @@ MonoBehaviour:
     m_Key: Endora_Name
     m_Metadata:
       m_Items: []
+  - m_Id: 966014117785600
+    m_Key: genericAbilityCost
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
