@@ -35,6 +35,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     - Preload
+  - m_GUID: c556970bee2573440abcf1c15cda690e
+    m_Address: TutorialStringTable_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b3565e4df01bb5b4eb8427636c532539, type: 2}
   m_SchemaSet:

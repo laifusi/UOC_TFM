@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: TutorialStringTable_ca
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ca
+  m_SharedData: {fileID: 11400000, guid: 5f822681c26a71e45be2b885a7e9dbb5, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6406189056
+    m_Localized: Un moment!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77856157696
+    m_Localized: "Abans de comen\xE7ar a jugar, deixa que t'explique un parell de
+      coses."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156943953920
+    m_Localized: "Aquest \xE9s un joc de cartes d'aventura en tres fases: l'esdeveniment,
+      les habilitats i la compra."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354189488128
+    m_Localized: "Aquesta pantalla que veus \xE9s el mapa. Les posicions marcades
+      en roig no s\xF3n accessibles. La posici\xF3 marcada en blau \xE9s la posici\xF3
+      actual. I les posicions marcades en groc s\xF3n les que es poden seleccionar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 539393175552
+    m_Localized: "A l'inici del torn, haur\xE0s de triar una posici\xF3 a la qual
+      moure els personatges. Aix\xF2 donar\xE0 pas a la fase d'esdeveniment."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1247882424320
+    m_Localized: "En aquesta, haur\xE0s de triar un dels teus personatges per enfrontar-se
+      a l'esdeveniment."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1679279173632
+    m_Localized: "A continuaci\xF3, es passar\xE0 a la fase d'habilitats, on podr\xE0s
+      utilitzar un nombre limitat de les habilitats dels teus personatges."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2071954108416
+    m_Localized: "Cada personatge t\xE9 unes caracter\xEDstiques i uns valors que
+      defineixen si s\xF3n m\xE9s adequats per enfrontar-se a un esdeveniment o un
+      altre. Aquests s\xF3n els valors d'intel\xB7lig\xE8ncia, habilitats socials,
+      destresa i agilitat, de vida, d'atac i d'escut i el seu poder."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2564189237248
+    m_Localized: "En algunes posicions del mapa, marcades com a tenda, es podran
+      adquirir cartes d'equipament per millorar aquestes caracter\xEDstiques dels
+      personatges."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2815419658240
+    m_Localized: "A m\xE9s, a partir de cert nivell, podr\xE0s aconseguir noves habilitats
+      per als teus personatges amb el llibre d'aprenentatge."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2962962690048
+    m_Localized: "A mesura que avances, trobar\xE0s personatges pel mapa que s'uniran
+      a l'aventura."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3079845359616
+    m_Localized: "Ja seguirem parlant despr\xE9s. Ara, escull la seg\xFCent posici\xF3
+      al mapa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3199554990080
+    m_Localized: "Aquesta \xE9s la pantalla d'esdeveniment.\nSi passes per damunt
+      del teu personatge, veur\xE0s la conseq\xFC\xE8ncia de seleccionar-lo per a
+      l'enfrontament."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4463244259328
+    m_Localized: "Aquesta \xE9s la pantalla d'habilitats. Cada personatge t\xE9 una
+      s\xE8rie d'habilitats."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4656219992064
+    m_Localized: Selecciona el text de l'habilitat a utilitzar i el personatge a
+      qui vols aplicar-la.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4730341732352
+    m_Localized: "Aquest \xE9s el nombre d'habilitats que pot utilitzar per torn.
+      Aquest nombre dep\xE9n de la quantitat de personatges que tingues."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4933702561792
+    m_Localized: "Aquesta \xE9s la pantalla de tenda."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5038950232064
+    m_Localized: "Aquestes s\xF3n les monedes que tens i baix de les cartes d'equipament
+      de la tenda es pot veure el seu preu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5167098802176
+    m_Localized: "Selecciona la carta a comprar i el personatge a qui assignar-la
+      i s'aplicaran les seues caracter\xEDtiques inmediatament."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5304286097408
+    m_Localized: "Aquesta \xE9s la pantalla d'aprenentatge."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5450969296896
+    m_Localized: Selecciona un dels personatges per veure les habilitats que pot
+      aprendre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5600328462336
+    m_Localized: "El cost de l'aprenentatge \xE9s tradueix en torns en qu\xE8 el
+      personatge est\xE0 congelat."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5889425059840
+    m_Localized: "Un personatge congelat no pot enfrontar-se a esdeveniments ni utilitzar
+      les seues habilitats fins que estiga descongelat.\n(Tamb\xE9 ocorre quan la
+      vida \xE9s igual o menor a 0)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6174503514112
+    m_Localized: Ves amb compte. Si tots els personatges estan congelats, s'acaba
+      la partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6277515620352
+    m_Localized: "Uh oh! El teu personatge ha quedat congelat. Aix\xF2 ocorre quan
+      la vida arriba a 0 o \xE9s inferior."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6519308857344
+    m_Localized: "Un personatge congelat no pot enfrontar-se a esdeveniments ni utilitzar
+      les seues habilitats fins que estiga descongelat. (Tamb\xE9 ocorre quan est\xE0
+      aprenent una nova habilitat)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6654835208192
+    m_Localized: Ves amb compte. Si tots els personatges estan congelats, s'acaba
+      la partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6687798243328
+    m_Localized: "Els personatges congelats poden rebre altres efectes com s\xF3n
+      habilitats d'altres personatges o equipament de les tendes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7052149043200
+    m_Localized: "Aix\xED, si el teu personatge mor, haur\xE0s d'aconseguir que recupere
+      la seua vida per poder seguir utilitzant-lo."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

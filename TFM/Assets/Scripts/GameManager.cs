@@ -43,6 +43,8 @@ public class GameManager : MonoBehaviour
     private bool learningActivated;
     private StoryPoint currentStoryPoint;
     private int abilitiesUsedThisTurn;
+    private bool tutorialsActive;
+    private DeathTutorialTrigger deathTutorialTrigger;
 
     private int maxAbilitiesPerTurn => characters.Count;
 
@@ -52,6 +54,7 @@ public class GameManager : MonoBehaviour
 
     public GameState CurrentState => currentState;
     public static GameManager Instance;
+    public bool TutorialsActive => tutorialsActive;
 
     private void Awake()
     {
@@ -63,11 +66,13 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        deathTutorialTrigger = GetComponent<DeathTutorialTrigger>();
         ResetAllCanvases();
         MapPosition.OnPositionSelected += SelectPosition;
         AbilityButton.OnAbilitySelected += SelectAbility;
         UpdatePositions(initialPosition);
         AddCharacter(startingCharacter);
+        tutorialsActive = true;
         ChangeToState(GameState.StoryPoint);
     }
 
@@ -170,6 +175,7 @@ public class GameManager : MonoBehaviour
             case GameState.Event:
                 ActivateCanvas(false, eventCanvas);
                 outcomeTextUI.UpdateOutcomeUI("", transform, false);
+                deathTutorialTrigger.CheckForDeath(characters);
                 break;
             case GameState.Abilities:
                 selectedAbility = null;

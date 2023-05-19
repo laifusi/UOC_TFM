@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: TutorialStringTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: TutorialStringTable
+  m_TableCollectionNameGuidString: 5f822681c26a71e45be2b885a7e9dbb5
+  m_Entries:
+  - m_Id: 6406189056
+    m_Key: initialTut_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77856157696
+    m_Key: initialTut_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156943953920
+    m_Key: initialTut_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354189488128
+    m_Key: initialTut_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 539393175552
+    m_Key: initialTut_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1247882424320
+    m_Key: initialTut_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1679279173632
+    m_Key: initialTut_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2071954108416
+    m_Key: initialTut_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2564189237248
+    m_Key: initialTut_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2815419658240
+    m_Key: initialTut_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2962962690048
+    m_Key: initialTut_11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3079845359616
+    m_Key: initialTut_12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3199554990080
+    m_Key: eventTut_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4463244259328
+    m_Key: abilityTut_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4656219992064
+    m_Key: abilityTut_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4730341732352
+    m_Key: abilityTut_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4933702561792
+    m_Key: shopTut_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5038950232064
+    m_Key: shopTut_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5167098802176
+    m_Key: shopTut_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5304286097408
+    m_Key: learningTut_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5450969296896
+    m_Key: learningTut_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5600328462336
+    m_Key: learningTut_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5889425059840
+    m_Key: learningTut_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6174503514112
+    m_Key: learningTut_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6277515620352
+    m_Key: freezeTut_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6519308857344
+    m_Key: freezeTut_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6654835208192
+    m_Key: freezeTut_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6687798243328
+    m_Key: freezeTut_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7052149043200
+    m_Key: freezeTut_5
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7598979195661975931
+  references:
+    version: 2
+    RefIds:
+    - rid: 7598979195661975931
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1684524595012
