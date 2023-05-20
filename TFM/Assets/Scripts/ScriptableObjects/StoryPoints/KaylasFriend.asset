@@ -12,10 +12,148 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6ed72b3dbff75c4e8caab1d91f94633, type: 3}
   m_Name: KaylasFriend
   m_EditorClassIdentifier: 
-  textLines: []
+  textLines:
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1311187339227136
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1311243849084928
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1311256369082368
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1311274811437056
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1311285464969216
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1311293425758208
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1311301420101632
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1311309292810240
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1311316720922624
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1311324417470464
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1311337277206528
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1311346374651904
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1311361155379200
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1311370332516352
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1311378066812928
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1311387009069056
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1311394248437760
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   isPreEventStoryPoint: 0
   controllingSP: {fileID: 0}
   controllerMustHavePlayed: 0
+  isAbilitiesBook: 0
+  isLastSP: 0
   references:
     version: 2
     RefIds: []

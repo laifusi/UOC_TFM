@@ -31,7 +31,922 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 604808689397760
-    m_Localized: Testing
+    m_Localized: PAT!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116490738085888
+    m_Localized: "Ei, Lukas! Qu\xE8 tal? Com ha anat?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116533654204416
+    m_Localized: Puc controlar el foc!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116574829686784
+    m_Localized: Guau! Quina passada!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116610871341056
+    m_Localized: Veritat?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116648070623232
+    m_Localized: "Et vaig dir que aniria b\xE9. Li ho has contat ja a la teua germana?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116682384224256
+    m_Localized: "No, est\xE0 treballant. He vingut ac\xED directament. Per\xF2 volia
+      anar-hi despr\xE9s de vore\u2019t a tu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116736968896512
+    m_Localized: "Genial, doncs t\u2019acompanye i despr\xE9s anem al llac a provar
+      qu\xE8 pots fer amb els poders. A l\u2019hospital, no?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116771244748800
+    m_Localized: "Ben pensat. S\xED, anem-hi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116860335960064
+    m_Localized: Pare!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116906896928768
+    m_Localized: Pare!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116933539147776
+    m_Localized: "Conta\u2019ns un conte."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116976396546048
+    m_Localized: "S\xED, s\xED!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117014837342208
+    m_Localized: "Mmm\u2026 D\u2019arcord. Senteu-vos i us contar\xE9 la llegenda
+      d\u2019Al\xB7l\xE8ndix\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117099423870976
+    m_Localized: "Fa molt de temps, en una gal\xE0xi\u2013\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117145770930176
+    m_Localized: "Eixa hist\xF2ria ja ens la sabem!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117187630084096
+    m_Localized: "S\xED, pare. Conta\u2019n una altra."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117226062491648
+    m_Localized: "No, no. No \xE9s la que penseu. Deixeu-me seguir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117267867119616
+    m_Localized: "Fa molt de temps, en una gal\xE0xia no molt llunyana, vivia un
+      jove anomenat Lukas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117319549333504
+    m_Localized: "Pare, segur que no \xE9s la mateixa hist\xF2ria?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117355263832064
+    m_Localized: "Segur. Deixa d\u2019interrompre\u2019m."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117404781785088
+    m_Localized: "Lukas vivia a la petita ciutat d\u2019Al\xB7l\xE8ndix, al centre
+      de Korantis."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117438512377856
+    m_Localized: "Qu\xE8 \xE9s Korantis??"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117473241214976
+    m_Localized: "Un dels continents m\xE9s importants del planeta Teition."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117506736926720
+    m_Localized: Teition?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117540261998592
+    m_Localized: "S\xED, ja sabeu. L\u2019\xFAnic planeta de la nostra gal\xE0xia
+      ve\xEFna que va sobreviure a la guerra entre els vuit guardians\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117579906560000
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118251469156352
+    m_Localized: "B\xE9, \xE9s igual. Aix\xF2 ara no \xE9s important."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117640027713536
+    m_Localized: Trik, Rol...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118218845859840
+    m_Localized: ??
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118163246166016
+    m_Localized: "Hi vam estar l\u2019any passat!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117786912239616
+    m_Localized: "Qu\xE8 us estan ensenyant a l\u2019escola?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118299225501696
+    m_Localized: "Per on anava\u2026? Ah s\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118404682887168
+    m_Localized: "Lukas vivia en la tranquila ciutat d\u2019Al\xB7l\xE8ndix amb la
+      seua germana\u2013"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118427072081920
+    m_Localized: Leila?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118472743858176
+    m_Localized: "Si no pareu d\u2019interrompre\u2019m no us conte la hist\xF2ria."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118513713819648
+    m_Localized: "Com anava dient\u2026 Lukas vivia amb la seua germana major, Kayla."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118563349213184
+    m_Localized: "*baixet* Doncs, quasi\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118608685445120
+    m_Localized: "A Al\xB7l\xE8ndix mai passava res especial. O aix\xF2 pensava ell."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118655082835968
+    m_Localized: "Com sabeu\u2026 No\u2026 A Teition, els humans tenen certes habilitats
+      especials que desenvolupen durant la seua vida adulta. B\xE9, en el seu 20\xE9
+      aniversari, reben la seua especialitat en una cerim\xF2nia que anomenen Morfexi\xF3."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118695595618304
+    m_Localized: "Aquesta hist\xF2ria comen\xE7a el dia del 20\xE9 aniversari de
+      Lukas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298526702579712
+    m_Localized: "Enhorabona, Lukas. Has completat la teua Morfexi\xF3 amb \xE8xit.
+      Ja pots anar-te\u2019n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298576145035264
+    m_Localized: "Oh, ja est\xE0? Gr\xE0cies. Per\xF2\u2026 Quina \xE9s la meua especialitat?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298690083303424
+    m_Localized: "Molt prompte ho sabr\xE0s. I recorda, durant els primers 5 anys,
+      t\u2019has de fer una revisi\xF3 anual per asegurar que no pateixes cap dels
+      possibles efectes secundaris negatius de la morfexi\xF3. Bona sort."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298728821895168
+    m_Localized: "Ho s\xE9, ho s\xE9. Gr\xE0cies."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298761910759424
+    m_Localized: "*Lukas i Pat noten una vibraci\xF3 provinent del terra segons abans
+      de sentir el so de roques xocant unes contra altres, de la terra esquerdant-se,
+      d\u2019edificis enfondrar-se\u2026 i crits de p\xE0nic.*\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298912335278080
+    m_Localized: "*El terratr\xE8mol para tan r\xE0pid com ha comen\xE7at.*"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298994120011776
+    m_Localized: "Qu\xE8 ha sigut aix\xF2?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299037996625920
+    m_Localized: "Un\u2026 un terratr\xE8mol?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299074596122624
+    m_Localized: "Ac\xED? En Al\xB7l\xE8ndix?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299137640706048
+    m_Localized: "No-no ho s\xE9, Luk\u2026 Semblava un terratr\xE8mol."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299183249567744
+    m_Localized: "S\xED, s\xED. Tens ra\xF3, per\xF2\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299238002012160
+    m_Localized: "Anem! Anem a l\u2019hospital. He de veure a Kayla."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299281387892736
+    m_Localized: Espera.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299318947885056
+    m_Localized: "S\xE9 que el cam\xED \xE9s m\xE9s llarg, per\xF2\u2026 podem anar-hi
+      pel mercat? Ma mare est\xE0 all\xED i\u2026 \xC9s igual. No he dit res."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299360727347200
+    m_Localized: Pat...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299398379614208
+    m_Localized: "No, no et preocupes. Entendr\xE9 si prefereixes fer el cam\xED
+      directe... Tu decideixes, Lukas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299457003401216
+    m_Localized: "Lukas! Pat! Us trobeu b\xE9?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299577497366528
+    m_Localized: "Mestre. S\xED, s\xED.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299641364033536
+    m_Localized: "Sap qu\xE8 ha passat?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299697924222976
+    m_Localized: "Mm\u2026 Avui\u2026 No. Pel que sembla hi ha hagut un terratr\xE8mol
+      cap a l\u2019est de la ciutat.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299781562839040
+    m_Localized: "A l\u2019est? Kayla\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299853881028608
+    m_Localized: "Mestre, ens n\u2019hem d\u2019anar. Hem d-\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299914505498624
+    m_Localized: "Lukas. Espera, espera.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299977772380160
+    m_Localized: "Avui era la teua morfexi\xF3, veritat?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300016670355456
+    m_Localized: "S\xED. Vinc d\u2019all\xED.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300060383391744
+    m_Localized: "Aix\xF2 pensava\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300097838526464
+    m_Localized: "Escolta\u2026 Aquest no \xE9s el procediment habitual per\xF2\u2026
+      pense que \xE9s necessari.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300143216701440
+    m_Localized: "Agafa aquest llibre. Normalment us ensenyem a poc a poc a utilitzar
+      les vostres habilitats, per\xF2 no podem esperar.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300184803225600
+    m_Localized: "Amb ell tu i els teus amics podreu aprendre a utilitzar els vostres
+      poders de diverses formes.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300241266946048
+    m_Localized: "Ad\xE9u i molta sort, Lukas.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300283541336064
+    m_Localized: "Eh\u2026 gr\xE0cies.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300322015686656
+    m_Localized: "Qu\xE8 acaba de passar?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300358682292224
+    m_Localized: "No ho s\xE9\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300391049736192
+    m_Localized: Mare!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300464814960640
+    m_Localized: Ai, Pat, fill! Estava molt preocupada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300510717423616
+    m_Localized: "Est\xE0s b\xE9? Heu notat el seisme?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300555839746048
+    m_Localized: "S\xED, mare. Estem b\xE9. Un poc espantats, per\xF2 b\xE9.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300594960019456
+    m_Localized: "Qu\xE8 est\xE0 passant? Us heu assabentat d\u2019alguna cosa per
+      ac\xED?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300634910765056
+    m_Localized: "No massa, fill. Un terratr\xE8mol. Pel que es diu provinent del
+      centre de l\u2019hospital.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300679341027328
+    m_Localized: "Ai, ai! Espere que no hi haja molts ferits\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300763331964928
+    m_Localized: "El que no est\xE0 clar \xE9s si ha sigut natural\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300803446288384
+    m_Localized: "Qu\xE8 vols dir, pare?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300843875184640
+    m_Localized: "\u2026 No ho s\xE9. \xC9s una situaci\xF3 estranya."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300880868945920
+    m_Localized: "Sembla que s\u2019acosta una tempesta."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300921314619392
+    m_Localized: "Ai, Lukas! Avui era la teua morfexi\xF3! Felicitats!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300958530678784
+    m_Localized: "S\xED. Gr\xE0cies, Garynda. Ara puc controlar el foc.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301005615935488
+    m_Localized: "Quina meravella! Un poder complementari al del meu fill.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301069797175296
+    m_Localized: "\xC9s veritat\u2026 Haur\xEDem d\u2019anar-nos-en ja.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301107545911296
+    m_Localized: "S\xED, anem. Despr\xE9s ens veiem, pares."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301176663846912
+    m_Localized: Espera, fill.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301213980569600
+    m_Localized: "No aneu cap a l\u2019hospital. \xC9s molt perill\xF3s. Torneu a
+      casa, Pat."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301265495011328
+    m_Localized: "Pare, Kayla est\xE0 all\xED\u2026 Lukas-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301296235065344
+    m_Localized: "Ho s\xE9. Per\xF2 nom\xE9s sou xiquets\u2026 Torneu a casa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301340208148480
+    m_Localized: Ei, Pat. Lukas. Espereu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301390606905344
+    m_Localized: "Myra? Eh\u2026 Qu\xE8 passa? Hola. Qu\xE8 passa? Ens has seguit?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301402761998336
+    m_Localized: "S\xE9 que no aneu a fer cas als pares, germanet."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301492608184320
+    m_Localized: "Qu\xE8? No\u2026 no s\xE9 de qu\xE8 parles-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301532458266624
+    m_Localized: "Menteixes fatal\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301581284159488
+    m_Localized: "B\xE9, com que no penseu tornar a casa on estar\xEDeu ben protegits
+      de qualsevol perill\u2026 Haureu d\u2019acceptar un nou membre en la vostra
+      aventura."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301595821617152
+    m_Localized: "Myra\u2026 No. Deixa\u2019ns en pau. Nom\xE9s anem a veure que
+      Kayla estiga b\xE9. Res m\xE9s."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301607142043648
+    m_Localized: "Perfecte. Jo tamb\xE9 vull veure-la!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301617652969472
+    m_Localized: No vaig a deixar que aneu sols.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301629875171328
+    m_Localized: "\xC9s igual, Pat, deixa que vinga."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301641241735168
+    m_Localized: "\u2026 D\u2019acord. Per\xF2 que els pares no s\u2019enteren!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301651333230592
+    m_Localized: "Pat, qui dels dos porta m\xE9s anys escapant-se de casa sense que
+      s\u2019enteren?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301908536340480
+    m_Localized: "Rik, eixos s\xF3n Lukas i Pat?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301981739528192
+    m_Localized: "On- Ah s\xED, Jak. Sembla que s\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302012974510080
+    m_Localized: On penses que van amb tanta pressa?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302024836001792
+    m_Localized: Ei, Luk! On aneu?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302038853365760
+    m_Localized: "Eh\u2026 Hola, Jak. Hola, Rik."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302050026991616
+    m_Localized: Hola. On aneu?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302059732611072
+    m_Localized: "A l\u2019hospital\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302068779724800
+    m_Localized: "Oh! Aneu cap a eixe gran n\xFAvol negre que est\xE0 eixint clarament
+      d\u2019all\xE0 dins?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302078737002496
+    m_Localized: "\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302088434233344
+    m_Localized: "I que segurament \xE9s d\u2019on venen els dimonis dels que tothom
+      est\xE0 parlant??"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302100325085184
+    m_Localized: "Ho heu sentit, no? Al\xB7l\xE8ndix est\xE0 sent enva\xEFda per
+      dimonis!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302110911508480
+    m_Localized: I vosaltres us dirigiu al lloc del qual venen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302121925750784
+    m_Localized: "No, aix\xF2 no \xE9s\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302135917948928
+    m_Localized: Ens apuntem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302149020954624
+    m_Localized: "Qu\xE8?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302159796121600
+    m_Localized: Sembla divertit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302172295147520
+    m_Localized: "Nom\xE9s anem per veure la meua germana."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302213277691904
+    m_Localized: "I no voleu saber qu\xE8 m\xE9s passa? Qu\xE8 ha provocat el terratr\xE8mol?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302226871431168
+    m_Localized: "D\u2019on han eixit els dimonis? Qu\xE8 \xE9s eixe n\xFAvol negre?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302236350558208
+    m_Localized: "Perqu\xE8 nosaltres s\xED!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302248371433472
+    m_Localized: Ens unim. No ho discutiu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302832935776256
+    m_Localized: On aneu vosaltres dos?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302987042893824
+    m_Localized: Eh?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303004507975680
+    m_Localized: Parles amb nosaltres?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303015354445824
+    m_Localized: "S\xED. Veieu a alg\xFA m\xE9s?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303023541727232
+    m_Localized: "Uh\u2026 no."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303033473839104
+    m_Localized: "Aneu a l\u2019hospital, no?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303042709696512
+    m_Localized: "Qu\xE8- com\u2013?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303051660341248
+    m_Localized: Control mental.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303059776319488
+    m_Localized: "Ens est\xE0s llegint la ment?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303069087674368
+    m_Localized: "No volunt\xE0riament\u2026 Creu-me preferiria no haver-ho fet\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303079154003968
+    m_Localized: "Per\xF2 ara que s\xE9 on aneu\u2026 Els policies intentaran impedir
+      que passeu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303088456970240
+    m_Localized: "Sabeu que l\u2019hospital \xE9s el centre del terratr\xE8mol, veritat?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303097919320064
+    m_Localized: "S\u2019ha originat all\xED. I no saben com, per\xF2 tothom pensa
+      que no ha sigut de forma natural\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303106643472384
+    m_Localized: "Qu\xE8 vols dir?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303116546224128
+    m_Localized: "Que \xE9s provocat, xiquet."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303136360116224
+    m_Localized: Tinc 20 anys.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303144811638784
+    m_Localized: "\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303154181713920
+    m_Localized: "Com anava dient\u2026 No us deixaran passar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303163690201088
+    m_Localized: I amb r- No. No vaig a anar amb vosaltres!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303175031599104
+    m_Localized: "Per qu\xE8?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303843029037056
+    m_Localized: "Perqu\xE8 tinc coses molt m\xE9s importants a fer!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303865472757760
+    m_Localized: Llegir eixe llibre?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303876679938048
+    m_Localized: Per exemple!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303886544941056
+    m_Localized: "Uh\u2026 Has dit que preferiries no escoltar el que pensem\u2026
+      no?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303902374244352
+    m_Localized: "Tinc un llibre que et podria ajudar a controlar els teus poders\u2026
+      Si vens amb nosaltres..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303920527192064
+    m_Localized: "Mm... D\u2019acord. Per\xF2 amb una condici\xF3."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303935177895936
+    m_Localized: Quina?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303946833866752
+    m_Localized: Que deixeu de pensar tan fort.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303957848109056
+    m_Localized: "No, aix\xF2 \xE9s el contrari\u2026 \xC9s igual\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304353941401600
+    m_Localized: Alto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304396370980864
+    m_Localized: "Qu\xE8 feu per ac\xED? Hem llan\xE7at una alarma, ning\xFA pot
+      aproximar-se a l\u2019hospital."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304414523928576
+    m_Localized: "Hi ha una operaci\xF3 policia en proc\xE9s."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304421897515008
+    m_Localized: "Est\xE0 relacionat amb el terratr\xE8mol?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304429237547008
+    m_Localized: "I eixe gran n\xFAvol negre?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304436351086592
+    m_Localized: "Aix\xF2 \xE9s informaci\xF3 confidencial."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304444571922432
+    m_Localized: "Senyor, nosaltres nom\xE9s necessitem veure un metge."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304451849039872
+    m_Localized: "El meu amic est\xE0 ferit\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304459973406720
+    m_Localized: "S\u2019ha establert una zona d\u2019emerg\xE8ncia a l\u2019oest
+      de la ciutat mentre l\u2019hospital est\xE0 inhabilitat. Aneu cap a all\xE0."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304467548319744
+    m_Localized: "Per\xF2-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304484120014848
+    m_Localized: "No seguiu discutint. A l\u2019oest de la ciutat o a casa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305111059410944
+    m_Localized: "Ei! Xics. Veniu ac\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305169960022016
+    m_Localized: "He sentit la conversa que heu tingut amb el meu capit\xE0\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305177325219840
+    m_Localized: "Voleu anar a l\u2019hospital, no?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305185218899968
+    m_Localized: Jo us puc ajudar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305193087414272
+    m_Localized: "Per qu\xE8 ens ajudaries? No se suposa que no pot passar ning\xFA?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305200591024128
+    m_Localized: "B\xE9\u2026 aix\xF2 m\u2019inclou a mi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305208975437824
+    m_Localized: "No em deixen entrar en acci\xF3 i\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305216902672384
+    m_Localized: "Mon pare havia d\u2019estar hui a l\u2019hospital\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305225928814592
+    m_Localized: "Us he estat observant. He vist com arrib\xE0veu fins a ac\xED\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305234795573248
+    m_Localized: "Crec que podem ajudar-nos m\xFAtuament."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311187339227136
+    m_Localized: Marko!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311243849084928
+    m_Localized: Lu-Lukas? Oh, Lukas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311256369082368
+    m_Localized: "On est\xE0 Kayla? Qu\xE8 est\xE0 passant?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311274811437056
+    m_Localized: "Lukas, jo\u2026 ho sent. Ho sent molt\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311285464969216
+    m_Localized: "Marko? On est\xE0 la meua germana?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311293425758208
+    m_Localized: "Kayla\u2026 Ella\u2026 No he pogut evitar-ho\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311301420101632
+    m_Localized: "Marko, parla clar!! M\u2019est\xE0s assustant."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311309292810240
+    m_Localized: "Luk, \xE9s ella. Ha sigut ella. El terratr\xE8mol\u2026 els monstres
+      de roca\u2026 Els ha provocat ella."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311316720922624
+    m_Localized: "Qu\xE8?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311324417470464
+    m_Localized: "Els dimonis\u2026 els est\xE0 deixant entrar ella. Jo ho he pogut\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311337277206528
+    m_Localized: "No, aix\xF2 no t\xE9 sentit. Per qu\xE8?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311346374651904
+    m_Localized: "No ho s\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311361155379200
+    m_Localized: "Aquest mat\xED\u2026 Ha vingut una dona\u2026 Ha parlat amb ella.
+      Estava molt alterada\u2026 No he ent\xE9s el que deien\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311370332516352
+    m_Localized: "Despr\xE8s han saltat les alarmes de l\u2019hospital. Ella no ha
+      eixit i jo\u2026 He tornat i l\u2019he vista."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311378066812928
+    m_Localized: "On est\xE0 ara?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311387009069056
+    m_Localized: "Darrere d\u2019aquesta porta. Per\xF2, Lukas-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311394248437760
+    m_Localized: "Gr\xE0cies."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311749648592896
+    m_Localized: K-Kayla?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311817948639232
+    m_Localized: Kayla.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311840987951104
+    m_Localized: Kayla!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311949444263936
+    m_Localized: "Qu\xE8\u2026? Lu- No!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311994042298368
+    m_Localized: "No, no no. Lukas! Ves-te\u2019n. Has d\u2019eixir d\u2019ac\xED.
+      Ves a casa. Has de\u2013"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312002233774080
+    m_Localized: "No! No sense tu. No sense saber qu\xE8 est\xE0 passant. Qu\xE8-
+      Per qu\xE8?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312011742261248
+    m_Localized: "No puc. No\u2026 Ell\u2026 Si sap que has vingut\u2026 La matar\xE0\u2026
+      i despr\xE8s\u2026 No, no\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312020978118656
+    m_Localized: "Kay, no entenc res del que dius\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312028485922816
+    m_Localized: "Lukas\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312040901062656
+    m_Localized: "Marko diu que aquest mat\xED has discutit amb una dona\u2026 Per
+      favor, conta\u2019m qu\xE8 passa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312052334735360
+    m_Localized: Era la mare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312062166183936
+    m_Localized: "Qu\xE8!? No, la mare est\xE0 morta."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312072752607232
+    m_Localized: "No. I el pare tampoc. Ell\u2013"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312081078300672
+    m_Localized: "*Una ombra ix de la gran esquerda formada a l\u2019habitaci\xF3,
+      envolta a Kayla i la fa desapar\xE8ixer abans que Lukas puga reaccionar.*"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312089202667520
+    m_Localized: KAYLA!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316673618882560
+    m_Localized: Endora!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316696091963392
+    m_Localized: Oh. Hola, Pat. Hola, xics.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316703310360576
+    m_Localized: "Vas cap a l\u2019hospital?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316709991886848
+    m_Localized: "S\xED. I no intenteu impedir-ho. Ja ho han intentat altres i no
+      ho han aconseguit."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316716245594112
+    m_Localized: "He d\u2019anar-hi. Marko estava hui treballant. I el terratr\xE8mol..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316722998423552
+    m_Localized: "No t\u2019ho anem a impedir. Nosaltres tamb\xE9 anem cap a all\xE0."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316732498522112
+    m_Localized: "No, \xE9s perill\xF3s. Sou massa joves. No s\xE9 qu\xE8 passa per\xF2
+      eixe n\xFAvol negre no \xE9s normal\u2026 I els monstres..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316741814071296
+    m_Localized: Anem a anar-hi amb tu o sense tu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316750068461568
+    m_Localized: "Aneu a retrassar-me\u2026 Per\xF2 no puc deixar\u2026 Val. Anem-hi."
     m_Metadata:
       m_Items: []
   references:

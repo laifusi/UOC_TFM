@@ -16,7 +16,31 @@ MonoBehaviour:
   - m_TableReference:
       m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
     m_TableEntryReference:
-      m_KeyId: 604808689397760
+      m_KeyId: 1298526702579712
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1298576145035264
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1298690083303424
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1298728821895168
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -24,6 +48,8 @@ MonoBehaviour:
   isPreEventStoryPoint: 0
   controllingSP: {fileID: 0}
   controllerMustHavePlayed: 0
+  isAbilitiesBook: 0
+  isLastSP: 0
   references:
     version: 2
     RefIds: []

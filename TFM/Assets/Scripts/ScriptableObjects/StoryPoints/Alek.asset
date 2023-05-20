@@ -12,10 +12,92 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6ed72b3dbff75c4e8caab1d91f94633, type: 3}
   m_Name: Alek
   m_EditorClassIdentifier: 
-  textLines: []
+  textLines:
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1305111059410944
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1305169960022016
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1305177325219840
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1305185218899968
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1305193087414272
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1305200591024128
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1305208975437824
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1305216902672384
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1305225928814592
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:698a80c4ff245da48afac50fcbb8d8af
+    m_TableEntryReference:
+      m_KeyId: 1305234795573248
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   isPreEventStoryPoint: 0
-  controllingSP: {fileID: 0}
-  controllerMustHavePlayed: 0
+  controllingSP: {fileID: 11400000, guid: 8c6b0d2627045a045ab865a47cac773b, type: 2}
+  controllerMustHavePlayed: 1
+  isAbilitiesBook: 0
+  isLastSP: 0
   references:
     version: 2
     RefIds: []
