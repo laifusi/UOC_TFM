@@ -26,7 +26,7 @@ MonoBehaviour:
   rarity: 0
   baseHealth: 5
   baseAttack: 5
-  baseShield: 0
+  baseShield: 3
   baseCoins: 0
   baseAgility: 5
   baseDexterity: 2
@@ -35,26 +35,33 @@ MonoBehaviour:
   power: 1
   availableAbilities:
   - effects:
-    - affectedStat: 0
+    - affectedStat: 1
       affectionAmount: 2
       effectText: 
-    abilityText: Dona 2 punts de vida a un personatge
+    abilityText: Dona 2 punts d'atac
     abilityCost: 0
     abilityLevel: 0
   - effects:
-    - affectedStat: 0
-      affectionAmount: 2
+    - affectedStat: 7
+      affectionAmount: 3
       effectText: 
-    abilityText: Dona 2 punts de vida a un personatge
-    abilityCost: 2
-    abilityLevel: 1
-  - effects:
-    - affectedStat: 0
-      affectionAmount: 2
-      effectText: 
-    abilityText: Dona 2 punts de vida a un personatge
+    abilityText: Dona 3 punts d'agilitat
     abilityCost: 1
     abilityLevel: 1
+  - effects:
+    - affectedStat: 7
+      affectionAmount: 5
+      effectText: 
+    abilityText: Dona 5 punts d'agilitat
+    abilityCost: 2
+    abilityLevel: 2
+  - effects:
+    - affectedStat: 1
+      affectionAmount: 5
+      effectText: 
+    abilityText: Dona 5 punts d'atac
+    abilityCost: 3
+    abilityLevel: 2
   references:
     version: 2
     RefIds: []

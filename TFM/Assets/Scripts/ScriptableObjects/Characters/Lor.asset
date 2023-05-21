@@ -33,7 +33,35 @@ MonoBehaviour:
   baseIntelligence: 15
   baseSocialSkills: 10
   power: 6
-  availableAbilities: []
+  availableAbilities:
+  - effects:
+    - affectedStat: 4
+      affectionAmount: 4
+      effectText: 
+    abilityText: "Dona 4 punts d'intel\xB7lig\xE8ncia"
+    abilityCost: 0
+    abilityLevel: 0
+  - effects:
+    - affectedStat: 5
+      affectionAmount: 4
+      effectText: 
+    abilityText: Dona 4 punts d'habilitats socials
+    abilityCost: 2
+    abilityLevel: 1
+  - effects:
+    - affectedStat: 4
+      affectionAmount: 10
+      effectText: 
+    abilityText: "Dona 10 punts d'intel\xB7lig\xE8ncia"
+    abilityCost: 4
+    abilityLevel: 2
+  - effects:
+    - affectedStat: 5
+      affectionAmount: 10
+      effectText: 
+    abilityText: Dona 10 punts d'habilitats socials
+    abilityCost: 4
+    abilityLevel: 2
   references:
     version: 2
     RefIds: []

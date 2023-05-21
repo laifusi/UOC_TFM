@@ -33,7 +33,35 @@ MonoBehaviour:
   baseIntelligence: 5
   baseSocialSkills: 5
   power: 7
-  availableAbilities: []
+  availableAbilities:
+  - effects:
+    - affectedStat: 7
+      affectionAmount: 5
+      effectText: 
+    abilityText: Dona 5 punts d'agilitat
+    abilityCost: 0
+    abilityLevel: 0
+  - effects:
+    - affectedStat: 1
+      affectionAmount: 5
+      effectText: 
+    abilityText: Dona 5 punts d'atac
+    abilityCost: 2
+    abilityLevel: 1
+  - effects:
+    - affectedStat: 7
+      affectionAmount: 10
+      effectText: 
+    abilityText: Dona 10 punts d'agilitat
+    abilityCost: 3
+    abilityLevel: 2
+  - effects:
+    - affectedStat: 1
+      affectionAmount: 10
+      effectText: 
+    abilityText: Dona 10 punts d'atac
+    abilityCost: 3
+    abilityLevel: 3
   references:
     version: 2
     RefIds: []

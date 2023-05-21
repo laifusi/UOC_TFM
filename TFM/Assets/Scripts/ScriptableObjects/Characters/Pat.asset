@@ -33,7 +33,35 @@ MonoBehaviour:
   baseIntelligence: 3
   baseSocialSkills: 3
   power: 2
-  availableAbilities: []
+  availableAbilities:
+  - effects:
+    - affectedStat: 0
+      affectionAmount: 2
+      effectText: 
+    abilityText: Dona 2 punts de vida
+    abilityCost: 0
+    abilityLevel: 0
+  - effects:
+    - affectedStat: 2
+      affectionAmount: 4
+      effectText: 
+    abilityText: "Dona 4 punts de protecci\xF3"
+    abilityCost: 2
+    abilityLevel: 1
+  - effects:
+    - affectedStat: 0
+      affectionAmount: 5
+      effectText: 
+    abilityText: Dona 5 punts de vida
+    abilityCost: 2
+    abilityLevel: 1
+  - effects:
+    - affectedStat: 2
+      affectionAmount: 8
+      effectText: 
+    abilityText: "Dona 8 punts de protecci\xF3"
+    abilityCost: 3
+    abilityLevel: 2
   references:
     version: 2
     RefIds: []
