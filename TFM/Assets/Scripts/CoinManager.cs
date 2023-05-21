@@ -42,7 +42,7 @@ public class CoinManager : MonoBehaviour
 
     public static bool BuyCard(EquipmentCardSO card)
     {
-        if(card.GetCost() < totalCoins)
+        if(card.GetCost() <= totalCoins)
         {
             totalCoins -= card.GetCost();
             OnCoinsChange?.Invoke();

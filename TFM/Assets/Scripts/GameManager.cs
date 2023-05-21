@@ -419,6 +419,7 @@ public class GameManager : MonoBehaviour
 
     public void ShowLearnableAbilities(CharacterCard character)
     {
+        ResetLearningCanvas();
         List<Ability> learnableAbilities = character.GetLearnableAbilities();
         foreach(Ability learnableAbility in learnableAbilities)
         {

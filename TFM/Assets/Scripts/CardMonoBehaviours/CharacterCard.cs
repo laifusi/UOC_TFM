@@ -167,7 +167,7 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     private void BlockAbilityButtons(bool isBlocked)
     {
         foreach (Transform child in abilitiesHolder)
-            child.GetComponent<Button>().interactable = !isBlocked;
+            child.GetComponent<Button>().interactable = !isBlocked && !card.IsFrozen;
     }
 
     public List<Ability> GetActiveAbilities()

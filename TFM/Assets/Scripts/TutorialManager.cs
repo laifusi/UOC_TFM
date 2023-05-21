@@ -51,6 +51,11 @@ public class TutorialManager : MonoBehaviour
     {
         tutorialCanvas.SetActive(false);
     }
+
+    private void OnDestroy()
+    {
+        TutorialTrigger.OnTutorialTriggered -= ActivateTutorialPoint;
+    }
 }
 
 [Serializable]
