@@ -10,13 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec35ba0584cf9f045be31639a678c3dc, type: 3}
-  m_Name: EquipmentTest 3
+  m_Name: PotionDexHigh
   m_EditorClassIdentifier: 
   type: 2
-  cardName: Equipment 4
+  cardName:
+    m_TableReference:
+      m_TableCollectionName: GUID:3d4fefe61b25f864bad68ed99676b31f
+    m_TableEntryReference:
+      m_KeyId: 50551238656
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   effects:
-  - affectedStat: 0
+  - affectedStat: 6
     affectionAmount: 15
-    effectText: Augmenta en 15 punts la vida d'un personatge
+    effectText: Dona 15 punts de destresa al personatge a qui s'assigna
   rarity: 2
-  cost: 500
+  cost: 200
+  references:
+    version: 2
+    RefIds: []

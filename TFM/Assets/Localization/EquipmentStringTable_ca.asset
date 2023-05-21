@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: EquipmentStringTable_ca
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ca
+  m_SharedData: {fileID: 11400000, guid: 3d4fefe61b25f864bad68ed99676b31f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 50551238656
+    m_Localized: "Poci\xF3 augmentadora de destresa suau"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170642550784
+    m_Localized: "Poci\xF3 augmentadora de destresa"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 242474201088
+    m_Localized: "Poci\xF3 augmentadora de destresa potent"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 360053125120
+    m_Localized: Dona 5 punts de destresa al personatge a qui s'assigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537069531136
+    m_Localized: Dona 10 punts de destresa al personatge a qui s'assigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 601246576640
+    m_Localized: Dona 15 punts de destresa al personatge a qui s'assigna
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

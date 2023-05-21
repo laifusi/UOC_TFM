@@ -17006,6 +17006,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: shopDeck.cardsToDraw
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -17018,9 +17026,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1931697977}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: shopDeck.possibleCards.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: shopDeck.possibleCards.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 61bdbfa569aed5a49858b27553cb5983, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: shopDeck.possibleCards.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 25d73b668e46c524ca913d744e170801, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: shopDeck.possibleCards.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: a8284f73758c35b42b2913848a3aae53, type: 2}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
       value: 
