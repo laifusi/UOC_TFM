@@ -1441,11 +1441,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseCard: {fileID: 11400000, guid: c5fc968f54058194f922a8b315b5171e, type: 2}
-  cardImage: {fileID: 0}
+  cardImage: {fileID: 8552473373013357518}
   healthText: {fileID: 7041904985183601429}
   attackText: {fileID: 7041904986230263350}
   shieldText: {fileID: 7041904984734533903}
+  intelligenceText: {fileID: 7416342284104921394}
+  socialSkillsText: {fileID: 8581704107251822458}
+  agilityText: {fileID: 2328379846186133308}
+  dexterityText: {fileID: 3819026733439626443}
   nameText: {fileID: 7041904984866246813}
+  powerImage: {fileID: 1105869404031470088}
   equipmentHolder: {fileID: 502034749569020808}
   equipmentCardPrefab: {fileID: 359930349020478487, guid: 92062578aeffbc14692a5f8748c17782, type: 3}
   button: {fileID: 2863836402181570301}

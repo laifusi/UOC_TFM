@@ -10,7 +10,12 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     [SerializeField] TMP_Text healthText;
     [SerializeField] TMP_Text attackText;
     [SerializeField] TMP_Text shieldText;
+    [SerializeField] TMP_Text intelligenceText;
+    [SerializeField] TMP_Text socialSkillsText;
+    [SerializeField] TMP_Text agilityText;
+    [SerializeField] TMP_Text dexterityText;
     [SerializeField] TMP_Text nameText;
+    [SerializeField] Image powerImage;
     [SerializeField] Transform equipmentHolder;
     [SerializeField] EquipmentCard equipmentCardPrefab;
     [SerializeField] Button button;
@@ -29,9 +34,6 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
         card.OnAbilityLearnt += UpdateAbilities;
         GameManager.OnAbilitiesBlocked += BlockAbilityButtons;
         GameManager.OnStartNewTurn += UpdateLearningState;
-
-        //TBD
-        usesBeforeLevelIncrease = 1;
     }
 
     public override void PaintCard(CharacterCardSO cardToPaint)
@@ -48,6 +50,11 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
         healthText.text = card.GetHealth().ToString();
         shieldText.text = card.GetShield().ToString();
         attackText.text = card.GetAttack().ToString();
+        intelligenceText.text = card.GetStat(StatType.Intelligence).ToString();
+        socialSkillsText.text = card.GetStat(StatType.SocialSkills).ToString();
+        agilityText.text = card.GetStat(StatType.Agility).ToString();
+        dexterityText.text = card.GetStat(StatType.Dexterity).ToString();
+        powerImage.sprite = IconManager.Instance.GetPowerSprite(card.GetPower());
     }
 
     // Temporary fix to update equipment cards on character cards

@@ -8706,6 +8706,84 @@ Transform:
   m_Father: {fileID: 1775104554}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &697685655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 697685656}
+  - component: {fileID: 697685657}
+  m_Layer: 0
+  m_Name: IconManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &697685656
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697685655}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2060675625}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &697685657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697685655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 647d146923f16324398081397da37ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  statSprites:
+  - stat: 4
+    sprite: {fileID: 21300000, guid: 2902582bfc82ada4a9aade20fcfff7b2, type: 3}
+    power: 0
+  - stat: 5
+    sprite: {fileID: 21300000, guid: 202e6455f7fa6a94cb15c34bab5022a0, type: 3}
+    power: 0
+  - stat: 6
+    sprite: {fileID: 21300000, guid: 3d00f658f39fb7140928dbca450731a3, type: 3}
+    power: 0
+  - stat: 7
+    sprite: {fileID: 21300000, guid: 16a0eceaab6bab548bc8814537977b24, type: 3}
+    power: 0
+  - stat: 8
+    sprite: {fileID: 21300000, guid: ab84f075faa355146ace6d036d8ebef6, type: 3}
+    power: 1
+  - stat: 8
+    sprite: {fileID: 21300000, guid: be77eda38e78a2244916a95ec3a05e0e, type: 3}
+    power: 2
+  - stat: 8
+    sprite: {fileID: 21300000, guid: b5f61ab8f5122ea40ac490827badfbb2, type: 3}
+    power: 3
+  - stat: 8
+    sprite: {fileID: 21300000, guid: d806f7a2e92c6f04bb73dca4b6b00e9c, type: 3}
+    power: 4
+  - stat: 8
+    sprite: {fileID: 21300000, guid: b75bf82e8483a3b469b656b6cedc171f, type: 3}
+    power: 5
+  - stat: 8
+    sprite: {fileID: 21300000, guid: a79cee9156dc22541b0032e948d46fb4, type: 3}
+    power: 6
+  - stat: 8
+    sprite: {fileID: 21300000, guid: 900ae3ff75b6c654e900f1ccafebb533, type: 3}
+    power: 7
 --- !u!1 &698603867
 GameObject:
   m_ObjectHideFlags: 0
@@ -24171,6 +24249,7 @@ Transform:
   - {fileID: 1045835947}
   - {fileID: 1518163455}
   - {fileID: 367038919}
+  - {fileID: 697685656}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
