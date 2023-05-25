@@ -14,7 +14,7 @@ public class EquipmentCard : Card<EquipmentCardSO>
         card = cardToPaint;
         nameText.text = card.GetName();
         costText.text = card.GetCost().ToString();
-        effectText.text = card.GetEffects()[0].effectText;
+        effectText.text = card.GetEffectString();
     }
 
     public int GetCost()

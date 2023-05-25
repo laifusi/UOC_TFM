@@ -16,7 +16,8 @@ MonoBehaviour:
     m_Code: ca
   m_SharedData: {fileID: 11400000, guid: 3d4fefe61b25f864bad68ed99676b31f, type: 2}
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 7598979195661975944
   m_TableData:
   - m_Id: 50551238656
     m_Localized: "Poci\xF3 augmentadora de destresa suau"
@@ -42,6 +43,249 @@ MonoBehaviour:
     m_Localized: Dona 15 punts de destresa al personatge a qui s'assigna
     m_Metadata:
       m_Items: []
+  - m_Id: 1391055087251456
+    m_Localized: Dona 15 punts d'agilitat al personatge a qui s'assigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1391032014385152
+    m_Localized: Dona 10 punts d'agilitat al personatge a qui s'assigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1390993980436480
+    m_Localized: Dona 5 punts d'agilitat al personatge a qui s'assigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1391224700710912
+    m_Localized: Dona 5 punts d'habilitats socials al personatge a qui s'assigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1391246167158784
+    m_Localized: "Dona 5 punts d'intel\xB7lig\xE8ncia al personatge a qui s'assigna"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1391237782745088
+    m_Localized: Dona 10 punts d'habilitats socials al personatge a qui s'assigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1391244405551104
+    m_Localized: Dona 15 punts d'habilitats socials al personatge a qui s'assigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1391253511385088
+    m_Localized: "Dona 10 punts d'intel\xB7lig\xE8ncia al personatge a qui s'assigna"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1391270548647936
+    m_Localized: "Dona 15 punts d'intel\xB7lig\xE8ncia al personatge a qui s'assigna"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1392039515566080
+    m_Localized: "Poci\xF3 augmentadora d'agilitat suau"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1392109845655552
+    m_Localized: "Poci\xF3 augmentadora d'agilitat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1392140610875392
+    m_Localized: "Poci\xF3 augmentadora d'agilitat potent"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1392161519480832
+    m_Localized: "Poci\xF3 augmentadora d'habilitats socials suau"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1392201889656832
+    m_Localized: "Poci\xF3 augmentadora d'habilitats socials"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1392235054018560
+    m_Localized: "Poci\xF3 augmentadora d'habilitats socials potent"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1392257174777856
+    m_Localized: "Poci\xF3 augmentadora d'intel\xB7lig\xE8ncia suau"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1392338431029248
+    m_Localized: "Poci\xF3 augmentadora d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1392359792619520
+    m_Localized: "Poci\xF3 augmentadora d'intel\xB7lig\xE8ncia potent"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1394562104209408
+    m_Localized: Aliment augmentador de destresa menut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1394707470397440
+    m_Localized: Aliment augmentador de destresa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1394717075353600
+    m_Localized: Aliment augmentador de destresa gran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1394878027575296
+    m_Localized: Aliment augmentador d'agilitat gran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1394861866921984
+    m_Localized: Aliment augmentador d'agilitat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1394805931683840
+    m_Localized: Aliment augmentador d'agilitat menut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395037419515904
+    m_Localized: Aliment augmentador d'habilitats socials gran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395020248035328
+    m_Localized: Aliment augmentador d'habilitats socials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1394979848499200
+    m_Localized: Aliment augmentador d'habilitats socials menut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395175600861184
+    m_Localized: "Aliment augmentador d'intel\xB7lig\xE8ncia gran"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395158693621760
+    m_Localized: "Aliment augmentador d'intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395130738585600
+    m_Localized: "Aliment augmentador d'intel\xB7lig\xE8ncia menut"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398481068929024
+    m_Localized: "Arma b\xE0sica menuda\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398622484082688
+    m_Localized: "Arma b\xE0sica mitjana"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398655191265280
+    m_Localized: "Arma b\xE0sica gran"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398684484284416
+    m_Localized: "Arma bona menuda\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398728558030848
+    m_Localized: Arma bona mitjana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398752952102912
+    m_Localized: Arma bona gran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398772266872832
+    m_Localized: "Arma molt bona menuda\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398805590618112
+    m_Localized: Arma molt bona mitjana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398825781997568
+    m_Localized: Arma molt bona gran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1399083723304960
+    m_Localized: "Dona {attack} punts d'atac per\xF2 es perden {agility} punts d'agilitat"
+    m_Metadata:
+      m_Items:
+      - rid: 7598979195661975944
+  - m_Id: 1477647646765056
+    m_Localized: "Escut b\xE0sic menut"
+    m_Metadata:
+      m_Items:
+      - rid: 7598979195661975944
+  - m_Id: 1477603174559744
+    m_Localized: "Dona {shield} punts d'escut per\xF2 es perden {agility} punts d'agilitat"
+    m_Metadata:
+      m_Items:
+      - rid: 7598979195661975944
+  - m_Id: 1478564999770112
+    m_Localized: "Escut b\xE0sic mitj\xE0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478587053420544
+    m_Localized: "Escut b\xE0sic gran"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478842247458816
+    m_Localized: Escut molt bo gran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478817245212672
+    m_Localized: "Escut molt bo mitj\xE0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478785792126976
+    m_Localized: Escut molt bo menut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478706523975680
+    m_Localized: Escut bo menut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478739944189952
+    m_Localized: "Escut bo mitj\xE0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478762685706240
+    m_Localized: Escut bo gran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483124745089024
+    m_Localized: "Poci\xF3 augmentadora de vida suau"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483238901460992
+    m_Localized: "Poci\xF3 augmentadora de vida"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483248112152576
+    m_Localized: "Poci\xF3 augmentadora de vida potent"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483250532265984
+    m_Localized: Dona 5 punts de vida al personatge a qui s'assigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483333017448448
+    m_Localized: Dona 10 punts de vida al personatge a qui s'assigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483349203267584
+    m_Localized: Dona 15 punts de vida al personatge a qui s'assigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483453104566272
+    m_Localized: Aliment augmentador de vida gran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483422041550848
+    m_Localized: Aliment augmentador de vida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483371638599680
+    m_Localized: Aliment augmentador de vida menut
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 7598979195661975944
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00b0569075f8040000b016a7e93f050000b0564cdf3f0500

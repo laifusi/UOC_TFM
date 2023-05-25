@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec35ba0584cf9f045be31639a678c3dc, type: 3}
-  m_Name: PotionDexLow
+  m_Name: PotionDexMid
   m_EditorClassIdentifier: 
   type: 2
   cardName:
@@ -25,9 +25,18 @@ MonoBehaviour:
   effects:
   - affectedStat: 6
     affectionAmount: 10
-    effectText: Dona 10 punts de destresa al personatge a qui s'assigna
+    effectText: 
   rarity: 1
   cost: 100
+  effectString:
+    m_TableReference:
+      m_TableCollectionName: GUID:3d4fefe61b25f864bad68ed99676b31f
+    m_TableEntryReference:
+      m_KeyId: 537069531136
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   references:
     version: 2
     RefIds: []
