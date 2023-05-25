@@ -91,7 +91,7 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
 
     public void AddEquipmentCard(EquipmentCardSO equipment)
     {
-        bool isBought = CoinManager.BuyCard(equipment);
+        bool isBought = CoinManager.Instance.BuyCard(equipment);
         if (isBought)
         {
             card.AddEquipment(equipment);

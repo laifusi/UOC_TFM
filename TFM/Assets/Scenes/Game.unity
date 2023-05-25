@@ -938,7 +938,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 2043753914}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -3238,6 +3238,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317711910}
   m_CullTransparentMesh: 1
+--- !u!114 &335745059 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8314696087719244984, guid: 92062578aeffbc14692a5f8748c17782, type: 3}
+  m_PrefabInstance: {fileID: 1508216065}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &337191341
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14154,7 +14165,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 1322333340}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -14318,15 +14329,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7041904984278437090, guid: 1ce05ba530f2bf947b58157f878bf697, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 7041904984278437090, guid: 1ce05ba530f2bf947b58157f878bf697, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 7041904984278437090, guid: 1ce05ba530f2bf947b58157f878bf697, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 7041904984278437090, guid: 1ce05ba530f2bf947b58157f878bf697, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14653,6 +14664,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1179141265}
   m_CullTransparentMesh: 1
+--- !u!114 &1182614024 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8314696087719244984, guid: 92062578aeffbc14692a5f8748c17782, type: 3}
+  m_PrefabInstance: {fileID: 8006716751768139557}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1191063407 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
@@ -15821,6 +15843,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cb1ee75ca31e2074bb1cee2b8669669e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1322333340 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8314696087719244984, guid: 92062578aeffbc14692a5f8748c17782, type: 3}
+  m_PrefabInstance: {fileID: 1173396874}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1327542783
@@ -25513,6 +25546,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyPoint: {fileID: 11400000, guid: e38b378b52fc39b44a060feb6a015883, type: 2}
+--- !u!114 &2043753914 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8314696087719244984, guid: 92062578aeffbc14692a5f8748c17782, type: 3}
+  m_PrefabInstance: {fileID: 678087673}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2060675624
 GameObject:
   m_ObjectHideFlags: 0
@@ -26123,7 +26167,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 335745059}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -28877,7 +28921,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 1182614024}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:

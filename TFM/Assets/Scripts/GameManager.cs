@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -37,7 +38,7 @@ public class GameManager : MonoBehaviour
     private GameState currentState;
     private MapPosition currentPosition;
     private Effect[] selectedAbility;
-    private EquipmentCardSO selectedEquipment;
+    private EquipmentCard selectedEquipment;
     private bool isPaused;
     private List<CharacterCardSO> characters = new List<CharacterCardSO>();
     private bool learningActivated;
@@ -378,6 +379,14 @@ public class GameManager : MonoBehaviour
         for (int i = 0; i < shopCards.Length; i++)
         {
             equipmentCards[i].PaintCard(shopCards[i]);
+            if(CoinManager.Instance.CanBeBought(shopCards[i]))
+            {
+                equipmentCards[i].GetComponent<Button>().interactable = true;
+            }
+            else
+            {
+                equipmentCards[i].GetComponent<Button>().interactable = false;
+            }
         }
     }
 
@@ -386,8 +395,7 @@ public class GameManager : MonoBehaviour
         if (currentState != GameState.Shop)
             return;
 
-        EquipmentCard equipment = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponentInParent<EquipmentCard>();
-        selectedEquipment = equipment.GetCardSO();
+        selectedEquipment = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponentInParent<EquipmentCard>();
     }
 
     public void AssignEquipment()
@@ -396,7 +404,16 @@ public class GameManager : MonoBehaviour
             return;
 
         CharacterCard selectedCharacter = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponent<CharacterCard>();
-        selectedCharacter.AddEquipmentCard(selectedEquipment);
+        selectedCharacter.AddEquipmentCard(selectedEquipment.GetCardSO());
+        selectedEquipment.GetComponent<Button>().interactable = false;
+        foreach(EquipmentCard equipment in equipmentCards)
+        {
+            Button equipmentButton = equipment.GetComponent<Button>();
+            if(equipmentButton.interactable && !CoinManager.Instance.CanBeBought(equipment.GetCardSO()))
+            {
+                equipmentButton.interactable = false;
+            }
+        }
         selectedEquipment = null;
     }
     #endregion

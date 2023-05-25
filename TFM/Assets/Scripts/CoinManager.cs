@@ -9,9 +9,23 @@ public class CoinManager : MonoBehaviour
     [SerializeField] TMP_Text coinsText;
 
     private List<CharacterCardSO> activeCharacters = new List<CharacterCardSO>();
-    private static int totalCoins;
+    private int totalCoins;
 
     private static Action OnCoinsChange;
+
+    public static CoinManager Instance;
+
+    private void Awake()
+    {
+        if(Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
+    }
 
     private void Start()
     {
@@ -40,15 +54,20 @@ public class CoinManager : MonoBehaviour
         coinsText.SetText(totalCoins.ToString());
     }
 
-    public static bool BuyCard(EquipmentCardSO card)
+    public bool BuyCard(EquipmentCardSO card)
     {
-        if(card.GetCost() <= totalCoins)
+        if(CanBeBought(card))
         {
             totalCoins -= card.GetCost();
             OnCoinsChange?.Invoke();
             return true;
         }
         return false;
+    }
+
+    public bool CanBeBought(EquipmentCardSO card)
+    {
+        return card.GetCost() <= totalCoins;
     }
 
     private void OnDestroy()
