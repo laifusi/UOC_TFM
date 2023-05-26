@@ -607,6 +607,10 @@ MonoBehaviour:
     m_Key: humanHelpDex_Outcome2
     m_Metadata:
       m_Items: []
+  - m_Id: 3924867629363200
+    m_Key: detonators_InfoText
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -9,11 +9,13 @@ public class EventCard : Card<EventCardSO>
     [SerializeField] TMP_Text attackText;
     [SerializeField] TMP_Text nameText;
     [SerializeField] TMP_Text effectText;
+    [SerializeField] DetonatorUIController detonatorUI;
 
     public override void PaintCard(EventCardSO cardToPaint)
     {
         card = cardToPaint;
         UpdateUI();
+        detonatorUI.UpdateUI();
     }
 
     private void UpdateUI()
@@ -37,5 +39,10 @@ public class EventCard : Card<EventCardSO>
     public string GetPossibleOutcomeInfo(CharacterCard character)
     {
         return card.GetPossibleOutcomeInfo(character);
+    }
+
+    public EventOutcome[] GetOutcomes()
+    {
+        return card.GetOutcomes();
     }
 }

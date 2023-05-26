@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Localization;
 
@@ -92,6 +93,11 @@ public class EventCardSO : CardSO
             completeText += "\n";
         }
         return completeText;
+    }
+
+    public EventOutcome[] GetOutcomes()
+    {
+        return possibleEventOutcomes;
     }
 }
 
