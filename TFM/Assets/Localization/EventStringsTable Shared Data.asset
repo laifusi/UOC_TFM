@@ -611,6 +611,26 @@ MonoBehaviour:
     m_Key: detonators_InfoText
     m_Metadata:
       m_Items: []
+  - m_Id: 4013308819976192
+    m_Key: humanHelpAgEasy_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4013641302454272
+    m_Key: humanHelpAgHard_Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4013664731836416
+    m_Key: humanHelpAgEasy_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4013697434824704
+    m_Key: humanHelpAgHard_Outcome1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4013757061050368
+    m_Key: humanHelpAg_Outcome2
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -705,6 +705,29 @@ MonoBehaviour:
     m_Localized: Debilitats
     m_Metadata:
       m_Items: []
+  - m_Id: 4013308819976192
+    m_Localized: Ajuda!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4013641302454272
+    m_Localized: Ajuda!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4013757061050368
+    m_Localized: "L'agilitat no \xE9s suficient per resoldre el problema. No hi ha
+      cap recompensa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4013697434824704
+    m_Localized: "Utilitzant l'agilitat, s'aconsegueix l'objectiu i el vilat\xE0
+      ofereix 100 monedes com a recompensa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4013664731836416
+    m_Localized: "Utilitzant l'agilitat, s'aconsegueix l'objectiu i el vilat\xE0
+      ofereix 50 monedes com a recompensa."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

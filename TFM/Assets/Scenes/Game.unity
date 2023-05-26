@@ -335,7 +335,7 @@ PrefabInstance:
       objectReference: {fileID: 2079358351}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 26
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -444,7 +444,7 @@ PrefabInstance:
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[26]
       value: 
-      objectReference: {fileID: 11400000, guid: c40a8f17ee36e934ca01fb628f7c5d49, type: 2}
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[27]
       value: 
@@ -1023,7 +1023,7 @@ PrefabInstance:
       objectReference: {fileID: 1950667506}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -1125,6 +1125,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[24]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -1221,7 +1229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 24
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[0]
@@ -1355,6 +1363,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[23]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[24]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -1552,7 +1568,7 @@ PrefabInstance:
       objectReference: {fileID: 236399295}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 24
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -1650,6 +1666,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[23]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[24]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -1768,7 +1792,7 @@ PrefabInstance:
       objectReference: {fileID: 1908674657}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 16
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -1834,6 +1858,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[15]
       value: 
       objectReference: {fileID: 11400000, guid: 9692221f6c7d0a747869a7fd745f1da1, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[16]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[17]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -2569,7 +2601,7 @@ PrefabInstance:
       objectReference: {fileID: 418694492}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -2607,6 +2639,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[8]
       value: 
       objectReference: {fileID: 11400000, guid: f0b235cd1a9b44640901af411305d629, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[10]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -2695,7 +2735,7 @@ PrefabInstance:
       objectReference: {fileID: 1775086888}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -2797,6 +2837,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[24]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -2893,7 +2941,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 23
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[0]
@@ -3047,6 +3095,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[22]
       value: 
       objectReference: {fileID: 11400000, guid: 20348068850597143a233472ba704003, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[23]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[24]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -3334,7 +3390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[0]
@@ -3472,6 +3528,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[24]
       value: 
       objectReference: {fileID: 11400000, guid: 5c5be81e06a3f9747a11d3151f3bac91, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -3909,7 +3973,7 @@ PrefabInstance:
       objectReference: {fileID: 1902661289}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 26
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -4018,7 +4082,7 @@ PrefabInstance:
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[26]
       value: 
-      objectReference: {fileID: 11400000, guid: c40a8f17ee36e934ca01fb628f7c5d49, type: 2}
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[27]
       value: 
@@ -4115,7 +4179,7 @@ PrefabInstance:
       objectReference: {fileID: 1577508181}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 24
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -4213,6 +4277,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[23]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[24]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -4741,7 +4813,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[0]
@@ -4815,6 +4887,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[8]
       value: 
       objectReference: {fileID: 11400000, guid: f0b235cd1a9b44640901af411305d629, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[10]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -5431,7 +5511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 26
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[0]
@@ -5600,7 +5680,7 @@ PrefabInstance:
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[26]
       value: 
-      objectReference: {fileID: 11400000, guid: c40a8f17ee36e934ca01fb628f7c5d49, type: 2}
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[27]
       value: 
@@ -5704,7 +5784,7 @@ PrefabInstance:
       objectReference: {fileID: 2120393293}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -5806,6 +5886,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[24]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -6572,7 +6660,7 @@ PrefabInstance:
       objectReference: {fileID: 418694492}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 13
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -6626,6 +6714,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[12]
       value: 
       objectReference: {fileID: 11400000, guid: 0dc8aed794fb77c40a153c032a88c55e, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[13]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[14]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -6826,7 +6922,7 @@ PrefabInstance:
       objectReference: {fileID: 1969732379}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 17
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -6896,6 +6992,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[16]
       value: 
       objectReference: {fileID: 11400000, guid: e088f9eca7e1a2b4c8a30d370bd53390, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[17]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[18]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -7628,7 +7732,7 @@ PrefabInstance:
       objectReference: {fileID: 1513165458}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 26
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -7737,7 +7841,7 @@ PrefabInstance:
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[26]
       value: 
-      objectReference: {fileID: 11400000, guid: c40a8f17ee36e934ca01fb628f7c5d49, type: 2}
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[27]
       value: 
@@ -7826,7 +7930,7 @@ PrefabInstance:
       objectReference: {fileID: 643280546}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 23
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -7920,6 +8024,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[22]
       value: 
       objectReference: {fileID: 11400000, guid: 20348068850597143a233472ba704003, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[23]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[24]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -9083,6 +9195,15 @@ MonoBehaviour:
   - stat: 8
     sprite: {fileID: 21300000, guid: 900ae3ff75b6c654e900f1ccafebb533, type: 3}
     power: 7
+  - stat: 0
+    sprite: {fileID: 21300000, guid: d261c340baeab36459a107eaca00ade8, type: 3}
+    power: 0
+  - stat: 1
+    sprite: {fileID: 21300000, guid: 6c24e01af8a253b44847b2b1e094381c, type: 3}
+    power: 0
+  - stat: 2
+    sprite: {fileID: 21300000, guid: 4524bc7fe51e6c3438d0f845a5007ea0, type: 3}
+    power: 0
 --- !u!1 &698603867
 GameObject:
   m_ObjectHideFlags: 0
@@ -9224,7 +9345,7 @@ PrefabInstance:
       objectReference: {fileID: 2029760341}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -9326,6 +9447,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[24]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -9577,7 +9706,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[0]
@@ -9739,6 +9868,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[24]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -10815,7 +10952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[0]
@@ -10977,6 +11114,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[24]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -11331,7 +11476,7 @@ PrefabInstance:
       objectReference: {fileID: 1657514002}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 13
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -11385,6 +11530,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[12]
       value: 
       objectReference: {fileID: 11400000, guid: 0dc8aed794fb77c40a153c032a88c55e, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[13]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[14]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -11492,7 +11645,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[0]
@@ -11630,6 +11783,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[24]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -12620,7 +12781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[0]
@@ -12758,6 +12919,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[24]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -13627,7 +13796,7 @@ PrefabInstance:
       objectReference: {fileID: 1368809609}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -13665,6 +13834,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[8]
       value: 
       objectReference: {fileID: 11400000, guid: f0b235cd1a9b44640901af411305d629, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[10]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -13940,7 +14117,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 26
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[0]
@@ -14085,7 +14262,7 @@ PrefabInstance:
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[26]
       value: 
-      objectReference: {fileID: 11400000, guid: c40a8f17ee36e934ca01fb628f7c5d49, type: 2}
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[27]
       value: 
@@ -15045,7 +15222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[0]
@@ -15183,6 +15360,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[24]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -16724,7 +16909,7 @@ PrefabInstance:
       objectReference: {fileID: 1294521870}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 31
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -16850,6 +17035,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[30]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[31]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[32]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -17580,7 +17773,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 30
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[0]
@@ -17738,6 +17931,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[29]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[30]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[31]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -18102,7 +18303,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[0]
@@ -18151,7 +18352,11 @@ PrefabInstance:
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[8]
       value: 
-      objectReference: {fileID: 11400000, guid: f0b235cd1a9b44640901af411305d629, type: 2}
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -18423,7 +18628,7 @@ PrefabInstance:
       objectReference: {fileID: 867443639}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -18525,6 +18730,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[24]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -18800,7 +19013,7 @@ PrefabInstance:
       objectReference: {fileID: 1762833109}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 23
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -18894,6 +19107,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[22]
       value: 
       objectReference: {fileID: 11400000, guid: 20348068850597143a233472ba704003, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[23]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[24]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -20422,7 +20643,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[0]
@@ -20499,7 +20720,11 @@ PrefabInstance:
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[8]
       value: 
-      objectReference: {fileID: 11400000, guid: f0b235cd1a9b44640901af411305d629, type: 2}
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[10]
       value: 
@@ -20803,7 +21028,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 16
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[0]
@@ -20929,6 +21154,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[15]
       value: 
       objectReference: {fileID: 11400000, guid: 9692221f6c7d0a747869a7fd745f1da1, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[16]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[17]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -21167,7 +21400,7 @@ PrefabInstance:
       objectReference: {fileID: 2041338218}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -21269,6 +21502,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[24]
       value: 
       objectReference: {fileID: 11400000, guid: 5c5be81e06a3f9747a11d3151f3bac91, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -21661,7 +21902,7 @@ PrefabInstance:
       objectReference: {fileID: 772372803}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 26
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -21767,6 +22008,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[25]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[27]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -21871,7 +22120,7 @@ PrefabInstance:
       objectReference: {fileID: 2020149832}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 23
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -21965,6 +22214,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[22]
       value: 
       objectReference: {fileID: 11400000, guid: 20348068850597143a233472ba704003, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[23]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[24]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -22218,7 +22475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[0]
@@ -22380,6 +22637,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[24]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -24225,7 +24490,7 @@ PrefabInstance:
       objectReference: {fileID: 1296834781}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -24327,6 +24592,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[24]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -25134,7 +25407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 23
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[0]
@@ -25288,6 +25561,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[22]
       value: 
       objectReference: {fileID: 11400000, guid: 20348068850597143a233472ba704003, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[23]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[24]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -25405,7 +25686,7 @@ PrefabInstance:
       objectReference: {fileID: 1578270846}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -25507,6 +25788,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[24]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -25658,7 +25947,7 @@ PrefabInstance:
       objectReference: {fileID: 2079358351}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 31
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -25784,6 +26073,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[30]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[31]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[32]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
@@ -25895,7 +26192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 26
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.possibleCards.Array.data[0]
@@ -26076,7 +26373,7 @@ PrefabInstance:
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[26]
       value: 
-      objectReference: {fileID: 11400000, guid: c40a8f17ee36e934ca01fb628f7c5d49, type: 2}
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[27]
       value: 
@@ -26469,7 +26766,7 @@ PrefabInstance:
       objectReference: {fileID: 1775086888}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.size
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: eventDeck.possibleCards.Array.data[0]
@@ -26571,6 +26868,14 @@ PrefabInstance:
       propertyPath: eventDeck.possibleCards.Array.data[24]
       value: 
       objectReference: {fileID: 11400000, guid: 682fd6e0e6db3ec42a6ec4275e811f6b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: c88ffa9d5eeff3044b1ffc86c6b4ff5b, type: 2}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: eventDeck.possibleCards.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0787acba509e9844cbee4fe85bbfc0f5, type: 2}
     - target: {fileID: 8802012897006660920, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_Icon
       value: 
