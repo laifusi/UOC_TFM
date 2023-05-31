@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: GlobalStringsTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: GlobalStringsTable
+  m_TableCollectionNameGuidString: b99acf90acf9c034e8597de03e4370de
+  m_Entries:
+  - m_Id: 54414192640
+    m_Key: language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235518521946112
+    m_Key: pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235794817527808
+    m_Key: continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235982441328640
+    m_Key: restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236211228028928
+    m_Key: options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236422885191680
+    m_Key: credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236572462460928
+    m_Key: exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236949236789248
+    m_Key: back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237275960487936
+    m_Key: volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237503874772992
+    m_Key: music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237625660583936
+    m_Key: effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237765846806528
+    m_Key: languageText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239699680997376
+    m_Key: title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240127722303488
+    m_Key: play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247165034606592
+    m_Key: skipTutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247482648276992
+    m_Key: end
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247686659223552
+    m_Key: lose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247832121880576
+    m_Key: additionalLose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248207038132224
+    m_Key: ending
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248552254517248
+    m_Key: win
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7598979195661975970
+  references:
+    version: 2
+    RefIds:
+    - rid: 7598979195661975970
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1685475174424

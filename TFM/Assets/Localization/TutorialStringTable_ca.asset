@@ -84,7 +84,8 @@ MonoBehaviour:
   - m_Id: 3199554990080
     m_Localized: "Aquesta \xE9s la pantalla d'esdeveniment.\nSi passes per damunt
       del teu personatge, veur\xE0s la conseq\xFC\xE8ncia de seleccionar-lo per a
-      l'enfrontament."
+      l'enfrontament.\nSi passes per damunt de l'esdeveniment, podr\xE0s veure les
+      caracter\xEDstiques que poden resoldre l'esdeveniment."
     m_Metadata:
       m_Items: []
   - m_Id: 4463244259328
@@ -108,12 +109,13 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 5038950232064
     m_Localized: "Aquestes s\xF3n les monedes que tens i baix de les cartes d'equipament
-      de la tenda es pot veure el seu preu."
+      de la tenda es pot veure el seu preu.\nSi passes per damunt de la carta d'equipament,
+      pots veure el seu efecte."
     m_Metadata:
       m_Items: []
   - m_Id: 5167098802176
-    m_Localized: "Selecciona la carta a comprar i el personatge a qui assignar-la
-      i s'aplicaran les seues caracter\xEDtiques inmediatament."
+    m_Localized: Selecciona la carta a comprar i el personatge a qui assignar-la
+      i s'aplicaran els seus efectes inmediatament.
     m_Metadata:
       m_Items: []
   - m_Id: 5304286097408

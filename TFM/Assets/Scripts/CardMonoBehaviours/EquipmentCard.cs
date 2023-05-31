@@ -11,6 +11,11 @@ public class EquipmentCard : Card<EquipmentCardSO>
     [SerializeField] TMP_Text effectText;
     [SerializeField] Image affectedStatImage;
 
+    private void Start()
+    {
+        OptionsManager.OnLanguageChanged += UpdateText;
+    }
+
     public override void PaintCard(EquipmentCardSO cardToPaint)
     {
         card = cardToPaint;
@@ -20,8 +25,18 @@ public class EquipmentCard : Card<EquipmentCardSO>
         affectedStatImage.sprite = IconManager.Instance.GetStatSprite(card.GetEffects()[0].affectedStat);
     }
 
+    private void UpdateText()
+    {
+        effectText.text = card.GetEffectString();
+    }
+
     public int GetCost()
     {
         return card.GetCost();
+    }
+
+    private void OnDestroy()
+    {
+        OptionsManager.OnLanguageChanged -= UpdateText;
     }
 }

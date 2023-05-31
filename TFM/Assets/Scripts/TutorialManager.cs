@@ -19,6 +19,13 @@ public class TutorialManager : MonoBehaviour
     private void Start()
     {
         TutorialTrigger.OnTutorialTriggered += ActivateTutorialPoint;
+        OptionsManager.OnLanguageChanged += UpdateLanguage;
+    }
+
+    private void UpdateLanguage()
+    {
+        if(tutorialCanvas.activeInHierarchy)
+            tutorialText.SetText(currentTutorialPoint.GetCurrentLine());
     }
 
     public void ActivateTutorialPoint(TutorialPoint tutorial)
@@ -55,6 +62,7 @@ public class TutorialManager : MonoBehaviour
     private void OnDestroy()
     {
         TutorialTrigger.OnTutorialTriggered -= ActivateTutorialPoint;
+        OptionsManager.OnLanguageChanged -= UpdateLanguage;
     }
 }
 
@@ -74,6 +82,11 @@ public struct TutorialPoint
         }
         string lineToShow = lines[currentLine - 1].text.GetLocalizedString();
         return lineToShow;
+    }
+
+    public string GetCurrentLine()
+    {
+        return lines[currentLine - 1].text.GetLocalizedString();
     }
 
     public Vector3 GetTextBlockPos()

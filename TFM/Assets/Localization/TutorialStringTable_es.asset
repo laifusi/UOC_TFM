@@ -17,7 +17,157 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 5f822681c26a71e45be2b885a7e9dbb5, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 6406189056
+    m_Localized: "\xA1Un momento!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77856157696
+    m_Localized: Antes de empezar a jugar, deja que te explique un par de cosas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156943953920
+    m_Localized: 'Este es un juego de cartas de aventura en tres fases: el evento,
+      las habilidades y la compra.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354189488128
+    m_Localized: "Esta pantalla que ves es el mapa. Las posiciones marcadas en rojo
+      no son accesibles. La posici\xF3n marcada en azul es la posici\xF3n actual.
+      Y las posiciones marcadas en amarillo son las que se pueden seleccionar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 539393175552
+    m_Localized: "Al inici del turno, tendr\xE1s que seleccionar una posici\xF3n
+      a la que mover a los personajes. Eso dar\xE1 paso a la fase de evento."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1247882424320
+    m_Localized: "En esta, tendr\xE1s que escoger a uno de tus personajes para enfrentarse
+      al evento."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1679279173632
+    m_Localized: "A continuaci\xF3n, se pasar\xE1 a la fase de habilidades, donde
+      podr\xE1s utilizar un n\xFAmero limitado de las habilidades de tus personajes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2071954108416
+    m_Localized: "Cada personaje tiene unas caracter\xEDsticas y unos valores que
+      definen si son m\xE1s o menos adecuados para enfrentarse a un evento o otro.
+      Estos son los valores de inteligencia, habilidades sociales, destreza, agilidad,
+      vida, ataque y escudo, adem\xE1s del poder del personaje."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2564189237248
+    m_Localized: "En algunas posiciones del mapa, marcadas como tienda, se podr\xE1n
+      adquirir carta de equipaci\xF3n, para mejorar las caracter\xEDsticas de los
+      personajes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2815419658240
+    m_Localized: "Adem\xE1s, a partir de cierto nivel, podr\xE1s conseguir nuevas
+      habilidades para tus personajes con el libro de habilidades."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2962962690048
+    m_Localized: "A medida que avances, encontrar\xE1s nuevos personajes por el mapa
+      que se unir\xE1n a la aventura."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3079845359616
+    m_Localized: "Ya seguiremos hablando luego. Ahora, escoje la siguiente posici\xF3n
+      del mapa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3199554990080
+    m_Localized: "Esta es la pantalla de evento.\nSi pasas por encima de un personaje,
+      ver\xE1s la consecuencia que tendr\xE1 seleccionarlo para el enfrentamiento.\nSi
+      pasas por encima de la carta de evento, ver\xE1s las caracter\xEDsticas que
+      lo pueden resolver."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4463244259328
+    m_Localized: Esta es la pantalla de habilidades. Cada personaje tiene una serie
+      de habilidades.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4656219992064
+    m_Localized: Selecciona el texto de la habilidad y el personaje a quien quieres
+      aplicarla.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4730341732352
+    m_Localized: "Este es el n\xFAmero de habilidades que puedes utilizar por turno.
+      Este n\xFAmero depende de la cantidad de personajes que tengas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4933702561792
+    m_Localized: Esta es la pantalla de tienda.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5038950232064
+    m_Localized: "Estas son las monedas que tienes, y debajo de las cartas de equipaci\xF3n,
+      puedes ver su precio.\nSi pasas por encima de la carta de equipaci\xF3n, podr\xE1s
+      ver su efecto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5167098802176
+    m_Localized: "Selecciona la carta a comprar y el personaje a quien asignarla
+      y se aplicar\xE1n inmediatamente sus efectos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5304286097408
+    m_Localized: Esta es la pantalla de aprendizaje.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5450969296896
+    m_Localized: Selecciona uno de los personajes para ver que habilidades puede
+      aprender.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5600328462336
+    m_Localized: "El coste de aprendizaje se traduce en turnos en los que el personaje
+      est\xE1 congelado."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5889425059840
+    m_Localized: "Un personaje congelado no puede enfrentarse a evento ni usar sus
+      habilidades hasta que est\xE9 descongelado. (Tambi\xE9n pasa cuando la vida
+      llega a 0 o menos)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6174503514112
+    m_Localized: Ten cuidado. Si todos tus personajes estan congelados, se acaba
+      la partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6277515620352
+    m_Localized: Uh oh! Tu personaje ha quedado congelado. Esto ocurre cuando la
+      vida llega a 0 o menos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6519308857344
+    m_Localized: "Un personaje congelado no puede enfrentarse a evento ni usar sus
+      habilidades hasta que est\xE9 descongelado. (Tambi\xE9n pasa cuando est\xE1
+      aprendiendo una habilidad nueva)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6654835208192
+    m_Localized: Ten cuidado. Si todos tus personajes estan congelados, se acaba
+      la partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6687798243328
+    m_Localized: "Los personajes congelados pueden recibir efectos de las habilidades
+      de otros personajes o de las cartas de equipaci\xF3n de las tiendas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7052149043200
+    m_Localized: "As\xED que, si tu personaje muere, tendr\xE1s que conseguir que
+      recupere la vida para poder seguir us\xE1ndolo."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

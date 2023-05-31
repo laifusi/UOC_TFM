@@ -22,6 +22,700 @@ MonoBehaviour:
     m_Localized: Barrera de poder
     m_Metadata:
       m_Items: []
+  - m_Id: 4013757061050368
+    m_Localized: La agilidad no es suficiente para resolver el problema. No hay recompensa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4013697434824704
+    m_Localized: Usando la agilidad, se consigue el objetivo y el aldeano ofrece
+      100 monedas como recompensa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4013664731836416
+    m_Localized: Usando la agilidad, se consigue el objetivo y el aldeano ofrece
+      50 monedas como recompensa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4013641302454272
+    m_Localized: "\xA1\xA1Ayuda!!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4013308819976192
+    m_Localized: "\xA1Ayuda!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3924867629363200
+    m_Localized: Debilidades
+    m_Metadata:
+      m_Items: []
+  - m_Id: 996493902655488
+    m_Localized: La destreza no es suficiente para resolver el problema. No hay recompensa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290015629717504
+    m_Localized: Usando la destreza, se arregla la fuga y se ganan 10 puntos de destreza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289964543094784
+    m_Localized: Usando el control de las plantas, se bloquea la fuga y se ganan
+      8 puntos de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289907773190144
+    m_Localized: Usando el control del agua, se bloquea la fuga y se ganan 8 puntos
+      de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289810389839872
+    m_Localized: Fuga de agua grande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289172482338816
+    m_Localized: Usando la destreza, se arregla la fuga y se ganan 5 puntos de destreza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289002021629952
+    m_Localized: Usando el control de las plantas, se bloquea la fuga y se ganan
+      3 puntos de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288756445130752
+    m_Localized: Usando el control del agua, se bloquea la fuga y se ganan 3 puntos
+      de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288685599141888
+    m_Localized: "Fuga de agua peque\xF1a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287057739427840
+    m_Localized: La agilidad no es suficiente, se pierden 3 puntos de agilidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286953049600000
+    m_Localized: Usando la agilidad, se consiguen 8 puntos de agilidad pero se pierden
+      30 monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286873840168960
+    m_Localized: Usando el control del viento, se mueven las rocas y se conseiguen
+      8 punts de inteligencia y 15 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286566280245248
+    m_Localized: Usando el control de la tierra, se mueven las rocas y se conseiguen
+      8 punts de inteligencia y 15 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286523070525440
+    m_Localized: Escombros grandes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286382460678144
+    m_Localized: La agilidad no es suficiente, se pierden 5 puntos de agilidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286280442621952
+    m_Localized: Usando la agilidad, se consiguen 5 puntos de agilidad pero se pierden
+      20 monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286206903889920
+    m_Localized: Usando el control del viento, se mueven las rocas y se conseiguen
+      5 punts de inteligencia y 5 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286132178169856
+    m_Localized: Usando el control de la tierra, se mueven las rocas y se conseiguen
+      5 punts de inteligencia y 5 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286090344181760
+    m_Localized: Escombros
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285909469016064
+    m_Localized: La agilidad no es suficiente, se pierden 8 puntos de agilidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285661203968000
+    m_Localized: Usando la agilidad, se consiguen 3 puntos de agilidad pero se pierden
+      10 monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285483738771456
+    m_Localized: Usando el control del viento, se mueven las rocas y se conseiguen
+      3 punts de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285134525214720
+    m_Localized: Usando el control de la tierra, se mueven las rocas y se conseiguen
+      3 punts de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284728504004608
+    m_Localized: "Escombros peque\xF1os"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283827114520576
+    m_Localized: Usando el control del agua, se controla el incendio y se ganan 20
+      puntos de inteligencia, pero se pierden 10 puntos de vida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283749469564928
+    m_Localized: Usando el control del fuego, se controla el incendio y se ganan
+      20 puntos de inteligencia, pero se pierden 10 puntos de vida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283706809298944
+    m_Localized: Incendio grande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283678413860864
+    m_Localized: Usando el control del agua, se controla el incendio y se ganan 10
+      puntos de inteligencia, pero se pierden 5 puntos de vida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283597279244288
+    m_Localized: Usando el control del fuego, se controla el incendio y se ganan
+      10 puntos de inteligencia, pero se pierden 5 puntos de vida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283461127942144
+    m_Localized: Incendio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283339304382464
+    m_Localized: Usando el control del agua, se controla el incendio y se ganan 5
+      puntos de inteligencia, pero se pierden 2 puntos de vida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283129463353344
+    m_Localized: Usando el control del fuego, se controla el incendio y se ganan
+      5 puntos de inteligencia, pero se pierden 2 puntos de vida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283083422478336
+    m_Localized: "Incendio peque\xF1o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282013178703872
+    m_Localized: Usando la inteligencia, se ganan 5 puntos de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281759985348608
+    m_Localized: Usando el control de la electricidad, se ganan 5 puntos de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282224202526720
+    m_Localized: Usando la inteligencia, se ganan 10 puntos de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282162290405376
+    m_Localized: Usando el control de la electricidad, se ganan 10 puntos de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282081025765376
+    m_Localized: "Polic\xEDa robot complejo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281707028066304
+    m_Localized: "Polic\xEDa robot simple"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279820136525824
+    m_Localized: "Se usa la fuerza y se acaba con la vida del polic\xEDa, se pierden
+      10 puntos de habilidades sociales"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279755221282816
+    m_Localized: "Se usa la fuerza sin acabar con la vida del polic\xEDa, se pierden
+      5 puntos de habilidades sociales"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279694374514688
+    m_Localized: Usando el control mental, se pierden 5 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279648006483968
+    m_Localized: Usando las habilidades sociales, se ganan 15 puntos de habilidades
+      sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279606986190848
+    m_Localized: "Polic\xEDa experto"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279537964724224
+    m_Localized: "Se usa la fuerza y se acaba con la vida del polic\xEDa, se pierden
+      15 puntos de habilidades sociales"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279436944912384
+    m_Localized: "Se usa la fuerza sin acabar con la vida del polic\xEDa, se pierden
+      5 puntos de habilidades sociales"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279336453582848
+    m_Localized: Usando el control mental, se pierden 10 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279293201920000
+    m_Localized: Usando las habilidades sociales, se ganan 10 puntos de habilidades
+      sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279223467421696
+    m_Localized: "Polic\xEDa"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278817609789440
+    m_Localized: Usando las habilidades sociales, se ganan 5 puntos de habilidades
+      sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279081548951552
+    m_Localized: "Se usa la fuerza sin acabar con la vida del polic\xEDa, se pierden
+      5 puntos de habilidades sociales"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278954058887168
+    m_Localized: Usando el control mental, se pierden 15 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279171105730560
+    m_Localized: "Se usa la fuerza y se acaba con la vida del polic\xEDa, se pierden
+      20 puntos de habilidades sociales"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278762442108928
+    m_Localized: "Polic\xEDa novato"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275956133965824
+    m_Localized: Se usa la fuerza y se acaba con la vida del aldeano, se pierden
+      10 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275906171416576
+    m_Localized: Se usa la fuerza sin acabar con la vida del aldeano, se pierden
+      5 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275844464816128
+    m_Localized: Usando el control mental, se pierden 5 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275751682617344
+    m_Localized: Usando las habilidades sociales, se ganan 15 puntos de habilidades
+      sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275703221628928
+    m_Localized: "Aldeano en p\xE1nico extremo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275622154121216
+    m_Localized: Se usa la fuerza y se acaba con la vida del aldeano, se pierden
+      20 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275554915233792
+    m_Localized: Se usa la fuerza sin acabar con la vida del aldeano, se pierden
+      10 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275453383716864
+    m_Localized: Usando el control mental, se pierden 10 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275377148047360
+    m_Localized: Usando las habilidades sociales, se ganan 10 puntos de habilidades
+      sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275283313078272
+    m_Localized: "Aldeano en p\xE1nico"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274445962227712
+    m_Localized: Se usa la fuerza y se acaba con la vida del aldeano, se pierden
+      30 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274061160001536
+    m_Localized: Se usa la fuerza sin acabar con la vida del aldeano, se pierden
+      15 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273973566156800
+    m_Localized: Usando el control mental, se pierden 15 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273876560293888
+    m_Localized: Usando las habilidades sociales, se ganan 5 puntos de habilidades
+      sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273739658211328
+    m_Localized: "Aldeano en p\xE1nico suave"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271986808238080
+    m_Localized: Usando la agilidad, se ganan 15 puntos de agilidad, pero se pierden
+      200 monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271925277798400
+    m_Localized: Usando el control de la tierra, se ganan 15 puntos de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271865496383488
+    m_Localized: Monstruo de roca grande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271809573728256
+    m_Localized: Usando la agilidad, se ganan 10 puntos de agilidad, pero se pierden
+      100 monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271749658095616
+    m_Localized: Usando el control de la tierra, se ganan 10 puntos de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271688320593920
+    m_Localized: Monstruo de roca
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270839309578240
+    m_Localized: Usando la fuerza, se pierden los puntos de escudo y/o vida correspondientes
+      al ataque del enemigo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270356842983424
+    m_Localized: Usando la agilidad, se ganan 5 puntos de agilidad, pero se pierden
+      50 monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270204623302656
+    m_Localized: Usando el control de la tierra, se ganan 5 puntos de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270146607689728
+    m_Localized: "Monstruo de roca peque\xF1o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11794896039936
+    m_Localized: Se usa la fuerza y se acaba con la vida del demonio, se pierden
+      6 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11716110233600
+    m_Localized: Se usa la fuerza sin acabar con la vida del demonio, se pierden
+      4 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11643624271872
+    m_Localized: Usando el control del viento, se gana al demonio pero se pierden
+      4 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11597612756992
+    m_Localized: Usando el control mental, se gana al demonio pero se pierden 4 puntos
+      de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11539563589632
+    m_Localized: Usando el control del fuego, se gana al demonio pero se pierden
+      4 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11505187074048
+    m_Localized: Demonio grande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11293995479040
+    m_Localized: Se usa la fuerza y se acaba con la vida del demonio, se pierden
+      8 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11081159716864
+    m_Localized: Se usa la fuerza sin acabar con la vida del demonio, se pierden
+      2 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11020535246848
+    m_Localized: Usando el control del viento, se gana al demonio pero se pierden
+      2 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10935080497152
+    m_Localized: Usando el control mental, se gana al demonio pero se pierden 2 puntos
+      de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10756520587264
+    m_Localized: Usando el control del fuego, se gana al demonio pero se pierden
+      2 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10564387909632
+    m_Localized: "Demonio peque\xF1o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10258044334080
+    m_Localized: La agilidad no es suficiente, se pierden 3 puntos de agilidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10185071833088
+    m_Localized: Usando la agilidad, se cruza la grieta y se ganan 8 puntos de agilidad,
+      pero se pierden 30 monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10141061001216
+    m_Localized: Usando el control de las plantas, se puede cruzar la grieta y se
+      ganan 8 puntos de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10021833715712
+    m_Localized: Usando el control de la tierra, se puede cruzar la grieta y se ganan
+      8 puntos de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9988417695744
+    m_Localized: Grieta grande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9204070264832
+    m_Localized: La agilidad no es suficiente, se pierden 5 puntos de agilidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8212079620096
+    m_Localized: La agilidad no es suficiente, se pierden 8 puntos de agilidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8932698796032
+    m_Localized: Usando la agilidad, se cruza la grieta y se ganan 5 puntos de agilidad,
+      pero se pierden 20 monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7895669714944
+    m_Localized: Usando la agilidad, se cruza la grieta y se ganan 3 puntos de agilidad,
+      pero se pierden 10 monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8817003114496
+    m_Localized: Usando el control de las plantas, se puede cruzar la grieta y se
+      ganan 5 puntos de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7656665690112
+    m_Localized: Usando el control de las plantas, se puede cruzar la grieta y se
+      ganan 3 puntos de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8697079574528
+    m_Localized: Usando el control de la tierra, se puede cruzar la grieta y se ganan
+      5 puntos de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8602019868672
+    m_Localized: Grieta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6251913588736
+    m_Localized: Usando el control de la tierra, se puede cruzar la grieta y se ganan
+      3 puntos de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5873620922368
+    m_Localized: "Grieta peque\xF1a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3942794047488
+    m_Localized: "Se usa la fuerza y se acaba con la vida del ladr\xF3n, se ganan
+      300 monedas pero se pierden 5 puntos de habilidades sociales"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3903770243072
+    m_Localized: "Se usa la fuerza sin acabar con la vida del ladr\xF3n, se pierden
+      100 monedas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3866898116608
+    m_Localized: Usando las habilidades sociales, se consiguen 100 monedas y se ganan
+      10 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3830076321792
+    m_Localized: Usando la inteligencia, se consiguen 150 monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3767807684608
+    m_Localized: Usando el control mental, se consiguen 300 monedas pero se pierden
+      2 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3735230525440
+    m_Localized: "Ladr\xF3n experto"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3690607325184
+    m_Localized: "Se usa la fuerza y se acaba con la vida del ladr\xF3n, se ganan
+      150 monedas pero se pierden 10 puntos de habilidades sociales"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3651508023296
+    m_Localized: "Se usa la fuerza sin acabar con la vida del ladr\xF3n, se pierden
+      50 monedas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3594683592704
+    m_Localized: Usando las habilidades sociales, se consiguen 50 monedas y se ganan
+      5 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3560344825856
+    m_Localized: Usando la inteligencia, se consiguen 100 monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3514203287552
+    m_Localized: Usando el control mental, se consiguen 150 monedas pero se pierden
+      5 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3483555508224
+    m_Localized: "Ladr\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3407005265920
+    m_Localized: "Se usa la fuerza y se acaba con la vida del ladr\xF3n, se ganan
+      75 monedas pero se pierden 20 puntos de habilidades sociales"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3365112557568
+    m_Localized: "Se usa la fuerza sin acabar con la vida del ladr\xF3n, se pierden
+      25 monedas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3311811342336
+    m_Localized: Usando las habilidades sociales, se consiguen 25 monedas y se ganan
+      2 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3265262956544
+    m_Localized: Usando la inteligencia, se consiguen 50 monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3218198671360
+    m_Localized: Usando el control mental, se consiguen 75 monedas pero se pierden
+      8 puntos de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3165446909952
+    m_Localized: "Ladr\xF3n novato"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3116402913280
+    m_Localized: Usando la destreza, se consigue el objetivo y el aldeano ofrece
+      100 monedas como recompensa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3045217185792
+    m_Localized: "\xA1\xA1Ayuda!!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2925180399616
+    m_Localized: Usando la destreza, se consigue el objetivo y el aldeano ofrece
+      50 monedas como recompensa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2808813629440
+    m_Localized: "\xA1Ayuda!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2739355955200
+    m_Localized: Usando la fuerza bruta, se consiguen 100 monedas de la caja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2695546449920
+    m_Localized: Usando el control de la electricidad, se consiguen 150 monedas de
+      la caja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2653456609280
+    m_Localized: Usando la inteligencia, se consiguen las 200 monedas de la caja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2604676853760
+    m_Localized: Usando la destreza, se consiguen las 200 monedas de la caja y se
+      ganan 5 puntos de destreza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2516822962176
+    m_Localized: "Caja electr\xF3nica compleja"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2290800308224
+    m_Localized: Usando la fuerza bruta, se consiguen 50 monedas de la caja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2222982606848
+    m_Localized: Usando el control de la electricidad, se consiguen 75 monedas de
+      la caja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2186311806976
+    m_Localized: Usando la inteligencia, se consiguen las 100 monedas de la caja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2069752098816
+    m_Localized: Usando la destreza, se consiguen las 100 monedas de la caja y se
+      ganan 2 puntos de destreza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2008305545216
+    m_Localized: "Caja electr\xF3nica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1598819840000
+    m_Localized: Usando la fuerza bruta, se consiguen 50 monedas de la caja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1860728958976
+    m_Localized: Usando la inteligencia, se consiguen las 200 monedas de la caja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1914625765376
+    m_Localized: Usando la fuerza bruta, se consiguen 100 monedas de la caja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1536303738880
+    m_Localized: Usando la inteligencia, se consiguen las 100 monedas de la caja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1788716953600
+    m_Localized: Usando la destreza, se consiguen las 200 monedas de la caja y se
+      ganan 5 puntos de destreza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1376727248896
+    m_Localized: Usando la destreza, se consiguen las 100 monedas de la caja y se
+      ganan 2 puntos de destreza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651131199488
+    m_Localized: Caja compleja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1225438703616
+    m_Localized: Caja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 890078932992
+    m_Localized: Usando el control del fuego, se cruza la barrera
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

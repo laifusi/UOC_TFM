@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization;
 
 [CreateAssetMenu(fileName = "New Character Card", menuName = "Cards/Character", order = 1)]
 public class CharacterCardSO : CardSO
@@ -229,7 +230,7 @@ public class CharacterCardSO : CardSO
 public struct Ability
 {
     public Effect[] effects;
-    public string abilityText;
+    public LocalizedString abilityText;
     public int abilityCost;
     public int abilityLevel;
 

@@ -38,30 +38,146 @@ MonoBehaviour:
     - affectedStat: 6
       affectionAmount: 5
       effectText: 
-    abilityText: Dona 5 punts de destresa
+    abilityText:
+      m_TableReference:
+        m_TableCollectionName: GUID:824c0fbd28c187649982a0e2854555ef
+      m_TableEntryReference:
+        m_KeyId: 5310153730994176
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables:
+      - name: value
+        variable:
+          rid: 7598979195661976026
+      - name: stat
+        variable:
+          rid: 7598979195661976027
     abilityCost: 0
     abilityLevel: 0
   - effects:
     - affectedStat: 7
       affectionAmount: 5
       effectText: 
-    abilityText: Dona 5 punts d'agilitat
+    abilityText:
+      m_TableReference:
+        m_TableCollectionName: GUID:824c0fbd28c187649982a0e2854555ef
+      m_TableEntryReference:
+        m_KeyId: 5310153730994176
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables:
+      - name: value
+        variable:
+          rid: 7598979195661976028
+      - name: stat
+        variable:
+          rid: 7598979195661976029
     abilityCost: 2
     abilityLevel: 1
   - effects:
     - affectedStat: 6
       affectionAmount: 10
       effectText: 
-    abilityText: Dona 10 punts de destresa
+    abilityText:
+      m_TableReference:
+        m_TableCollectionName: GUID:824c0fbd28c187649982a0e2854555ef
+      m_TableEntryReference:
+        m_KeyId: 5310153730994176
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables:
+      - name: value
+        variable:
+          rid: 7598979195661976030
+      - name: stat
+        variable:
+          rid: 7598979195661976031
     abilityCost: 3
     abilityLevel: 2
   - effects:
     - affectedStat: 7
       affectionAmount: 10
       effectText: 
-    abilityText: Dona 10 punts d'agilitat
+    abilityText:
+      m_TableReference:
+        m_TableCollectionName: GUID:824c0fbd28c187649982a0e2854555ef
+      m_TableEntryReference:
+        m_KeyId: 5310153730994176
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables:
+      - name: value
+        variable:
+          rid: 7598979195661976032
+      - name: stat
+        variable:
+          rid: 7598979195661976033
     abilityCost: 3
     abilityLevel: 2
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 7598979195661976026
+      type: {class: IntVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 5
+    - rid: 7598979195661976027
+      type: {class: LocalizedString, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:824c0fbd28c187649982a0e2854555ef
+        m_TableEntryReference:
+          m_KeyId: 5318842605023232
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+    - rid: 7598979195661976028
+      type: {class: IntVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 5
+    - rid: 7598979195661976029
+      type: {class: LocalizedString, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:824c0fbd28c187649982a0e2854555ef
+        m_TableEntryReference:
+          m_KeyId: 5313173764091904
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+    - rid: 7598979195661976030
+      type: {class: IntVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 10
+    - rid: 7598979195661976031
+      type: {class: LocalizedString, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:824c0fbd28c187649982a0e2854555ef
+        m_TableEntryReference:
+          m_KeyId: 5318842605023232
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+    - rid: 7598979195661976032
+      type: {class: IntVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 10
+    - rid: 7598979195661976033
+      type: {class: LocalizedString, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:824c0fbd28c187649982a0e2854555ef
+        m_TableEntryReference:
+          m_KeyId: 5313173764091904
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []

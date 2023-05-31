@@ -16,8 +16,277 @@ MonoBehaviour:
     m_Code: es
   m_SharedData: {fileID: 11400000, guid: 3d4fefe61b25f864bad68ed99676b31f, type: 2}
   m_Metadata:
-    m_Items: []
-  m_TableData: []
+    m_Items:
+    - rid: 7598979195661975963
+  m_TableData:
+  - m_Id: 50551238656
+    m_Localized: "Poci\xF3n aumentadora de destreza suave"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170642550784
+    m_Localized: "Poci\xF3n aumentadora de destreza"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 242474201088
+    m_Localized: "Poci\xF3n aumentadora de destreza potente"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 360053125120
+    m_Localized: Da 5 puntos de destreza al personaje a quien se asigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537069531136
+    m_Localized: Da 10 puntos de destreza al personaje a quien se asigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 601246576640
+    m_Localized: Da 15 puntos de destreza al personaje a quien se asigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1390993980436480
+    m_Localized: Da 5 puntos de agilidad al personaje a quien se asigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1391032014385152
+    m_Localized: Da 10 puntos de agilidad al personaje a quien se asigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1391055087251456
+    m_Localized: Da 15 puntos de agilidad al personaje a quien se asigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1391224700710912
+    m_Localized: Da 5 puntos de habilidades sociales al personaje a quien se asigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1391237782745088
+    m_Localized: Da 10 puntos de habilidades sociales al personaje a quien se asigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1391244405551104
+    m_Localized: Da 15 puntos de habilidades sociales al personaje a quien se asigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1391246167158784
+    m_Localized: Da 5 puntos de inteligencia al personaje a quien se asigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1391253511385088
+    m_Localized: Da 10 puntos de inteligencia al personaje a quien se asigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1391270548647936
+    m_Localized: Da 15 puntos de inteligencia al personaje a quien se asigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1392039515566080
+    m_Localized: "Poci\xF3n aumentadora de agilidad suave"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1392109845655552
+    m_Localized: "Poci\xF3n aumentadora de agilidad"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1392140610875392
+    m_Localized: "Poci\xF3n aumentadora de agilidad potente"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1392161519480832
+    m_Localized: "Poci\xF3n aumentadora de habilidades sociales suave"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1392201889656832
+    m_Localized: "Poci\xF3n aumentadora de habilidades sociales"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1392235054018560
+    m_Localized: "Poci\xF3n aumentadora de habilidades sociales potente"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1392257174777856
+    m_Localized: "Poci\xF3n aumentadora de inteligencia suave"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1392338431029248
+    m_Localized: "Poci\xF3n aumentadora de inteligencia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1392359792619520
+    m_Localized: "Poci\xF3n aumentadora de inteligencia potente"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1394562104209408
+    m_Localized: "Alimento aumentador de destreza peque\xF1o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1394707470397440
+    m_Localized: Alimento aumentador de destreza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1394717075353600
+    m_Localized: Alimento aumentador de destreza grande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1394805931683840
+    m_Localized: "Alimento aumentador de agilidad peque\xF1o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1394861866921984
+    m_Localized: Alimento aumentador de agilidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1394878027575296
+    m_Localized: Alimento aumentador de agilidad grande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1394979848499200
+    m_Localized: "Alimento aumentador de habilidades sociales peque\xF1o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395020248035328
+    m_Localized: Alimento aumentador de habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395037419515904
+    m_Localized: Alimento aumentador de habilidades sociales grande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395130738585600
+    m_Localized: "Alimento aumentador de inteligencia peque\xF1o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395158693621760
+    m_Localized: Alimento aumentador de inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395175600861184
+    m_Localized: Alimento aumentador de inteligencia grande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483371638599680
+    m_Localized: "Alimento aumentador de vida peque\xF1o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483422041550848
+    m_Localized: Alimento aumentador de vida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483453104566272
+    m_Localized: Alimento aumentador de vida grande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483238901460992
+    m_Localized: "Poci\xF3n aumentadora de vida"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483124745089024
+    m_Localized: "Poci\xF3n aumentadora de vida suave"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483248112152576
+    m_Localized: "Poci\xF3n aumentadora de vida potente"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1399083723304960
+    m_Localized: Da {attack} puntos de ataque pero se pierden {agility} puntos de
+      agilidad
+    m_Metadata:
+      m_Items:
+      - rid: 7598979195661975963
+  - m_Id: 1477603174559744
+    m_Localized: Da {shield} puntos de escudo pero se pierden {agility} puntos de
+      agilidad
+    m_Metadata:
+      m_Items:
+      - rid: 7598979195661975963
+  - m_Id: 1483250532265984
+    m_Localized: Da 5 puntos de vida al personaje a quien se asigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483333017448448
+    m_Localized: Da 10 puntos de vida al personaje a quien se asigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483349203267584
+    m_Localized: Da 15 puntos de vida al personaje a quien se asigna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398481068929024
+    m_Localized: "Arma b\xE1sica peque\xF1a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398622484082688
+    m_Localized: "Arma b\xE1sica mediana"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398655191265280
+    m_Localized: "Arma b\xE1sica grande"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398684484284416
+    m_Localized: "Arma buena peque\xF1a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398728558030848
+    m_Localized: Arma buena mediana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398752952102912
+    m_Localized: Arma buena grande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398772266872832
+    m_Localized: "Arma muy buena peque\xF1a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398805590618112
+    m_Localized: Arma muy buena mediana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398825781997568
+    m_Localized: Arma muy buena grande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1477647646765056
+    m_Localized: "Escudo b\xE1sica peque\xF1o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478564999770112
+    m_Localized: "Escudo b\xE1sico mediano"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478587053420544
+    m_Localized: "Escudo b\xE1sico grande"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478706523975680
+    m_Localized: "Escudo bueno peque\xF1o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478739944189952
+    m_Localized: Escudo bueno mediano
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478762685706240
+    m_Localized: Escudo bueno grande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478785792126976
+    m_Localized: "Escudo muy bueno peque\xF1o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478817245212672
+    m_Localized: Escudo muy bueno mediano
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478842247458816
+    m_Localized: Escudo muy bueno grande
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 7598979195661975963
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00b0569075f8040000b0564cdf3f0500

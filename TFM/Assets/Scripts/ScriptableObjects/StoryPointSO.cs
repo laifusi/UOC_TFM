@@ -43,6 +43,11 @@ public class StoryPointSO : ScriptableObject
         return lineToShow;
     }
 
+    public string GetCurrentLine()
+    {
+        return textLines[currentLine - 1].GetLocalizedString();
+    }
+
     public void MarkPlayed()
     {
         hasPlayed = true;

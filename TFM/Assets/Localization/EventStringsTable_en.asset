@@ -22,6 +22,675 @@ MonoBehaviour:
     m_Localized: Power barrier
     m_Metadata:
       m_Items: []
+  - m_Id: 4013757061050368
+    m_Localized: Agility is not enough to solve the problem. There's no reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4013697434824704
+    m_Localized: Using agility, the problem is solved and the villager offers 100
+      coins as reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4013664731836416
+    m_Localized: Using agility, the problem is solved and the villager offers 50
+      coins as reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4013641302454272
+    m_Localized: Help!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4013308819976192
+    m_Localized: Help!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3924867629363200
+    m_Localized: Weaknesses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 996493902655488
+    m_Localized: Dexterity is not enough to solve the problem. There's no reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290015629717504
+    m_Localized: Using dexterity, the leak is fixed and you win 10 dexterity points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289964543094784
+    m_Localized: Using plant control, the leak is blocked and you win 8 intelligence
+      points of intelligence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289907773190144
+    m_Localized: Using water control, the leak is blocked and you win 8 intelligence
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289810389839872
+    m_Localized: Big water leak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289172482338816
+    m_Localized: Using dexterity, the leak is fixed and you win 5 dexterity points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289002021629952
+    m_Localized: Using plant control, the leak is blocked and you win 3 intelligence
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288756445130752
+    m_Localized: Using water control, the leak is blocked and you win 3 intelligence
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288685599141888
+    m_Localized: Small water leak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287057739427840
+    m_Localized: Agility is not enough, you lose 3 agility points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286953049600000
+    m_Localized: Using agility, you get 8 agility points but you lose 30 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286873840168960
+    m_Localized: Using wind control, the rocks move and you get 8 intelligence points
+      and 15 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286566280245248
+    m_Localized: Using earth control, the rocks move and you get 8 intelligence points
+      and 15 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286523070525440
+    m_Localized: Large debris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286382460678144
+    m_Localized: Agility is not enough, you lose 5 agility points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286280442621952
+    m_Localized: Using agility, you get 5 agility points but you lose 20 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286206903889920
+    m_Localized: Using wind control, the rocks move and you get 5 intelligence points
+      and 5 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286132178169856
+    m_Localized: Using earth control, the rocks move and you get 5 intelligence points
+      and 5 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286090344181760
+    m_Localized: Debris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285909469016064
+    m_Localized: Agility is not enough, you lose 8 agility points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285661203968000
+    m_Localized: Using agility, you get 3 agility points but you lose 10 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285483738771456
+    m_Localized: Using wind control, the rocks move and you get 3 intelligence points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285134525214720
+    m_Localized: Using earth control, the rocks move and you get 3 intelligence points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284728504004608
+    m_Localized: Small debris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283827114520576
+    m_Localized: Using water control, you control the fire and you win 20 intelligence
+      points but you lose 10 health points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283749469564928
+    m_Localized: Using fire control, you control the fire and you win 20 intelligence
+      points but you lose 10 health points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283706809298944
+    m_Localized: Big fire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283678413860864
+    m_Localized: Using water control, you control the fire and you win 10 intelligence
+      points but you lose 5 health points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283597279244288
+    m_Localized: Using fire control, you control the fire and you win 10 intelligence
+      points but you lose 5 health points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283461127942144
+    m_Localized: Fire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283339304382464
+    m_Localized: Using water control, you control the fire and you win 5 intelligence
+      points but you lose 2 health points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283129463353344
+    m_Localized: Using fire control, you control the fire and you win 5 intelligence
+      points but you lose 2 health points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283083422478336
+    m_Localized: Small fire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282013178703872
+    m_Localized: Using intelligence, you win 5 intelligence points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281759985348608
+    m_Localized: Using electricity control, you win 5 intelligence points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282162290405376
+    m_Localized: Using electricity control, you win 10 intelligence points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282224202526720
+    m_Localized: Using intelligence, you win 10 intelligence points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282081025765376
+    m_Localized: Complex robot cop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281707028066304
+    m_Localized: Simple cop robot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279820136525824
+    m_Localized: Using the attack and killing the cop, you lose 10 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279755221282816
+    m_Localized: Using the attack without killing the cop, you lose 5 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279694374514688
+    m_Localized: Using mind control, you lose 5 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279648006483968
+    m_Localized: Using social skills, you win 15 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279606986190848
+    m_Localized: Expert cop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279537964724224
+    m_Localized: Using the attack and killing the cop, you lose 15 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279436944912384
+    m_Localized: Using the attack without killing the cop, you lose 5 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279336453582848
+    m_Localized: Using mind control, you lose 10 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279293201920000
+    m_Localized: Using social skills, you win 10 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279223467421696
+    m_Localized: Cop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278817609789440
+    m_Localized: Using social skills, you win 5 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279081548951552
+    m_Localized: Using the attack without killing the cop, you lose 5 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278954058887168
+    m_Localized: Using mind control, you lose 15 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279171105730560
+    m_Localized: Using the attack and killing the cop, you lose 20 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278762442108928
+    m_Localized: Rookie cop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275956133965824
+    m_Localized: Using the attack and killing the villager, you lose 10 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275906171416576
+    m_Localized: Using the attack without killing the villager, you lose 5 social
+      skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275844464816128
+    m_Localized: Using mind control, you lose 5 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275751682617344
+    m_Localized: Using social skills, you win 15 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275703221628928
+    m_Localized: Villager in extreme panic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275622154121216
+    m_Localized: Using the attack and killing the villager, you lose 20 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275554915233792
+    m_Localized: Using the attack without killing the villager, you lose 10 social
+      skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275453383716864
+    m_Localized: Using mind control, you lose 10 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275377148047360
+    m_Localized: Using social skills, you win 10 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 275283313078272
+    m_Localized: Villager in panic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274445962227712
+    m_Localized: Using the attack and killing the villager, you lose 30 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 274061160001536
+    m_Localized: Using the attack without killing the villager, you lose 15 social
+      skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273973566156800
+    m_Localized: Using mind control, you lose 15 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273876560293888
+    m_Localized: Using social skills, you win 5 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273739658211328
+    m_Localized: Villager in light panic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271986808238080
+    m_Localized: Using agility, you win 15 agility points but lose 200 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271925277798400
+    m_Localized: Using earth control, you win 15 intelligence points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271865496383488
+    m_Localized: Big rock monster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271809573728256
+    m_Localized: Using agility, you win 10 agility points but lose 100 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271749658095616
+    m_Localized: Using earth control, you win 10 intelligence points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271688320593920
+    m_Localized: Rock monster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270839309578240
+    m_Localized: Using brute force, you lose the amount of shield and/or health associated
+      to the enemy's attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270356842983424
+    m_Localized: Using agility, you win 5 agility points but lose 50 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270204623302656
+    m_Localized: Using earth control, you win 5 intelligence points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270146607689728
+    m_Localized: Small rock monster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11794896039936
+    m_Localized: Using the attack and killing the demon, you lose 6 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11716110233600
+    m_Localized: Using the attack without killing the demon, you lose 4 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11643624271872
+    m_Localized: Using wind control, you defeat the demon but lose 4 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11597612756992
+    m_Localized: Using mind control, you defeat the demon but lose 4 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11539563589632
+    m_Localized: Using fire control, you defeat the demon but lose 4 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11505187074048
+    m_Localized: Big demon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11293995479040
+    m_Localized: Using the attack and killing the demon, you lose 8 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11081159716864
+    m_Localized: Using the attack without killing the demon, you lose 2 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11020535246848
+    m_Localized: Using wind control, you defeat the demon but lose 2 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10935080497152
+    m_Localized: Using mind control, you defeat the demon but lose 2 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10756520587264
+    m_Localized: Using fire control, you defeat the demon but lose 2 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10564387909632
+    m_Localized: Small demon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10258044334080
+    m_Localized: Agility is not enough, you lose 3 agility points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10185071833088
+    m_Localized: Using agility, you cross the crack and win 8 agility points, but
+      you lose 30 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10141061001216
+    m_Localized: Using plant control, the crack can be crossed and you win 8 intelligence
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10021833715712
+    m_Localized: Using earth control, the crack can be crossed and you win 8 intelligence
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9988417695744
+    m_Localized: Big crack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9204070264832
+    m_Localized: Agility is not enough, you lose 5 agility points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8212079620096
+    m_Localized: Agility is not enough, you lose 8 agility points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8932698796032
+    m_Localized: Using agility, you cross the crack and win 5 agility points, but
+      you lose 20 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7895669714944
+    m_Localized: Using agility, you cross the crack and win 3 agility points, but
+      you lose 10 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8817003114496
+    m_Localized: Using plant control, the crack can be crossed and you win 5 intelligence
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7656665690112
+    m_Localized: Using plant control, the crack can be crossed and you win 3 intelligence
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8697079574528
+    m_Localized: Using earth control, the crack can be crossed and you win 5 intelligence
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8602019868672
+    m_Localized: Crack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6251913588736
+    m_Localized: Using earth control, the crack can be crossed and you win 3 intelligence
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5873620922368
+    m_Localized: Small crack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3942794047488
+    m_Localized: Using the attack and killing the thief, you win 300 coins but you
+      lose 5 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3903770243072
+    m_Localized: Using the attack without killing the thief, you lose 100 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3866898116608
+    m_Localized: Using social skills, you get 100 coins and win 10 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3830076321792
+    m_Localized: Using intelligence, you get 150 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3767807684608
+    m_Localized: Using mind control, you get 300 coins but you lose 2 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3735230525440
+    m_Localized: Expert thief
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3690607325184
+    m_Localized: Using the attack and killing the thief, you win 150 coins but you
+      lose 10 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3651508023296
+    m_Localized: Using the attack without killing the thief, you lose 50 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3594683592704
+    m_Localized: Using social skills, you get 50 coins and win 5 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3560344825856
+    m_Localized: Using intelligence, you get 100 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3514203287552
+    m_Localized: Using mind control, you get 150 coins but you lose 5 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3483555508224
+    m_Localized: Thief
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3407005265920
+    m_Localized: Using the attack and killing the thief, you win 75 coins but you
+      lose 20 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3365112557568
+    m_Localized: Using the attack without killing the thief, you lose 25 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3311811342336
+    m_Localized: Using social skills, you get 25 coins and win 2 social skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3265262956544
+    m_Localized: Using intelligence, you get 50 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3218198671360
+    m_Localized: Using mind control, you get 75 coins but you lose 8 social skill
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3165446909952
+    m_Localized: Newbie thief
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3116402913280
+    m_Localized: Using dexterity, the problem is solved and the villager offers 100
+      coins as reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3045217185792
+    m_Localized: Help!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2925180399616
+    m_Localized: Using dexterity, the problem is solved and the villager offers 50
+      coins as reward.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2808813629440
+    m_Localized: Help!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2739355955200
+    m_Localized: Using brute force, you get 100 coins from the box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2695546449920
+    m_Localized: Using electricity control, you get 150 coins from the box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2653456609280
+    m_Localized: Using intelligence, you get the 200 coins from the box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2604676853760
+    m_Localized: Using dexterity, you get the 200 coins from the box and win 5 dexterity
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2516822962176
+    m_Localized: Complex electronic box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2290800308224
+    m_Localized: Using brute force, you get 50 coins from the box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2222982606848
+    m_Localized: Using electricity control, you get 75 coins from the box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2186311806976
+    m_Localized: Using intelligence, you get the 100 coins from the box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2069752098816
+    m_Localized: Using dexterity, you get the 100 coins from the box and win 2 dexterity
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2008305545216
+    m_Localized: Electronic box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1914625765376
+    m_Localized: Using brute force, you get 100 coins from the box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1598819840000
+    m_Localized: Using brute force, you get 50 coins from the box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1860728958976
+    m_Localized: Using intelligence, you get the 200 coins from the box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1536303738880
+    m_Localized: Using intelligence, you get the 100 coins from the box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1788716953600
+    m_Localized: Using dexterity, you get the 200 coins from the box and win 5 dexterity
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1376727248896
+    m_Localized: Using dexterity, you get the 100 coins from the box and win 2 dexterity
+      points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1651131199488
+    m_Localized: Complex box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1225438703616
+    m_Localized: Box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 890078932992
+    m_Localized: Using fire control, you cross the barrier
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

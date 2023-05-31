@@ -16,7 +16,8 @@ MonoBehaviour:
     m_Code: es
   m_SharedData: {fileID: 11400000, guid: 824c0fbd28c187649982a0e2854555ef, type: 2}
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 7598979195661975961
   m_TableData:
   - m_Id: 34751295488
     m_Localized: Lukas
@@ -46,6 +47,54 @@ MonoBehaviour:
     m_Localized: Endora
     m_Metadata:
       m_Items: []
+  - m_Id: 966014117785600
+    m_Localized: 'Coste: {0} turnos'
+    m_Metadata:
+      m_Items:
+      - rid: 7598979195661975961
+  - m_Id: 5310153730994176
+    m_Localized: Da {value} puntos de {stat}
+    m_Metadata:
+      m_Items:
+      - rid: 7598979195661975961
+  - m_Id: 5310528647245824
+    m_Localized: Da {value} puntos de {stat}, pero se pierden {value2} puntos de
+      {stat2}
+    m_Metadata:
+      m_Items:
+      - rid: 7598979195661975961
+  - m_Id: 5311818223759360
+    m_Localized: vida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5312200979165184
+    m_Localized: escudo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5313173764091904
+    m_Localized: agilidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5313748543123456
+    m_Localized: ataque
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5315224854245376
+    m_Localized: inteligencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5315556028100608
+    m_Localized: habilidades sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5318842605023232
+    m_Localized: destreza
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 7598979195661975961
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00b056b0956e030000b0d6828edd120000b096cde5dd1200

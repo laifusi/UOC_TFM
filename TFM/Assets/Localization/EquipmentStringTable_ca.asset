@@ -207,8 +207,7 @@ MonoBehaviour:
   - m_Id: 1477647646765056
     m_Localized: "Escut b\xE0sic menut"
     m_Metadata:
-      m_Items:
-      - rid: 7598979195661975944
+      m_Items: []
   - m_Id: 1477603174559744
     m_Localized: "Dona {shield} punts d'escut per\xF2 es perden {agility} punts d'agilitat"
     m_Metadata:
@@ -288,4 +287,4 @@ MonoBehaviour:
     - rid: 7598979195661975944
       type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
-        m_Entries: 00b0569075f8040000b016a7e93f050000b0564cdf3f0500
+        m_Entries: 00b0569075f8040000b0564cdf3f0500

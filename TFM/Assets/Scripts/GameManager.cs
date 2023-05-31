@@ -71,9 +71,17 @@ public class GameManager : MonoBehaviour
         ResetAllCanvases();
         MapPosition.OnPositionSelected += SelectPosition;
         AbilityButton.OnAbilitySelected += SelectAbility;
+        OptionsManager.OnLanguageChanged += UpdateLanguage;
+        tutorialsActive = true;
+        
+        StartCoroutine(InitializeGameState());
+    }
+
+    private IEnumerator InitializeGameState()
+    {
+        yield return null;
         UpdatePositions(initialPosition);
         AddCharacter(startingCharacter);
-        tutorialsActive = true;
         ChangeToState(GameState.StoryPoint);
     }
 
@@ -257,6 +265,12 @@ public class GameManager : MonoBehaviour
                 currentStoryPoint.MarkPlayed();
                 break;
         }
+    }
+
+    private void UpdateLanguage()
+    {
+        if(currentState == GameState.StoryPoint)
+            OnNewStoryLine?.Invoke(currentStoryPoint.GetCurrentLine(), currentStoryPoint.IsLastLine());
     }
 
     private bool CheckGameOver()
@@ -514,6 +528,8 @@ public class GameManager : MonoBehaviour
     private void OnDestroy()
     {
         MapPosition.OnPositionSelected -= SelectPosition;
+        AbilityButton.OnAbilitySelected -= SelectAbility;
+        OptionsManager.OnLanguageChanged -= UpdateLanguage;
     }
 }
 

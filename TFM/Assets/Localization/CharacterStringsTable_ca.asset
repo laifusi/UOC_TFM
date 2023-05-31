@@ -52,10 +52,49 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 7598979195661975930
+  - m_Id: 5310153730994176
+    m_Localized: Dona {value} punts de {stat}
+    m_Metadata:
+      m_Items:
+      - rid: 7598979195661975930
+  - m_Id: 5310528647245824
+    m_Localized: "Dona {value} punts de {stat}, per\xF2 es perden {value2} punts
+      de {stat2}"
+    m_Metadata:
+      m_Items:
+      - rid: 7598979195661975930
+  - m_Id: 5311818223759360
+    m_Localized: vida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5312200979165184
+    m_Localized: escut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5313173764091904
+    m_Localized: agilitat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5313748543123456
+    m_Localized: atac
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5315224854245376
+    m_Localized: "intel\xB7lig\xE8ncia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5315556028100608
+    m_Localized: habilitats socials
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5318842605023232
+    m_Localized: destresa
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
     - rid: 7598979195661975930
       type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
-        m_Entries: 00b056b0956e0300
+        m_Entries: 00b056b0956e030000b0d6828edd120000b096cde5dd1200

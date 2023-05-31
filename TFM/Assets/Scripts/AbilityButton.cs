@@ -22,11 +22,25 @@ public class AbilityButton : MonoBehaviour
         abilityButton.onClick.AddListener(SelectAbility);
     }
 
+    private void Start()
+    {
+        OptionsManager.OnLanguageChanged += UpdateUI;
+    }
+
+    private void OnEnable()
+    {
+        UpdateUI();
+    }
+
+    private void UpdateUI()
+    {
+        abilityText.SetText(ability.abilityText.GetLocalizedString());
+    }
+
     public void AssignAbility(Ability abilityToAssign)
     {
         ability = abilityToAssign;
-        //abilityText.SetText(ability.GetEffects()[0].effectText);
-        abilityText.SetText(ability.abilityText);
+        UpdateUI();
     }
 
     private void SelectAbility()
@@ -37,5 +51,6 @@ public class AbilityButton : MonoBehaviour
     private void OnDestroy()
     {
         abilityButton?.onClick.RemoveAllListeners();
+        OptionsManager.OnLanguageChanged -= UpdateUI;
     }
 }

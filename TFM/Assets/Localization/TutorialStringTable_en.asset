@@ -17,7 +17,152 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 5f822681c26a71e45be2b885a7e9dbb5, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 6406189056
+    m_Localized: Wait a moment!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77856157696
+    m_Localized: Before you start playing, let me explain a few things.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156943953920
+    m_Localized: 'This is an adventure card game with three phases: the event, the
+      abilities and the shop.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354189488128
+    m_Localized: This screen is the map. The positions marked in red are not accessible.
+      The position marked in blue is the current position. And the positions marked
+      in yellow are the positions you can select.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 539393175552
+    m_Localized: At the beginning of the turn, you need to select a position to move
+      your characters to. That will initiate the event phase.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1247882424320
+    m_Localized: In that phase, you'll have to choose one of your characters to fight
+      the event.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1679279173632
+    m_Localized: Then, you'll pass to the abilities phase, where you can use a limited
+      number of your character's abilities.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2071954108416
+    m_Localized: Each character has a few stats that define if they are better or
+      worse to fight an event or another. These stats are the values of intelligence,
+      social skills, dexterity, agility, health, attack and shield and their power.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2564189237248
+    m_Localized: In some map positions, marked as shops, you'll be able to acquire
+      equipment cards to increase those character stats.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2815419658240
+    m_Localized: From a certain point of the map, you'll also be able to acquire
+      new character abilities.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2962962690048
+    m_Localized: As you advance through the map, you'll find new characters that
+      will join the adventure.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3079845359616
+    m_Localized: We'll talk more later. Now, go choose the next map position.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3199554990080
+    m_Localized: 'This is the event screen. If you put your mouse over a character,
+      you''ll see the consequence choosing them for the fight will have.
+
+      If
+      you put your mouse over the event, you''ll see the stats that can solve the
+      event.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4463244259328
+    m_Localized: This is the abilities screen. Each character has a few abilities.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4656219992064
+    m_Localized: Choose the ability text and the character you want to apply it on.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4730341732352
+    m_Localized: This is the number of abilities you can use on each turn. This number
+      increases with the amount of characters you have.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4933702561792
+    m_Localized: This is the shop screen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5038950232064
+    m_Localized: 'These are the coins you have and under each equipment card, you
+      can see its cost.
+
+      If you put your mouse over an equipment card, you''ll
+      see the effect it has.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5167098802176
+    m_Localized: Select a card to buy and the character you want to assign it to
+      and its effects will inmediately be added to the character.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5304286097408
+    m_Localized: This is the learning screen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5450969296896
+    m_Localized: Choose a character to see the abilities they can learn.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5600328462336
+    m_Localized: The cost of learning is translated into turns where the character
+      is frozen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5889425059840
+    m_Localized: A frozen character can't fight against an event or use their abilities
+      until it's unfrozen. (This also happens when health is 0 or less)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6174503514112
+    m_Localized: Be careful. If all your characters are frozen, you lose.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6277515620352
+    m_Localized: Uh oh! Your character got frozen. That happens when their health
+      is 0 or less.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6519308857344
+    m_Localized: A frozen character can't fight against an event or use their abilities
+      until it's unfrozen. (This also happens while a character is learning a new
+      ability)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6654835208192
+    m_Localized: Be careful. If all your characters are frozen, you lose.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6687798243328
+    m_Localized: Frozen characters can receive effect from other character's abilities
+      or from equipment cards from shops.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7052149043200
+    m_Localized: So, if your character dies, you'll need to increase their health
+      to be able to use them again.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

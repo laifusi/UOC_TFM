@@ -17,7 +17,930 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 698a80c4ff245da48afac50fcbb8d8af, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 5571522560
+    m_Localized: Fire control!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48672190464
+    m_Localized: I can control fire!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156017012736
+    m_Localized: I have to tell Pat and Kayla.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 604808689397760
+    m_Localized: PAT!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116490738085888
+    m_Localized: Hey, Lukas! What's up? How did it go?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116533654204416
+    m_Localized: I can control fire!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116574829686784
+    m_Localized: Wow! How cool!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116610871341056
+    m_Localized: Right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116648070623232
+    m_Localized: I told you it'd go alright. Did you tell your sister?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116682384224256
+    m_Localized: No, she's working. I came here right away. But, I wanted to go after
+      seeing you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116736968896512
+    m_Localized: Great, I'll go with you and then we can go to the lake to test what
+      you can do with your powers. To the hospital, right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116771244748800
+    m_Localized: Good thinking. Yes, let's go.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116860335960064
+    m_Localized: Dad!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116906896928768
+    m_Localized: Dad!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116933539147776
+    m_Localized: Tell us a tale.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116976396546048
+    m_Localized: Yes, yes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117014837342208
+    m_Localized: Mmh... Okay. Sit down and I'll tell you the legend of Allendix...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117099423870976
+    m_Localized: A long time ago, in a galax-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117145770930176
+    m_Localized: We already know that story!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117187630084096
+    m_Localized: Yes, dad. Tell another one.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117226062491648
+    m_Localized: No, no. It's not the one you think. Let me continue.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117267867119616
+    m_Localized: A long time ago, in a galaxy not so far away, lived a young man
+      named Lukas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117319549333504
+    m_Localized: Dad, are you sure it's not the same story?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117355263832064
+    m_Localized: I'm sure. Stop interrupting me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117404781785088
+    m_Localized: Lukas lived in a small city called Allendix, in the center of Korantis.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117438512377856
+    m_Localized: What's Korantis?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117473241214976
+    m_Localized: One of the most important continents in the planet Teition.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117506736926720
+    m_Localized: Teition?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117540261998592
+    m_Localized: Yes, you know. The only planet from our neighbour galaxy that survived
+      the war between the eight guardians...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117579906560000
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117640027713536
+    m_Localized: Trik, Rol...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117786912239616
+    m_Localized: What are they teaching you in school?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118163246166016
+    m_Localized: We were there last year!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118218845859840
+    m_Localized: ??
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118251469156352
+    m_Localized: Anyway, it doesn't matter. That's not important now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118299225501696
+    m_Localized: Where was I...? Ah, yes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118404682887168
+    m_Localized: Lukas lived in the calm city of Allendix with his sister-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118427072081920
+    m_Localized: Leila?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118472743858176
+    m_Localized: If you don't stop interrupting me, I won't tell you the tale.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118513713819648
+    m_Localized: As I was saying... Lukas lived with his older sister, Kayla.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118563349213184
+    m_Localized: '*quietly* Well, almost...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118608685445120
+    m_Localized: In Allendix nothing special ever happened. Or that's what he thought.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118655082835968
+    m_Localized: As you know... No... In Teition, humans have certain special abilities
+      that they develop during their adult life. Well, in their 20th birthday, they
+      receive their specialty in a ceremony they call Morphexion.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118695595618304
+    m_Localized: This story starts the day of Lukas' 20th birthday.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298526702579712
+    m_Localized: Congratulations, Lukas. You completed your Morphexion successfully.
+      You can go now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298576145035264
+    m_Localized: Oh, that's all? Thank you. But... What's my specialty?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298690083303424
+    m_Localized: You'll know very soon. And remember, during the first 5 years you
+      have to get an annual review to make sure you don't suffer any of the possible
+      side effects from the morphexion. Good luck.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298728821895168
+    m_Localized: I know, I know. Thanks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298761910759424
+    m_Localized: '*Lukas and Pat feel a vibration coming from the floor seconds before
+      they hear the sound of rocks hitting against other rocks, of the ground cracking,
+      of buildings collapsing... and panicked screams.*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298912335278080
+    m_Localized: '*The earthquake stops as fast as it started.*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298994120011776
+    m_Localized: What was that?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299037996625920
+    m_Localized: A... an earthquake?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299074596122624
+    m_Localized: Here? In Allendix?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299137640706048
+    m_Localized: I-I don't know, Luk... It felt like an earthquake.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299183249567744
+    m_Localized: Yeah, yeah. You're right, but...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299238002012160
+    m_Localized: Let's go! Let's go to the hospital. I have to see Kayla.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299281387892736
+    m_Localized: Wait.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299318947885056
+    m_Localized: I know the path is longer, but... can we go throught the market?
+      My mom is there and... Nevermind. I didn't say anything.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299360727347200
+    m_Localized: Pat...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299398379614208
+    m_Localized: No, don't worry. I'll understand if you prefer going the direct
+      route... You choose, Lukas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299457003401216
+    m_Localized: Lukas! Pat! Are you okay?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299577497366528
+    m_Localized: Professor. Yes, yes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299641364033536
+    m_Localized: Do you know what happened?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299697924222976
+    m_Localized: Mm... Today... No. Apparently there was an earthquake in the east
+      part of the city.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299781562839040
+    m_Localized: East? Kayla...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299853881028608
+    m_Localized: Professor, we have to go. We ha-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299914505498624
+    m_Localized: Lukas. Wait, wait.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299977772380160
+    m_Localized: Your morphexion was today, right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300016670355456
+    m_Localized: Yes. I just came from there.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300060383391744
+    m_Localized: That's what I thought...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300097838526464
+    m_Localized: Listen... This is not the usual procedure but... I think it's necessary.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300143216701440
+    m_Localized: Take this book. Normally we teach you to use your abilities in a
+      slow pace, but we can't wait.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300184803225600
+    m_Localized: With it you and your friends will be able to learn to use your powers
+      in diferent ways.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300241266946048
+    m_Localized: Good bye and good luck, Lukas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300283541336064
+    m_Localized: Uh... thanks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300322015686656
+    m_Localized: What just happened?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300358682292224
+    m_Localized: I have no idea...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300391049736192
+    m_Localized: Mom!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300464814960640
+    m_Localized: Oh, Pat, baby! I was so worried.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300510717423616
+    m_Localized: Are you okay? Did you feel the earthquake?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300555839746048
+    m_Localized: Yes, mom. We are okay. A little shaken, but okay.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300594960019456
+    m_Localized: What's going on? Have you heard anything around here?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300634910765056
+    m_Localized: Not much, son. An earthquake. Apparently it came from the center
+      of the hospital.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300679341027328
+    m_Localized: Oh, oh! I hope there aren't many injured...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300763331964928
+    m_Localized: It's not clear whether it was natural or not...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300803446288384
+    m_Localized: What do you mean, dad?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300843875184640
+    m_Localized: ... I don't know. It's a strange situation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300880868945920
+    m_Localized: It looks like it'll rain.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300921314619392
+    m_Localized: Oh, Lukas! Today was your morphexion! Congrats!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300958530678784
+    m_Localized: Yes. Thank you, Garynda. I can control fire now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301005615935488
+    m_Localized: How wonderful! A complementary power to my son's.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301069797175296
+    m_Localized: That's true... We should get going now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301107545911296
+    m_Localized: Yes, let's go. Mom, dad, I'll see you later.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301176663846912
+    m_Localized: Wait, son.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301213980569600
+    m_Localized: Don't go towards the hospital. It's very dangerous. Go back home,
+      Pat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301265495011328
+    m_Localized: Dad, Kayla is there... Lukas-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301296235065344
+    m_Localized: I know. But you're just kids... Go back home.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301340208148480
+    m_Localized: Hey, Pat. Lukas. Wait.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301390606905344
+    m_Localized: Myra? Uh... What's up? Hi. What's up? Did you follow us?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301402761998336
+    m_Localized: I know you're not gonna listen to dad, little brother.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301492608184320
+    m_Localized: What? I... I don't know what you're talking about-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301581284159488
+    m_Localized: Okay, since you have no intention of going back home where you'd
+      be safe from any danger... You'll have to accept a new member in your adventure.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301532458266624
+    m_Localized: You're a terrible liar...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301595821617152
+    m_Localized: Myra... No. Leave us alone. We are just going to go make sure Kayla
+      is alright. That's all.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301607142043648
+    m_Localized: Perfect. I want to see her too!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301617652969472
+    m_Localized: I'm not gonna let you go alone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301629875171328
+    m_Localized: It's fine, Pat, let her come.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301641241735168
+    m_Localized: ... Okay. But don't let our parents find out!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301651333230592
+    m_Localized: Pat, which one of us has been going out without being found out
+      for longer?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301908536340480
+    m_Localized: Rik, are those Lukas and Pat?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301981739528192
+    m_Localized: Where- Oh yeah, Jak. It looks like it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302012974510080
+    m_Localized: Where do you think they are going in such a hurry?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302024836001792
+    m_Localized: Hey, Luk! Where are you going?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302038853365760
+    m_Localized: Uh... Hello, Jak. Hello, Rik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302050026991616
+    m_Localized: Hi. Where are you going?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302059732611072
+    m_Localized: To the hospital...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302068779724800
+    m_Localized: Oh! Are you going towards that big black cloud that is clearly coming
+      out of there?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302078737002496
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302088434233344
+    m_Localized: And that is probably where the demons everyone is talking about
+      come from?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302100325085184
+    m_Localized: You heard, right? Allendix is being invaded by demons!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302110911508480
+    m_Localized: And you're going towards the place they come from!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302121925750784
+    m_Localized: No, that's not...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302135917948928
+    m_Localized: We're in.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302149020954624
+    m_Localized: What?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302159796121600
+    m_Localized: It sounds like fun.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302172295147520
+    m_Localized: We're just going to see my sister.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302213277691904
+    m_Localized: And don't you want to know what else is going? What caused the earthquake?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302226871431168
+    m_Localized: Where the demons came from? What that black cloud is?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302236350558208
+    m_Localized: Because we do!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302248371433472
+    m_Localized: We're in. Don't fight it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302832935776256
+    m_Localized: Where are you two going?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302987042893824
+    m_Localized: Uh?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303004507975680
+    m_Localized: Are you talking to us?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303015354445824
+    m_Localized: Yes. Do you see anyone else?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303023541727232
+    m_Localized: Uh... no.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303033473839104
+    m_Localized: You're going to the hospital, right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303042709696512
+    m_Localized: What- how-?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303051660341248
+    m_Localized: Mind control.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303059776319488
+    m_Localized: You're reading our minds?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303069087674368
+    m_Localized: Not on purpose... Trust me, I wish I hadn't...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303079154003968
+    m_Localized: But now that I know where you're going... The cops will try to stop
+      you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303088456970240
+    m_Localized: You know the hospital is the center of the earthquake, right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303097919320064
+    m_Localized: It started there. And they don't know how, but everyone thinks it
+      wasn't naturally...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303106643472384
+    m_Localized: What do you mean?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303116546224128
+    m_Localized: Someone made it happen, kid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303136360116224
+    m_Localized: I'm 20 years old.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303144811638784
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303154181713920
+    m_Localized: As I was saying... They won't let you pass.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303163690201088
+    m_Localized: And rightf- No. I'm not going to go with you!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303175031599104
+    m_Localized: Why?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303843029037056
+    m_Localized: Because I have important things to do!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303865472757760
+    m_Localized: Reading that book?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303876679938048
+    m_Localized: For example!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303886544941056
+    m_Localized: Uh... You said you'd prefer not to hear what we're thinking, right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303902374244352
+    m_Localized: I have a book that could help you control your powers... If you
+      come with us...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303920527192064
+    m_Localized: Mmh... Alright. But on one condition.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303935177895936
+    m_Localized: Which one?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303946833866752
+    m_Localized: Stop thinking so loudly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303957848109056
+    m_Localized: No, that's the opposite... Nevermind...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304353941401600
+    m_Localized: Stop.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304396370980864
+    m_Localized: What are you doing around here? We sent an alarm, no one can get
+      close to the hospital.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304414523928576
+    m_Localized: There's a police operation in progress.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304421897515008
+    m_Localized: Is it related to the earthquake?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304429237547008
+    m_Localized: And with that big black cloud?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304436351086592
+    m_Localized: That's confidential.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304444571922432
+    m_Localized: Sir, we just need to see a doctor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304451849039872
+    m_Localized: My friend is injured...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304459973406720
+    m_Localized: An emergency zone has been established at the west side of the city
+      while the hospital is on lock down. Go there.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304467548319744
+    m_Localized: But-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304484120014848
+    m_Localized: Don't insist. The west side of the city or home.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305111059410944
+    m_Localized: Hey! Guys. Come here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305169960022016
+    m_Localized: I heard your conversation with my captain...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305177325219840
+    m_Localized: You want to go to the hospital, right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305185218899968
+    m_Localized: I can help you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305193087414272
+    m_Localized: But why would you help us? Isn't it prohibited to let anyone go
+      through?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305200591024128
+    m_Localized: Well... that includes me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305208975437824
+    m_Localized: They aren't letting me go into action and...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305216902672384
+    m_Localized: My dad was supposed to be at the hospital today...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305225928814592
+    m_Localized: I've been observing you. I saw how you got here...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305234795573248
+    m_Localized: I think we can help each other.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311187339227136
+    m_Localized: Marko!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311243849084928
+    m_Localized: Lu-Lukas? Oh, Lukas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311256369082368
+    m_Localized: Where's Kayla? What's happening?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311274811437056
+    m_Localized: Lukas, I... I'm sorry. I'm so sorry...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311285464969216
+    m_Localized: Marko? Where's my sister?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311293425758208
+    m_Localized: Kayla... She... I couldn't stop it...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311301420101632
+    m_Localized: Marko, speak clearly!! You're scaring me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311309292810240
+    m_Localized: Luk, it's her. It was her. The earthquake... the rock monsters...
+      She caused them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311316720922624
+    m_Localized: What?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311324417470464
+    m_Localized: The demons... she's letting them in. I couldn't...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311337277206528
+    m_Localized: No, that makes no sense. Why?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311346374651904
+    m_Localized: I don't know.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311361155379200
+    m_Localized: This morning... A woman came... She spoke to her. She was so upset...
+      I didn't understand what they said...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311370332516352
+    m_Localized: Afterwards the hospital alarms went off. She didn't come out and
+      I... I went back and I saw her.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311378066812928
+    m_Localized: Where is she now?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311387009069056
+    m_Localized: Behind this door. But, Lukas-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311394248437760
+    m_Localized: Thank you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311749648592896
+    m_Localized: K-Kayla?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311817948639232
+    m_Localized: Kayla.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311840987951104
+    m_Localized: Kayla!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311949444263936
+    m_Localized: What...? Lu. No!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311994042298368
+    m_Localized: No, no, no. Lukas! Go away. You have to get out of here. Go home.
+      You have t-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312002233774080
+    m_Localized: No! Not without you. Not without knowing what's going on. What-
+      Why?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312011742261248
+    m_Localized: I can't. No... He... If he knowsyou came... He'll kill her... and
+      then... No, no...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312020978118656
+    m_Localized: Kay, I don't understand anything you're saying...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312028485922816
+    m_Localized: Lukas...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312040901062656
+    m_Localized: Marko said you were arguing with a woman this morning... Please,
+      tell me what's going on.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312052334735360
+    m_Localized: It was mom.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312062166183936
+    m_Localized: What?! No, mom's dead.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312072752607232
+    m_Localized: No. And neither is dad. He-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312081078300672
+    m_Localized: '*A shadow comes out of the huge crack formed in the room, it wraps
+      around Kayla and makes her disappear before Lukas can react.*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312089202667520
+    m_Localized: KAYLA!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316673618882560
+    m_Localized: Endora!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316696091963392
+    m_Localized: Oh. Hey, Pat. Hey, guys.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316703310360576
+    m_Localized: Are you going to the hospital?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316709991886848
+    m_Localized: Yes. And don't try to stop me. Others tried and failed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316716245594112
+    m_Localized: I have to go. Marka was working today. And the earthquake...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316722998423552
+    m_Localized: We're not gonna stop you. We're also going there.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316732498522112
+    m_Localized: No, it's dangerous. You're too toung. I don't know what's going
+      on with that black cloud but it's not normal... And the monsters...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316741814071296
+    m_Localized: We're going with or without you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316750068461568
+    m_Localized: You're gonna slow me down... But I can't let you... Okay. Let's
+      go.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

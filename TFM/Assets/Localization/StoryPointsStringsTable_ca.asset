@@ -165,7 +165,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1118299225501696
-    m_Localized: "Per on anava\u2026? Ah s\xED."
+    m_Localized: "Per on anava\u2026? Ah, s\xED."
     m_Metadata:
       m_Items: []
   - m_Id: 1118404682887168
@@ -263,7 +263,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 1299318947885056
     m_Localized: "S\xE9 que el cam\xED \xE9s m\xE9s llarg, per\xF2\u2026 podem anar-hi
-      pel mercat? Ma mare est\xE0 all\xED i\u2026 \xC9s igual. No he dit res."
+      pel mercat? Ma mare est\xE0 all\xE0 i\u2026 \xC9s igual. No he dit res."
     m_Metadata:
       m_Items: []
   - m_Id: 1299360727347200
@@ -309,7 +309,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1300016670355456
-    m_Localized: "S\xED. Vinc d\u2019all\xED.\r"
+    m_Localized: "S\xED. Vinc d\u2019all\xE0.\r"
     m_Metadata:
       m_Items: []
   - m_Id: 1300060383391744
@@ -410,7 +410,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1301107545911296
-    m_Localized: "S\xED, anem. Despr\xE9s ens veiem, pares."
+    m_Localized: "S\xED, anem. Mare, pare, despr\xE9s ens veiem."
     m_Metadata:
       m_Items: []
   - m_Id: 1301176663846912
@@ -439,7 +439,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1301402761998336
-    m_Localized: "S\xE9 que no aneu a fer cas als pares, germanet."
+    m_Localized: "S\xE9 que no aneu a fer cas al pare, germanet."
     m_Metadata:
       m_Items: []
   - m_Id: 1301492608184320

@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GlobalStringsTable_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: b99acf90acf9c034e8597de03e4370de, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 54414192640
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235518521946112
+    m_Localized: Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235794817527808
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235982441328640
+    m_Localized: Restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236211228028928
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236422885191680
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236572462460928
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236949236789248
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237275960487936
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237503874772992
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237625660583936
+    m_Localized: Effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237765846806528
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239699680997376
+    m_Localized: '<size=50%>Tales from Teition:</size>
+
+      The legend of Allendix'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240127722303488
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247165034606592
+    m_Localized: Skip Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247482648276992
+    m_Localized: Finish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247686659223552
+    m_Localized: You lost!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247832121880576
+    m_Localized: Every character is frozen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248207038132224
+    m_Localized: To be continued...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248552254517248
+    m_Localized: Congrats, you won!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

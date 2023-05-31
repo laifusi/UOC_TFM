@@ -17,7 +17,940 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 698a80c4ff245da48afac50fcbb8d8af, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 5571522560
+    m_Localized: "\xA1\xA1Control del fuego!!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48672190464
+    m_Localized: "\xA1Puedo controlar el fuego!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156017012736
+    m_Localized: "Tengo que cont\xE1rselo a Pat y Kayla."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 604808689397760
+    m_Localized: "\xA1PAT!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116490738085888
+    m_Localized: "\xA1Ey, Lukas! \xBFQu\xE9 tal? \xBF\xA1C\xF3mo ha ido?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116533654204416
+    m_Localized: "\xA1\xA1Puedo controlar el fuego!!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116574829686784
+    m_Localized: "\xA1Guau!\xA1\xA1Qu\xE9 pasada!!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116610871341056
+    m_Localized: "\xBFVerdad?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116648070623232
+    m_Localized: "Te dije que ir\xEDa bien. \xBFSe lo has contado a tu hermana?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116682384224256
+    m_Localized: "No, est\xE1 trabajando. He venido aqu\xED directamente. Pero quer\xEDa
+      ir despu\xE9s de verte a ti."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116736968896512
+    m_Localized: "Genial, pues te acompa\xF1o y despu\xE9s vamos al lago a probar
+      que puedes hacer con los poderes. Al hospital, \xBFno?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116771244748800
+    m_Localized: "Bien pensado. S\xED, vamos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116860335960064
+    m_Localized: "\xA1Pap\xE1!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116906896928768
+    m_Localized: "\xA1Pap\xE1!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116933539147776
+    m_Localized: "Cu\xE9ntanos un cuento."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1116976396546048
+    m_Localized: "\xA1S\xED, s\xED!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117014837342208
+    m_Localized: "Mmm... Vale. Sentaos y os contar\xE9 la leyenda de Al\xE9ndix..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117099423870976
+    m_Localized: Hace mucho tiempo, en una galaxi-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117145770930176
+    m_Localized: "\xA1Esa ya nos la sabemos!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117187630084096
+    m_Localized: "S\xED, pap\xE1. Cuenta otra."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117226062491648
+    m_Localized: "No, no. No es la que pens\xE1is, dejadme seguir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117267867119616
+    m_Localized: "Hace mucho tiempo, en una galaxia no muy lejana, viv\xEDa un joven
+      llamado Lukas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117319549333504
+    m_Localized: "Pap\xE1, \xBFest\xE1s seguro de que no es la misma historia?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117355263832064
+    m_Localized: Seguro. Dejad de interrumpirme.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117404781785088
+    m_Localized: "Lukas viv\xEDa en la peque\xF1a ciudad de Al\xE9ndix, en el centro
+      de Korantis."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117438512377856
+    m_Localized: "\xBFQu\xE9 es Korantis?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117473241214976
+    m_Localized: "Uno de los continentes m\xE1s importantes del planeta Teition."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117506736926720
+    m_Localized: "\xBFTeition?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117540261998592
+    m_Localized: "S\xED, ya sab\xE9is. El \xFAnico planeta de nuestra galaxia vecina
+      que sobrevivi\xF3 a la guerra entre los ocho guardianes..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117579906560000
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117640027713536
+    m_Localized: Trik, Rol...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117786912239616
+    m_Localized: "\xBFQu\xE9 os est\xE1n ense\xF1ando en la escuela?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118163246166016
+    m_Localized: "\xA1Estuvimos el a\xF1o pasado!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118218845859840
+    m_Localized: "\xBF\xBF??"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118251469156352
+    m_Localized: Bueno, da igual. Eso ahora no importa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118299225501696
+    m_Localized: "\xBFPor d\xF3nde iba...? Ah, s\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118404682887168
+    m_Localized: "Lukas viv\xEDa en la tranquila ciudad de Al\xE9ndix con su hermana-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118427072081920
+    m_Localized: "\xBFLeila?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118472743858176
+    m_Localized: "Si no par\xE1is de interrumpirme no os contar\xE9 la historia."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118513713819648
+    m_Localized: "Como iba diciendo... Lukas viv\xEDa con su hermana mayor, Kayla."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118563349213184
+    m_Localized: '*bajito* Pues, casi...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118608685445120
+    m_Localized: "En Al\xE9ndix, nunca pasava nada especial. O eso pensaba \xE9l."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118655082835968
+    m_Localized: "Como sab\xE9is... No... En Teition, los humanos tienen ciertas
+      habilidades especiales que desarrollan durante su vida adulta. Bien, en su
+      20 cumplea\xF1os, reciben su especialidad en una ceremonia a la que llaman
+      Morfexi\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118695595618304
+    m_Localized: "Esta historia empieza el d\xEDa del 20 cumplea\xF1os de Lukas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298526702579712
+    m_Localized: "Enhorabuena, Lukas. Has completado tu Morfexi\xF3n con \xE9xito.
+      Ya puedes irte."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298576145035264
+    m_Localized: "Oh, \xBFya est\xE1? Gracias. Pero... \xBFCu\xE1l es mi especialidad?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298690083303424
+    m_Localized: "Muy pronto lo sabr\xE1s. Y recuerda, durante los primeros 5 a\xF1os,
+      tendr\xE1s que hacerte una revisi\xF3n anual para asegurar que no sufres ninguno
+      de los posibles efectos secundarios de la morfexi\xF3n. Buena suerte."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298728821895168
+    m_Localized: "Lo s\xE9. lo s\xE9. Gracias."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298761910759424
+    m_Localized: "*Lukas y Pat notan una vibraci\xF3n proviniente del suelo segundos
+      antes de oir el sonido de rocas chocando unas con otras, del suelo agrietarse,
+      de edificios derrumbarse... y gritos de p\xE1nico.*"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298912335278080
+    m_Localized: "*El terremoto para tan r\xE1pido como ha empezado.*"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1298994120011776
+    m_Localized: "\xBFQu\xE9 ha sido eso?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299037996625920
+    m_Localized: "\xBFUn... un terremoto?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299074596122624
+    m_Localized: "\xBFAqu\xED? \xBF\xA1En Al\xE9ndix?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299137640706048
+    m_Localized: "No-No lo s\xE9, Luk... Parec\xEDa un terremoto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299183249567744
+    m_Localized: "S\xED, s\xED. Tienes raz\xF3n, pero..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299238002012160
+    m_Localized: "\xA1Vamos! Vamos al hospital. Tengo que ver a Kayla."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299281387892736
+    m_Localized: Espera.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299318947885056
+    m_Localized: "S\xE9 que el camino es m\xE1s largo, pero... \xBFpodemos ir por
+      el mercado? Mi madre est\xE1 all\xED y... Da igual. No he dicho nada."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299360727347200
+    m_Localized: Pat...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299398379614208
+    m_Localized: "No, no te preocupes. Entender\xE9 si prefieres ir por el camino
+      directo... Tu eliges, Lukas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299457003401216
+    m_Localized: "\xA1Lukas! \xA1Pat! \xBFEst\xE1is bien?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299577497366528
+    m_Localized: "Maestro. S\xED, s\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299641364033536
+    m_Localized: "\xBFSabes qu\xE9 ha pasado?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299697924222976
+    m_Localized: Mm... Hoy... No. Parece ser que ha habido un terremoto hacia el
+      este de la ciudad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299781562839040
+    m_Localized: "\xBFEn el este? Kayla..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299853881028608
+    m_Localized: Maestro, nos tenemos que ir. Tenem-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299914505498624
+    m_Localized: Lukas. Espera, espera.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299977772380160
+    m_Localized: "Hoy era tu morfexi\xF3n, \xBFverdad?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300016670355456
+    m_Localized: "S\xED. Vengo de all\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300060383391744
+    m_Localized: Eso pensaba...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300097838526464
+    m_Localized: Escucha... Este no es el procedimiento habitual pero... creo que
+      es necesario.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300143216701440
+    m_Localized: "Coge este libro. Normalmente os ense\xF1amos poco a poco a usar
+      vuestras habilidades, pero no podemos esperar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300184803225600
+    m_Localized: "Con \xE9l tu y tus amigos podr\xE9is aprender a utilizar vuestros
+      poderes de varias formas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300241266946048
+    m_Localized: "Adi\xF3s y mucha suerte, Lukas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300283541336064
+    m_Localized: Eh... gracias.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300322015686656
+    m_Localized: "\xBFQu\xE9 acaba de pasar?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300358682292224
+    m_Localized: "No lo s\xE9..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300391049736192
+    m_Localized: "\xA1Mam\xE1!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300464814960640
+    m_Localized: "\xA1Ay, Pat, hijo! Estaba muy preocupada."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300510717423616
+    m_Localized: "\xBFEst\xE1s bien? \xBFHab\xE9is notado el seismo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300555839746048
+    m_Localized: "S\xED, mam\xE1. Estamos bien. Un poco asustados, pero bien."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300594960019456
+    m_Localized: "\xBFQu\xE9 est\xE1 pasando? \xBFOs hab\xE9is enterado de algo por
+      aqu\xED?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300634910765056
+    m_Localized: No mucho, hijo. Un terremoto. Por la calle se dice que parece venir
+      del centro del hospital.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300679341027328
+    m_Localized: "\xA1Ay, ay! Espero que no haya muchos heridos..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300763331964928
+    m_Localized: "Lo que no est\xE1 claro es si ha sido natural..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300803446288384
+    m_Localized: "\xBFQu\xE9 quieres decir, pap\xE1?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300843875184640
+    m_Localized: "... No lo s\xE9. Es una situaci\xF3n rara."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300880868945920
+    m_Localized: Parece que se acerca una tormenta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300921314619392
+    m_Localized: "\xA1Ay, Lukas! \xA1Hoy era tu morfexi\xF3n! \xA1Enhorabuena!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1300958530678784
+    m_Localized: "S\xED. Gracias, Garynda. Ahora puedo controlar el fuego."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301005615935488
+    m_Localized: "\xA1Qu\xE9 maravilla! Un poder complemetario al de mi hijo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301069797175296
+    m_Localized: "Es verdad... Deber\xEDamos irnos ya."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301107545911296
+    m_Localized: "S\xED, vamos. Mam\xE1, pap\xE1, luego nos vemos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301176663846912
+    m_Localized: Espera, hijo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301213980569600
+    m_Localized: "No vay\xE1is hacia el hospital. Es muy peligroso. Volved a casa,
+      Pat."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301265495011328
+    m_Localized: "Pap\xE1, Kayla est\xE1 all\xED... Lukas-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301296235065344
+    m_Localized: "Lo s\xE9. Pero solo sois ni\xF1os... Volved a casa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301340208148480
+    m_Localized: Ey, Pat. Lukas. Esperad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301390606905344
+    m_Localized: "\xBFMyra? Eh... \xBFQu\xE9 pasa? Hola. \xBFQu\xE9 pasa? \xBFNos
+      has seguido?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301402761998336
+    m_Localized: "S\xE9 que no vais a hacerle caso a pap\xE1, hermanito."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301492608184320
+    m_Localized: "\xBFQu\xE9? No... No s\xE9 de qu\xE9 hablas-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301532458266624
+    m_Localized: Mientes fatal...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301581284159488
+    m_Localized: "Bien, como no pens\xE1is volver a casa donde estari\xE1is bien
+      protegidos de cualquier peligro... Tendr\xE9is que aceptar un nuevo miembro
+      en vuestra aventura."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301595821617152
+    m_Localized: "Myra... No. D\xE9janos en paz. Solo vamos a ver que Kayla est\xE9
+      bien. Nada m\xE1s."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301607142043648
+    m_Localized: "Perfecto. \xA1Yo tambi\xE9n quiero verla!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301617652969472
+    m_Localized: "No voy a dejar que vay\xE1is solos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301629875171328
+    m_Localized: Da igual, Pat, deja que venga.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301641241735168
+    m_Localized: "... Vale. \xA1Pero que los pap\xE1s no se enteren!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301651333230592
+    m_Localized: "Pat, \xBFqui\xE9n de los dos lleva m\xE1s a\xF1os escap\xE1ndose
+      de casa sin que se enteren?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301908536340480
+    m_Localized: "Rik, \xBFesos son Lukas y Pat?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1301981739528192
+    m_Localized: "D\xF3nde- Ah s\xED, Jak. Parece que s\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302012974510080
+    m_Localized: "\xBFA d\xF3nde crees que van con tanta prisa?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302024836001792
+    m_Localized: "\xA1Ey, Luk! \xBFA d\xF3nde vais?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302038853365760
+    m_Localized: Eh... Hola, Jak. Hola, Rik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302050026991616
+    m_Localized: "Hola. \xBFA d\xF3nde vais?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302059732611072
+    m_Localized: Al hospital...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302068779724800
+    m_Localized: "Oh! \xBFVais hacia esa gran nube negra que claramente sale de all\xED?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302078737002496
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302088434233344
+    m_Localized: "\xBF\xBFY que seguramente es de donde vienen los demonios de los
+      que todo el mundo est\xE1 hablando?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302100325085184
+    m_Localized: "Lo hab\xE9is o\xEDdo, \xBFno? \xA1Al\xE9ndix est\xE1 siendo invadida
+      por demonios!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302110911508480
+    m_Localized: "\xA1Y vosotros os dirig\xEDs al lugar de donde vienen!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302121925750784
+    m_Localized: No, eso no es...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302135917948928
+    m_Localized: Nos apuntamos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302149020954624
+    m_Localized: "\xBFQu\xE9?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302159796121600
+    m_Localized: Parece divertido.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302172295147520
+    m_Localized: Solo vamos para ver a mi hermana.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302213277691904
+    m_Localized: "\xBFY no quer\xE9is saber qu\xE9 m\xE1s pasa? \xBFQu\xE9 ha provocado
+      el terremoto?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302226871431168
+    m_Localized: "\xBFDe d\xF3nde has salido los demonios? \xBFQu\xE9 es esa nube
+      negra?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302236350558208
+    m_Localized: "\xA1Porque nosotros s\xED!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302248371433472
+    m_Localized: "Nos unimos. No lo discut\xE1is."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302832935776256
+    m_Localized: "\xBFD\xF3nde vais vosotros dos?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302987042893824
+    m_Localized: "\xBFEh?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303004507975680
+    m_Localized: "\xBFHablas con nosotros?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303015354445824
+    m_Localized: "S\xED. \xBFVeis a alguien m\xE1s?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303023541727232
+    m_Localized: Uh... no.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303033473839104
+    m_Localized: "Vais al hospital, \xBFno?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303042709696512
+    m_Localized: "\xBFQu\xE9- c\xF3mo-?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303051660341248
+    m_Localized: Control mental.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303059776319488
+    m_Localized: "\xBF\xA1Nos est\xE1s leyendo la mente?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303069087674368
+    m_Localized: "No volunt\xE1riamente... Cr\xE9eme, preferir\xEDa no haberlo hecho..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303079154003968
+    m_Localized: "Pero ahora que s\xE9 a d\xF3nde vais... Los polic\xEDas intentar\xE1n
+      impedir que pas\xE9is."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303088456970240
+    m_Localized: "Sab\xE9is que el hospital es el centro del terremoto, \xBFno?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303097919320064
+    m_Localized: "Se ha originado all\xED. Y no saben c\xF3mo, pero todo el mundo
+      piensa que no ha sido de forma natural..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303106643472384
+    m_Localized: "\xBFQu\xE9 quieres decir?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303116546224128
+    m_Localized: "Que es provocado, ni\xF1o."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303136360116224
+    m_Localized: "Tengo 20 a\xF1os."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303144811638784
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303154181713920
+    m_Localized: "Como iba diciendo... No os dejar\xE1n pasar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303163690201088
+    m_Localized: "Y con ra- No. \xA1No voy a ir con vosotros!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303175031599104
+    m_Localized: "\xBF\xA1Por que?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303843029037056
+    m_Localized: "\xA1Porque tengo cosas m\xE1s importantes que hacer!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303865472757760
+    m_Localized: "\xBFLeer ese libro?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303876679938048
+    m_Localized: "\xA1Por ejemplo!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303886544941056
+    m_Localized: "Uh... Has dicho que preferir\xEDas no escuchar lo que pensamos,
+      \xBFno?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303902374244352
+    m_Localized: "Tengo un libro que podr\xEDa ayudarte a control tus poderes...
+      Si vienes con nosotros..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303920527192064
+    m_Localized: "Mm... Vale. Pero con una condici\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303935177895936
+    m_Localized: "\xBFCu\xE1l?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303946833866752
+    m_Localized: "Que dej\xE9is de pensar tan fuerte."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1303957848109056
+    m_Localized: No, eso es lo contrario... Da igual...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304353941401600
+    m_Localized: Alto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304396370980864
+    m_Localized: "\xBFQu\xE9 hac\xE9is por aqu\xED? Hemos lanzado una alarma, nadie
+      se puede aproximar al hospital."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304414523928576
+    m_Localized: "Hay una operaci\xF3n policial en proceso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304421897515008
+    m_Localized: "\xBFEst\xE1 relacionada con el terremoto?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304429237547008
+    m_Localized: "\xBFY con esa gran nube negra?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304436351086592
+    m_Localized: "Eso es informaci\xF3n confidencial."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304444571922432
+    m_Localized: "Se\xF1or, nosotros solo necesitamos ver a un m\xE9dico."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304451849039872
+    m_Localized: "Mi amigo est\xE1 herido..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304459973406720
+    m_Localized: "Se ha establecido una zona de emergencia en la zona oeste de la
+      ciudad mientras el hospital est\xE1 inhabilitado. Id hacia all\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304467548319744
+    m_Localized: Pero-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1304484120014848
+    m_Localized: "No sig\xE1is discutiendo. Al oeste de la ciudad o a casa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305111059410944
+    m_Localized: "\xA1Ey! Chicos. Venid aqu\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305169960022016
+    m_Localized: "He o\xEDdo la conversaci\xF3n que hab\xE9is tenido con mi capit\xE1n..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305177325219840
+    m_Localized: "Quer\xE9is ir al hospital, \xBFno?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305185218899968
+    m_Localized: Yo os puedo ayudar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305193087414272
+    m_Localized: "\xBFPor que nos ayudar\xEDas? \xBFNo se supone que nadie puede
+      pasar?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305200591024128
+    m_Localized: Bueno... eso me incluye a mi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305208975437824
+    m_Localized: "No me dejan entrar en acci\xF3n y..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305216902672384
+    m_Localized: "Mi padre ten\xEDa que estar hoy en el hospital..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305225928814592
+    m_Localized: "Os he estado observando. He visto c\xF3mo hab\xE9is llegado hasta
+      aqu\xED..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1305234795573248
+    m_Localized: Creo que nos podemos ayudar mutuamente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311187339227136
+    m_Localized: "\xA1Marko!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311243849084928
+    m_Localized: "\xBFLu-Lukas? \xA1Oh, Lukas!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311256369082368
+    m_Localized: "\xBFD\xF3nde est\xE1 Kayla? \xBFQu\xE9 est\xE1 pasando?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311274811437056
+    m_Localized: Lukas, yo... lo siento. Lo siento mucho...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311285464969216
+    m_Localized: "\xBFMarko? \xBFD\xF3nde est\xE1 mi hermana?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311293425758208
+    m_Localized: Kayla... Ella... No he podido evitarlo...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311301420101632
+    m_Localized: "Marko, \xA1\xA1habla claro!! Me est\xE1s asustando."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311309292810240
+    m_Localized: Luk, es ella. Ha sido ella. El terremoto... los monstruos de roca...
+      Los ha provocado ella.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311316720922624
+    m_Localized: "\xBFQu\xE9?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311324417470464
+    m_Localized: "Los demonios... los est\xE1 dejando entrar ella. Yo no he podido..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311337277206528
+    m_Localized: "No, eso no tiene sentido. \xBFPor que?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311346374651904
+    m_Localized: "No lo s\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311361155379200
+    m_Localized: "Esta ma\xF1ana... Ha venido una mujer... Ha hablado con ella. Estaba
+      muy alterada... No he entendido lo que dec\xEDan..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311370332516352
+    m_Localized: "Despu\xE9s han saltado las alarmas del hospital. Ella no ha salido
+      y yo... He vuelto y la he visto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311378066812928
+    m_Localized: "\xBFD\xF3nde est\xE1 ahora?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311387009069056
+    m_Localized: "Detr\xE1s de esta puerta. Pero, Lukas-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311394248437760
+    m_Localized: Gracias.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311749648592896
+    m_Localized: "\xBFK-Kayla?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311817948639232
+    m_Localized: Kayla.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311840987951104
+    m_Localized: "\xA1Kayla!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311949444263936
+    m_Localized: "\xBFQu\xE9...? Lu- \xA1No!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311994042298368
+    m_Localized: "No, no, no. \xA1Lukas! Vete. Tienes que salir de aqu\xED. Vete
+      a casa. Tienes qu-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312002233774080
+    m_Localized: "\xA1No! No sin ti. No sin saber qu\xE9 est\xE1 pasando. \xBFQu\xE9-
+      Por qu\xE9?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312011742261248
+    m_Localized: "No puedo. No... \xC9l... Si sabe que has venido... La matar\xE1...
+      y despu\xE9s... No, no...."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312020978118656
+    m_Localized: Kay, no entiendo nada de lo que dices...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312040901062656
+    m_Localized: "Marko dice que esta ma\xF1ana has discutido con una mujer... Por
+      favor, cu\xE9ntame qu\xE9 pasa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312028485922816
+    m_Localized: Lukas...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312052334735360
+    m_Localized: "Era mam\xE1."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312062166183936
+    m_Localized: "\xBF\xA1Qu\xE9?! No, mam\xE1 est\xE1 muerta."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312072752607232
+    m_Localized: "No. Y pap\xE1 tampoco. \xC9l-"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312081078300672
+    m_Localized: "*Una sombra sale de la gran grieta formada en la habitaci\xF3n,
+      envuelve a Kayla y la hace desaparecer antes de que Lukas pueda reaccionar.*"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1312089202667520
+    m_Localized: "\xA1KAYLA!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316673618882560
+    m_Localized: "\xA1Endora!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316696091963392
+    m_Localized: Oh. Hola, Pat. Holas, chicos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316703310360576
+    m_Localized: "\xBFVas hacia el hospital?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316709991886848
+    m_Localized: "S\xED. Y no intent\xE9is impedirlo. Ya lo han intentado otros y
+      no lo han conseguido."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316716245594112
+    m_Localized: Tengo que ir. Marko estaba trabajando hoy. Y el terremoto...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316722998423552
+    m_Localized: "No te lo vamos a impedir. Nosotros tambi\xE9n vamos hacia all\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316732498522112
+    m_Localized: "No, es peligroso. Sois demasiado j\xF3venes. No s\xE9 qu\xE9 pasa
+      con esa nube negra pero no es normal... Y los monstruos..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316741814071296
+    m_Localized: Vamos a ir con o sin ti.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1316750068461568
+    m_Localized: Me vais a retrasar... Pero no puedo dejar... Vale. Vamos.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

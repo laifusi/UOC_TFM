@@ -20,6 +20,11 @@ public class StoryPoint : MonoBehaviour
     {
         return storyPoint.GetNextLine();
     }
+
+    public string GetCurrentLine()
+    {
+        return storyPoint.GetCurrentLine();
+    }
     
     public void MarkPlayed()
     {
