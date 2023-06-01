@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
 
     private int maxAbilitiesPerTurn => characters.Count;
 
-    public static Action<string, bool> OnNewStoryLine;
+    public static Action<string, bool, bool> OnNewStoryLine;
     public static Action<bool> OnAbilitiesBlocked;
     public static Action OnStartNewTurn;
 
@@ -270,7 +270,7 @@ public class GameManager : MonoBehaviour
     private void UpdateLanguage()
     {
         if(currentState == GameState.StoryPoint)
-            OnNewStoryLine?.Invoke(currentStoryPoint.GetCurrentLine(), currentStoryPoint.IsLastLine());
+            OnNewStoryLine?.Invoke(currentStoryPoint.GetCurrentLine(), currentStoryPoint.IsLastLine(), currentStoryPoint.IsFirstLine());
     }
 
     private bool CheckGameOver()
@@ -488,7 +488,16 @@ public class GameManager : MonoBehaviour
     {
         string nextLine = currentStoryPoint.GetNextLine();
         bool isLastLine = currentStoryPoint.IsLastLine();
-        OnNewStoryLine?.Invoke(nextLine, isLastLine);
+        bool isFirstLine = currentStoryPoint.IsFirstLine();
+        OnNewStoryLine?.Invoke(nextLine, isLastLine, isFirstLine);
+    }
+
+    public void GetPreviousStoryLine()
+    {
+        string previousLine = currentStoryPoint.GetPreviousLine();
+        bool isLastLine = currentStoryPoint.IsLastLine();
+        bool isFirstLine = currentStoryPoint.IsFirstLine();
+        OnNewStoryLine?.Invoke(previousLine, isLastLine, isFirstLine);
     }
 
     #region GameState: New Character

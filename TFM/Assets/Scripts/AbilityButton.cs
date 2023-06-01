@@ -12,6 +12,7 @@ public class AbilityButton : MonoBehaviour
     Button abilityButton;
     //CharacterCard character;
     Ability ability;
+    bool abilityAssigned;
 
     public static Action<Ability> OnAbilitySelected;
 
@@ -34,12 +35,14 @@ public class AbilityButton : MonoBehaviour
 
     private void UpdateUI()
     {
-        abilityText.SetText(ability.abilityText.GetLocalizedString());
+        if(abilityAssigned)
+            abilityText.SetText(ability.abilityText.GetLocalizedString());
     }
 
     public void AssignAbility(Ability abilityToAssign)
     {
         ability = abilityToAssign;
+        abilityAssigned = true;
         UpdateUI();
     }
 

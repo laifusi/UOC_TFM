@@ -25,6 +25,11 @@ public class StoryPoint : MonoBehaviour
     {
         return storyPoint.GetCurrentLine();
     }
+
+    public string GetPreviousLine()
+    {
+        return storyPoint.GetPreviousLine();
+    }
     
     public void MarkPlayed()
     {
@@ -34,6 +39,11 @@ public class StoryPoint : MonoBehaviour
     public bool IsLastLine()
     {
         return storyPoint.IsLastLine();
+    }
+
+    public bool IsFirstLine()
+    {
+        return storyPoint.IsFirstLine();
     }
 
     public bool IsDone()

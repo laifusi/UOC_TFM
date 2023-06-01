@@ -12,6 +12,9 @@ public class TutorialManager : MonoBehaviour
     [SerializeField] Sprite circleMaskSprite;
     [SerializeField] Sprite squareMaskSprite;
     [SerializeField] Transform textBlock;
+    [SerializeField] GameObject nextButton;
+    [SerializeField] GameObject backButton;
+    [SerializeField] GameObject lastButton;
 
     private bool activeTutorial;
     private TutorialPoint currentTutorialPoint;
@@ -38,6 +41,7 @@ public class TutorialManager : MonoBehaviour
     public void PlayNextLine()
     {
         tutorialText.SetText(currentTutorialPoint.GetNextLine());
+        UpdateButtons();
 
         if (currentTutorialPoint.IsDone())
         {
@@ -47,6 +51,20 @@ public class TutorialManager : MonoBehaviour
         {
             textBlock.position = currentTutorialPoint.GetTextBlockPos();
         }
+    }
+
+    public void PlayPreviousLine()
+    {
+        tutorialText.SetText(currentTutorialPoint.GetPreviousLine());
+        textBlock.position = currentTutorialPoint.GetTextBlockPos();
+        UpdateButtons();
+    }
+
+    public void UpdateButtons()
+    {
+        backButton.SetActive(!currentTutorialPoint.IsFirst());
+        nextButton.SetActive(!currentTutorialPoint.IsLast());
+        lastButton.SetActive(currentTutorialPoint.IsLast());
     }
 
     public void CloseTutorialPoint()
@@ -84,6 +102,14 @@ public struct TutorialPoint
         return lineToShow;
     }
 
+    public string GetPreviousLine()
+    {
+        if (!IsFirst())
+            currentLine--;
+        string lineToShow = lines[currentLine - 1].text.GetLocalizedString();
+        return lineToShow;
+    }
+
     public string GetCurrentLine()
     {
         return lines[currentLine - 1].text.GetLocalizedString();
@@ -97,6 +123,16 @@ public struct TutorialPoint
     public bool IsDone()
     {
         return currentLine >= lines.Length + 1;
+    }
+
+    public bool IsFirst()
+    {
+        return currentLine <= 1;
+    }
+
+    public bool IsLast()
+    {
+        return currentLine == lines.Length;
     }
 }
 

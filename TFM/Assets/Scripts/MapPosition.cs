@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MapPosition : MonoBehaviour
 {
@@ -50,6 +51,9 @@ public class MapPosition : MonoBehaviour
 
     private void OnMouseUp()
     {
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
+
         if(inMapState && isConnected)
         {
             OnPositionSelected?.Invoke(this);

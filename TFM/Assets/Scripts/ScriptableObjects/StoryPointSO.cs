@@ -48,6 +48,15 @@ public class StoryPointSO : ScriptableObject
         return textLines[currentLine - 1].GetLocalizedString();
     }
 
+    public string GetPreviousLine()
+    {
+        if (IsFirstLine())
+            return null;
+        currentLine--;
+        string lineToShow = textLines[currentLine - 1].GetLocalizedString();
+        return lineToShow;
+    }
+
     public void MarkPlayed()
     {
         hasPlayed = true;
@@ -61,5 +70,10 @@ public class StoryPointSO : ScriptableObject
     public bool IsDone()
     {
         return currentLine >= textLines.Length + 1;
+    }
+
+    public bool IsFirstLine()
+    {
+        return currentLine == 1;
     }
 }

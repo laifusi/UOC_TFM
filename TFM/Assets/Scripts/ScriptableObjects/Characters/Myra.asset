@@ -15,9 +15,9 @@ MonoBehaviour:
   type: 0
   cardName:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:824c0fbd28c187649982a0e2854555ef
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 1042097287168
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0

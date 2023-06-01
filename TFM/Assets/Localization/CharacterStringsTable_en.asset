@@ -36,7 +36,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1107108999168
-    m_Localized: Rik y Jak (los gemelos)
+    m_Localized: 'Rik y Jak
+
+      (los gemelos)'
     m_Metadata:
       m_Items: []
   - m_Id: 1158044626944
@@ -48,7 +50,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 966014117785600
-    m_Localized: 'Cost: {0} turns'
+    m_Localized: 'Cost: {0} turn(s)'
     m_Metadata:
       m_Items:
       - rid: 7598979195661975960

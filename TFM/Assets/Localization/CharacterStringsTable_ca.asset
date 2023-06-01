@@ -36,7 +36,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1107108999168
-    m_Localized: Rik i Jak (els bessos)
+    m_Localized: 'Rik i Jak
+
+      (els bessons)'
     m_Metadata:
       m_Items: []
   - m_Id: 1158044626944
@@ -48,12 +50,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 966014117785600
-    m_Localized: 'Cost: {0} torns'
+    m_Localized: 'Cost: {0} torn(s)'
     m_Metadata:
       m_Items:
       - rid: 7598979195661975930
   - m_Id: 5310153730994176
-    m_Localized: Dona {value} punts de {stat}
+    m_Localized: Dona {value} punts {stat}
     m_Metadata:
       m_Items:
       - rid: 7598979195661975930
@@ -64,31 +66,31 @@ MonoBehaviour:
       m_Items:
       - rid: 7598979195661975930
   - m_Id: 5311818223759360
-    m_Localized: vida
+    m_Localized: de vida
     m_Metadata:
       m_Items: []
   - m_Id: 5312200979165184
-    m_Localized: escut
+    m_Localized: d'escut
     m_Metadata:
       m_Items: []
   - m_Id: 5313173764091904
-    m_Localized: agilitat
+    m_Localized: d'agilitat
     m_Metadata:
       m_Items: []
   - m_Id: 5313748543123456
-    m_Localized: atac
+    m_Localized: d'atac
     m_Metadata:
       m_Items: []
   - m_Id: 5315224854245376
-    m_Localized: "intel\xB7lig\xE8ncia"
+    m_Localized: "d'intel\xB7lig\xE8ncia"
     m_Metadata:
       m_Items: []
   - m_Id: 5315556028100608
-    m_Localized: habilitats socials
+    m_Localized: d'habilitats socials
     m_Metadata:
       m_Items: []
   - m_Id: 5318842605023232
-    m_Localized: destresa
+    m_Localized: de destresa
     m_Metadata:
       m_Items: []
   references:

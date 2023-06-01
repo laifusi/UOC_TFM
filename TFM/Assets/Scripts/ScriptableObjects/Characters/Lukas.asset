@@ -35,6 +35,27 @@ MonoBehaviour:
   power: 1
   availableAbilities:
   - effects:
+    - affectedStat: 7
+      affectionAmount: 2
+      effectText: 
+    abilityText:
+      m_TableReference:
+        m_TableCollectionName: GUID:824c0fbd28c187649982a0e2854555ef
+      m_TableEntryReference:
+        m_KeyId: 5310153730994176
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables:
+      - name: value
+        variable:
+          rid: 7598979195661976002
+      - name: stat
+        variable:
+          rid: 7598979195661976003
+    abilityCost: 0
+    abilityLevel: 0
+  - effects:
     - affectedStat: 1
       affectionAmount: 2
       effectText: 
@@ -53,27 +74,6 @@ MonoBehaviour:
       - name: stat
         variable:
           rid: 7598979195661976001
-    abilityCost: 0
-    abilityLevel: 0
-  - effects:
-    - affectedStat: 7
-      affectionAmount: 3
-      effectText: 
-    abilityText:
-      m_TableReference:
-        m_TableCollectionName: GUID:824c0fbd28c187649982a0e2854555ef
-      m_TableEntryReference:
-        m_KeyId: 5310153730994176
-        m_Key: 
-      m_FallbackState: 0
-      m_WaitForCompletion: 0
-      m_LocalVariables:
-      - name: value
-        variable:
-          rid: 7598979195661976002
-      - name: stat
-        variable:
-          rid: 7598979195661976003
     abilityCost: 1
     abilityLevel: 1
   - effects:
@@ -103,13 +103,19 @@ MonoBehaviour:
       effectText: 
     abilityText:
       m_TableReference:
-        m_TableCollectionName: 
+        m_TableCollectionName: GUID:824c0fbd28c187649982a0e2854555ef
       m_TableEntryReference:
-        m_KeyId: 0
+        m_KeyId: 5310153730994176
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 0
-      m_LocalVariables: []
+      m_LocalVariables:
+      - name: value
+        variable:
+          rid: 7598979195661976036
+      - name: stat
+        variable:
+          rid: 7598979195661976037
     abilityCost: 3
     abilityLevel: 2
   references:
@@ -133,7 +139,7 @@ MonoBehaviour:
     - rid: 7598979195661976002
       type: {class: IntVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
       data:
-        m_Value: 3
+        m_Value: 2
     - rid: 7598979195661976003
       type: {class: LocalizedString, ns: UnityEngine.Localization, asm: Unity.Localization}
       data:
@@ -156,6 +162,21 @@ MonoBehaviour:
           m_TableCollectionName: GUID:824c0fbd28c187649982a0e2854555ef
         m_TableEntryReference:
           m_KeyId: 5313173764091904
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+    - rid: 7598979195661976036
+      type: {class: IntVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 5
+    - rid: 7598979195661976037
+      type: {class: LocalizedString, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:824c0fbd28c187649982a0e2854555ef
+        m_TableEntryReference:
+          m_KeyId: 5313748543123456
           m_Key: 
         m_FallbackState: 0
         m_WaitForCompletion: 0

@@ -36,7 +36,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1107108999168
-    m_Localized: Rik and Yak (the twins)
+    m_Localized: 'Rik and Yak
+
+      (the twins)'
     m_Metadata:
       m_Items: []
   - m_Id: 1158044626944
@@ -48,7 +50,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 966014117785600
-    m_Localized: 'Coste: {0} turnos'
+    m_Localized: 'Coste: {0} turno(s)'
     m_Metadata:
       m_Items:
       - rid: 7598979195661975961
