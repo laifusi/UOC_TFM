@@ -41,8 +41,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1598819840000
-    m_Localized: "Utilitzant la for\xE7a bruta, s'aconsegueixen 50 monedes de la
-      caixa."
+    m_Localized: Utilitzant l'atac, s'aconsegueixen 50 monedes de la caixa.
     m_Metadata:
       m_Items: []
   - m_Id: 1651131199488
@@ -60,8 +59,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1914625765376
-    m_Localized: "Utilitzant la for\xE7a bruta, s'aconsegueixen 100 monedes de la
-      caixa."
+    m_Localized: Utilitzant l'atac, s'aconsegueixen 100 monedes de la caixa.
     m_Metadata:
       m_Items: []
   - m_Id: 2008305545216
@@ -84,8 +82,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2290800308224
-    m_Localized: "Utilitzant la for\xE7a bruta, s'aconsegueixen 50 monedes de la
-      caixa."
+    m_Localized: Utilitzant l'atac, s'aconsegueixen 50 monedes de la caixa.
     m_Metadata:
       m_Items: []
   - m_Id: 2516822962176
@@ -108,8 +105,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2739355955200
-    m_Localized: "Utilitzant la for\xE7a bruta, s'aconsegueixen 100 monedes de la
-      caixa."
+    m_Localized: Utilitzant l'atac, s'aconsegueixen 100 monedes de la caixa.
     m_Metadata:
       m_Items: []
   - m_Id: 2808813629440
@@ -149,13 +145,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3365112557568
-    m_Localized: "S'utilitza la for\xE7a sense acabar amb la vida del lladre, es
-      perden 25 monedes"
+    m_Localized: S'utilitza l'atac sense acabar amb la vida del lladre, es perden
+      25 monedes. Es perden els punts d'escut i/o vida corresponents a l'atac de
+      l'enemic
     m_Metadata:
       m_Items: []
   - m_Id: 3407005265920
-    m_Localized: "S'utilitza la for\xE7a i s'acaba amb la vida del lladre, es guanyen
-      75 monedes per\xF2 es perden 20 punts d'habilitats socials."
+    m_Localized: "S'utilitza l'atac i s'acaba amb la vida del lladre, es guanyen
+      75 monedes per\xF2 es perden 20 punts d'habilitats socials. Es perden els punts
+      d'escut i/o vida corresponents a l'atac de l'enemic"
     m_Metadata:
       m_Items: []
   - m_Id: 3483555508224
@@ -177,13 +175,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3651508023296
-    m_Localized: "S'utilitza la for\xE7a sense acabar amb la vida del lladre, es
-      perden 50 monedes"
+    m_Localized: S'utilitza l'atac sense acabar amb la vida del lladre, es perden
+      50 monedes. Es perden els punts d'escut i/o vida corresponents a l'atac de
+      l'enemic
     m_Metadata:
       m_Items: []
   - m_Id: 3690607325184
-    m_Localized: "S'utilitza la for\xE7a i s'acaba amb la vida del lladre, es guanyen
-      150 monedes per\xF2 es perden 10 punts d'habilitats socials."
+    m_Localized: "S'utilitza l'atac i s'acaba amb la vida del lladre, es guanyen
+      150 monedes per\xF2 es perden 10 punts d'habilitats socials. Es perden els
+      punts d'escut i/o vida corresponents a l'atac de l'enemic"
     m_Metadata:
       m_Items: []
   - m_Id: 3735230525440
@@ -205,13 +205,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3903770243072
-    m_Localized: "S'utilitza la for\xE7a sense acabar amb la vida del lladre, es
-      perden 100 monedes"
+    m_Localized: S'utilitza l'atac sense acabar amb la vida del lladre, es perden
+      100 monedes. Es perden els punts d'escut i/o vida corresponents a l'atac de
+      l'enemic
     m_Metadata:
       m_Items: []
   - m_Id: 3942794047488
-    m_Localized: "S'utilitza la for\xE7a i s'acaba amb la vida del lladre, es guanyen
-      300 monedes per\xF2 es perden 5 punts d'habilitats socials."
+    m_Localized: "S'utilitza l'atac i s'acaba amb la vida del lladre, es guanyen
+      300 monedes per\xF2 es perden 5 punts d'habilitats socials. Es perden els punts
+      d'escut i/o vida corresponents a l'atac de l'enemic"
     m_Metadata:
       m_Items: []
   - m_Id: 5873620922368
@@ -303,13 +305,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11081159716864
-    m_Localized: "S'utilitza la for\xE7a sense acabar amb la vida del dimoni, es
-      perden 2 punts d'habilitats socials"
+    m_Localized: S'utilitza l'atac sense acabar amb la vida del dimoni, es perden
+      2 punts d'habilitats socials. Es perden els punts d'escut i/o vida corresponents
+      a l'atac de l'enemic
     m_Metadata:
       m_Items: []
   - m_Id: 11293995479040
-    m_Localized: "S'utilitza la for\xE7a i s'acaba amb la vida del dimoni, es perden
-      8 punts d'habilitats socials"
+    m_Localized: S'utilitza l'atac i s'acaba amb la vida del dimoni, es perden 8
+      punts d'habilitats socials. Es perden els punts d'escut i/o vida corresponents
+      a l'atac de l'enemic
     m_Metadata:
       m_Items: []
   - m_Id: 11505187074048
@@ -332,13 +336,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11716110233600
-    m_Localized: "S'utilitza la for\xE7a sense acabar amb la vida del dimoni, es
-      perden 4 punts d'habilitats socials"
+    m_Localized: S'utilitza l'atac sense acabar amb la vida del dimoni, es perden
+      4 punts d'habilitats socials. Es perden els punts d'escut i/o vida corresponents
+      a l'atac de l'enemic
     m_Metadata:
       m_Items: []
   - m_Id: 11794896039936
-    m_Localized: "S'utilitza la for\xE7a i s'acaba amb la vida del dimoni, es perden
-      6 punts d'habilitats socials"
+    m_Localized: S'utilitza l'atac i s'acaba amb la vida del dimoni, es perden 6
+      punts d'habilitats socials. Es perden els punts d'escut i/o vida corresponents
+      a l'atac de l'enemic
     m_Metadata:
       m_Items: []
   - m_Id: 270146607689728
@@ -355,8 +361,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 270839309578240
-    m_Localized: "Amb l'\xFAs de la for\xE7a, es perden els punts d'escut i/o vida
-      corresponents a l'atac de l'enemic"
+    m_Localized: "Amb l'\xFAs de l'atac, es perden els punts d'escut i/o vida corresponents
+      a l'atac de l'enemic"
     m_Metadata:
       m_Items: []
   - m_Id: 271688320593920
@@ -399,13 +405,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 274061160001536
-    m_Localized: "S'utilitza la for\xE7a sense acabar amb la vida del vilat\xE0,
-      es perden 15 punts d'habilitats socials"
+    m_Localized: "S'utilitza l'atac sense acabar amb la vida del vilat\xE0, es perden
+      15 punts d'habilitats socials. Es perden els punts d'escut i/o vida corresponents
+      a l'atac de l'enemic"
     m_Metadata:
       m_Items: []
   - m_Id: 274445962227712
-    m_Localized: "S'utilitza la for\xE7a i s'acaba amb la vida del vilat\xE0, es
-      perden 30 punts d'habilitats socials."
+    m_Localized: "S'utilitza l'atac i s'acaba amb la vida del vilat\xE0, es perden
+      30 punts d'habilitats socials. Es perden els punts d'escut i/o vida corresponents
+      a l'atac de l'enemic"
     m_Metadata:
       m_Items: []
   - m_Id: 275283313078272
@@ -422,13 +430,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 275554915233792
-    m_Localized: "S'utilitza la for\xE7a sense acabar amb la vida del vilat\xE0,
-      es perden 10 punts d'habilitats socials"
+    m_Localized: "S'utilitza l'atac sense acabar amb la vida del vilat\xE0, es perden
+      10 punts d'habilitats socials. Es perden els punts d'escut i/o vida corresponents
+      a l'atac de l'enemic"
     m_Metadata:
       m_Items: []
   - m_Id: 275622154121216
-    m_Localized: "S'utilitza la for\xE7a i s'acaba amb la vida del vilat\xE0, es
-      perden 20 punts d'habilitats socials."
+    m_Localized: "S'utilitza l'atac i s'acaba amb la vida del vilat\xE0, es perden
+      20 punts d'habilitats socials. Es perden els punts d'escut i/o vida corresponents
+      a l'atac de l'enemic"
     m_Metadata:
       m_Items: []
   - m_Id: 275703221628928
@@ -445,13 +455,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 275906171416576
-    m_Localized: "S'utilitza la for\xE7a sense acabar amb la vida del vilat\xE0,
-      es perden 5 punts d'habilitats socials"
+    m_Localized: "S'utilitza l'atac sense acabar amb la vida del vilat\xE0, es perden
+      5 punts d'habilitats socials. Es perden els punts d'escut i/o vida corresponents
+      a l'atac de l'enemic"
     m_Metadata:
       m_Items: []
   - m_Id: 275956133965824
-    m_Localized: "S'utilitza la for\xE7a i s'acaba amb la vida del vilat\xE0, es
-      perden 10 punts d'habilitats socials."
+    m_Localized: "S'utilitza l'atac i s'acaba amb la vida del vilat\xE0, es perden
+      10 punts d'habilitats socials. Es perden els punts d'escut i/o vida corresponents
+      a l'atac de l'enemic"
     m_Metadata:
       m_Items: []
   - m_Id: 278762442108928
@@ -468,13 +480,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 279081548951552
-    m_Localized: "S'utilitza la for\xE7a sense acabar amb la vida del policia, es
-      perden 5 punts d'habilitats socials"
+    m_Localized: S'utilitza l'atac sense acabar amb la vida del policia, es perden
+      5 punts d'habilitats socials. Es perden els punts d'escut i/o vida corresponents
+      a l'atac de l'enemic
     m_Metadata:
       m_Items: []
   - m_Id: 279171105730560
-    m_Localized: "S'utilitza la for\xE7a i s'acaba amb la vida del policia, es perden
-      20 punts d'habilitats socials."
+    m_Localized: S'utilitza l'atac i s'acaba amb la vida del policia, es perden 20
+      punts d'habilitats socials. Es perden els punts d'escut i/o vida corresponents
+      a l'atac de l'enemic
     m_Metadata:
       m_Items: []
   - m_Id: 279223467421696
@@ -491,13 +505,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 279436944912384
-    m_Localized: "S'utilitza la for\xE7a sense acabar amb la vida del policia, es
-      perden 5 punts d'habilitats socials"
+    m_Localized: S'utilitza l'atac sense acabar amb la vida del policia, es perden
+      5 punts d'habilitats socials. Es perden els punts d'escut i/o vida corresponents
+      a l'atac de l'enemic
     m_Metadata:
       m_Items: []
   - m_Id: 279537964724224
-    m_Localized: "S'utilitza la for\xE7a i s'acaba amb la vida del policia, es perden
-      15 punts d'habilitats socials."
+    m_Localized: S'utilitza l'atac i s'acaba amb la vida del policia, es perden 15
+      punts d'habilitats socials. Es perden els punts d'escut i/o vida corresponents
+      a l'atac de l'enemic
     m_Metadata:
       m_Items: []
   - m_Id: 279606986190848
@@ -514,13 +530,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 279755221282816
-    m_Localized: "S'utilitza la for\xE7a sense acabar amb la vida del policia, es
-      perden 5 punts d'habilitats socials"
+    m_Localized: S'utilitza l'atac sense acabar amb la vida del policia, es perden
+      5 punts d'habilitats socials. Es perden els punts d'escut i/o vida corresponents
+      a l'atac de l'enemic
     m_Metadata:
       m_Items: []
   - m_Id: 279820136525824
-    m_Localized: "S'utilitza la for\xE7a i s'acaba amb la vida del policia, es perden
-      10 punts d'habilitats socials."
+    m_Localized: S'utilitza l'atac i s'acaba amb la vida del policia, es perden 10
+      punts d'habilitats socials. Es perden els punts d'escut i/o vida corresponents
+      a l'atac de l'enemic
     m_Metadata:
       m_Items: []
   - m_Id: 281707028066304

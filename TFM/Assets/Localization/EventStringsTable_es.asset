@@ -224,13 +224,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 279820136525824
-    m_Localized: "Se usa la fuerza y se acaba con la vida del polic\xEDa, se pierden
-      10 puntos de habilidades sociales"
+    m_Localized: "Se usa el ataque y se acaba con la vida del polic\xEDa, se pierden
+      10 puntos de habilidades sociales. Se pierden los puntos de escudo y/o vida
+      correspondientes al ataque del enemigo"
     m_Metadata:
       m_Items: []
   - m_Id: 279755221282816
-    m_Localized: "Se usa la fuerza sin acabar con la vida del polic\xEDa, se pierden
-      5 puntos de habilidades sociales"
+    m_Localized: "Se usa el ataque sin acabar con la vida del polic\xEDa, se pierden
+      5 puntos de habilidades sociales. Se pierden los puntos de escudo y/o vida
+      correspondientes al ataque del enemigo"
     m_Metadata:
       m_Items: []
   - m_Id: 279694374514688
@@ -247,13 +249,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 279537964724224
-    m_Localized: "Se usa la fuerza y se acaba con la vida del polic\xEDa, se pierden
-      15 puntos de habilidades sociales"
+    m_Localized: "Se usa el ataque y se acaba con la vida del polic\xEDa, se pierden
+      15 puntos de habilidades sociales. Se pierden los puntos de escudo y/o vida
+      correspondientes al ataque del enemigo"
     m_Metadata:
       m_Items: []
   - m_Id: 279436944912384
-    m_Localized: "Se usa la fuerza sin acabar con la vida del polic\xEDa, se pierden
-      5 puntos de habilidades sociales"
+    m_Localized: "Se usa el ataque sin acabar con la vida del polic\xEDa, se pierden
+      5 puntos de habilidades sociales. Se pierden los puntos de escudo y/o vida
+      correspondientes al ataque del enemigo"
     m_Metadata:
       m_Items: []
   - m_Id: 279336453582848
@@ -275,8 +279,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 279081548951552
-    m_Localized: "Se usa la fuerza sin acabar con la vida del polic\xEDa, se pierden
-      5 puntos de habilidades sociales"
+    m_Localized: "Se usa el ataque sin acabar con la vida del polic\xEDa, se pierden
+      5 puntos de habilidades sociales. Se pierden los puntos de escudo y/o vida
+      correspondientes al ataque del enemigo"
     m_Metadata:
       m_Items: []
   - m_Id: 278954058887168
@@ -284,8 +289,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 279171105730560
-    m_Localized: "Se usa la fuerza y se acaba con la vida del polic\xEDa, se pierden
-      20 puntos de habilidades sociales"
+    m_Localized: "Se usa el ataque y se acaba con la vida del polic\xEDa, se pierden
+      20 puntos de habilidades sociales. Se pierden los puntos de escudo y/o vida
+      correspondientes al ataque del enemigo"
     m_Metadata:
       m_Items: []
   - m_Id: 278762442108928
@@ -293,13 +299,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 275956133965824
-    m_Localized: Se usa la fuerza y se acaba con la vida del aldeano, se pierden
-      10 puntos de habilidades sociales
+    m_Localized: Se usa el ataque y se acaba con la vida del aldeano, se pierden
+      10 puntos de habilidades sociales. Se pierden los puntos de escudo y/o vida
+      correspondientes al ataque del enemigo
     m_Metadata:
       m_Items: []
   - m_Id: 275906171416576
-    m_Localized: Se usa la fuerza sin acabar con la vida del aldeano, se pierden
-      5 puntos de habilidades sociales
+    m_Localized: Se usa el ataque sin acabar con la vida del aldeano, se pierden
+      5 puntos de habilidades sociales. Se pierden los puntos de escudo y/o vida
+      correspondientes al ataque del enemigo
     m_Metadata:
       m_Items: []
   - m_Id: 275844464816128
@@ -316,13 +324,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 275622154121216
-    m_Localized: Se usa la fuerza y se acaba con la vida del aldeano, se pierden
-      20 puntos de habilidades sociales
+    m_Localized: Se usa el ataque y se acaba con la vida del aldeano, se pierden
+      20 puntos de habilidades sociales. Se pierden los puntos de escudo y/o vida
+      correspondientes al ataque del enemigo
     m_Metadata:
       m_Items: []
   - m_Id: 275554915233792
-    m_Localized: Se usa la fuerza sin acabar con la vida del aldeano, se pierden
-      10 puntos de habilidades sociales
+    m_Localized: Se usa el ataque sin acabar con la vida del aldeano, se pierden
+      10 puntos de habilidades sociales. Se pierden los puntos de escudo y/o vida
+      correspondientes al ataque del enemigo
     m_Metadata:
       m_Items: []
   - m_Id: 275453383716864
@@ -339,13 +349,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 274445962227712
-    m_Localized: Se usa la fuerza y se acaba con la vida del aldeano, se pierden
-      30 puntos de habilidades sociales
+    m_Localized: Se usa el ataque y se acaba con la vida del aldeano, se pierden
+      30 puntos de habilidades sociales. Se pierden los puntos de escudo y/o vida
+      correspondientes al ataque del enemigo
     m_Metadata:
       m_Items: []
   - m_Id: 274061160001536
-    m_Localized: Se usa la fuerza sin acabar con la vida del aldeano, se pierden
-      15 puntos de habilidades sociales
+    m_Localized: Se usa el ataque sin acabar con la vida del aldeano, se pierden
+      15 puntos de habilidades sociales. Se pierden los puntos de escudo y/o vida
+      correspondientes al ataque del enemigo
     m_Metadata:
       m_Items: []
   - m_Id: 273973566156800
@@ -388,7 +400,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 270839309578240
-    m_Localized: Usando la fuerza, se pierden los puntos de escudo y/o vida correspondientes
+    m_Localized: Usando el ataque, se pierden los puntos de escudo y/o vida correspondientes
+      al ataque del enemigo. Se pierden los puntos de escudo y/o vida correspondientes
       al ataque del enemigo
     m_Metadata:
       m_Items: []
@@ -406,13 +419,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11794896039936
-    m_Localized: Se usa la fuerza y se acaba con la vida del demonio, se pierden
-      6 puntos de habilidades sociales
+    m_Localized: Se usa el ataque y se acaba con la vida del demonio, se pierden
+      6 puntos de habilidades sociales. Se pierden los puntos de escudo y/o vida
+      correspondientes al ataque del enemigo
     m_Metadata:
       m_Items: []
   - m_Id: 11716110233600
-    m_Localized: Se usa la fuerza sin acabar con la vida del demonio, se pierden
-      4 puntos de habilidades sociales
+    m_Localized: Se usa el ataque sin acabar con la vida del demonio, se pierden
+      4 puntos de habilidades sociales. Se pierden los puntos de escudo y/o vida
+      correspondientes al ataque del enemigo
     m_Metadata:
       m_Items: []
   - m_Id: 11643624271872
@@ -435,13 +450,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11293995479040
-    m_Localized: Se usa la fuerza y se acaba con la vida del demonio, se pierden
-      8 puntos de habilidades sociales
+    m_Localized: Se usa el ataque y se acaba con la vida del demonio, se pierden
+      8 puntos de habilidades sociales. Se pierden los puntos de escudo y/o vida
+      correspondientes al ataque del enemigo
     m_Metadata:
       m_Items: []
   - m_Id: 11081159716864
-    m_Localized: Se usa la fuerza sin acabar con la vida del demonio, se pierden
-      2 puntos de habilidades sociales
+    m_Localized: Se usa el ataque sin acabar con la vida del demonio, se pierden
+      2 puntos de habilidades sociales. Se pierden los puntos de escudo y/o vida
+      correspondientes al ataque del enemigo
     m_Metadata:
       m_Items: []
   - m_Id: 11020535246848
@@ -533,13 +550,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3942794047488
-    m_Localized: "Se usa la fuerza y se acaba con la vida del ladr\xF3n, se ganan
-      300 monedas pero se pierden 5 puntos de habilidades sociales"
+    m_Localized: "Se usa el ataque y se acaba con la vida del ladr\xF3n, se ganan
+      300 monedas pero se pierden 5 puntos de habilidades sociales. Se pierden los
+      puntos de escudo y/o vida correspondientes al ataque del enemigo"
     m_Metadata:
       m_Items: []
   - m_Id: 3903770243072
-    m_Localized: "Se usa la fuerza sin acabar con la vida del ladr\xF3n, se pierden
-      100 monedas"
+    m_Localized: "Se usa el ataque sin acabar con la vida del ladr\xF3n, se pierden
+      100 monedas. Se pierden los puntos de escudo y/o vida correspondientes al ataque
+      del enemigo"
     m_Metadata:
       m_Items: []
   - m_Id: 3866898116608
@@ -561,13 +580,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3690607325184
-    m_Localized: "Se usa la fuerza y se acaba con la vida del ladr\xF3n, se ganan
-      150 monedas pero se pierden 10 puntos de habilidades sociales"
+    m_Localized: "Se usa el ataque y se acaba con la vida del ladr\xF3n, se ganan
+      150 monedas pero se pierden 10 puntos de habilidades sociales. Se pierden los
+      puntos de escudo y/o vida correspondientes al ataque del enemigo"
     m_Metadata:
       m_Items: []
   - m_Id: 3651508023296
-    m_Localized: "Se usa la fuerza sin acabar con la vida del ladr\xF3n, se pierden
-      50 monedas"
+    m_Localized: "Se usa el ataque sin acabar con la vida del ladr\xF3n, se pierden
+      50 monedas. Se pierden los puntos de escudo y/o vida correspondientes al ataque
+      del enemigo"
     m_Metadata:
       m_Items: []
   - m_Id: 3594683592704
@@ -589,13 +610,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3407005265920
-    m_Localized: "Se usa la fuerza y se acaba con la vida del ladr\xF3n, se ganan
-      75 monedas pero se pierden 20 puntos de habilidades sociales"
+    m_Localized: "Se usa el ataque y se acaba con la vida del ladr\xF3n, se ganan
+      75 monedas pero se pierden 20 puntos de habilidades sociales. Se pierden los
+      puntos de escudo y/o vida correspondientes al ataque del enemigo"
     m_Metadata:
       m_Items: []
   - m_Id: 3365112557568
-    m_Localized: "Se usa la fuerza sin acabar con la vida del ladr\xF3n, se pierden
-      25 monedas"
+    m_Localized: "Se usa el ataque sin acabar con la vida del ladr\xF3n, se pierden
+      25 monedas. Se pierden los puntos de escudo y/o vida correspondientes al ataque
+      del enemigo"
     m_Metadata:
       m_Items: []
   - m_Id: 3311811342336
@@ -635,7 +658,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2739355955200
-    m_Localized: Usando la fuerza bruta, se consiguen 100 monedas de la caja
+    m_Localized: Usando el ataque, se consiguen 100 monedas de la caja
     m_Metadata:
       m_Items: []
   - m_Id: 2695546449920
@@ -657,7 +680,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2290800308224
-    m_Localized: Usando la fuerza bruta, se consiguen 50 monedas de la caja
+    m_Localized: Usando el ataque, se consiguen 50 monedas de la caja
     m_Metadata:
       m_Items: []
   - m_Id: 2222982606848
@@ -679,7 +702,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1598819840000
-    m_Localized: Usando la fuerza bruta, se consiguen 50 monedas de la caja
+    m_Localized: Usando el ataque, se consiguen 50 monedas de la caja
     m_Metadata:
       m_Items: []
   - m_Id: 1860728958976
@@ -687,7 +710,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1914625765376
-    m_Localized: Usando la fuerza bruta, se consiguen 100 monedas de la caja
+    m_Localized: Usando el ataque, se consiguen 100 monedas de la caja
     m_Metadata:
       m_Items: []
   - m_Id: 1536303738880

@@ -95,6 +95,30 @@ MonoBehaviour:
     m_Key: win
     m_Metadata:
       m_Items: []
+  - m_Id: 1081386921799680
+    m_Key: phaseMap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081530203418624
+    m_Key: phaseEvent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081701922418688
+    m_Key: phaseAbilities
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1082518159142912
+    m_Key: abilitiesToUse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1083492953141248
+    m_Key: phaseShop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1084022874091520
+    m_Key: phaseLearning
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

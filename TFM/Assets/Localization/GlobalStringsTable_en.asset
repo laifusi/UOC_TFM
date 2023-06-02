@@ -100,6 +100,30 @@ MonoBehaviour:
     m_Localized: Congrats, you won!
     m_Metadata:
       m_Items: []
+  - m_Id: 1081386921799680
+    m_Localized: Map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081530203418624
+    m_Localized: Event
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081701922418688
+    m_Localized: Abilities
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1082518159142912
+    m_Localized: Available abiltiies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1083492953141248
+    m_Localized: Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1084022874091520
+    m_Localized: Learning
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

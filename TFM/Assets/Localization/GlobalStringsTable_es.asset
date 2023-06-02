@@ -98,6 +98,30 @@ MonoBehaviour:
     m_Localized: "\xA1Enhorabuena, has ganado!"
     m_Metadata:
       m_Items: []
+  - m_Id: 1081386921799680
+    m_Localized: Mapa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081530203418624
+    m_Localized: Evento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081701922418688
+    m_Localized: Habilidades
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1082518159142912
+    m_Localized: Habilidades disponibles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1083492953141248
+    m_Localized: Tienda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1084022874091520
+    m_Localized: Aprendizaje
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
