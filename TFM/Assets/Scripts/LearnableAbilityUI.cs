@@ -19,7 +19,9 @@ public class LearnableAbilityUI : MonoBehaviour
     private void Start()
     {
         learnButton.onClick.AddListener(() => assignedCharacter.LearnAbility(assignedAbility));
+        learnButton.onClick.AddListener(() => Destroy(gameObject));
         OptionsManager.OnLanguageChanged += UpdateUI;
+        assignedCharacter.OnStartedLearning += DeactivateLearning;
     }
 
     public void AssignAbility(Ability ability, CharacterCard character)
@@ -36,9 +38,15 @@ public class LearnableAbilityUI : MonoBehaviour
         costText.SetText(costTextString.GetLocalizedString());
     }
 
+    private void DeactivateLearning()
+    {
+        learnButton.interactable = false;
+    }
+
     private void OnDestroy()
     {
         learnButton.onClick.RemoveAllListeners();
         OptionsManager.OnLanguageChanged -= UpdateUI;
+        assignedCharacter.OnStartedLearning -= DeactivateLearning;
     }
 }

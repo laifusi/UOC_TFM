@@ -24,7 +24,7 @@ MonoBehaviour:
     m_LocalVariables: []
   effects: []
   rarity: 0
-  health: 5
+  health: 6
   attack: 3
   possibleEventOutcomes:
   - detonatorStat: 5

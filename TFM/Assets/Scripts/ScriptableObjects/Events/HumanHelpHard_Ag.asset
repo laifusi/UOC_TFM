@@ -27,7 +27,7 @@ MonoBehaviour:
   health: 0
   attack: 0
   possibleEventOutcomes:
-  - detonatorStat: 6
+  - detonatorStat: 7
     detonationValue: 15
     powerDetonator: 0
     outcomeText:

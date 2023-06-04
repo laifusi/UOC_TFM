@@ -33,13 +33,16 @@ public class CharacterCardSO : CardSO
     private List<EquipmentCardSO> equipmentCards = new List<EquipmentCardSO>();
     private List<Ability> activeAbilities = new List<Ability>();
     private List<Ability> inactiveAbilities = new List<Ability>();
-    private bool isFrozen;
+    //private bool isFrozen;
+    private bool isDead;
+    private bool isLearning;
 
     public Action<bool> OnCharacterFrozen;
     public static Action OnCoinsChange;
     public Action<Ability> OnAbilityLearnt;
 
-    public bool IsFrozen => isFrozen;
+    public bool IsFrozen => isDead || isLearning;
+    public bool IsLearning => isLearning;
 
     public void ResetCard()
     {
@@ -66,7 +69,9 @@ public class CharacterCardSO : CardSO
                 inactiveAbilities.Add(ability);
             }
         }
-        isFrozen = false;
+        //isFrozen = false;
+        isDead = false;
+        isLearning = false;
     }
 
     public float GetHealth()
@@ -105,8 +110,9 @@ public class CharacterCardSO : CardSO
         {
             case StatType.Health:
                 currentHealth += effect.affectionAmount;
-                if(isFrozen && currentHealth > 0)
+                if(isDead && currentHealth > 0)
                 {
+                    isDead = false;
                     FreezeCharacter(false);
                 }
                 break;
@@ -180,6 +186,7 @@ public class CharacterCardSO : CardSO
 
             if(currentHealth <= 0)
             {
+                isDead = true;
                 FreezeCharacter(true);
             }
         }
@@ -211,7 +218,16 @@ public class CharacterCardSO : CardSO
     {
         inactiveAbilities.Remove(abilityToLearn);
         activeAbilities.Add(abilityToLearn);
+        isLearning = true;
         OnAbilityLearnt?.Invoke(abilityToLearn);
+        FreezeCharacter(true);
+    }
+
+    public void FinishLearning()
+    {
+        isLearning = false;
+        if(!isDead)
+            FreezeCharacter(false);
     }
 
     public List<Ability> GetActiveAbilities()
@@ -221,7 +237,7 @@ public class CharacterCardSO : CardSO
 
     public void FreezeCharacter(bool freeze)
     {
-        isFrozen = freeze;
+        //isFrozen = freeze;
         OnCharacterFrozen?.Invoke(freeze);
     }
 }

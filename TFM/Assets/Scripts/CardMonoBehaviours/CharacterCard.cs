@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -26,14 +27,21 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     private int usesSinceLastLevelIncrease;
     private int turnsLearning;
     private int turnsToLearn;
-    private bool isLearning;
+
+    public Action OnStartedLearning;
 
     private void Start()
     {
         card.OnCharacterFrozen += FreezeCharacter;
         card.OnAbilityLearnt += UpdateAbilities;
         GameManager.OnAbilitiesBlocked += BlockAbilityButtons;
-        GameManager.OnStartNewTurn += UpdateLearningState;
+        if(cardsAssignedState == GameState.Learning)
+            GameManager.OnStartNewTurn += UpdateLearningState;
+
+        if (card.IsFrozen)
+            FreezeCharacter(true);
+        else
+            FreezeCharacter(false);
     }
 
     public override void PaintCard(CharacterCardSO cardToPaint)
@@ -134,7 +142,7 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     {
         cardsAssignedState = state;
 
-        switch(state)
+        switch (state)
         {
             case GameState.Event:
                 button.enabled = true;
@@ -157,14 +165,15 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
 
     public void FreezeCharacter(bool isFrozen)
     {
+        BlockAbilityButtons(isFrozen);
         switch (cardsAssignedState)
         {
             case GameState.Event:
                 button.interactable = !isFrozen;
                 break;
-            case GameState.Abilities:
+            /*case GameState.Abilities:
                 BlockAbilityButtons(isFrozen);
-                break;
+                break;*/
             case GameState.Learning:
                 button.interactable = !isFrozen;
                 break;
@@ -195,19 +204,15 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     public void LearnAbility(Ability ability)
     {
         card.LearnAbility(ability);
-        card.FreezeCharacter(true);
         turnsToLearn = ability.abilityCost;
         turnsLearning = 0;
-        isLearning = true;
+        OnStartedLearning?.Invoke();
     }
 
     public void UpdateLearningState()
     {
-        if (isLearning && turnsLearning >= turnsToLearn)
-        {
-            card.FreezeCharacter(false);
-            isLearning = false;
-        }
+        if (card.IsLearning && turnsLearning >= turnsToLearn)
+            card.FinishLearning();
         turnsLearning++;
     }
 
@@ -245,7 +250,8 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
         }
 
         GameManager.OnAbilitiesBlocked -= BlockAbilityButtons;
-        GameManager.OnStartNewTurn -= UpdateLearningState;
+        if (cardsAssignedState == GameState.Learning)
+            GameManager.OnStartNewTurn -= UpdateLearningState;
     }
 
     public void OnPointerEnter(PointerEventData eventData)

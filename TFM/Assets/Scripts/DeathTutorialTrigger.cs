@@ -18,7 +18,7 @@ public class DeathTutorialTrigger : TutorialTrigger
 
         foreach(CharacterCardSO character in characters)
         {
-            if (character.IsFrozen)
+            if (character.GetHealth() <= 0)
             {
                 isActive = false;
                 TriggerTutorial();
