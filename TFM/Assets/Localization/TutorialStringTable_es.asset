@@ -32,9 +32,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 354189488128
-    m_Localized: "Esta pantalla que ves es el mapa. Las posiciones marcadas en rojo
-      no son accesibles. La posici\xF3n marcada en azul es la posici\xF3n actual.
-      Y las posiciones marcadas en amarillo son las que se pueden seleccionar."
+    m_Localized: Esta pantalla que ves es el mapa.
     m_Metadata:
       m_Items: []
   - m_Id: 539393175552
@@ -81,20 +79,16 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3199554990080
-    m_Localized: "Esta es la pantalla de evento.\nSi pasas por encima de un personaje,
-      ver\xE1s la consecuencia que tendr\xE1 seleccionarlo para el enfrentamiento.\nSi
-      pasas por encima de la carta de evento, ver\xE1s las caracter\xEDsticas que
-      lo pueden resolver."
+    m_Localized: Esta es la pantalla de evento.
     m_Metadata:
       m_Items: []
   - m_Id: 4463244259328
-    m_Localized: Esta es la pantalla de habilidades. Cada personaje tiene una serie
-      de habilidades.
+    m_Localized: Esta es la pantalla de habilidades.
     m_Metadata:
       m_Items: []
   - m_Id: 4656219992064
-    m_Localized: Selecciona el texto de la habilidad y el personaje a quien quieres
-      aplicarla.
+    m_Localized: "Para utilizarlas tienes que seleccionar el texto de la habilidad
+      y, despu\xE9s. el personaje a quien quieres aplicarla."
     m_Metadata:
       m_Items: []
   - m_Id: 4730341732352
@@ -107,14 +101,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5038950232064
-    m_Localized: "Estas son las monedas que tienes, y debajo de las cartas de equipaci\xF3n,
-      puedes ver su precio.\nSi pasas por encima de la carta de equipaci\xF3n, podr\xE1s
-      ver su efecto."
+    m_Localized: Estas son las monedas que tienes.
     m_Metadata:
       m_Items: []
   - m_Id: 5167098802176
-    m_Localized: "Selecciona la carta a comprar y el personaje a quien asignarla
-      y se aplicar\xE1n inmediatamente sus efectos."
+    m_Localized: "Para comprar una carta, seleccionala y, despu\xE9s, selecciona
+      el personaje a quien asignarla. Se aplicar\xE1n inmediatamente sus efectos."
     m_Metadata:
       m_Items: []
   - m_Id: 5304286097408
@@ -166,6 +158,73 @@ MonoBehaviour:
   - m_Id: 7052149043200
     m_Localized: "As\xED que, si tu personaje muere, tendr\xE1s que conseguir que
       recupere la vida para poder seguir us\xE1ndolo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6395806669516800
+    m_Localized: Las posiciones marcadas en rojo no son accesibles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6395900106027008
+    m_Localized: "La posici\xF3n marcada en azul es la posici\xF3n actual."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6395953595985920
+    m_Localized: Y las posiciones marcadas en amarillo son las que se pueden seleccionar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6408104322707456
+    m_Localized: "Cada evento tiene unas caracter\xEDsticas que lo afectan. Estas
+      pueden ser un poder o las caracter\xEDsticas que definen a los personajes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6407945941594112
+    m_Localized: "Si pasas por encima de un personaje, ver\xE1s la consecuencia que
+      tendr\xE1 seleccionarlo para el enfrentamiento."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410356903030784
+    m_Localized: "Si pasas por encima de la carta de evento, ver\xE1s las caracter\xEDsticas
+      que lo pueden resolver."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410271637024768
+    m_Localized: "En el caso de las caracter\xEDsticas, un valor num\xE9rico determina
+      si se utiliza esa caracter\xEDstica o no."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410294705696768
+    m_Localized: "Si ninguna de las caracter\xEDsticas es v\xE1lida, se utilizan
+      el ataque y la vida."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410311445164032
+    m_Localized: Cuando se utiliza el ataque, el personaje pierde la cantidad de
+      vida o de escudo correspondiente al ataque del enemigo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410331070312448
+    m_Localized: No es necesario tener un ataque mayor a la vida del enemigo para
+      continuar. De hecho, normalmente acabar con la vida del enemigo tiene consecuencias
+      negativas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410905618657280
+    m_Localized: Para continuar, tienes que seleccionar a uno de tus personajes para
+      que se enfrente al evento.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6504815057612800
+    m_Localized: "Cada personaje tiene varias habilidades. Estas aumentan alguna
+      de las caracter\xEDsticas de personaje."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6509490704134144
+    m_Localized: "Debajo de cada carta de equipaci\xF3n, puedes ver su precio."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6509510971011072
+    m_Localized: "Si pasas por encima de la carta de equipaci\xF3n, podr\xE1s ver
+      su efecto."
     m_Metadata:
       m_Items: []
   references:

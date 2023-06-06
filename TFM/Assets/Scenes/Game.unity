@@ -1537,7 +1537,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -200}
+  m_AnchoredPosition: {x: -200, y: -350}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &95815393
@@ -3536,8 +3536,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -462.5}
+  m_SizeDelta: {x: 0, y: -925}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &295632473
 MonoBehaviour:
@@ -4260,7 +4260,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -600, y: -200}
+  m_AnchoredPosition: {x: 0, y: -100}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &363514863 stripped
@@ -4314,12 +4314,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tutorialCanvas: {fileID: 1327542783}
   tutorialText: {fileID: 445564822}
-  circleMaskSprite: {fileID: 0}
-  squareMaskSprite: {fileID: 0}
+  circleMaskSprite: {fileID: -2413806693520163455, guid: 4a69d5e24cc4662459c0c31d0ff00cf7, type: 3}
+  squareMaskSprite: {fileID: 7482667652216324306, guid: 6e89cfe4b6327d44e904e8378bf3c026, type: 3}
+  doubleSquareMaskSprite: {fileID: 21300000, guid: 7c4697aafc7660d4dae97a4bfc59076d, type: 3}
+  shopSquaresMaskSprite: {fileID: 21300000, guid: a800bbf356993ee449ac95a97d0da21f, type: 3}
   textBlock: {fileID: 343282548}
   nextButton: {fileID: 317711910}
   backButton: {fileID: 1921617895}
   lastButton: {fileID: 2130153017}
+  maskTransform: {fileID: 1216182555}
+  maskImage: {fileID: 1216182557}
 --- !u!1001 &387565517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7996,8 +8000,30 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1988927146}
-      maskPosition: {fileID: 0}
-      isMasked: 0
+      isMasked: 1
+      mask:
+        type: 1
+        xPos: 0
+        yPos: 0
+        width: 700
+        height: 1000
+    - text:
+        m_TableReference:
+          m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
+        m_TableEntryReference:
+          m_KeyId: 6504815057612800
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      textBlockPosition: {fileID: 1988927146}
+      isMasked: 1
+      mask:
+        type: 1
+        xPos: 0
+        yPos: -55.5
+        width: 200
+        height: 65
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -8008,8 +8034,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1988927146}
-      maskPosition: {fileID: 0}
-      isMasked: 0
+      isMasked: 1
+      mask:
+        type: 1
+        xPos: 0
+        yPos: 36
+        width: 350
+        height: 400
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -8020,8 +8051,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1988927146}
-      maskPosition: {fileID: 0}
-      isMasked: 0
+      isMasked: 1
+      mask:
+        type: 1
+        xPos: -25
+        yPos: -337
+        width: 500
+        height: 100
   onEnableTutorial: 1
   references:
     version: 2
@@ -8505,8 +8541,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 86862059}
-      maskPosition: {fileID: 0}
-      isMasked: 0
+      isMasked: 1
+      mask:
+        type: 1
+        xPos: 0
+        yPos: 0
+        width: 1850
+        height: 1050
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -8517,8 +8558,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 86862059}
-      maskPosition: {fileID: 0}
-      isMasked: 0
+      isMasked: 1
+      mask:
+        type: 1
+        xPos: -760
+        yPos: 0
+        width: 300
+        height: 950
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -8529,8 +8575,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 86862059}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -8541,8 +8592,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 86862059}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -8553,8 +8609,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 86862059}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
   onEnableTutorial: 1
   references:
     version: 2
@@ -11524,8 +11585,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.142, g: 0.142, b: 0.142, a: 0.74509805}
-  m_RaycastTarget: 1
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -13542,8 +13603,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1966852414}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -13554,8 +13620,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1966852414}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -13566,8 +13637,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1966852414}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -13578,8 +13654,64 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1966852414}
-      maskPosition: {fileID: 0}
-      isMasked: 0
+      isMasked: 1
+      mask:
+        type: 1
+        xPos: 200
+        yPos: 0
+        width: 1400
+        height: 1000
+    - text:
+        m_TableReference:
+          m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
+        m_TableEntryReference:
+          m_KeyId: 6395806669516800
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      textBlockPosition: {fileID: 1966852414}
+      isMasked: 1
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 270
+        width: 70
+        height: 70
+    - text:
+        m_TableReference:
+          m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
+        m_TableEntryReference:
+          m_KeyId: 6395900106027008
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      textBlockPosition: {fileID: 1966852414}
+      isMasked: 1
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 70
+        height: 70
+    - text:
+        m_TableReference:
+          m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
+        m_TableEntryReference:
+          m_KeyId: 6395953595985920
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      textBlockPosition: {fileID: 1966852414}
+      isMasked: 1
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 138
+        width: 70
+        height: 70
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -13590,8 +13722,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1966852414}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -13602,8 +13739,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1966852414}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -13614,8 +13756,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1966852414}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -13626,8 +13773,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1966852414}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -13638,8 +13790,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1966852414}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -13650,8 +13807,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1966852414}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -13662,8 +13824,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1966852414}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -13674,8 +13841,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1966852414}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
   onEnableTutorial: 1
   references:
     version: 2
@@ -16920,7 +17092,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1216182556
 MonoBehaviour:
@@ -16934,7 +17106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShowMaskGraphic: 1
+  m_ShowMaskGraphic: 0
 --- !u!114 &1216182557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16949,13 +17121,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.07058824}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7482667652216324306, guid: 6e89cfe4b6327d44e904e8378bf3c026, type: 3}
+  m_Sprite: {fileID: -2413806693520163455, guid: 4a69d5e24cc4662459c0c31d0ff00cf7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -25684,8 +25856,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 349349673}
-      maskPosition: {fileID: 0}
-      isMasked: 0
+      isMasked: 1
+      mask:
+        type: 1
+        xPos: 0
+        yPos: 0
+        width: 1850
+        height: 1050
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -25696,8 +25873,47 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 349349673}
-      maskPosition: {fileID: 0}
-      isMasked: 0
+      isMasked: 1
+      mask:
+        type: 1
+        xPos: 750
+        yPos: 480
+        width: 200
+        height: 80
+    - text:
+        m_TableReference:
+          m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
+        m_TableEntryReference:
+          m_KeyId: 6509490704134144
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      textBlockPosition: {fileID: 349349673}
+      isMasked: 1
+      mask:
+        type: 1
+        xPos: 30
+        yPos: 160
+        width: 150
+        height: 60
+    - text:
+        m_TableReference:
+          m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
+        m_TableEntryReference:
+          m_KeyId: 6509510971011072
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      textBlockPosition: {fileID: 349349673}
+      isMasked: 1
+      mask:
+        type: 1
+        xPos: 36
+        yPos: 250
+        width: 300
+        height: 300
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -25708,8 +25924,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 349349673}
-      maskPosition: {fileID: 0}
-      isMasked: 0
+      isMasked: 1
+      mask:
+        type: 3
+        xPos: 350
+        yPos: 150
+        width: 1130
+        height: 700
   onEnableTutorial: 1
   references:
     version: 2
@@ -26279,6 +26500,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94afc8e142550b2499df9d9b7581f7e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapCanvas: {fileID: 950395150}
+  eventCanvas: {fileID: 1947467492}
+  abilitiesCanvas: {fileID: 570207464}
+  shopCanvas: {fileID: 1849779516}
+  learningCanvas: {fileID: 612317602}
+  newCharacterCanvas: {fileID: 1583994140}
+  storyPointCanvas: {fileID: 121850204}
+  pauseCanvas: {fileID: 1550164651}
+  gameOverCanvas: {fileID: 1050733466}
+  winCanvas: {fileID: 927675474}
+  tutorialCanvas: {fileID: 1327542783}
   mapPositions:
   - {fileID: 1191063408}
   - {fileID: 422990822}
@@ -26349,22 +26581,14 @@ MonoBehaviour:
   - {fileID: 1779036517}
   - {fileID: 908203371}
   initialPosition: {fileID: 1191063408}
-  mapCanvas: {fileID: 950395150}
-  eventCanvas: {fileID: 1947467492}
-  abilitiesCanvas: {fileID: 570207464}
-  shopCanvas: {fileID: 1849779516}
-  learningCanvas: {fileID: 612317602}
-  newCharacterCanvas: {fileID: 1583994140}
-  storyPointCanvas: {fileID: 121850204}
-  pauseCanvas: {fileID: 1550164651}
-  gameOverCanvas: {fileID: 1050733466}
-  winCanvas: {fileID: 927675474}
+  cameraControl: {fileID: 1863611281}
   eventCard: {fileID: 341080803349176278}
   equipmentCards:
   - {fileID: 8006716751768139558}
   - {fileID: 1173396876}
   - {fileID: 678087675}
   - {fileID: 2089025355}
+  coinsManager: {fileID: 1518163454}
   characterCardsLayouts:
   - {fileID: 1179141268}
   - {fileID: 420813800}
@@ -26373,11 +26597,9 @@ MonoBehaviour:
   - {fileID: 1039202318}
   characterCardPrefab: {fileID: 7041904984278437117, guid: 1ce05ba530f2bf947b58157f878bf697, type: 3}
   newCharacterCard: {fileID: 1168452061}
-  abilityPrefab: {fileID: 7788873322252136977, guid: 7e4a49cee6755944faad5417ea942567, type: 3}
   startingCharacter: {fileID: 11400000, guid: ea03945b4e97ff44282d305aa49e872e, type: 2}
-  coinsManager: {fileID: 1518163454}
-  cameraControl: {fileID: 1863611281}
   outcomeTextUI: {fileID: 557969832}
+  abilityPrefab: {fileID: 7788873322252136977, guid: 7e4a49cee6755944faad5417ea942567, type: 3}
   abilitiesLeftText: {fileID: 63557731}
   learnableAbilitiesHolder: {fileID: 533025724}
   learnableAbilityPrefab: {fileID: 5693462171342281036, guid: 5883c30252b447241beeacc340409f27, type: 3}
@@ -26421,8 +26643,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1250505694}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -26433,8 +26660,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1250505694}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -26445,8 +26677,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1250505694}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -26457,8 +26694,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1250505694}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -26469,8 +26711,13 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 1250505694}
-      maskPosition: {fileID: 0}
       isMasked: 0
+      mask:
+        type: 0
+        xPos: 0
+        yPos: 0
+        width: 0
+        height: 0
   onEnableTutorial: 0
   references:
     version: 2
@@ -28206,8 +28453,149 @@ MonoBehaviour:
         m_WaitForCompletion: 0
         m_LocalVariables: []
       textBlockPosition: {fileID: 457148553}
-      maskPosition: {fileID: 0}
+      isMasked: 1
+      mask:
+        type: 1
+        xPos: 0
+        yPos: 0
+        width: 500
+        height: 1050
+    - text:
+        m_TableReference:
+          m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
+        m_TableEntryReference:
+          m_KeyId: 6408104322707456
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      textBlockPosition: {fileID: 457148553}
       isMasked: 0
+      mask:
+        type: 1
+        xPos: 0
+        yPos: 0
+        width: 500
+        height: 1050
+    - text:
+        m_TableReference:
+          m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
+        m_TableEntryReference:
+          m_KeyId: 6410271637024768
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      textBlockPosition: {fileID: 457148553}
+      isMasked: 1
+      mask:
+        type: 1
+        xPos: 0
+        yPos: -268
+        width: 240
+        height: 65
+    - text:
+        m_TableReference:
+          m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
+        m_TableEntryReference:
+          m_KeyId: 6410294705696768
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      textBlockPosition: {fileID: 457148553}
+      isMasked: 1
+      mask:
+        type: 2
+        xPos: 0
+        yPos: -170
+        width: 500
+        height: 540
+    - text:
+        m_TableReference:
+          m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
+        m_TableEntryReference:
+          m_KeyId: 6410311445164032
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      textBlockPosition: {fileID: 457148553}
+      isMasked: 1
+      mask:
+        type: 2
+        xPos: 0
+        yPos: -170
+        width: 500
+        height: 540
+    - text:
+        m_TableReference:
+          m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
+        m_TableEntryReference:
+          m_KeyId: 6410331070312448
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      textBlockPosition: {fileID: 457148553}
+      isMasked: 1
+      mask:
+        type: 2
+        xPos: 0
+        yPos: -170
+        width: 500
+        height: 540
+    - text:
+        m_TableReference:
+          m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
+        m_TableEntryReference:
+          m_KeyId: 6410356903030784
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      textBlockPosition: {fileID: 457148553}
+      isMasked: 1
+      mask:
+        type: 1
+        xPos: -50
+        yPos: 250
+        width: 570
+        height: 520
+    - text:
+        m_TableReference:
+          m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
+        m_TableEntryReference:
+          m_KeyId: 6407945941594112
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      textBlockPosition: {fileID: 457148553}
+      isMasked: 1
+      mask:
+        type: 1
+        xPos: 0
+        yPos: -250
+        width: 450
+        height: 450
+    - text:
+        m_TableReference:
+          m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
+        m_TableEntryReference:
+          m_KeyId: 6410905618657280
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      textBlockPosition: {fileID: 457148553}
+      isMasked: 1
+      mask:
+        type: 1
+        xPos: 0
+        yPos: -250
+        width: 450
+        height: 450
   onEnableTutorial: 1
   references:
     version: 2

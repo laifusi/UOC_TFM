@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Localization;
+using UnityEngine.UI;
 
 public class TutorialManager : MonoBehaviour
 {
@@ -11,13 +12,18 @@ public class TutorialManager : MonoBehaviour
     [SerializeField] TMP_Text tutorialText;
     [SerializeField] Sprite circleMaskSprite;
     [SerializeField] Sprite squareMaskSprite;
+    [SerializeField] Sprite doubleSquareMaskSprite;
+    [SerializeField] Sprite shopSquaresMaskSprite;
     [SerializeField] Transform textBlock;
     [SerializeField] GameObject nextButton;
     [SerializeField] GameObject backButton;
     [SerializeField] GameObject lastButton;
+    [SerializeField] RectTransform maskTransform;
+    [SerializeField] Image maskImage;
 
     private bool activeTutorial;
     private TutorialPoint currentTutorialPoint;
+    private TutorialLine.MaskConfiguration currentMask;
 
     private void Start()
     {
@@ -49,14 +55,44 @@ public class TutorialManager : MonoBehaviour
         }
         else
         {
-            textBlock.position = currentTutorialPoint.GetTextBlockPos();
+            UpdateUI();
+        }
+    }
+
+    private void UpdateUI()
+    {
+        textBlock.position = currentTutorialPoint.GetTextBlockPos();
+        if (currentTutorialPoint.IsMasked())
+        {
+            currentMask = currentTutorialPoint.GetMaskConfiguration();
+            maskTransform.anchoredPosition = new Vector3(currentMask.xPos, currentMask.yPos, 0);
+            maskTransform.sizeDelta = new Vector2(currentMask.width, currentMask.height);
+            switch (currentMask.type)
+            {
+                case TutorialLine.MaskType.circle:
+                    maskImage.sprite = circleMaskSprite;
+                    break;
+                case TutorialLine.MaskType.square:
+                    maskImage.sprite = squareMaskSprite;
+                    break;
+                case TutorialLine.MaskType.doubleSquare:
+                    maskImage.sprite = doubleSquareMaskSprite;
+                    break;
+                case TutorialLine.MaskType.shopSquares:
+                    maskImage.sprite = shopSquaresMaskSprite;
+                    break;
+            }
+        }
+        else
+        {
+            maskTransform.sizeDelta = Vector2.zero;
         }
     }
 
     public void PlayPreviousLine()
     {
         tutorialText.SetText(currentTutorialPoint.GetPreviousLine());
-        textBlock.position = currentTutorialPoint.GetTextBlockPos();
+        UpdateUI();
         UpdateButtons();
     }
 
@@ -120,6 +156,11 @@ public struct TutorialPoint
         return lines[currentLine - 1].textBlockPosition.position;
     }
 
+    public TutorialLine.MaskConfiguration GetMaskConfiguration()
+    {
+        return lines[currentLine - 1].mask;
+    }
+
     public bool IsDone()
     {
         return currentLine >= lines.Length + 1;
@@ -134,6 +175,11 @@ public struct TutorialPoint
     {
         return currentLine == lines.Length;
     }
+
+    public bool IsMasked()
+    {
+        return lines[currentLine - 1].isMasked;
+    }
 }
 
 [Serializable]
@@ -141,6 +187,19 @@ public struct TutorialLine
 {
     public LocalizedString text;
     public Transform textBlockPosition;
-    public Transform maskPosition;
     public bool isMasked;
+    public MaskConfiguration mask;
+
+    [Serializable]
+    public struct MaskConfiguration
+    {
+        public MaskType type;
+        public float xPos, yPos;
+        public float width, height;
+    }
+
+    public enum MaskType
+    {
+        circle, square, doubleSquare, shopSquares
+    }
 }

@@ -32,9 +32,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 354189488128
-    m_Localized: This screen is the map. The positions marked in red are not accessible.
-      The position marked in blue is the current position. And the positions marked
-      in yellow are the positions you can select.
+    m_Localized: This screen is the map.
     m_Metadata:
       m_Items: []
   - m_Id: 539393175552
@@ -78,20 +76,16 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3199554990080
-    m_Localized: 'This is the event screen. If you put your mouse over a character,
-      you''ll see the consequence choosing them for the fight will have.
-
-      If
-      you put your mouse over the event, you''ll see the stats that can solve the
-      event.'
+    m_Localized: This is the event screen.
     m_Metadata:
       m_Items: []
   - m_Id: 4463244259328
-    m_Localized: This is the abilities screen. Each character has a few abilities.
+    m_Localized: This is the abilities screen.
     m_Metadata:
       m_Items: []
   - m_Id: 4656219992064
-    m_Localized: Choose the ability text and the character you want to apply it on.
+    m_Localized: To use them, you need to choose the ability text and, then, the
+      character you want to apply it on.
     m_Metadata:
       m_Items: []
   - m_Id: 4730341732352
@@ -104,16 +98,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5038950232064
-    m_Localized: 'These are the coins you have and under each equipment card, you
-      can see its cost.
-
-      If you put your mouse over an equipment card, you''ll
-      see the effect it has.'
+    m_Localized: These are the coins you have.
     m_Metadata:
       m_Items: []
   - m_Id: 5167098802176
-    m_Localized: Select a card to buy and the character you want to assign it to
-      and its effects will inmediately be added to the character.
+    m_Localized: To buy a card, select it and then select the character you want
+      to assign it to. Its effects will inmediately be added to the character.
     m_Metadata:
       m_Items: []
   - m_Id: 5304286097408
@@ -161,6 +151,71 @@ MonoBehaviour:
   - m_Id: 7052149043200
     m_Localized: So, if your character dies, you'll need to increase their health
       to be able to use them again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6395806669516800
+    m_Localized: The positions marked in red are not accessible.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6395900106027008
+    m_Localized: The position marked in blue is the current position.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6395953595985920
+    m_Localized: And the positions marked in yellow are the positions you can select.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6408104322707456
+    m_Localized: Each event has a few stats that affect it. It can be either one
+      of the possible powers or the stats that define the characters.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6407945941594112
+    m_Localized: If you put your mouse over a character, you'll see the consequence
+      choosing them for the fight will have.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410356903030784
+    m_Localized: If you put your mouse over the event, you'll see the stats that
+      can solve the event.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410271637024768
+    m_Localized: For stats, a numeric value defines if that's the stat that will
+      be used or not.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410294705696768
+    m_Localized: If none of the stats are valid, the attack and health are used.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410311445164032
+    m_Localized: When attack is used, the character loses the amount of health or
+      shield associated to the enemy's attack.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410331070312448
+    m_Localized: You don't need to have an attack value bigger than the enemies health
+      to advance. In fact, killing the enemy usually has negative consequences.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410905618657280
+    m_Localized: To continue, you have to select one of the characters to fight the
+      event.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6504815057612800
+    m_Localized: Each character has a few abilities. These increase the value of
+      one of the character stats.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6509490704134144
+    m_Localized: Under each equipment card, you can see its cost.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6509510971011072
+    m_Localized: If you put your mouse over an equipment card, you'll see the effect
+      it has.
     m_Metadata:
       m_Items: []
   references:

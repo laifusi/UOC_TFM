@@ -7,8 +7,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] MapPosition[] mapPositions;
-    [SerializeField] MapPosition initialPosition;
+    [Header("Canvases")]
     [SerializeField] GameObject mapCanvas;
     [SerializeField] GameObject eventCanvas;
     [SerializeField] GameObject abilitiesCanvas;
@@ -19,16 +18,24 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject pauseCanvas;
     [SerializeField] GameObject gameOverCanvas;
     [SerializeField] GameObject winCanvas;
+    [SerializeField] GameObject tutorialCanvas;
+    [Header("Map")]
+    [SerializeField] MapPosition[] mapPositions;
+    [SerializeField] MapPosition initialPosition;
+    [SerializeField] CameraControl cameraControl;
+    [Header("Event")]
     [SerializeField] EventCard eventCard;
+    [Header("Shop")]
     [SerializeField] EquipmentCard[] equipmentCards;
+    [SerializeField] CoinManager coinsManager;
+    [Header("Characters")]
     [SerializeField] CharacterLayoutController[] characterCardsLayouts;
     [SerializeField] CharacterCard characterCardPrefab;
     [SerializeField] CharacterCard newCharacterCard;
-    [SerializeField] AbilityButton abilityPrefab;
     [SerializeField] CharacterCardSO startingCharacter;
-    [SerializeField] CoinManager coinsManager;
-    [SerializeField] CameraControl cameraControl;
     [SerializeField] OutcomeTextUI outcomeTextUI;
+    [Header("Abilities")]
+    [SerializeField] AbilityButton abilityPrefab;
     [SerializeField] TMP_Text abilitiesLeftText;
     [SerializeField] Transform learnableAbilitiesHolder;
     [SerializeField] LearnableAbilityUI learnableAbilityPrefab;
@@ -217,6 +224,11 @@ public class GameManager : MonoBehaviour
 
     public void ChangeStateWithButton()
     {
+        if(tutorialCanvas.activeInHierarchy)
+        {
+            return;
+        }
+
         switch (currentState)
         {
             case GameState.Event:

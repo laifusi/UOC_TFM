@@ -33,9 +33,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 354189488128
-    m_Localized: "Aquesta pantalla que veus \xE9s el mapa. Les posicions marcades
-      en roig no s\xF3n accessibles. La posici\xF3 marcada en blau \xE9s la posici\xF3
-      actual. I les posicions marcades en groc s\xF3n les que es poden seleccionar."
+    m_Localized: "Aquesta pantalla que veus \xE9s el mapa."
     m_Metadata:
       m_Items: []
   - m_Id: 539393175552
@@ -82,20 +80,16 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3199554990080
-    m_Localized: "Aquesta \xE9s la pantalla d'esdeveniment.\nSi passes per damunt
-      del teu personatge, veur\xE0s la conseq\xFC\xE8ncia de seleccionar-lo per a
-      l'enfrontament.\nSi passes per damunt de l'esdeveniment, podr\xE0s veure les
-      caracter\xEDstiques que poden resoldre l'esdeveniment."
+    m_Localized: "Aquesta \xE9s la pantalla d'esdeveniment."
     m_Metadata:
       m_Items: []
   - m_Id: 4463244259328
-    m_Localized: "Aquesta \xE9s la pantalla d'habilitats. Cada personatge t\xE9 una
-      s\xE8rie d'habilitats."
+    m_Localized: "Aquesta \xE9s la pantalla d'habilitats."
     m_Metadata:
       m_Items: []
   - m_Id: 4656219992064
-    m_Localized: Selecciona el text de l'habilitat a utilitzar i el personatge a
-      qui vols aplicar-la.
+    m_Localized: "Per utilitzar-les cal seleccionar el text de l'habilitat a utilitzar
+      i, despr\xE9s, el personatge a qui vols aplicar-la."
     m_Metadata:
       m_Items: []
   - m_Id: 4730341732352
@@ -108,14 +102,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5038950232064
-    m_Localized: "Aquestes s\xF3n les monedes que tens i baix de les cartes d'equipament
-      de la tenda es pot veure el seu preu.\nSi passes per damunt de la carta d'equipament,
-      pots veure el seu efecte."
+    m_Localized: "Aquestes s\xF3n les monedes que tens."
     m_Metadata:
       m_Items: []
   - m_Id: 5167098802176
-    m_Localized: Selecciona la carta a comprar i el personatge a qui assignar-la
-      i s'aplicaran els seus efectes inmediatament.
+    m_Localized: "Per a comprar una carta, selecciona-la i, despr\xE9s, selecciona
+      el personatge a qui assignar-la. S'aplicaran els seus efectes inmediatament."
     m_Metadata:
       m_Items: []
   - m_Id: 5304286097408
@@ -128,8 +120,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5600328462336
-    m_Localized: "El cost de l'aprenentatge \xE9s tradueix en torns en qu\xE8 el
-      personatge est\xE0 congelat."
+    m_Localized: "El cost de l'aprenentatge es tradueix en torns en qu\xE8 el personatge
+      est\xE0 congelat."
     m_Metadata:
       m_Items: []
   - m_Id: 5889425059840
@@ -167,6 +159,74 @@ MonoBehaviour:
   - m_Id: 7052149043200
     m_Localized: "Aix\xED, si el teu personatge mor, haur\xE0s d'aconseguir que recupere
       la seua vida per poder seguir utilitzant-lo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6395806669516800
+    m_Localized: "Les posicions marcades en roig no s\xF3n accessibles."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6395900106027008
+    m_Localized: "La posici\xF3 marcada en blau \xE9s la posici\xF3 actual."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6395953595985920
+    m_Localized: "I les posicions marcades en groc s\xF3n les que es poden seleccionar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6407945941594112
+    m_Localized: "Si passes per damunt del teu personatge, veur\xE0s la conseq\xFC\xE8ncia
+      de seleccionar-lo per a l'enfrontament."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6408104322707456
+    m_Localized: "Cada esdeveniment t\xE9 unes caracter\xEDstiques que l'afecten.
+      Aquestes poden ser un poder o les caracter\xEDstiques que defineixen als personatges."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410271637024768
+    m_Localized: "En el cas de les caracter\xEDstiques, un valor num\xE8ric determina
+      si s'utilitza eixa caracter\xEDstica o no."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410294705696768
+    m_Localized: "Si ninguna de les caracter\xEDstiques \xE9s v\xE0lida, s'utilitzen
+      l'atac i la vida."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410311445164032
+    m_Localized: Quan s'utilitza l'atac, el personatge perd la quantitat de vida
+      o d'escut corresponent a l'atac de l'enemic.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410331070312448
+    m_Localized: "No cal tindre un atac major que la vida de l'enemic per continuar,
+      de fet, normalment acabar a amb la vida de l'enemic t\xE9 conseq\xFC\xE8ncies
+      negatives."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410356903030784
+    m_Localized: "Si passes per damunt de l'esdeveniment, podr\xE0s veure les caracter\xEDstiques
+      que poden resoldre l'esdeveniment."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410905618657280
+    m_Localized: Per continuar, has de seleccionar un dels teus personatges per a
+      que s'enfronte a l'esdeveniment.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6504815057612800
+    m_Localized: "Cada personatge t\xE9 diverses d'habilitats. Aquestes augmenten
+      alguna de les caracter\xEDstiques de personatge."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6509490704134144
+    m_Localized: Baix de cada carta d'equipament de la tenda es pot veure el seu
+      preu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6509510971011072
+    m_Localized: Si passes per damunt de la carta d'equipament, pots veure el seu
+      efecte.
     m_Metadata:
       m_Items: []
   references:
