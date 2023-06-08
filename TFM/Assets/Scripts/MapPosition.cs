@@ -7,10 +7,16 @@ public class MapPosition : MonoBehaviour
     [SerializeField] private MapPosition[] connectedPositions;
     [SerializeField] private Deck<EventCardSO> eventDeck;
 
+    [Header("Position colors")]
+    [SerializeField] private Color redColor;
+    [SerializeField] private Color yellowColor;
+    [SerializeField] private Color blueColor;
+
     [Header("Shop")]
     [SerializeField] private bool isShop;
     [SerializeField] private Deck<EquipmentCardSO> shopDeck;
 
+    [Header("Other position configuration")]
     [SerializeField] private bool isConnected;
     [SerializeField] private bool isCurrent;
     [SerializeField] private bool inMapState;
@@ -37,15 +43,15 @@ public class MapPosition : MonoBehaviour
     {
         if(isCurrent)
         {
-            positionSprite.color = Color.blue;
+            positionSprite.color = blueColor;
         }
         else if(isConnected)
         {
-            positionSprite.color = Color.yellow;
+            positionSprite.color = yellowColor;
         }
         else
         {
-            positionSprite.color = Color.red;
+            positionSprite.color = redColor;
         }
     }
 
