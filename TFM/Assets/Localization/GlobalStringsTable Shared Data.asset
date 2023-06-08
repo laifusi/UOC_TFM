@@ -119,6 +119,22 @@ MonoBehaviour:
     m_Key: phaseLearning
     m_Metadata:
       m_Items: []
+  - m_Id: 3266243789762560
+    m_Key: marketIndicator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3266503819833344
+    m_Key: SchoolIndicator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3266790626340864
+    m_Key: lakeIndicator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3266916157665280
+    m_Key: hospitalIndicator
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

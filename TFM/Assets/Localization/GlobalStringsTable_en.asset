@@ -124,6 +124,22 @@ MonoBehaviour:
     m_Localized: Learning
     m_Metadata:
       m_Items: []
+  - m_Id: 3266243789762560
+    m_Localized: Market
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3266503819833344
+    m_Localized: School
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3266790626340864
+    m_Localized: Lake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3266916157665280
+    m_Localized: Hospital
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
