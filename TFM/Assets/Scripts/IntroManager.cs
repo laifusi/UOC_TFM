@@ -14,6 +14,8 @@ public class IntroManager : MonoBehaviour
 
     private void Start()
     {
+        OptionsManager.OnLanguageChanged += UpdateText;
+
         storyPoint = GetComponent<StoryPoint>();
         PlayNextLine();
     }
@@ -39,5 +41,15 @@ public class IntroManager : MonoBehaviour
         {
             menuManager.StartGameScene();
         }
+    }
+
+    private void UpdateText()
+    {
+        text.SetText(storyPoint.GetCurrentLine());
+    }
+
+    private void OnDestroy()
+    {
+        OptionsManager.OnLanguageChanged -= UpdateText;
     }
 }
