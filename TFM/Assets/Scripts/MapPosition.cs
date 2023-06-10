@@ -25,6 +25,7 @@ public class MapPosition : MonoBehaviour
     private SpriteRenderer positionSprite;
     private StoryPoint storyPoint;
     private bool characterAdded;
+    private Animator animator;
 
     public bool IsConnected { get => isConnected; set => isConnected = value; }
     public bool IsCurrent { get => isCurrent; set => isCurrent = value; }
@@ -37,6 +38,7 @@ public class MapPosition : MonoBehaviour
     {
         positionSprite = GetComponent<SpriteRenderer>();
         storyPoint = GetComponent<StoryPoint>();
+        animator = GetComponent<Animator>();
     }
 
     public void UpdatePositionColor()
@@ -53,6 +55,17 @@ public class MapPosition : MonoBehaviour
         {
             positionSprite.color = redColor;
         }
+    }
+
+    private void OnMouseEnter()
+    {
+        if(IsConnected && InMapState && !GameManager.Instance.IsTutorialOn())
+            animator.SetBool("mouseOver", true);
+    }
+
+    private void OnMouseExit()
+    {
+        animator.SetBool("mouseOver", false);
     }
 
     private void OnMouseUp()

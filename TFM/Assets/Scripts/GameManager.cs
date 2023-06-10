@@ -59,6 +59,7 @@ public class GameManager : MonoBehaviour
     public static Action<string, bool, bool> OnNewStoryLine;
     public static Action<bool> OnAbilitiesBlocked;
     public static Action OnStartNewTurn;
+    public static Action<bool> OnCharacterClickableChange;
 
     public GameState CurrentState => currentState;
     public static GameManager Instance;
@@ -154,10 +155,12 @@ public class GameManager : MonoBehaviour
             case GameState.Abilities:
                 ActivateCanvas(true, abilitiesCanvas);
                 abilitiesLeftText.SetText((maxAbilitiesPerTurn - abilitiesUsedThisTurn).ToString());
+                OnCharacterClickableChange?.Invoke(false);
                 break;
             case GameState.Shop:
                 ActivateCanvas(true, shopCanvas);
                 GetRandomShopCards();
+                OnCharacterClickableChange?.Invoke(false);
                 break;
             case GameState.Learning:
                 ActivateCanvas(true, learningCanvas);
@@ -222,9 +225,14 @@ public class GameManager : MonoBehaviour
         canvas.SetActive(activate);
     }
 
+    public bool IsTutorialOn()
+    {
+        return tutorialCanvas.activeInHierarchy;
+    }
+
     public void ChangeStateWithButton()
     {
-        if(tutorialCanvas.activeInHierarchy)
+        if(IsTutorialOn())
         {
             return;
         }
@@ -375,6 +383,7 @@ public class GameManager : MonoBehaviour
             return;
 
         selectedAbility = ability.GetEffects();
+        OnCharacterClickableChange?.Invoke(true);
     }
 
     public void ApplySelectedAbility()
@@ -394,6 +403,8 @@ public class GameManager : MonoBehaviour
             if (maxAbilitiesPerTurn - abilitiesUsedThisTurn <= 0)
                 OnAbilitiesBlocked?.Invoke(true);
             selectedAbility = null;
+
+            OnCharacterClickableChange?.Invoke(false);
         }
     }
     #endregion
@@ -422,6 +433,7 @@ public class GameManager : MonoBehaviour
             return;
 
         selectedEquipment = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponentInParent<EquipmentCard>();
+        OnCharacterClickableChange?.Invoke(true);
     }
 
     public void AssignEquipment()
@@ -441,6 +453,7 @@ public class GameManager : MonoBehaviour
             }
         }
         selectedEquipment = null;
+        OnCharacterClickableChange?.Invoke(false);
     }
     #endregion
 

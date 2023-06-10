@@ -27,16 +27,25 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     private int usesSinceLastLevelIncrease;
     private int turnsLearning;
     private int turnsToLearn;
+    private Animator animator;
 
     public Action OnStartedLearning;
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
+        ClickableButton(true);
+
         card.OnCharacterFrozen += FreezeCharacter;
         card.OnAbilityLearnt += UpdateAbilities;
         GameManager.OnAbilitiesBlocked += BlockAbilityButtons;
         if(cardsAssignedState == GameState.Learning)
             GameManager.OnStartNewTurn += UpdateLearningState;
+        else if (cardsAssignedState == GameState.Abilities || cardsAssignedState == GameState.Shop)
+        {
+            GameManager.OnCharacterClickableChange += ClickableButton;
+            ClickableButton(false);
+        }
 
         if (card.IsFrozen)
             FreezeCharacter(true);
@@ -231,6 +240,11 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
         GameManager.Instance.AddAbility(abilitiesHolder, newAbility);
     }
 
+    private void ClickableButton(bool clickable)
+    {
+        animator.SetBool("shouldHighlight", clickable);
+    }
+
     private void OnEnable()
     {
         if(card != null)
@@ -252,6 +266,8 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
         GameManager.OnAbilitiesBlocked -= BlockAbilityButtons;
         if (cardsAssignedState == GameState.Learning)
             GameManager.OnStartNewTurn -= UpdateLearningState;
+        else if (cardsAssignedState == GameState.Abilities || cardsAssignedState == GameState.Shop)
+            GameManager.OnCharacterClickableChange -= ClickableButton;
     }
 
     public void OnPointerEnter(PointerEventData eventData)
