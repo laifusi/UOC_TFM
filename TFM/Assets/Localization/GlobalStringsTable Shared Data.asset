@@ -135,6 +135,14 @@ MonoBehaviour:
     m_Key: hospitalIndicator
     m_Metadata:
       m_Items: []
+  - m_Id: 3967506961575936
+    m_Key: PoliceIndicator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3972423679913984
+    m_Key: close
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
