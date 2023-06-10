@@ -6764,8 +6764,8 @@ RectTransform:
   m_GameObject: {fileID: 443957052}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 684135545}
   m_RootOrder: 0
@@ -6820,7 +6820,7 @@ MonoBehaviour:
     m_Left: 0
     m_Right: 0
     m_Top: 0
-    m_Bottom: 0
+    m_Bottom: 60
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
@@ -8975,7 +8975,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 400, y: 200}
+  m_SizeDelta: {x: 450, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &557969830
 MonoBehaviour:
@@ -9028,7 +9028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textUI: {fileID: 1209649906}
-  offset: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 125, z: 0}
 --- !u!225 &557969833
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -9367,8 +9367,8 @@ MonoBehaviour:
       mask:
         type: 1
         xPos: 0
-        yPos: -55.5
-        width: 200
+        yPos: -32
+        width: 160
         height: 65
     - text:
         m_TableReference:
@@ -9384,9 +9384,9 @@ MonoBehaviour:
       mask:
         type: 1
         xPos: 0
-        yPos: 36
+        yPos: 78
         width: 350
-        height: 400
+        height: 490
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -9402,7 +9402,7 @@ MonoBehaviour:
         type: 1
         xPos: -25
         yPos: -337
-        width: 500
+        width: 530
         height: 100
   onEnableTutorial: 1
   references:
@@ -16984,11 +16984,11 @@ RectTransform:
   m_Father: {fileID: 1876478105}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -110.0603, y: -60}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 100.000046, y: 2}
   m_SizeDelta: {x: 179.8793, y: 45.6597}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1049145432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24065,6 +24065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinsText: {fileID: 1049145429}
+  popUpTransform: {fileID: 1049145431}
 --- !u!4 &1518163455
 Transform:
   m_ObjectHideFlags: 0
@@ -29085,10 +29086,10 @@ MonoBehaviour:
       isMasked: 1
       mask:
         type: 1
-        xPos: 0
+        xPos: -215
         yPos: 0
-        width: 1850
-        height: 1050
+        width: 950
+        height: 950
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -29102,7 +29103,7 @@ MonoBehaviour:
       isMasked: 1
       mask:
         type: 1
-        xPos: 750
+        xPos: 780
         yPos: 480
         width: 200
         height: 80
@@ -29138,8 +29139,8 @@ MonoBehaviour:
         type: 1
         xPos: 36
         yPos: 250
-        width: 300
-        height: 300
+        width: 400
+        height: 350
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
@@ -29814,6 +29815,7 @@ MonoBehaviour:
   gameOverCanvas: {fileID: 1050733466}
   winCanvas: {fileID: 927675474}
   tutorialCanvas: {fileID: 1327542783}
+  miniMapCanvas: {fileID: 1063832469}
   mapPositions:
   - {fileID: 1191063408}
   - {fileID: 422990822}

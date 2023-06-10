@@ -7,6 +7,7 @@ using UnityEngine;
 public class CoinManager : MonoBehaviour
 {
     [SerializeField] TMP_Text coinsText;
+    [SerializeField] Transform popUpTransform;
 
     private List<CharacterCardSO> activeCharacters = new List<CharacterCardSO>();
     private int totalCoins;
@@ -31,6 +32,11 @@ public class CoinManager : MonoBehaviour
     {
         OnCoinsChange += UpdateCoinsText;
         CharacterCardSO.OnCoinsChange += UpdateTotalCoins;
+    }
+
+    public Transform GetPopUpTransform()
+    {
+        return popUpTransform;
     }
 
     public void AddCharacter(CharacterCardSO card)

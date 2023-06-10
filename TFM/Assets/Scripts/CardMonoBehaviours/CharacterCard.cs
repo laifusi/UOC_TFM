@@ -23,16 +23,29 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     [SerializeField] Transform abilitiesHolder;
     [SerializeField] int usesBeforeLevelIncrease = 3;
 
+    [Header("PopUp Effect Animation")]
+    [SerializeField] TMP_Text popUpAnimation;
+    [SerializeField] Transform agilityPopUpPos;
+    [SerializeField] Transform attackPopUpPos;
+    [SerializeField] Transform dexterityPopUpPos;
+    [SerializeField] Transform healthPopUpPos;
+    [SerializeField] Transform intelligencePopUpPos;
+    [SerializeField] Transform shieldPopUpPos;
+    [SerializeField] Transform socialSkillsPopUpPos;
+    [SerializeField] Vector3 popUpOffset;
+
     private GameState cardsAssignedState;
     private int usesSinceLastLevelIncrease;
     private int turnsLearning;
     private int turnsToLearn;
     private Animator animator;
+    private Transform popUpParent;
 
     public Action OnStartedLearning;
 
     private void Start()
     {
+        popUpParent = transform;
         animator = GetComponent<Animator>();
         ClickableButton(true);
 
@@ -59,6 +72,11 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
         card.ResetCard();
         UpdateUI();
         UpdateEquipmentUI();
+
+        if (card.GetCoins() > 0)
+        {
+            ShowEffectPopUp(StatType.Coins, card.GetCoins());
+        }
     }
 
     private void UpdateUI()
@@ -98,7 +116,47 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     public void ApplyEffect(Effect effect)
     {
         card.ApplyEffect(effect);
+        ShowEffectPopUp(effect.affectedStat, effect.affectionAmount);
         UpdateUI();
+    }
+
+    private void ShowEffectPopUp(StatType stat, float amount)
+    {
+        Vector3 popUpPosition = Vector3.zero;
+        switch (stat)
+        {
+            case StatType.Agility:
+                popUpPosition = agilityPopUpPos.position;
+                break;
+            case StatType.Attack:
+                popUpPosition = attackPopUpPos.position;
+                break;
+            case StatType.Coins:
+                popUpParent = CoinManager.Instance.GetPopUpTransform();
+                popUpPosition = popUpParent.position;
+                break;
+            case StatType.Dexterity:
+                popUpPosition = dexterityPopUpPos.position;
+                break;
+            case StatType.Health:
+                popUpPosition = healthPopUpPos.position;
+                break;
+            case StatType.Intelligence:
+                popUpPosition = intelligencePopUpPos.position;
+                break;
+            case StatType.Shield:
+                popUpPosition = shieldPopUpPos.position;
+                break;
+            case StatType.SocialSkills:
+                popUpPosition = socialSkillsPopUpPos.position;
+                break;
+        }
+        TMP_Text popUp = Instantiate(popUpAnimation, popUpPosition + popUpOffset, Quaternion.identity, popUpParent);
+        if (amount > 0)
+            popUp.SetText("+" + amount.ToString());
+        else
+            popUp.SetText(amount.ToString());
+        Destroy(popUp.gameObject, 1f);
     }
 
     public Effect[] GetEffects()
@@ -119,6 +177,8 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
             {
                 ApplyEffect(effect);
             }
+
+            ShowEffectPopUp(StatType.Coins, -equipment.GetCost());
         }
     }
 
@@ -144,7 +204,37 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
 
     public void GetAttacked(float attack)
     {
+        ShowAttackPopUp(attack);
         card.GetAttacked(attack);
+    }
+
+    private void ShowAttackPopUp(float attack)
+    {
+        float shield = card.GetShield();
+        float shieldAmount = 0;
+        float healthAmount = 0;
+        if (shield > 0)
+        {
+            if (attack <= shield)
+            {
+                shieldAmount = attack;
+            }
+            else
+            {
+                shieldAmount = shield;
+                healthAmount = attack - shield;
+            }
+        }
+        else
+        {
+            healthAmount = attack;
+        }
+
+        if(shieldAmount != 0)
+            ShowEffectPopUp(StatType.Shield, -shieldAmount);
+
+        if(healthAmount != 0)
+            ShowEffectPopUp(StatType.Health, -healthAmount);
     }
 
     public void ActivateButtons(GameState state, GameManager manager)

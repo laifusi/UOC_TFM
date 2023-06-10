@@ -1441,6 +1441,15 @@ MonoBehaviour:
   button: {fileID: 2863836402181570301}
   abilitiesHolder: {fileID: 6712536778663795829}
   usesBeforeLevelIncrease: 3
+  popUpAnimation: {fileID: 7156729625764291772, guid: d8f8865dec2b74f49bf62fe5d166f849, type: 3}
+  agilityPopUpPos: {fileID: 7053155998091570276}
+  attackPopUpPos: {fileID: 4225013956231346371}
+  dexterityPopUpPos: {fileID: 3453915239091565786}
+  healthPopUpPos: {fileID: 248724918519009730}
+  intelligencePopUpPos: {fileID: 9177731597025951853}
+  shieldPopUpPos: {fileID: 4726230088805765668}
+  socialSkillsPopUpPos: {fileID: 8656749483494992698}
+  popUpOffset: {x: 0, y: 10, z: 0}
 --- !u!114 &2863836402181570301
 MonoBehaviour:
   m_ObjectHideFlags: 0

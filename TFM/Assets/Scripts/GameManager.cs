@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject gameOverCanvas;
     [SerializeField] GameObject winCanvas;
     [SerializeField] GameObject tutorialCanvas;
+    [SerializeField] GameObject miniMapCanvas;
     [Header("Map")]
     [SerializeField] MapPosition[] mapPositions;
     [SerializeField] MapPosition initialPosition;
@@ -98,6 +99,11 @@ public class GameManager : MonoBehaviour
         if(Input.GetKeyUp(KeyCode.Escape))
         {
             Pause(!isPaused);
+        }
+
+        if(Input.GetKeyUp(KeyCode.M) && currentState == GameState.Map && !IsTutorialOn())
+        {
+            miniMapCanvas.SetActive(!miniMapCanvas.activeInHierarchy);
         }
     }
 
@@ -368,9 +374,10 @@ public class GameManager : MonoBehaviour
                 Debug.Log("Efecte: " + effect.affectedStat + " " + effect.affectionAmount);
                 selectedCharacter.ApplyEffect(effect);
             }
+            yield return new WaitForSeconds(1f);
         }
-
-        yield return new WaitForSeconds(0.2f);
+        else
+            yield return new WaitForSeconds(0.2f);
 
         ChangeToState(GameState.Abilities);
     }
