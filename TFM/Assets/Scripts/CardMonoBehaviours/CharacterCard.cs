@@ -57,6 +57,7 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
 
         card.OnCharacterFrozen += FreezeCharacter;
         card.OnAbilityLearnt += UpdateAbilities;
+        OptionsManager.OnLanguageChanged += ChangeFrozenText;
         GameManager.OnAbilitiesBlocked += BlockAbilityButtons;
         GameManager.OnCharacterClickableChange += ClickableButton;
         if (cardsAssignedState == GameState.Learning)
@@ -284,23 +285,8 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
                 break;
         }
 
-        if(card.IsFrozen)
-        {
-            cardImage.color = Color.gray;
-            if(card.IsLearning)
-            {
-                frozenText.SetText(learningText.GetLocalizedString());
-            }
-            else
-            {
-                frozenText.SetText(deadText.GetLocalizedString());
-            }
-        }
-        else
-        {
-            cardImage.color = originalCardColor;
-            frozenText.SetText("");
-        }
+        cardImage.color = card.IsFrozen ? Color.gray : originalCardColor;
+        ChangeFrozenText();
     }
 
     private void BlockAbilityButtons(bool isBlocked)
@@ -359,6 +345,25 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
         animator.SetBool("shouldHighlight", clickable);
     }
 
+    private void ChangeFrozenText()
+    {
+        if (card.IsFrozen)
+        {
+            if (card.IsLearning)
+            {
+                frozenText.SetText(learningText.GetLocalizedString());
+            }
+            else
+            {
+                frozenText.SetText(deadText.GetLocalizedString());
+            }
+        }
+        else
+        {
+            frozenText.SetText("");
+        }
+    }
+
     private void OnEnable()
     {
         if(card != null)
@@ -377,6 +382,7 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
             card.OnAbilityLearnt -= UpdateAbilities;
         }
 
+        OptionsManager.OnLanguageChanged -= ChangeFrozenText;
         GameManager.OnAbilitiesBlocked -= BlockAbilityButtons;
         GameManager.OnCharacterClickableChange -= ClickableButton;
         if (cardsAssignedState == GameState.Learning)
