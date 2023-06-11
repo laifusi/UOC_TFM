@@ -15,6 +15,7 @@ public class MapPosition : MonoBehaviour
     [Header("Shop")]
     [SerializeField] private bool isShop;
     [SerializeField] private Deck<EquipmentCardSO> shopDeck;
+    [SerializeField] private GameObject shopPosIndicator;
 
     [Header("Other position configuration")]
     [SerializeField] private bool isConnected;
@@ -39,6 +40,11 @@ public class MapPosition : MonoBehaviour
         positionSprite = GetComponent<SpriteRenderer>();
         storyPoint = GetComponent<StoryPoint>();
         animator = GetComponent<Animator>();
+
+        if (isShop)
+            shopPosIndicator.SetActive(true);
+        else
+            shopPosIndicator.SetActive(false);
     }
 
     public void UpdatePositionColor()

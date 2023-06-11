@@ -148,6 +148,14 @@ MonoBehaviour:
     m_Localized: Close
     m_Metadata:
       m_Items: []
+  - m_Id: 4311571754299392
+    m_Localized: Dead
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311738553380864
+    m_Localized: Learning
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -143,6 +143,14 @@ MonoBehaviour:
     m_Key: close
     m_Metadata:
       m_Items: []
+  - m_Id: 4311571754299392
+    m_Key: deadText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311738553380864
+    m_Key: learningText
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

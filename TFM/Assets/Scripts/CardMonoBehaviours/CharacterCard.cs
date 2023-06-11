@@ -4,10 +4,12 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Localization;
 using UnityEngine.UI;
 
 public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPointerExitHandler
 {
+    [SerializeField] Image characterImage;
     [SerializeField] TMP_Text healthText;
     [SerializeField] TMP_Text attackText;
     [SerializeField] TMP_Text shieldText;
@@ -22,6 +24,9 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     [SerializeField] Button button;
     [SerializeField] Transform abilitiesHolder;
     [SerializeField] int usesBeforeLevelIncrease = 3;
+    [SerializeField] TMP_Text frozenText;
+    [SerializeField] LocalizedString deadText;
+    [SerializeField] LocalizedString learningText;
 
     [Header("PopUp Effect Animation")]
     [SerializeField] TMP_Text popUpAnimation;
@@ -40,11 +45,13 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     private int turnsToLearn;
     private Animator animator;
     private Transform popUpParent;
+    private Color originalCardColor;
 
     public Action OnStartedLearning;
 
     private void Start()
     {
+        originalCardColor = cardImage.color;
         popUpParent = transform;
         animator = GetComponent<Animator>();
 
@@ -275,6 +282,24 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
             case GameState.Learning:
                 button.interactable = !isFrozen;
                 break;
+        }
+
+        if(card.IsFrozen)
+        {
+            cardImage.color = Color.gray;
+            if(card.IsLearning)
+            {
+                frozenText.SetText(learningText.GetLocalizedString());
+            }
+            else
+            {
+                frozenText.SetText(deadText.GetLocalizedString());
+            }
+        }
+        else
+        {
+            cardImage.color = originalCardColor;
+            frozenText.SetText("");
         }
     }
 
