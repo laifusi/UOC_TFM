@@ -177,16 +177,16 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 6410356903030784
     m_Localized: If you put your mouse over the event, you'll see the stats that
-      can solve the event.
+      can solve it.
     m_Metadata:
       m_Items: []
   - m_Id: 6410271637024768
-    m_Localized: For stats, a numeric value defines if that's the stat that will
-      be used or not.
+    m_Localized: For stats, if its numeric value is bigger or equal to the event's
+      value, that stat will be used.
     m_Metadata:
       m_Items: []
   - m_Id: 6410294705696768
-    m_Localized: If none of the stats are valid, the attack and health are used.
+    m_Localized: If none of the stats are enough, the attack and health are used.
     m_Metadata:
       m_Items: []
   - m_Id: 6410311445164032
@@ -216,6 +216,10 @@ MonoBehaviour:
   - m_Id: 6509510971011072
     m_Localized: If you put your mouse over an equipment card, you'll see the effect
       it has.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8216051113701376
+    m_Localized: This is your character's power.
     m_Metadata:
       m_Items: []
   references:

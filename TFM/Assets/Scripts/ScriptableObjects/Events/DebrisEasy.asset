@@ -76,7 +76,7 @@ MonoBehaviour:
       affectionAmount: 3
       effectText: 
     - affectedStat: 3
-      affectionAmount: -10
+      affectionAmount: -100
       effectText: 
   - detonatorStat: 0
     detonationValue: 0

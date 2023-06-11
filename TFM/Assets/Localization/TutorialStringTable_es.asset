@@ -188,12 +188,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6410271637024768
-    m_Localized: "En el caso de las caracter\xEDsticas, un valor num\xE9rico determina
-      si se utiliza esa caracter\xEDstica o no."
+    m_Localized: "En el caso de las caracter\xEDsticas, si su valor num\xE9rico es
+      myor o igual al del evento, se usar\xE1 esa caracter\xEDstica."
     m_Metadata:
       m_Items: []
   - m_Id: 6410294705696768
-    m_Localized: "Si ninguna de las caracter\xEDsticas es v\xE1lida, se utilizan
+    m_Localized: "Si ninguna de las caracter\xEDsticas es suficiente, se utilizan
       el ataque y la vida."
     m_Metadata:
       m_Items: []
@@ -225,6 +225,10 @@ MonoBehaviour:
   - m_Id: 6509510971011072
     m_Localized: "Si pasas por encima de la carta de equipaci\xF3n, podr\xE1s ver
       su efecto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8216051113701376
+    m_Localized: Este es el poder de tu personaje.
     m_Metadata:
       m_Items: []
   references:

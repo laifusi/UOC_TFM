@@ -95,7 +95,7 @@ MonoBehaviour:
       m_LocalVariables: []
     effects:
     - affectedStat: 3
-      affectionAmount: -25
+      affectionAmount: -100
       effectText: 
   - detonatorStat: 1
     detonationValue: 0
@@ -111,7 +111,7 @@ MonoBehaviour:
       m_LocalVariables: []
     effects:
     - affectedStat: 3
-      affectionAmount: 75
+      affectionAmount: 100
       effectText: 
     - affectedStat: 5
       affectionAmount: -20

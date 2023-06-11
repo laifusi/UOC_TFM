@@ -146,14 +146,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 3365112557568
     m_Localized: S'utilitza l'atac sense acabar amb la vida del lladre, es perden
-      25 monedes. Es perden els punts d'escut i/o vida corresponents a l'atac de
+      100 monedes. Es perden els punts d'escut i/o vida corresponents a l'atac de
       l'enemic
     m_Metadata:
       m_Items: []
   - m_Id: 3407005265920
     m_Localized: "S'utilitza l'atac i s'acaba amb la vida del lladre, es guanyen
-      75 monedes per\xF2 es perden 20 punts d'habilitats socials. Es perden els punts
-      d'escut i/o vida corresponents a l'atac de l'enemic"
+      100 monedes per\xF2 es perden 20 punts d'habilitats socials. Es perden els
+      punts d'escut i/o vida corresponents a l'atac de l'enemic"
     m_Metadata:
       m_Items: []
   - m_Id: 3483555508224
@@ -176,7 +176,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 3651508023296
     m_Localized: S'utilitza l'atac sense acabar amb la vida del lladre, es perden
-      50 monedes. Es perden els punts d'escut i/o vida corresponents a l'atac de
+      150 monedes. Es perden els punts d'escut i/o vida corresponents a l'atac de
       l'enemic
     m_Metadata:
       m_Items: []
@@ -206,7 +206,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 3903770243072
     m_Localized: S'utilitza l'atac sense acabar amb la vida del lladre, es perden
-      100 monedes. Es perden els punts d'escut i/o vida corresponents a l'atac de
+      300 monedes. Es perden els punts d'escut i/o vida corresponents a l'atac de
       l'enemic
     m_Metadata:
       m_Items: []
@@ -232,11 +232,12 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 7895669714944
     m_Localized: "Utilitzant l'agilitat, es creua l'esquerda i s'augmenta l'agilitat
-      en 3 punts, per\xF2 es perden 10 monedes."
+      en 3 punts, per\xF2 es perden 100 monedes."
     m_Metadata:
       m_Items: []
   - m_Id: 8212079620096
-    m_Localized: "Ll'agilitat no \xE9s suficient, es perden 8 punts d'agilitat"
+    m_Localized: "L'agilitat no \xE9s suficient, es perden 8 punts d'agilitat. Es
+      perden els punts d'escut i/o vida corresponents a l'atac de l'esdeveniment."
     m_Metadata:
       m_Items: []
   - m_Id: 8602019868672
@@ -255,11 +256,12 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 8932698796032
     m_Localized: "Utilitzant l'agilitat, es creua l'esquerda i s'augmenta l'agilitat
-      en 5 punts, per\xF2 es perden 20 monedes."
+      en 5 punts, per\xF2 es perden 200 monedes."
     m_Metadata:
       m_Items: []
   - m_Id: 9204070264832
-    m_Localized: "L'agilitat no \xE9s suficient, es perden 5 punts d'agilitat"
+    m_Localized: "L'agilitat no \xE9s suficient, es perden 5 punts d'agilitat. Es
+      perden els punts d'escut i/o vida corresponents a l'atac de l'esdeveniment."
     m_Metadata:
       m_Items: []
   - m_Id: 9988417695744
@@ -278,11 +280,12 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 10185071833088
     m_Localized: "Utilitzant l'agilitat, es creua l'esquerda i s'augmenta l'agilitat
-      en 8 punts, per\xF2 es perden 30 monedes."
+      en 8 punts, per\xF2 es perden 300 monedes."
     m_Metadata:
       m_Items: []
   - m_Id: 10258044334080
-    m_Localized: "L'agilitat no \xE9s suficient, es perden 3 punts d'agilitat"
+    m_Localized: "L'agilitat no \xE9s suficient, es perden 3 punts d'agilitat. Es
+      perden els punts d'escut i/o vida corresponents a l'atac de l'esdeveniment."
     m_Metadata:
       m_Items: []
   - m_Id: 10564387909632
@@ -357,7 +360,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 270356842983424
     m_Localized: "Utilitzant l'agilitat, es guanyen 5 punts d'agilitat per\xF2 es
-      perden 50 monedes"
+      perden 150 monedes"
     m_Metadata:
       m_Items: []
   - m_Id: 270839309578240
@@ -375,7 +378,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 271809573728256
     m_Localized: "Utilitzant l'agilitat, es guanyen 10 punts d'agilitat per\xF2 es
-      perden 100 monedes"
+      perden 200 monedes"
     m_Metadata:
       m_Items: []
   - m_Id: 271865496383488
@@ -388,7 +391,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 271986808238080
     m_Localized: "Utilitzant l'agilitat, es guanyen 15 punts d'agilitat per\xF2 es
-      perden 200 monedes"
+      perden 300 monedes"
     m_Metadata:
       m_Items: []
   - m_Id: 273739658211328
@@ -623,11 +626,12 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 285661203968000
     m_Localized: "Utilitzant l'agilitat, s'aconsegueixen 3 punts d'agilitat per\xF2
-      es perden 10 monedes"
+      es perden 100 monedes"
     m_Metadata:
       m_Items: []
   - m_Id: 285909469016064
-    m_Localized: "L'agilitat no \xE9s suficient, es perden 8 punts d'agilitat"
+    m_Localized: "L'agilitat no \xE9s suficient, es perden 8 punts d'agilitat. Es
+      perden els punts d'escut i/o vida corresponents a l'atac de l'esdeveniment."
     m_Metadata:
       m_Items: []
   - m_Id: 286090344181760
@@ -646,11 +650,12 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 286280442621952
     m_Localized: "Utilitzant l'agilitat, s'aconsegueixen 5 punts d'agilitat per\xF2
-      es perden 20 monedes"
+      es perden 200 monedes"
     m_Metadata:
       m_Items: []
   - m_Id: 286382460678144
-    m_Localized: "L'agilitat no \xE9s suficient, es perden 5 punts d'agilitat"
+    m_Localized: "L'agilitat no \xE9s suficient, es perden 5 punts d'agilitat. Es
+      perden els punts d'escut i/o vida corresponents a l'atac de l'esdeveniment."
     m_Metadata:
       m_Items: []
   - m_Id: 286523070525440
@@ -669,11 +674,12 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 286953049600000
     m_Localized: "Utilitzant l'agilitat, s'aconsegueixen 8 punts d'agilitat per\xF2
-      es perden 30 monedes"
+      es perden 300 monedes"
     m_Metadata:
       m_Items: []
   - m_Id: 287057739427840
-    m_Localized: "L'agilitat no \xE9s suficient, es perden 3 punts d'agilitat"
+    m_Localized: "L'agilitat no \xE9s suficient, es perden 3 punts d'agilitat. Es
+      perden els punts d'escut i/o vida corresponents a l'atac de l'esdeveniment."
     m_Metadata:
       m_Items: []
   - m_Id: 288685599141888

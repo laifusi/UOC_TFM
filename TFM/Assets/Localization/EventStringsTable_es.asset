@@ -89,12 +89,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 287057739427840
-    m_Localized: La agilidad no es suficiente, se pierden 3 puntos de agilidad
+    m_Localized: La agilidad no es suficiente, se pierden 3 puntos de agilidad. Se
+      pierden los puntos de escudo y/o vida correspondientes al ataque del evento.
     m_Metadata:
       m_Items: []
   - m_Id: 286953049600000
     m_Localized: Usando la agilidad, se consiguen 8 puntos de agilidad pero se pierden
-      30 monedas
+      300 monedas
     m_Metadata:
       m_Items: []
   - m_Id: 286873840168960
@@ -112,12 +113,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 286382460678144
-    m_Localized: La agilidad no es suficiente, se pierden 5 puntos de agilidad
+    m_Localized: La agilidad no es suficiente, se pierden 5 puntos de agilidad. Se
+      pierden los puntos de escudo y/o vida correspondientes al ataque del evento.
     m_Metadata:
       m_Items: []
   - m_Id: 286280442621952
     m_Localized: Usando la agilidad, se consiguen 5 puntos de agilidad pero se pierden
-      20 monedas
+      200 monedas
     m_Metadata:
       m_Items: []
   - m_Id: 286206903889920
@@ -135,12 +137,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 285909469016064
-    m_Localized: La agilidad no es suficiente, se pierden 8 puntos de agilidad
+    m_Localized: La agilidad no es suficiente, se pierden 8 puntos de agilidad. Se
+      pierden los puntos de escudo y/o vida correspondientes al ataque del evento.
     m_Metadata:
       m_Items: []
   - m_Id: 285661203968000
     m_Localized: Usando la agilidad, se consiguen 3 puntos de agilidad pero se pierden
-      10 monedas
+      100 monedas
     m_Metadata:
       m_Items: []
   - m_Id: 285483738771456
@@ -375,7 +378,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 271986808238080
     m_Localized: Usando la agilidad, se ganan 15 puntos de agilidad, pero se pierden
-      200 monedas
+      300 monedas
     m_Metadata:
       m_Items: []
   - m_Id: 271925277798400
@@ -388,7 +391,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 271809573728256
     m_Localized: Usando la agilidad, se ganan 10 puntos de agilidad, pero se pierden
-      100 monedas
+      200 monedas
     m_Metadata:
       m_Items: []
   - m_Id: 271749658095616
@@ -407,7 +410,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 270356842983424
     m_Localized: Usando la agilidad, se ganan 5 puntos de agilidad, pero se pierden
-      50 monedas
+      150 monedas
     m_Metadata:
       m_Items: []
   - m_Id: 270204623302656
@@ -481,12 +484,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 10258044334080
-    m_Localized: La agilidad no es suficiente, se pierden 3 puntos de agilidad
+    m_Localized: La agilidad no es suficiente, se pierden 3 puntos de agilidad. Se
+      pierden los puntos de escudo y/o vida correspondientes al ataque del evento.
     m_Metadata:
       m_Items: []
   - m_Id: 10185071833088
     m_Localized: Usando la agilidad, se cruza la grieta y se ganan 8 puntos de agilidad,
-      pero se pierden 30 monedas
+      pero se pierden 300 monedas
     m_Metadata:
       m_Items: []
   - m_Id: 10141061001216
@@ -504,21 +508,23 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 9204070264832
-    m_Localized: La agilidad no es suficiente, se pierden 5 puntos de agilidad
+    m_Localized: La agilidad no es suficiente, se pierden 5 puntos de agilidad. Se
+      pierden los puntos de escudo y/o vida correspondientes al ataque del evento.
     m_Metadata:
       m_Items: []
   - m_Id: 8212079620096
-    m_Localized: La agilidad no es suficiente, se pierden 8 puntos de agilidad
+    m_Localized: La agilidad no es suficiente, se pierden 8 puntos de agilidad, Se
+      pierden los puntos de escudo y/o vida correspondientes al ataque del evento.
     m_Metadata:
       m_Items: []
   - m_Id: 8932698796032
     m_Localized: Usando la agilidad, se cruza la grieta y se ganan 5 puntos de agilidad,
-      pero se pierden 20 monedas
+      pero se pierden 200 monedas
     m_Metadata:
       m_Items: []
   - m_Id: 7895669714944
     m_Localized: Usando la agilidad, se cruza la grieta y se ganan 3 puntos de agilidad,
-      pero se pierden 10 monedas
+      pero se pierden 100 monedas
     m_Metadata:
       m_Items: []
   - m_Id: 8817003114496
@@ -557,7 +563,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 3903770243072
     m_Localized: "Se usa el ataque sin acabar con la vida del ladr\xF3n, se pierden
-      100 monedas. Se pierden los puntos de escudo y/o vida correspondientes al ataque
+      300 monedas. Se pierden los puntos de escudo y/o vida correspondientes al ataque
       del enemigo"
     m_Metadata:
       m_Items: []
@@ -587,7 +593,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 3651508023296
     m_Localized: "Se usa el ataque sin acabar con la vida del ladr\xF3n, se pierden
-      50 monedas. Se pierden los puntos de escudo y/o vida correspondientes al ataque
+      150 monedas. Se pierden los puntos de escudo y/o vida correspondientes al ataque
       del enemigo"
     m_Metadata:
       m_Items: []
@@ -611,13 +617,13 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 3407005265920
     m_Localized: "Se usa el ataque y se acaba con la vida del ladr\xF3n, se ganan
-      75 monedas pero se pierden 20 puntos de habilidades sociales. Se pierden los
+      100 monedas pero se pierden 20 puntos de habilidades sociales. Se pierden los
       puntos de escudo y/o vida correspondientes al ataque del enemigo"
     m_Metadata:
       m_Items: []
   - m_Id: 3365112557568
     m_Localized: "Se usa el ataque sin acabar con la vida del ladr\xF3n, se pierden
-      25 monedas. Se pierden los puntos de escudo y/o vida correspondientes al ataque
+      100 monedas. Se pierden los puntos de escudo y/o vida correspondientes al ataque
       del enemigo"
     m_Metadata:
       m_Items: []

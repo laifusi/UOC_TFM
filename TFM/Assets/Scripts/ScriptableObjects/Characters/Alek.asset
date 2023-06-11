@@ -74,8 +74,8 @@ MonoBehaviour:
       - name: stat
         variable:
           rid: 7598979195661975979
-    abilityCost: 2
-    abilityLevel: 1
+    abilityCost: 0
+    abilityLevel: 0
   - effects:
     - affectedStat: 0
       affectionAmount: 10
@@ -96,7 +96,7 @@ MonoBehaviour:
         variable:
           rid: 7598979195661975981
     abilityCost: 2
-    abilityLevel: 2
+    abilityLevel: 1
   - effects:
     - affectedStat: 2
       affectionAmount: 15
@@ -117,7 +117,7 @@ MonoBehaviour:
         variable:
           rid: 7598979195661975983
     abilityCost: 4
-    abilityLevel: 2
+    abilityLevel: 1
   references:
     version: 2
     RefIds:

@@ -2056,7 +2056,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -54.7948, y: -145.80347}
+  m_AnchoredPosition: {x: -54.79492, y: -145.80347}
   m_SizeDelta: {x: -1409.7219, y: -749.7617}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &113187290
@@ -31786,6 +31786,40 @@ MonoBehaviour:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
         m_TableEntryReference:
+          m_KeyId: 6410356903030784
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      textBlockPosition: {fileID: 457148553}
+      isMasked: 1
+      mask:
+        type: 1
+        xPos: -50
+        yPos: 250
+        width: 570
+        height: 520
+    - text:
+        m_TableReference:
+          m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
+        m_TableEntryReference:
+          m_KeyId: 8216051113701376
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      textBlockPosition: {fileID: 457148553}
+      isMasked: 1
+      mask:
+        type: 0
+        xPos: 93.4
+        yPos: -76.4
+        width: 55
+        height: 55
+    - text:
+        m_TableReference:
+          m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
+        m_TableEntryReference:
           m_KeyId: 6410271637024768
           m_Key: 
         m_FallbackState: 0
@@ -31850,23 +31884,6 @@ MonoBehaviour:
         yPos: -170
         width: 500
         height: 540
-    - text:
-        m_TableReference:
-          m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5
-        m_TableEntryReference:
-          m_KeyId: 6410356903030784
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
-        m_LocalVariables: []
-      textBlockPosition: {fileID: 457148553}
-      isMasked: 1
-      mask:
-        type: 1
-        xPos: -50
-        yPos: 250
-        width: 570
-        height: 520
     - text:
         m_TableReference:
           m_TableCollectionName: GUID:5f822681c26a71e45be2b885a7e9dbb5

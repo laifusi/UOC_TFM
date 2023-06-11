@@ -93,7 +93,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4730341732352
-    m_Localized: "Aquest \xE9s el nombre d'habilitats que pot utilitzar per torn.
+    m_Localized: "Aquest \xE9s el nombre d'habilitats que pots utilitzar per torn.
       Aquest nombre dep\xE9n de la quantitat de personatges que tingues."
     m_Metadata:
       m_Items: []
@@ -184,12 +184,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6410271637024768
-    m_Localized: "En el cas de les caracter\xEDstiques, un valor num\xE8ric determina
-      si s'utilitza eixa caracter\xEDstica o no."
+    m_Localized: "En el cas de les caracter\xEDstiques, si el seu valor num\xE8ric
+      \xE9s major o igual que el de l'esdeviment, s'utilitzar\xE0 eixa caracter\xEDstica."
     m_Metadata:
       m_Items: []
   - m_Id: 6410294705696768
-    m_Localized: "Si ninguna de les caracter\xEDstiques \xE9s v\xE0lida, s'utilitzen
+    m_Localized: "Si ninguna de les caracter\xEDstiques \xE9s suficient, s'utilitzen
       l'atac i la vida."
     m_Metadata:
       m_Items: []
@@ -206,7 +206,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 6410356903030784
     m_Localized: "Si passes per damunt de l'esdeveniment, podr\xE0s veure les caracter\xEDstiques
-      que poden resoldre l'esdeveniment."
+      que poden resoldre'l."
     m_Metadata:
       m_Items: []
   - m_Id: 6410905618657280
@@ -227,6 +227,10 @@ MonoBehaviour:
   - m_Id: 6509510971011072
     m_Localized: Si passes per damunt de la carta d'equipament, pots veure el seu
       efecte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8216051113701376
+    m_Localized: "Aquest \xE9s el poder del teu personatge."
     m_Metadata:
       m_Items: []
   references:

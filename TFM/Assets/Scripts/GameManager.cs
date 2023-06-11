@@ -156,6 +156,7 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.Event:
                 ActivateCanvas(true, eventCanvas);
+                OnCharacterClickableChange?.Invoke(true);
                 GetRandomEvent();
                 break;
             case GameState.Abilities:
@@ -365,6 +366,7 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator ApplyEffectsAndChangeState(CharacterCard selectedCharacter)
     {
+        OnCharacterClickableChange?.Invoke(false);
         selectedCharacter.IncreaseUses();
         Effect[] effectsToApply = eventCard.GetEventOutcomeEffects(selectedCharacter);
         if(effectsToApply != null && effectsToApply.Length > 0)

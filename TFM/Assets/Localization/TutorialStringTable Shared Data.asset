@@ -187,6 +187,10 @@ MonoBehaviour:
     m_Key: shopTut_4
     m_Metadata:
       m_Items: []
+  - m_Id: 8216051113701376
+    m_Key: eventTut_10
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

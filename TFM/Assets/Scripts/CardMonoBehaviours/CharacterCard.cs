@@ -47,18 +47,17 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     {
         popUpParent = transform;
         animator = GetComponent<Animator>();
-        ClickableButton(true);
 
         card.OnCharacterFrozen += FreezeCharacter;
         card.OnAbilityLearnt += UpdateAbilities;
         GameManager.OnAbilitiesBlocked += BlockAbilityButtons;
-        if(cardsAssignedState == GameState.Learning)
+        GameManager.OnCharacterClickableChange += ClickableButton;
+        if (cardsAssignedState == GameState.Learning)
             GameManager.OnStartNewTurn += UpdateLearningState;
-        else if (cardsAssignedState == GameState.Abilities || cardsAssignedState == GameState.Shop)
-        {
-            GameManager.OnCharacterClickableChange += ClickableButton;
+        if (cardsAssignedState == GameState.Abilities || cardsAssignedState == GameState.Shop)
             ClickableButton(false);
-        }
+        else
+            ClickableButton(true);
 
         if (card.IsFrozen)
             FreezeCharacter(true);
@@ -354,10 +353,9 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
         }
 
         GameManager.OnAbilitiesBlocked -= BlockAbilityButtons;
+        GameManager.OnCharacterClickableChange -= ClickableButton;
         if (cardsAssignedState == GameState.Learning)
             GameManager.OnStartNewTurn -= UpdateLearningState;
-        else if (cardsAssignedState == GameState.Abilities || cardsAssignedState == GameState.Shop)
-            GameManager.OnCharacterClickableChange -= ClickableButton;
     }
 
     public void OnPointerEnter(PointerEventData eventData)
