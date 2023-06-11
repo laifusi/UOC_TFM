@@ -425,6 +425,7 @@ public class GameManager : MonoBehaviour
         for (int i = 0; i < shopCards.Length; i++)
         {
             equipmentCards[i].PaintCard(shopCards[i]);
+            equipmentCards[i].ActivateSoldText(false);
             if(CoinManager.Instance.CanBeBought(shopCards[i]))
             {
                 equipmentCards[i].GetComponent<Button>().interactable = true;
@@ -453,6 +454,7 @@ public class GameManager : MonoBehaviour
         CharacterCard selectedCharacter = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponent<CharacterCard>();
         selectedCharacter.AddEquipmentCard(selectedEquipment.GetCardSO());
         selectedEquipment.GetComponent<Button>().interactable = false;
+        selectedEquipment.ActivateSoldText(true);
         foreach(EquipmentCard equipment in equipmentCards)
         {
             Button equipmentButton = equipment.GetComponent<Button>();

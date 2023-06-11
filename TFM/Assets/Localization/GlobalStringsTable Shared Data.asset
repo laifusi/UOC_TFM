@@ -151,6 +151,10 @@ MonoBehaviour:
     m_Key: learningText
     m_Metadata:
       m_Items: []
+  - m_Id: 4331473982631936
+    m_Key: soldText
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

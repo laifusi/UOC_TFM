@@ -10,6 +10,7 @@ public class EquipmentCard : Card<EquipmentCardSO>
     [SerializeField] TMP_Text nameText;
     [SerializeField] TMP_Text effectText;
     [SerializeField] Image affectedStatImage;
+    [SerializeField] GameObject soldText;
 
     private void Start()
     {
@@ -33,6 +34,11 @@ public class EquipmentCard : Card<EquipmentCardSO>
     public int GetCost()
     {
         return card.GetCost();
+    }
+
+    public void ActivateSoldText(bool activate)
+    {
+        soldText.SetActive(activate);
     }
 
     private void OnDestroy()

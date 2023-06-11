@@ -154,6 +154,10 @@ MonoBehaviour:
     m_Localized: Aprendiendo
     m_Metadata:
       m_Items: []
+  - m_Id: 4331473982631936
+    m_Localized: Vendido
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
