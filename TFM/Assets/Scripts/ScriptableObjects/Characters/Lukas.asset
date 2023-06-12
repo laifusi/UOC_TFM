@@ -56,7 +56,7 @@ MonoBehaviour:
     abilityCost: 0
     abilityLevel: 0
   - effects:
-    - affectedStat: 1
+    - affectedStat: 6
       affectionAmount: 2
       effectText: 
     abilityText:
@@ -98,14 +98,14 @@ MonoBehaviour:
     abilityCost: 2
     abilityLevel: 2
   - effects:
-    - affectedStat: 1
+    - affectedStat: 6
       affectionAmount: 5
       effectText: 
     abilityText:
       m_TableReference:
         m_TableCollectionName: GUID:824c0fbd28c187649982a0e2854555ef
       m_TableEntryReference:
-        m_KeyId: 5310153730994176
+        m_KeyId: 5318842605023232
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 0
@@ -131,7 +131,7 @@ MonoBehaviour:
         m_TableReference:
           m_TableCollectionName: GUID:824c0fbd28c187649982a0e2854555ef
         m_TableEntryReference:
-          m_KeyId: 5313748543123456
+          m_KeyId: 5318842605023232
           m_Key: 
         m_FallbackState: 0
         m_WaitForCompletion: 0
