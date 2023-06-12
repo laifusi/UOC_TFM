@@ -158,6 +158,17 @@ MonoBehaviour:
     m_Localized: Venut
     m_Metadata:
       m_Items: []
+  - m_Id: 4581471911587840
+    m_Localized: Un nou personatge s'uneix a l'aventura!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4581998917496832
+    m_Localized: 'Aquest personatge no pot aprendre cap habilitat.
+
+      Continua
+      utilitzant-lo per aumentar el seu nivell i descobrir noves habilitats.'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

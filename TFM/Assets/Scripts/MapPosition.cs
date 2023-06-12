@@ -22,6 +22,7 @@ public class MapPosition : MonoBehaviour
     [SerializeField] private bool isCurrent;
     [SerializeField] private bool inMapState;
     [SerializeField] private CharacterCardSO foundCharacter;
+    [SerializeField] private MusicZone musicZone;
 
     private SpriteRenderer positionSprite;
     private StoryPoint storyPoint;
@@ -32,6 +33,7 @@ public class MapPosition : MonoBehaviour
     public bool IsCurrent { get => isCurrent; set => isCurrent = value; }
     public bool IsShop => isShop;
     public bool InMapState { get => inMapState; set => inMapState = value; }
+    public MusicZone MusicZone => musicZone;
 
     public static Action<MapPosition> OnPositionSelected;
 

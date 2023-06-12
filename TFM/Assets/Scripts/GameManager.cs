@@ -65,6 +65,7 @@ public class GameManager : MonoBehaviour
     public GameState CurrentState => currentState;
     public static GameManager Instance;
     public bool TutorialsActive => tutorialsActive;
+    public MusicZone MusicZone => currentPosition.MusicZone;
 
     private void Awake()
     {

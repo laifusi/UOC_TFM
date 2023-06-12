@@ -160,6 +160,17 @@ MonoBehaviour:
     m_Localized: Sold
     m_Metadata:
       m_Items: []
+  - m_Id: 4581471911587840
+    m_Localized: A new character joins the adventure!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4581998917496832
+    m_Localized: 'This character can''t learn any ability.
+
+      Keep using them
+      to increase their level and discover new abilities.'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

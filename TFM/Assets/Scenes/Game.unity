@@ -314,6 +314,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -1068,6 +1072,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -1263,6 +1271,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
@@ -1613,6 +1625,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -1841,6 +1857,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -1942,6 +1962,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
   m_PrefabInstance: {fileID: 103357642}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &105988827
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2060675625}
+    m_Modifications:
+    - target: {fileID: 6335764300183078436, guid: 5567d1f47dcdef54b87a6c4f28181b22, type: 3}
+      propertyPath: m_Name
+      value: MusicManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6335764300183078442, guid: 5567d1f47dcdef54b87a6c4f28181b22, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6335764300183078442, guid: 5567d1f47dcdef54b87a6c4f28181b22, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6335764300183078442, guid: 5567d1f47dcdef54b87a6c4f28181b22, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.8357673
+      objectReference: {fileID: 0}
+    - target: {fileID: 6335764300183078442, guid: 5567d1f47dcdef54b87a6c4f28181b22, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6335764300183078442, guid: 5567d1f47dcdef54b87a6c4f28181b22, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6335764300183078442, guid: 5567d1f47dcdef54b87a6c4f28181b22, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6335764300183078442, guid: 5567d1f47dcdef54b87a6c4f28181b22, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6335764300183078442, guid: 5567d1f47dcdef54b87a6c4f28181b22, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6335764300183078442, guid: 5567d1f47dcdef54b87a6c4f28181b22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6335764300183078442, guid: 5567d1f47dcdef54b87a6c4f28181b22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6335764300183078442, guid: 5567d1f47dcdef54b87a6c4f28181b22, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5567d1f47dcdef54b87a6c4f28181b22, type: 3}
+--- !u!4 &105988828 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6335764300183078442, guid: 5567d1f47dcdef54b87a6c4f28181b22, type: 3}
+  m_PrefabInstance: {fileID: 105988827}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &112605738
 GameObject:
@@ -2863,6 +2945,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
@@ -4033,6 +4119,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: foundCharacter
       value: 
       objectReference: {fileID: 11400000, guid: 3a939709e5b178044890629e643a0ef0, type: 2}
@@ -4232,6 +4322,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
@@ -4756,6 +4850,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.cardsToDraw
       value: 4
       objectReference: {fileID: 0}
@@ -5073,6 +5171,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
@@ -5530,6 +5632,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -5734,6 +5840,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
@@ -6028,6 +6138,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
@@ -7105,6 +7219,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.cardsToDraw
       value: 4
       objectReference: {fileID: 0}
@@ -7384,6 +7502,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
@@ -8641,6 +8763,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -8832,6 +8958,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
@@ -9106,6 +9236,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
@@ -10095,6 +10229,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -10297,6 +10435,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -10477,6 +10619,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
@@ -11218,6 +11364,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
@@ -11990,6 +12140,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -12337,6 +12491,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
@@ -12885,6 +13043,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.cardsToDraw
       value: 4
       objectReference: {fileID: 0}
@@ -13229,6 +13391,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
@@ -13954,6 +14120,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.cardsToDraw
       value: 4
       objectReference: {fileID: 0}
@@ -14494,6 +14664,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -14648,6 +14822,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
@@ -15637,6 +15815,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -16178,6 +16360,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
@@ -17163,6 +17349,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -17801,6 +17991,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
@@ -19154,6 +19348,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
@@ -21061,6 +21259,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.cardsToDraw
       value: 4
       objectReference: {fileID: 0}
@@ -21611,6 +21813,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -21806,6 +22012,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: foundCharacter
@@ -22873,6 +23083,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.cardsToDraw
       value: 4
       objectReference: {fileID: 0}
@@ -23131,6 +23345,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
@@ -23529,6 +23747,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: isShop
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.cardsToDraw
@@ -24133,6 +24355,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -24595,6 +24821,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -25052,6 +25282,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -25493,6 +25727,7 @@ GameObject:
   - component: {fileID: 1632711537}
   - component: {fileID: 1632711539}
   - component: {fileID: 1632711538}
+  - component: {fileID: 1632711540}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -25617,6 +25852,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632711536}
   m_CullTransparentMesh: 1
+--- !u!114 &1632711540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632711536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:b99acf90acf9c034e8597de03e4370de
+    m_TableEntryReference:
+      m_KeyId: 4581471911587840
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1632711538}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1646790059
 GameObject:
   m_ObjectHideFlags: 0
@@ -25980,6 +26255,7 @@ GameObject:
   - component: {fileID: 1655151729}
   - component: {fileID: 1655151731}
   - component: {fileID: 1655151730}
+  - component: {fileID: 1655151732}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -26104,6 +26380,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655151728}
   m_CullTransparentMesh: 1
+--- !u!114 &1655151732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655151728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:b99acf90acf9c034e8597de03e4370de
+    m_TableEntryReference:
+      m_KeyId: 235794817527808
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1655151730}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &1657514002 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
@@ -26508,6 +26824,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
@@ -27206,6 +27526,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: shopDeck.cardsToDraw
       value: 4
       objectReference: {fileID: 0}
@@ -27615,6 +27939,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: foundCharacter
       value: 
       objectReference: {fileID: 11400000, guid: e99c8dd9364a48741a5d2d954eeeed0e, type: 2}
@@ -27839,6 +28167,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
@@ -28126,6 +28458,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: foundCharacter
       value: 
       objectReference: {fileID: 11400000, guid: 3a939709e5b178044890629e643a0ef0, type: 2}
@@ -28346,6 +28682,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
@@ -28729,6 +29069,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
@@ -29212,6 +29556,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
@@ -30084,6 +30432,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -30576,6 +30928,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -30785,6 +31141,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
@@ -31142,6 +31502,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -31401,6 +31765,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
@@ -32379,6 +32747,7 @@ GameObject:
   - component: {fileID: 1999626870}
   - component: {fileID: 1999626872}
   - component: {fileID: 1999626871}
+  - component: {fileID: 1999626873}
   m_Layer: 5
   m_Name: NoAbilitiesAvailableText
   m_TagString: Untagged
@@ -32432,14 +32801,14 @@ MonoBehaviour:
     per aumentar el seu nivell i descobrir noves habilitats.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: f629c6e43dba4bf38cb74d8860150664, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4285103772
+  m_fontColor: {r: 0.6117647, g: 0.49411768, b: 0.41176474, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -32506,6 +32875,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999626869}
   m_CullTransparentMesh: 1
+--- !u!114 &1999626873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999626869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:b99acf90acf9c034e8597de03e4370de
+    m_TableEntryReference:
+      m_KeyId: 4581998917496832
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1999626871}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!1001 &2020149829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32559,6 +32968,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
@@ -33021,6 +33434,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: foundCharacter
       value: 
       objectReference: {fileID: 11400000, guid: 3a939709e5b178044890629e643a0ef0, type: 2}
@@ -33232,6 +33649,7 @@ Transform:
   - {fileID: 367038919}
   - {fileID: 697685656}
   - {fileID: 1113825608}
+  - {fileID: 105988828}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -33285,6 +33703,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size
@@ -33513,6 +33935,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
@@ -34120,6 +34546,10 @@ PrefabInstance:
     - target: {fileID: 8802012897006660901, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
+      propertyPath: musicZone
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8802012897006660903, guid: ce7bcb84bf5b6624487df18701756e3d, type: 3}
       propertyPath: connectedPositions.Array.size

@@ -158,6 +158,15 @@ MonoBehaviour:
     m_Localized: Vendido
     m_Metadata:
       m_Items: []
+  - m_Id: 4581471911587840
+    m_Localized: "\xA1Un nuevo personaje se une a la aventura!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4581998917496832
+    m_Localized: "Este personaje no puede aprender ninguna habilidad.\nSigue utiliz\xE1ndolo
+      para aumentar su nivell y descubrir nuevas habilidades."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
