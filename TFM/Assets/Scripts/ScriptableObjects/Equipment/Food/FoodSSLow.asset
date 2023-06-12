@@ -27,7 +27,7 @@ MonoBehaviour:
     affectionAmount: 5
     effectText: 
   rarity: 0
-  cost: 25
+  cost: 50
   effectString:
     m_TableReference:
       m_TableCollectionName: GUID:3d4fefe61b25f864bad68ed99676b31f
