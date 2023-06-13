@@ -43,6 +43,14 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject noAbilitiesAvailableText;
     //[SerializeField] int maxAbilitiesPerTurn;
 
+    [Header("Sound Effects")]
+    [SerializeField] AudioClip stepClip;
+    [SerializeField] AudioClip shopClip;
+    [SerializeField] AudioClip selectClip;
+    [SerializeField] AudioClip freezeClip;
+    [SerializeField] AudioClip winClip;
+    [SerializeField] AudioClip loseClip;
+
     private GameState currentState;
     private MapPosition currentPosition;
     private Effect[] selectedAbility;
@@ -54,6 +62,7 @@ public class GameManager : MonoBehaviour
     private int abilitiesUsedThisTurn;
     private bool tutorialsActive;
     private DeathTutorialTrigger deathTutorialTrigger;
+    private AudioSource audioSource;
 
     private int maxAbilitiesPerTurn => characters.Count;
 
@@ -77,6 +86,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         deathTutorialTrigger = GetComponent<DeathTutorialTrigger>();
         ResetAllCanvases();
         MapPosition.OnPositionSelected += SelectPosition;
@@ -184,9 +194,12 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.GameOver:
                 ActivateCanvas(true, gameOverCanvas);
+                PlayClip(loseClip);
                 break;
             case GameState.EndGame:
                 ActivateCanvas(true, winCanvas);
+                MusicManager.Instance.StopMusic();
+                PlayClip(winClip);
                 break;
         }
     }
@@ -311,6 +324,11 @@ public class GameManager : MonoBehaviour
         return true;
     }
 
+    private void PlayClip(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
+    }
+
     #region Game State: Map
     private void ActivateMap(bool activate)
     {
@@ -324,6 +342,8 @@ public class GameManager : MonoBehaviour
     {
         UpdatePositions(newMapPosition);
         cameraControl.MoveCamera(newMapPosition.transform);
+
+        PlayClip(stepClip);
 
         if (InPreEventStoryPoint())
             ChangeToState(GameState.StoryPoint);
@@ -380,7 +400,10 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(1f);
         }
         else
+        {
+            PlayClip(selectClip);
             yield return new WaitForSeconds(0.2f);
+        }
 
         ChangeToState(GameState.Abilities);
     }
@@ -436,6 +459,8 @@ public class GameManager : MonoBehaviour
                 equipmentCards[i].GetComponent<Button>().interactable = false;
             }
         }
+
+        PlayClip(shopClip);
     }
 
     public void SelectEquipment()
@@ -445,6 +470,8 @@ public class GameManager : MonoBehaviour
 
         selectedEquipment = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponentInParent<EquipmentCard>();
         OnCharacterClickableChange?.Invoke(true);
+
+        PlayClip(selectClip);
     }
 
     public void AssignEquipment()
@@ -551,6 +578,7 @@ public class GameManager : MonoBehaviour
     public void AddCharacter(CharacterCardSO newCharacter)
     {
         characters.Add(newCharacter);
+        newCharacter.OnCharacterFrozen += PlayFreezeClip;
 
         foreach (CharacterLayoutController layout in characterCardsLayouts)
         {
@@ -567,6 +595,11 @@ public class GameManager : MonoBehaviour
 
         coinsManager.AddCharacter(newCharacter);
     }
+
+    private void PlayFreezeClip(bool freeze)
+    {
+        PlayClip(freezeClip);
+    }
     #endregion
 
     #endregion
@@ -576,6 +609,10 @@ public class GameManager : MonoBehaviour
         MapPosition.OnPositionSelected -= SelectPosition;
         AbilityButton.OnAbilitySelected -= SelectAbility;
         OptionsManager.OnLanguageChanged -= UpdateLanguage;
+        foreach(CharacterCardSO character in characters)
+        {
+            character.OnCharacterFrozen -= PlayFreezeClip;
+        }
     }
 }
 

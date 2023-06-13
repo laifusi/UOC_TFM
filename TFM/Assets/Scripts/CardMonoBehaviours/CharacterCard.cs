@@ -38,6 +38,10 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     [SerializeField] Transform shieldPopUpPos;
     [SerializeField] Transform socialSkillsPopUpPos;
     [SerializeField] Vector3 popUpOffset;
+    [SerializeField] AudioClip positivePopUp;
+    [SerializeField] AudioClip negativePopUp;
+    [SerializeField] AudioClip coinsPopUp;
+    [SerializeField] AudioClip attackSound;
 
     private GameState cardsAssignedState;
     private int usesSinceLastLevelIncrease;
@@ -46,6 +50,7 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
     private Animator animator;
     private Transform popUpParent;
     private Color originalCardColor;
+    private AudioSource audioSource;
 
     public Action OnStartedLearning;
 
@@ -54,6 +59,7 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
         originalCardColor = cardImage.color;
         popUpParent = transform;
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
 
         card.OnCharacterFrozen += FreezeCharacter;
         card.OnAbilityLearnt += UpdateAbilities;
@@ -158,11 +164,23 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
                 popUpPosition = socialSkillsPopUpPos.position;
                 break;
         }
+
         TMP_Text popUp = Instantiate(popUpAnimation, popUpPosition + popUpOffset, Quaternion.identity, popUpParent);
+        AudioSource popUpAS = popUp.GetComponent<AudioSource>();
         if (amount > 0)
+        {
             popUp.SetText("+" + amount.ToString());
+            popUpAS.clip = stat != StatType.Coins ? positivePopUp : coinsPopUp;
+        }
         else
+        {
             popUp.SetText(amount.ToString());
+            if (stat == StatType.Coins)
+                popUpAS.clip = coinsPopUp;
+            else if(stat != StatType.Shield && stat != StatType.Health)
+                popUpAS.clip = negativePopUp;
+        }
+        popUpAS.Play();
         Destroy(popUp.gameObject, 1f);
     }
 
@@ -211,6 +229,7 @@ public class CharacterCard : Card<CharacterCardSO>, IPointerEnterHandler, IPoint
 
     public void GetAttacked(float attack)
     {
+        audioSource.PlayOneShot(attackSound);
         ShowAttackPopUp(attack);
         card.GetAttacked(attack);
     }

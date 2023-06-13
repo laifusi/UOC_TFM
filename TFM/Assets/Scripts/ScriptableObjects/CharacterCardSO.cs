@@ -115,6 +115,11 @@ public class CharacterCardSO : CardSO
                     isDead = false;
                     FreezeCharacter(false);
                 }
+                else if(currentHealth <= 0)
+                {
+                    isDead = true;
+                    FreezeCharacter(true);
+                }
                 break;
             case StatType.Shield:
                 currentShield += effect.affectionAmount;

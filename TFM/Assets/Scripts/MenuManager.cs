@@ -22,4 +22,9 @@ public class MenuManager : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void RestartMusic()
+    {
+        MusicManager.Instance.StartMusic();
+    }
 }
