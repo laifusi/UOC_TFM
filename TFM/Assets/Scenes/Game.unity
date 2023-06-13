@@ -18487,6 +18487,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d3548602d97b994c8f9a4c52643894d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: c202bd4da110828408859996700fe72f, type: 2}
+  maxSoundValue: 5
+  minSoundValue: -60
 --- !u!1 &1118802788 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8314696087160525873, guid: 92062578aeffbc14692a5f8748c17782, type: 3}
@@ -37143,6 +37146,7 @@ GameObject:
   - component: {fileID: 7117365773229044728}
   - component: {fileID: 7117365773229044726}
   - component: {fileID: 7117365773229044729}
+  - component: {fileID: 7117365773229044732}
   m_Layer: 5
   m_Name: FXValueText
   m_TagString: Untagged
@@ -37150,6 +37154,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7117365773229044732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7117365773229044731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aefd824da3fbcfa4db014ce0f8919c59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isMusic: 0
+  isFX: 1
 --- !u!114 &7117365773294222466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37259,6 +37277,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 8300000, guid: 6bbed5c7739554a4d8fc268973c41762, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1113825609}
+        m_TargetAssemblyTypeName: OptionsManager, Assembly-CSharp
+        m_MethodName: ChangeFXVolume
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -37397,6 +37427,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1113825609}
+        m_TargetAssemblyTypeName: OptionsManager, Assembly-CSharp
+        m_MethodName: ChangeMusicVolume
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7117365773343435341
 GameObject:
   m_ObjectHideFlags: 0
@@ -37524,6 +37566,7 @@ GameObject:
   - component: {fileID: 7117365773477570009}
   - component: {fileID: 7117365773477570007}
   - component: {fileID: 7117365773477570006}
+  - component: {fileID: 7117365773477570010}
   m_Layer: 5
   m_Name: MusicValueText
   m_TagString: Untagged
@@ -37551,6 +37594,20 @@ RectTransform:
   m_AnchoredPosition: {x: 800, y: -168.32288}
   m_SizeDelta: {x: 498.7614, y: 112.21528}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7117365773477570010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7117365773477570008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aefd824da3fbcfa4db014ce0f8919c59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isMusic: 1
+  isFX: 0
 --- !u!114 &7117365773653984278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37936,6 +37993,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1113825609}
+        m_TargetAssemblyTypeName: OptionsManager, Assembly-CSharp
+        m_MethodName: ChangeMusicVolume
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &7117365773835390579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38283,6 +38352,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1113825609}
+        m_TargetAssemblyTypeName: OptionsManager, Assembly-CSharp
+        m_MethodName: ChangeFXVolume
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &7117365774856014945
 MonoBehaviour:
