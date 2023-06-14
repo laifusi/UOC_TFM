@@ -171,6 +171,26 @@ MonoBehaviour:
       to increase their level and discover new abilities.'
     m_Metadata:
       m_Items: []
+  - m_Id: 5314472555491328
+    m_Localized: Design
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5314559855734784
+    m_Localized: Programming
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5314661303365632
+    m_Localized: Art
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5314722645061632
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5314832577769472
+    m_Localized: Sound efects
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

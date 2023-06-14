@@ -163,6 +163,26 @@ MonoBehaviour:
     m_Key: noAbilititiesText
     m_Metadata:
       m_Items: []
+  - m_Id: 5314472555491328
+    m_Key: designText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5314559855734784
+    m_Key: programmingText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5314661303365632
+    m_Key: artText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5314722645061632
+    m_Key: musicText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5314832577769472
+    m_Key: fxText
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
