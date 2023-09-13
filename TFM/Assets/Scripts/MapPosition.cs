@@ -1,4 +1,5 @@
 using System;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -121,4 +122,17 @@ public class MapPosition : MonoBehaviour
         characterAdded = true;
         return foundCharacter;
     }
+
+#if UNITY_EDITOR
+    private void OnDrawGizmos()
+    {
+        if (this != Selection.activeGameObject.GetComponent<MapPosition>())
+            return;
+
+        foreach(MapPosition connectedPos in connectedPositions)
+        {
+            Handles.DrawBezier(transform.position, connectedPos.transform.position, transform.position, connectedPos.transform.position, Color.blue, null, 10);
+        }
+    }
+#endif
 }

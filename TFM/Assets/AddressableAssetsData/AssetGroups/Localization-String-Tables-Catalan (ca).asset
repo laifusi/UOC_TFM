@@ -23,36 +23,42 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-ca
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3c95a8b55b6be3d42bbc8f189cd7907d
     m_Address: CharacterStringsTable_ca
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ca
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a8059505c6ad2a445b31edf0a048dc8f
     m_Address: StoryPointsStringsTable_ca
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ca
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1ea19386481e59b4e9601ba49f0e051a
     m_Address: TutorialStringTable_ca
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ca
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7429b0402c6ea8949a660d6a3574f23a
     m_Address: EquipmentStringTable_ca
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ca
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 443cc3a9b3237704ca4d6e5fcba3285e
     m_Address: GlobalStringsTable_ca
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ca
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b3565e4df01bb5b4eb8427636c532539, type: 2}
   m_SchemaSet:

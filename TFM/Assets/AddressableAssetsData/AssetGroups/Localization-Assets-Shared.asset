@@ -21,26 +21,32 @@ MonoBehaviour:
     m_Address: Assets/Localization/EventStringsTable Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 824c0fbd28c187649982a0e2854555ef
     m_Address: Assets/Localization/CharacterStringsTable Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 698a80c4ff245da48afac50fcbb8d8af
     m_Address: Assets/Localization/StoryPointsStringsTable Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5f822681c26a71e45be2b885a7e9dbb5
     m_Address: Assets/Localization/TutorialStringTable Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3d4fefe61b25f864bad68ed99676b31f
     m_Address: Assets/Localization/EquipmentStringTable Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b99acf90acf9c034e8597de03e4370de
     m_Address: Assets/Localization/GlobalStringsTable Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b3565e4df01bb5b4eb8427636c532539, type: 2}
   m_SchemaSet:
