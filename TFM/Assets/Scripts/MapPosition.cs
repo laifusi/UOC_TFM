@@ -126,7 +126,7 @@ public class MapPosition : MonoBehaviour
 #if UNITY_EDITOR
     private void OnDrawGizmos()
     {
-        if (this != Selection.activeGameObject.GetComponent<MapPosition>())
+        if (this != Selection.activeGameObject?.GetComponent<MapPosition>())
             return;
 
         foreach(MapPosition connectedPos in connectedPositions)
